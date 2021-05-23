@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Kamihama City Clock Tower: MagiReco Event Timers</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.26/moment-timezone-with-data-2012-2022.min.js"></script>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+
+		<script type="text/javascript" src="data.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.min.js"></script>
+		<script type="text/javascript" src="components.js"></script>
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+   	<link rel="icon" href="favicon.png">
+	</head>
+	<body>
+		<div class="container-fluid" id="app">
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Information</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<p>This webpage is a modded version of <a href='https://github.com/IceKirby/kirafan-timer'>RiceKirby's kirafan-timer</a> by Darrukou.</p>
+							<p>To report information errors or to send general feedback and opinions, please contact Coricori:</p>
+							<ul>
+								<li> Discord: coricori#9738 </li>
+								<li> Twitter: <a href='https://twitter.com/coricorikirafan'>@coricorikirafan</a>
+							</ul>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="header" v-show="showHeader">
+				<h1>MagiReco Timers</h1>
+
+				<span class='contact-button bg-warning text-dark' data-toggle="modal" data-target="#exampleModal">Info</span>
+				<div class='alert-container' :class='{ alertsshow: alerts.length > 0 }'>
+					<div v-for='(item, index) in alerts' class="alert" :class="'alert-'+alertTypes[0]" role="alert" v-html="item"></div>
+				</div>
+				
+				
+			</div>
+
+			
+			<div class="btn-group btn-group-toggle w-100 time-buttons fixed">
+				<label class="btn btn-primary btn-sm" :class="{active: currentZone == 'japan' }" id="japan-time">
+					<input type="radio" name="options" value="japan" v-model="currentZone" @change="changeTimezone" > <h5>Use Server Time</h5>
+					<span v-text="japanTime"></span>
+				</label>
+				<label class="btn btn-primary btn-sm" :class="{active: currentZone == 'local' }" id="local-time">
+					<input type="radio" name="options" value="local" v-model="currentZone" @change="changeTimezone">
+					<h5>Use Local Time</h5>
+					<span v-text="localTime"></span>
+				</label>
+			</div> 
+
+			<div class="row" id="columns-holder">
+				<div v-for="col in timersData" class="col-md-6 col-xl">
+					<h1 class="c-header"></h1>
+					<event-group v-for="(t, index) in col" v-bind:ev="t" :key='index'></event-group>
+				</div>
+			</div>
+
+			
+
+		</div>
+		<script type="text/javascript" src="app.js"></script>
+		<script type="text/javascript">
+			document.getElementsByClassName("c-header")[0].innerHTML='<img src="imgs/global_quest.png"/> Events'
+			document.getElementsByClassName("c-header")[1].innerHTML='<img src="imgs/global_gacha.png"/> Gacha'
+			document.getElementsByClassName("c-header")[2].innerHTML='<img src="imgs/global_shop.png"/> Shops'
+		</script>
+		
+	</br></br></br>
+		
+	</body>
+</html>
