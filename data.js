@@ -160,6 +160,12 @@ var timerData = [
 				"start": "May 24 2021, 16:00",
 				"end": "June 11 2021, 14:59",
 				keepAfterFinished: "12 hours"
+			},
+			{
+				"name": "Magical Girl Tart☆Magica Collaboration Commemorative Training Support Pack",
+				"start": "May 24 2021, 16:00",
+				"end": "June 4 2021, 14:59",
+				keepAfterFinished: "12 hours"
 			}
         ]
     },
@@ -198,7 +204,8 @@ var timerData = [
 			{
 				name: "Maintenance",
 				start: "May 24 2021, 15:00",
-				end: "May 24 2021, 16:00"
+				end: "May 24 2021, 16:00",
+				keepAfterFinished: "2 hours"
 			},
             {
                 "name": "Main Event",
