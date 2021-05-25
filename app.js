@@ -65,6 +65,13 @@ var vm = new Vue({
         alertTypes: alertTypes
     },
     methods: {
+        getDaysFromRelease: function() {
+            var r_date="August 22 2017, 0:00";
+            let rMoment = moment.tz(r_date, "MMM D YYYY, H:mm", "Asia/Tokyo");
+            let nowMoment = moment.tz("Asia/Tokyo");
+            
+            return nowMoment.diff(rMoment,"days");
+        },
         changeTimezone: function() {
             var c, t, e, col, ev, timer, data = this.timersData;
 
