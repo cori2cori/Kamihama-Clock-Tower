@@ -169,7 +169,7 @@ Vue.component("bar-progress", {
     template: `<div class='progress-holder position-relative'>
         <bar-mark v-for='mark in timer.markersInfo' v-bind:mark='mark'></bar-mark>
         <div class='progress position-relative'>
-            <div class='progress-bar' role='progressbar' v-bind:style='{ width: timer.progress + \"%\" }' :aria-valuenow='timer.progress' aria-valuemin='0' aria-valuemax='100'></div>
+            <div class='progress-bar' :class="{ full : timer.progress==100 }" role='progressbar' v-bind:style='{ width: timer.progress + \"%\" }' :aria-valuenow='timer.progress' aria-valuemin='0' aria-valuemax='100'></div>
             <div class='bar-label-holder'>
                 <span>{{ timer.dateDisplay.barLabel }}</span>
             </div>
@@ -202,7 +202,6 @@ Vue.component("ev-thumb", {
     methods :{
         filter : function (ev) {
             var now =  moment.tz("Asia/Tokyo")._d.getTime();
-            console.log(ev);
             let filter = true;
             for(let t of ev.timers)
             {

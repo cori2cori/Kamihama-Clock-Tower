@@ -31,6 +31,10 @@ body {
     text-align: center;
 }
 
+.full {
+   background-color: #dc3545;
+}
+
 .bn {
     filter :grayscale(100) !important;
 }
@@ -63,18 +67,6 @@ body {
 }
 
 
-
-/* ******************* */
-/* TOP BAR             */
-/* ******************* */
-.topbar {
-    /*display: flex;*/
-    display:flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    margin-bottom: 0.25rem;
-}
 
 /* ******************* */
 /* TOP BAR             */
