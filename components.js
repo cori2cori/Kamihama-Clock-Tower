@@ -191,7 +191,7 @@ Vue.component("bar-mark", {
 
 Vue.component("ev-thumb", {
     props: ["ev"],
-    template: `<div class='thumb'>
+    template: `<div class='thumb' :class='{ bn : filter(ev) }' v-on:click="vm.updateClick(ev)"">
         <transition name='thumb-change'>
             <img :src='ev.image' :key='ev.image' class='img-fluid'>
         </transition>
@@ -199,6 +199,18 @@ Vue.component("ev-thumb", {
             <span>{{ ev.type | typeName }}</span>
         </div>
     </div>`,
+    methods :{
+        filter : function (ev) {
+            var now =  moment.tz("Asia/Tokyo")._d.getTime();
+            console.log(ev);
+            let filter = true;
+            for(let t of ev.timers)
+            {
+                filter &= (t.rawStart > now || t.rawEnd < now)
+            }
+            return filter;
+        }
+    },
     filters: {
         typeName: function (value) {
             switch (value.toLowerCase()) {
@@ -211,6 +223,7 @@ Vue.component("ev-thumb", {
             }
         }
     }
+    
 });
 
 Vue.component("ev-title", {

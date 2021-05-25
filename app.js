@@ -370,6 +370,12 @@ var vm = new Vue({
                 col.sort(this.prioritySort);
             }
         },
+
+        updateClick: function(ev) {
+            var nowMoment = moment.tz("Asia/Tokyo");
+            this.updateEventGroup(ev, nowMoment._d.getTime(), true);
+        },
+
         updateDailyQuest: function(ev, now, nowMoment, localZone) {
             let deadline = ev.deadlineMoment;
             if (deadline.date() != nowMoment.date()) {
