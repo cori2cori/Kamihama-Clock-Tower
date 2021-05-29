@@ -114,58 +114,46 @@ var timerData = [
         "column": 2,
         "priority": 10,
         "timers": [
-            {
-                "name": "Forest Attribute Strengthening Pack",
-                "start": "May 10 2021, 16:00",
-                "end": "May 24 2021, 14:59",
-				keepAfterFinished: "12 hours"
-            },
 			{
                 "name": "Mitama's Special Training: Kaede episode: Event Shop and Missions",
                 "start": "May 10 2021, 16:00",
                 "end": "May 31 2021, 14:59"
             },
 			{
-				"name": "New Tart☆Magica Collaboration Event Celebration: Missions",
-				"start": "May 17 2021, 17:00",
-				"end": "May 24 2021, 23:59",
-				keepAfterFinished: "12 hours"
-			},
-			{
                 name: "Pleased Sapphire Lips Kimochi Battle: Event shop and Missions",
                 start: "May 17 2021, 17:00",
                 end: "May 29 2021, 14:59",
-				keepAfterFinished: "12 hours"
+				keepAfterFinished: "9 hours"
             },
 			{
 				name: "Adjuster Coins Shop: Green - Forest Attribute Pickup Gacha",
 				start: "May 17 2021, 17:00",
 				end: "May 31 2021, 14:59",
-				keepAfterFinished: "12 hours"
+				keepAfterFinished: "9 hours"
 			},
 			{
 				"name": "Adjuster Coins Shop: Yellow - Tart☆Magica Gachas",
 				"start": "May 17 2021, 17:00",
 				"end": "June 11 2021, 14:59",
-				keepAfterFinished: "12 hours"
+				keepAfterFinished: "9 hours"
 			},
 			{
 				"name": "The Masked Student Council Strikes Back: Event Shop and Missions",
 				"start": "May 24 2021, 16:00",
                 "end": "June 11 2021, 14:59",
-				keepAfterFinished: "12 hours"
+				keepAfterFinished: "9 hours"
 			},
 			{
 				"name": "Adjuster Coins Shop: Black - The Masked Student Council Strikes Back Pickup Gacha Parts 1 & 2",
 				"start": "May 24 2021, 16:00",
 				"end": "June 11 2021, 14:59",
-				keepAfterFinished: "12 hours"
+				keepAfterFinished: "9 hours"
 			},
 			{
 				"name": "Magical Girl Tart☆Magica Collaboration Commemorative Training Support Pack",
 				"start": "May 24 2021, 16:00",
 				"end": "June 4 2021, 14:59",
-				keepAfterFinished: "12 hours"
+				keepAfterFinished: "9 hours"
 			}
         ]
     },
@@ -212,6 +200,7 @@ var timerData = [
                 "start": "May 24 2021, 16:00",
                 "end": "June 4 2021, 14:59",
                 "extraPriority": 10,
+				keepAfterFinished: "9 hours",
 				"markers": [
 				{
 					"title": "Story quests 11-20 & 100Evil Challenges I-III",
@@ -263,6 +252,7 @@ var timerData = [
         ],
         "column": 1,
         "priority": 79,
+		keepAfterFinished: "9 hours",
         "timers": [
             {
                 "name": "Duration",
@@ -283,6 +273,7 @@ var timerData = [
         ],
         "column": 1,
         "priority": 78,
+		keepAfterFinished: "9 hours",
         "timers": [
             {
                 "name": "Duration",
@@ -303,6 +294,7 @@ var timerData = [
         ],
         "column": 1,
         "priority": 77,
+		keepAfterFinished: "9 hours",
         "timers": [
             {
                 "name": "Duration",
