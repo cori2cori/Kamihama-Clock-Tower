@@ -169,7 +169,7 @@ Vue.component("bar-progress", {
     template: `<div class='progress-holder position-relative'>
         <bar-mark v-for='mark in timer.markersInfo' v-bind:mark='mark'></bar-mark>
         <div class='progress position-relative'>
-            <div class='progress-bar' role='progressbar' v-bind:style='{ width: timer.progress + \"%\" }' :aria-valuenow='timer.progress' aria-valuemin='0' aria-valuemax='100'></div>
+            <div class='progress-bar' :class="{ full : timer.progress==100 }" role='progressbar' v-bind:style='{ width: timer.progress + \"%\" }' :aria-valuenow='timer.progress' aria-valuemin='0' aria-valuemax='100'></div>
             <div class='bar-label-holder'>
                 <span>{{ timer.dateDisplay.barLabel }}</span>
             </div>
@@ -191,7 +191,7 @@ Vue.component("bar-mark", {
 
 Vue.component("ev-thumb", {
     props: ["ev"],
-    template: `<div class='thumb'>
+    template: `<div class='thumb' :class='{ bn : filter(ev) }' v-on:click="vm.updateClick(ev)"">
         <transition name='thumb-change'>
             <img :src='ev.image' :key='ev.image' class='img-fluid'>
         </transition>
@@ -199,6 +199,17 @@ Vue.component("ev-thumb", {
             <span>{{ ev.type | typeName }}</span>
         </div>
     </div>`,
+    methods :{
+        filter : function (ev) {
+            var now =  moment.tz("Asia/Tokyo")._d.getTime();
+            let filter = true;
+            for(let t of ev.timers)
+            {
+                filter &= (t.rawStart > now || t.rawEnd < now)
+            }
+            return filter;
+        }
+    },
     filters: {
         typeName: function (value) {
             switch (value.toLowerCase()) {
@@ -211,6 +222,7 @@ Vue.component("ev-thumb", {
             }
         }
     }
+    
 });
 
 Vue.component("ev-title", {
