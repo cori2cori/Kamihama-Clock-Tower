@@ -148,15 +148,28 @@ var timerData = [
 				"start": "May 24 2021, 16:00",
 				"end": "June 11 2021, 14:59",
 				keepAfterFinished: "9 hours"
-			},
-			{
-				"name": "Magical Girl Tart☆Magica Collaboration Commemorative Training Support Pack",
-				"start": "May 24 2021, 16:00",
-				"end": "June 4 2021, 14:59",
-				keepAfterFinished: "9 hours"
 			}
         ]
     },
+	{
+		type: "Other",
+		title: [
+		"Tart☆Magica Collaboration Commemorative Training Support Pack"
+		],
+		image: [
+            "http://jp.rika.ren/magica/resource/image_web/banner/announce/banner_0485_m.png",
+        ],
+		column: 2,
+		priority: 9,
+		timers: [
+		{
+			name: "Sales period",
+			start: "May 24 2021, 16:00",
+			end: "June 4 2021, 14:59",
+			keepAfterFinished: "9 hours"
+		}
+		]
+	},
 	/*{
         type: "Maintenance",
         title: [
