@@ -154,6 +154,7 @@ var timerData = [
 	{
 		type: "Other",
 		title: [
+		"【Premium Bundle】",
 		"Tart☆Magica Collaboration Commemorative Training Support Pack"
 		],
 		image: [
