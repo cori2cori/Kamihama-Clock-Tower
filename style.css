@@ -135,7 +135,7 @@ body {
 .line {
     flex-grow: 1;
     text-align: center;
-    background-color: #D2DAF7;
+    background-color: rgba(219, 177, 24, 0.3);
     border: 1px solid #BDBDBD;
     border-right: 0;
     border-left: 0;
