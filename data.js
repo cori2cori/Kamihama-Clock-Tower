@@ -140,7 +140,7 @@ var timerData = [
 				keepAfterFinished: "9 hours"
 			},
 			{
-				"name": "The mirror that reflects my true self - Event Shop and Limited-time Missions",
+				"name": "The mirror that reflects my true self - Event Shop and Missions",
 				"start": "June 4 2021, 16:00",
 				"end": "June 18 2021, 14:59",
 				keepAfterFinished: "9 hours"
@@ -252,7 +252,7 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【4 x Limited-time Gacha】",
+			"【Limited-time Gachas】",
 			"The Chiming Bell That Transcends Time Pickup Gacha Part 1",
 			"The Chiming Bell That Transcends Time Pickup Gacha Part 2",
 			"Rebels from the Land of Everlasting Night Pickup Gacha",
@@ -281,7 +281,7 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【2 x Limited-time Gacha】",
+			"【Limited-time Gachas】",
             "The masked Student Council Strikes back Part 1: Isabeau (Witch ver.)",
 			"The masked Student Council Strikes back Part 2: Minou"
         ],
