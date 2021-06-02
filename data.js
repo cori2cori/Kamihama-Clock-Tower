@@ -87,18 +87,25 @@ var timerData = [
         "type": "Event",
         "title": [
 			"【Event】",
-            "Mitama's Special Training - Kaede Episode"
+            "The Mirror That Reflects My True Self",
+			"Changes in Mirror Battles' Bonuses"
         ],
         "image": [
-            "http://jp.rika.ren/magica/resource/image_web/banner/announce/banner_0480_m.png",
+            "http://jp.rika.ren/magica/resource/image_web/banner/announce/banner_0484_m.png",
         ],
         "column": 0,
-        "priority": 40,
+        "priority": 37,
         "timers": [
+			{
+				name: "Maintenance",
+				start: "June 4 2021, 15:00",
+				end: "June 4 2021, 16:00",
+				extraPriority: 10
+			},
             {
                 "name": "Main Event",
-                "start": "May 10 2021, 16:00",
-                "end": "May 24 2021, 14:59",
+                "start": "June 4 2021, 16:00",
+                "end": "June 11 2021, 14:59",
                 "extraPriority": 10
             }
         ]
@@ -115,23 +122,6 @@ var timerData = [
         "priority": 10,
         "timers": [
 			{
-                "name": "Mitama's Special Training: Kaede episode: Event Shop and Missions",
-                "start": "May 10 2021, 16:00",
-                "end": "May 31 2021, 14:59"
-            },
-			{
-                name: "Pleased Sapphire Lips Kimochi Battle: Event shop and Missions",
-                start: "May 17 2021, 17:00",
-                end: "May 29 2021, 14:59",
-				keepAfterFinished: "9 hours"
-            },
-			{
-				name: "Adjuster Coins Shop: Green - Forest Attribute Pickup Gacha",
-				start: "May 17 2021, 17:00",
-				end: "May 31 2021, 14:59",
-				keepAfterFinished: "9 hours"
-			},
-			{
 				"name": "Adjuster Coins Shop: Yellow - Tart☆Magica Gachas",
 				"start": "May 17 2021, 17:00",
 				"end": "June 11 2021, 14:59",
@@ -147,6 +137,18 @@ var timerData = [
 				"name": "Adjuster Coins Shop: Black - The Masked Student Council Strikes Back Pickup Gacha Parts 1 & 2",
 				"start": "May 24 2021, 16:00",
 				"end": "June 11 2021, 14:59",
+				keepAfterFinished: "9 hours"
+			},
+			{
+				"name": "The mirror that reflects my true self - Event Shop and Limited-time Missions",
+				"start": "June 4 2021, 16:00",
+				"end": "June 18 2021, 14:59",
+				keepAfterFinished: "9 hours"
+			},
+			{
+				"name": "Adjuster Coins Shop: Red - Kirino Sae Pickup Gacha",
+				"start": "June 4 2021, 16:00",
+				"end": "June 18 2021, 14:59",
 				keepAfterFinished: "9 hours"
 			}
         ]
@@ -250,7 +252,7 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Limited-time Gacha】",
+			"【4 x Limited-time Gacha】",
 			"The Chiming Bell That Transcends Time Pickup Gacha Part 1",
 			"The Chiming Bell That Transcends Time Pickup Gacha Part 2",
 			"Rebels from the Land of Everlasting Night Pickup Gacha",
@@ -279,11 +281,13 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Limited-time Gacha】",
-            "The masked Student Council Strikes back Part 1: Isabeau (Witch ver.)"
+			"【2 x Limited-time Gacha】",
+            "The masked Student Council Strikes back Part 1: Isabeau (Witch ver.)",
+			"The masked Student Council Strikes back Part 2: Minou"
         ],
         "image": [
-            "http://jp.rika.ren/magica/resource/image_web/banner/gacha/gachabanner_0681_m.png"
+            "http://jp.rika.ren/magica/resource/image_web/banner/gacha/gachabanner_0681_m.png",
+			"http://jp.rika.ren/magica/resource/image_web/banner/gacha/gachabanner_0683_m.png"
         ],
         "column": 1,
         "priority": 78,
@@ -300,20 +304,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Limited-time Gacha】",
-            "The masked Student Council Strikes back Part 2: Minou"
+			"【Gacha】",
+            "Kirino Sae Pickup Gacha"
         ],
         "image": [
-            "http://jp.rika.ren/magica/resource/image_web/banner/gacha/gachabanner_0683_m.png"
+            "http://jp.rika.ren/magica/resource/image_web/banner/gacha/gachabanner_0687_m.png"
         ],
         "column": 1,
-        "priority": 77,
+        "priority": 76,
 		keepAfterFinished: "9 hours",
         "timers": [
             {
                 "name": "Duration",
-                "start": "May 24 2021, 16:00",
-                "end": "June 4 2021, 14:59",
+                "start": "June 4 2021, 16:00",
+                "end": "June 11 2021, 14:59",
                 "extraPriority": 10
             }
         ]
