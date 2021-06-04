@@ -58,6 +58,11 @@
 				<h1>Kamihama Clock Tower: MagiReco Event Timers</h1>
 				<h4><span id="days" style="color:violet;font-size: xx-large;"></span> days since <span >Magia Record</span> released</h4>
 				<span class='contact-button bg-warning text-dark' data-toggle="modal" data-target="#exampleModal">Info</span>
+				<select id="theme-switcher">
+					<option value="default" selected>Light Mode</option>
+					<option value="dark">Dark Mode</option>
+					<!-- <option value="pink">Pink</option> -->
+				 </select>
 				<div class='alert-container' :class='{ alertsshow: alerts.length > 0 }'>
 					<div v-for='(item, index) in alerts' class="alert" :class="'alert-'+alertTypes[0]" role="alert" v-html="item"></div>
 				</div>
@@ -85,11 +90,6 @@
 				</div>
 			</div>
 
-			<select id="theme-switcher">
-				<option value="default" selected>Default</option>
-				<option value="dark">Dark</option>
-				<!-- <option value="pink">Pink</option> -->
-			</select>
 
 		</div>
 		<script type="text/javascript" src="js/app.js"></script>
