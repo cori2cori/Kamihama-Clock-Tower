@@ -268,13 +268,13 @@ var timerData = [
         ],
         "column": 1,
         "priority": 79,
-		keepAfterFinished: "9 hours",
         "timers": [
             {
                 "name": "Duration",
                 "start": "May 17 2021, 17:00",
                 "end": "June 4 2021, 14:59",
-                "extraPriority": 10
+                "extraPriority": 10,
+				keepAfterFinished: "9 hours"
             }
         ]
     },
