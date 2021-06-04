@@ -31,9 +31,17 @@ body {
     text-align: center;
 }
 
+/* Progress bar thingies */
+
 .full {
-   background-color: #dc3545;
+   background-color: #dc3545 !important;
 }
+
+.progress-bar {
+    background-color: #007bff;
+}
+
+/**/
 
 .bn {
     filter :grayscale(100) !important;
@@ -495,6 +503,10 @@ body {
 }
 #columns-holder {
     margin-top: 1rem;
+}
+
+.modal-content{ 
+    background-color: white;
 }
 
 .alert {

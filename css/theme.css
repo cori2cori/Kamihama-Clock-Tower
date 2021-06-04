@@ -3,6 +3,7 @@
 	bottom: 1%;
 	right: 2%;
 	opacity: 0.4;
+	z-index: 10;
 }
 #theme-switcher:hover {
 	opacity: 1;
@@ -49,7 +50,11 @@ body.theme-dark {
 	color: #dedad6;
 }
 .theme-dark .bar .progress {
-    background-color: #828282;
+    background-color: #323232;
+}
+
+.theme-dark .modal-content{
+	background-color: #242424;
 }
 
 /* body.theme-pink {
