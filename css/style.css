@@ -201,9 +201,9 @@ body {
 }
 
 /* Maintenance */
-.top-maintenance .title {
-    /*border-color: #837e7e;*/
-}
+/*.top-maintenance .title {
+    border-color: #837e7e;
+}*/
 .top-maintenance .line {
     background-color: #edded1;
     /*border-color: #837e7e;*/
@@ -281,9 +281,9 @@ body {
 .timer .counters{
     margin-top: 4px;
 }
-.counters > div {
-    /*margin: 0.05rem 0;*/
-}
+/*.counters > div {
+    margin: 0.05rem 0;
+}*/
 .counters .bar {
     display: flex;
     align-items: flex-end;
@@ -301,9 +301,9 @@ body {
     height: 1.4rem;
     margin: 0 0.25rem;
 }
-.progress {
-    /*overflow: visible !important;*/
-}
+/*.progress {
+    overflow: visible !important;
+}*/
 .progress .bar-label-holder {
     position:absolute;
     display: flex;
@@ -519,17 +519,8 @@ body {
     display: block;
 }
 
-.options {
-    padding: 0.5rem;
-    text-align: center;
-    line-height: 1.0rem;
-    cursor: pointer;
-    margin-top: 0.5rem;
-    display: block;
-}
-
 @media screen and (min-width: 580px) {
-    .options {
+    .contact-button {
         position: absolute;
         top: 15px;
         right: 15px;
