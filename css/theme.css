@@ -23,24 +23,33 @@ body.theme-dark {
 	background-color: #10192b;
 }
 .theme-dark .top-event .line.header {
-	background-color: #183EC8;
+	background-color: #323232;
+	color: #69ccff;
 }
 .theme-dark .top-event .line {
-	background-color: #929AA7;
-	color: #ffffff;
+	background-color: #242424;
+	color: #dedad6;
 }
 .theme-dark .top-gacha .line.header {
-	background-color: #df5978;
+	background-color: #323232;
+	color: #ff80f7;
 }
 .theme-dark .top-gacha .line {
-	background-color: rgba(223, 150, 161, 0.5);
+	background-color: #242424;
 }
 .theme-dark .line.header {
-	background-color: #bb9108;
+	background-color: #323232;
+	color: #ffc400;
+}
+.theme-dark .line{
+    background-color: #242424;
 }
 .theme-dark .content .timer {
-	background-color: #CFC6B4;
-	color: #000000;
+	background-color: #242424;
+	color: #dedad6;
+}
+.theme-dark .bar .progress {
+    background-color: #828282;
 }
 
 body.theme-pink {
