@@ -4,6 +4,8 @@ var thumbnailMap = {
     "lamp": "imgs/lamp.png",
     "match": "imgs/match.png",
     "maintenance": "imgs/maintenance.png",
+	"shop": "imgs/shop.png",
+	"mirroran": "imgs/mirroran.png",
     "kanna": "imgs/kanna.png",
     "clea": "imgs/clea.png",
     "leine": "imgs/leine.png",
