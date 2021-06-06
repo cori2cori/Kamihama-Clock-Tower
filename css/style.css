@@ -1,5 +1,6 @@
 body {
     background-color: #ececec;
+    overflow: scroll;
 }
 
 .event-group {
