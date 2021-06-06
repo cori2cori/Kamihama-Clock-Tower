@@ -91,7 +91,7 @@ var timerData = [
 			"Changes in Mirror Battles' Bonuses"
         ],
         "image": [
-            "http://jp.rika.ren/magica/resource/image_web/banner/announce/banner_0484_m.png",
+            "http://jp.rika.ren/magica/resource/image_web/banner/announce/banner_0484_m.png"
         ],
         "column": 0,
         "priority": 37,
@@ -111,12 +111,32 @@ var timerData = [
         ]
     },
 	{
+        "type": "Event",
+        "title": [
+			"【Mirrors Ranking】",
+            "Scheduled to be held in July 2021"
+        ],
+        "image": [
+            "mirroran"
+        ],
+        "column": 0,
+        "priority": 30,
+		"keepAfterFinished": "60 days",
+        "timers": [
+			{
+				name: "Test",
+				start: "June 4 2021, 15:00",
+				end: "June 4 2021, 16:00"
+			}
+        ]
+    },
+	{
         "type": "Other",
         "title": [
             "【Shops and Limited-time Missions】"
         ],
         "image": [
-            "maintenance"
+            "shop"
         ],
         "column": 2,
         "priority": 10,
