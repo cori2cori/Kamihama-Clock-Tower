@@ -1,11 +1,22 @@
 #theme-switcher {
-	position: fixed;
-	bottom: 1%;
-	right: 2%;
-	opacity: 0.4;
+	position: relative;
+	display: block;
+	width: 100%;
+	text-align: center;
 }
-#theme-switcher:hover {
-	opacity: 1;
+
+@media screen and (min-width: 580px) {
+	#theme-switcher {
+		position: fixed;
+		bottom: 1%;
+		right: 2%;
+		opacity: 0.4;
+		z-index: 10;
+		width:min-content;
+	}
+	#theme-switcher:hover {
+		opacity: 1;
+	}
 }
 
 body.theme-dark {
@@ -49,7 +60,11 @@ body.theme-dark {
 	color: #dedad6;
 }
 .theme-dark .bar .progress {
-    background-color: #828282;
+    background-color: #323232;
+}
+
+.theme-dark .modal-content{
+	background-color: #242424;
 }
 
 /* body.theme-pink {
