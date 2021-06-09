@@ -113,6 +113,32 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
+			"【Event】",
+            "The Peaceful Daily Life of Nayuta's Family"
+        ],
+        "image": [
+            "http://jp.rika.ren/magica/resource/image_web/banner/announce/banner_0486_m.png"
+        ],
+        "column": 0,
+        "priority": 36,
+        "timers": [
+			{
+				name: "Maintenance",
+				start: "June 11 2021, 15:00",
+				end: "June 11 2021, 15:59",
+				extraPriority: 10
+			},
+            {
+                "name": "Main Event",
+                "start": "June 11 2021, 16:00",
+                "end": "June 21 2021, 14:59",
+                "extraPriority": 10
+            }
+        ]
+    },
+	/* {
+        "type": "Event",
+        "title": [
 			"【Mirrors Ranking】",
             "Scheduled to be held in July 2021"
         ],
@@ -129,7 +155,7 @@ var timerData = [
 				end: "June 4 2021, 16:00"
 			}
         ]
-    },
+    }, */
 	{
         "type": "Other",
         "title": [
@@ -170,6 +196,24 @@ var timerData = [
 				"start": "June 4 2021, 16:00",
 				"end": "June 18 2021, 14:59",
 				keepAfterFinished: "9 hours"
+			},
+			{
+				"name": "The Peaceful Daily Life of Nayuta's Family - Event Shop and Missions",
+				"start": "June 11 2021, 16:00",
+				"end": "June 28 2021, 14:59",
+				keepAfterFinished: "9 hours"
+			},
+			{
+				"name": "Adjuster Coins Shop: Purple - Satomi Nayuta Pickup Gacha",
+				"start": "June 11 2021, 16:00",
+				"end": "June 28 2021, 14:59",
+				keepAfterFinished: "9 hours"
+			},
+			{
+				name: "1400 Days Since Release - Limited time Shop and Missions",
+				start:  "June 11 2021, 16:00",
+				end: "June 28 2021, 14:59",
+				keepAfterFinished: "9 hours"
 			}
         ]
     },
@@ -177,18 +221,24 @@ var timerData = [
 		type: "Other",
 		title: [
 		"【Premium Bundle】",
-		"Tart☆Magica Collaboration Commemorative Training Support Pack"
+		"1400 Days since Release Commemorative Bags"
 		],
 		image: [
-            "http://jp.rika.ren/magica/resource/image_web/banner/announce/banner_0485_m.png",
+            "http://jp.rika.ren/magica/resource/image_web/banner/announce/banner_0489_m.png"
         ],
 		column: 2,
 		priority: 9,
 		timers: [
 		{
 			name: "Sales period",
-			start: "May 24 2021, 16:00",
-			end: "June 4 2021, 14:59",
+			start: "June 11 2021, 16:00",
+			end: "June 28 2021, 14:59",
+			keepAfterFinished: "9 hours"
+		},
+		{
+			name: "4★ Magical Girl & Memoria Selection Tickets Exchange",
+			start: "June 11 2021, 16:00",
+			end: "July 5 2021, 14:59",
 			keepAfterFinished: "9 hours"
 		}
 		]
@@ -324,7 +374,7 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Gacha】",
+			"【Pickup Gacha】",
             "Kirino Sae Pickup Gacha"
         ],
         "image": [
@@ -332,76 +382,68 @@ var timerData = [
         ],
         "column": 1,
         "priority": 76,
-		keepAfterFinished: "9 hours",
         "timers": [
             {
                 "name": "Duration",
                 "start": "June 4 2021, 16:00",
                 "end": "June 11 2021, 14:59",
-                "extraPriority": 10
+                "extraPriority": 10,
+				keepAfterFinished: "9 hours"
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【Pickup Gacha】",
+            "Satomi Nayuta Pickup Gacha"
+        ],
+        "image": [
+            "http://jp.rika.ren/magica/resource/image_web/banner/gacha/gachabanner_0691_m.png"
+        ],
+        "column": 1,
+        "priority": 75,
+        "timers": [
+            {
+                "name": "Duration",
+                "start": "June 11 2021, 16:00",
+                "end": "June 21 2021, 14:59",
+                "extraPriority": 10,
+				keepAfterFinished: "9 hours"
             }
         ]
     },
     {
-        type: "Other",
+        type: "Event",
         title: [
-            "1200 Days Celebration Login Bonus",
-            "1200日記念ログインボーナス",
-            "Log in on 10 days for up to 300 Free Gems"
+			"【Campaign】",
+            "1400 Days Since Release"
         ],
-        image: "lamp",
-        column: 2,
+        image: [
+			"http://jp.rika.ren/magica/resource/image_web/banner/announce/banner_0488_m.png",
+			"http://jp.rika.ren/magica/resource/image_web/banner/announce/banner_0490_m.png"
+		],
+        column: 0,
+		priority: 35,
         timers: [
             {
-                name: "Period",
-                "start": "March 24 2021, 0:00",
-                "end": "April 6 2021, 23:59"
-            }
-        ]
-    },
-    {
-        type: "LoginDays",
-        title: [
-            "Ochikobore Fruit Tart participation Login Bonus",
-            "おちこぼれフルーツタルト参戦決定記念ログインボーナス",
-            "20 Gems on days the anime airs"
-        ],
-        image: "lamp",
-        column: 2,
-        timers: [
-            {
-                name: "Episode 2",
-                date: "October 19 2020",
-                days: 2
+                name: "Login Bonus",
+                start: "June 11 2021, 16:00",
+                end: "June 28 2021, 23:59",
+				extraPriority: 10
             },
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Main Quest & Author Quest Half Stamina Campaign",
-            "メインクエスト＆作家クエストスタミナ半減キャンペーン",
-        ],
-        image: "match",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                "start": "April 29 2021, 0:00",
-                "end": "May 10 2021, 23:59",
-                "markers": [
-                    {
-                        "title": "Main Quest Part 2",
-                        "time": "April 29 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Main Quest Part 1 & Author Quests",
-                        "time": "May 5 2021, 0:00",
-                        "type": "story"
-                    }
-                ]
-            }
+			{
+				name: "1/2 AP, x2 Player EXP, 2x Support Points, 2x Great Success & Super Success",
+				start: "June 11 2021, 16:00",
+                end: "June 28 2021, 14:59",
+				keepAfterFinished: "9 hours"
+			},
+			{
+				name: "Guaranteed 4★ Magical Girl Ticket Exchange",
+				start: "June 11 2021, 16:00",
+				end: "July 5 2021, 23:59",
+				keepAfterFinished: "9 hours"
+			}
         ]
     },
     {
@@ -453,38 +495,6 @@ var timerData = [
 				}
 			]
 			}
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Limited Past Sports Festival Room Decorations",
-            "運動会限定ルームアイテム再登場"
-        ],
-        image: "kanna",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                "start": "May 14 2021, 17:00",
-                "end": "May 20 2021, 16:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Skills Update Special Sale",
-            "運動会アイテムショップに期間限定アイテム追加"
-        ],
-        image: "cork",
-        column: 2,
-        timers: [
-            {
-                name: "Item Sets",
-                "start": "May 14 2021, 17:00",
-                "end": "May 20 2021, 16:59"
-            }
         ]
     }
 ];
