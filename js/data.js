@@ -132,7 +132,14 @@ var timerData = [
                 "name": "Main Event",
                 "start": "June 11 2021, 16:00",
                 "end": "June 21 2021, 14:59",
-                "extraPriority": 10
+                "extraPriority": 10,
+				"markers": [
+				{
+					title: "Story quests 11-20",
+					time: "June 16 2021, 16:00",
+					type: "story"
+				}
+				]
             }
         ]
     },
