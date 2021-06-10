@@ -447,7 +447,7 @@ var timerData = [
 			},
 			{
 				name: "Guaranteed 4★ Magical Girl Ticket Exchange",
-				start: "June 11 2021, 16:00",
+				start: "June 17 2021, 00:00",
 				end: "July 5 2021, 23:59",
 				keepAfterFinished: "9 hours"
 			}
