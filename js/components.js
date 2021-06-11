@@ -191,10 +191,8 @@ Vue.component("bar-mark", {
 
 Vue.component("ev-thumb", {
     props: ["ev"],
-    template: `<div class='thumb' :class='{ bn : filter(ev) }' v-on:click="vm.updateClick(ev)"">
-        <transition name='thumb-change'>
-            <img :src='ev.image' :key='ev.image' class='img-fluid'>
-        </transition>
+    template: `<div class='thumb lcarousel' :class='{ bn : filter(ev) }' v-on:click='vm.updateClick(ev, $event)'>
+        <img v-for='src in ev.imageList' v-bind:src='src' class='img-fluid lcarousel'></img>
         <div class='type'>
             <span>{{ ev.type | typeName }}</span>
         </div>

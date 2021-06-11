@@ -19,7 +19,33 @@ const theme = {
 		document.cookie = "theme="+name+"; path=/; max-age=436320000; secure; samesite=lax";
 		return true;
 	}
-}
+};
+
+const lcarousel = {
+	name: 'lcarousel',
+	init: function() {
+		document.querySelectorAll("div."+lcarousel.name+" > img."+lcarousel.name+":first-of-type").forEach((el) => {
+			el.classList.add('current');
+		});
+		return true;
+	},
+	cycle: function(wrapper) {
+		const current = wrapper.querySelector("img.lcarousel.current");
+		current.classList.remove('current');
+		if (current.nextElementSibling && current.nextElementSibling.classList.contains('lcarousel'))
+			current.nextElementSibling.classList.add('current');
+		else
+			wrapper.querySelector("img.lcarousel:first-of-type").classList.add('current');
+		return true;
+	},
+	cycleAll: function() {
+		document.querySelectorAll("div."+lcarousel.name).forEach((el) => {
+			if (el.querySelectorAll("img."+lcarousel.name).length > 1)
+				lcarousel.cycle(el);
+		});
+		return true;
+	}
+};
 
 document.addEventListener("DOMContentLoaded", function() {
 	theme.set(theme.get());
@@ -28,5 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		$switcher.addEventListener("change", (event) => {
 			theme.set(event.target.value);
 		});
+
+	lcarousel.init();
 });
 

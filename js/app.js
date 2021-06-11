@@ -361,6 +361,7 @@ var vm = new Vue({
             this.thumbChangeCount += 1;
             if (changeThumbs) {
                 this.thumbChangeCount = 0;
+                lcarousel.cycleAll();
             }
 
             for (c = 0; c < data.length; c++) { // Check each column
@@ -371,7 +372,7 @@ var vm = new Vue({
                     if (ev.type == "DailyQuest") {
                         this.updateDailyQuest(ev, now, nowMoment, localZone);
                     } else {
-                        this.updateEventGroup(ev, now, changeThumbs);
+                        this.updateEventGroup(ev, now, changeThumbs, false);
                     }
 
                 }
@@ -380,9 +381,9 @@ var vm = new Vue({
             }
         },
 
-        updateClick: function(ev) {
+        updateClick: function(ev, e) {
             var nowMoment = moment.tz("Asia/Tokyo");
-            this.updateEventGroup(ev, nowMoment._d.getTime(), true);
+            this.updateEventGroup(ev, nowMoment._d.getTime(), true, e.target);
         },
 
         updateDailyQuest: function(ev, now, nowMoment, localZone) {
@@ -396,7 +397,7 @@ var vm = new Vue({
             ev.japanend = deadline.format("MMM Do, H:mm");
             ev.localend = deadline.clone().tz(localZone).format("MMM Do, H:mm");
         },
-        updateEventGroup: function(ev, now, changeThumbs) {
+        updateEventGroup: function(ev, now, changeThumbs, elem) {
             let allExpired = true,
                 nextDate = Infinity,
                 nextType = "finished",
@@ -436,6 +437,9 @@ var vm = new Vue({
                     ev.imageStep = 0;
                 }
                 ev.image = ev.imageList[ev.imageStep];
+                if (elem) {
+                    lcarousel.cycle(elem.parentNode ?? elem);
+                }
             }
 
             // Check if event should be visible
