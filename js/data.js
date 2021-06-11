@@ -143,6 +143,32 @@ var timerData = [
             }
         ]
     },
+	{
+        "type": "Event",
+        "title": [
+			"【Event】",
+            "Extermination Battle: Witches' Paradox"
+        ],
+        "image": [
+            "http://jp.rika.ren/magica/resource/image_web/banner/announce/banner_0487_m.png"
+        ],
+        "column": 0,
+        "priority": 35,
+        "timers": [
+			{
+				name: "Maintenance",
+				start: "June 21 2021, 15:00",
+				end: "June 21 2021, 16:59",
+				extraPriority: 10
+			},
+            {
+                "name": "Main Event",
+                "start": "June 21 2021, 17:00",
+                "end": "June 28 2021, 14:59",
+                "extraPriority": 10
+            }
+        ]
+    },
 	/* {
         "type": "Event",
         "title": [
