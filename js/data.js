@@ -83,33 +83,6 @@ var timerData = [
             }
         ]
     },*/
-    {
-        "type": "Event",
-        "title": [
-			"【Event】",
-            "The Mirror That Reflects My True Self",
-			"Changes in Mirror Battles' Bonuses"
-        ],
-        "image": [
-            "http://jp.rika.ren/magica/resource/image_web/banner/announce/banner_0484_m.png"
-        ],
-        "column": 0,
-        "priority": 37,
-        "timers": [
-			{
-				name: "Maintenance",
-				start: "June 4 2021, 15:00",
-				end: "June 4 2021, 16:00",
-				extraPriority: 10
-			},
-            {
-                "name": "Main Event",
-                "start": "June 4 2021, 16:00",
-                "end": "June 11 2021, 14:59",
-                "extraPriority": 10
-            }
-        ]
-    },
 	{
         "type": "Event",
         "title": [
@@ -117,7 +90,7 @@ var timerData = [
             "The Peaceful Daily Life of Nayuta's Family"
         ],
         "image": [
-            "http://jp.rika.ren/magica/resource/image_web/banner/announce/banner_0486_m.png"
+            "imgs/banner_0486_m.png"
         ],
         "column": 0,
         "priority": 36,
@@ -150,7 +123,7 @@ var timerData = [
             "Extermination Battle: Witches' Paradox"
         ],
         "image": [
-            "http://jp.rika.ren/magica/resource/image_web/banner/announce/banner_0487_m.png"
+            "imgs/banner_0487_m.png"
         ],
         "column": 0,
         "priority": 35,
@@ -257,7 +230,7 @@ var timerData = [
 		"1400 Days since Release Commemorative Bags"
 		],
 		image: [
-            "http://jp.rika.ren/magica/resource/image_web/banner/announce/banner_0489_m.png"
+            "imgs/banner_0489_m.png"
         ],
 		column: 2,
 		priority: 9,
@@ -295,144 +268,13 @@ var timerData = [
         ]
     },*/
 	{
-        "type": "Event",
-        "title": [
-			"【Collaboration Event】",
-            "The Masked Student Council Strikes Back",
-			"Corbeau & Lapine 5★ Awakening and Doppel Release"
-        ],
-        "image": [
-            "http://jp.rika.ren/magica/resource/image_web/banner/announce/banner_0482_m.png",
-			"http://jp.rika.ren/magica/resource/image_web/banner/announce/banner_0483_m.png",
-        ],
-        "column": 0,
-        "priority": 38,
-        "timers": [
-			{
-				name: "Maintenance",
-				start: "May 24 2021, 15:00",
-				end: "May 24 2021, 16:00",
-				keepAfterFinished: "2 hours"
-			},
-            {
-                "name": "Main Event",
-                "start": "May 24 2021, 16:00",
-                "end": "June 4 2021, 14:59",
-                "extraPriority": 10,
-				keepAfterFinished: "9 hours",
-				"markers": [
-				{
-					"title": "Story quests 11-20 & 100Evil Challenges I-III",
-					"time": "May 28 2021, 16:00",
-					"type": "battle"
-				}
-			]
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-			"【Gacha】",
-            "Forest Attribute Pickup Gacha",
-			"Limited-time Paid 4☆ Forest Attribute Pickup Gacha"
-        ],
-        "image": [
-            "http://jp.rika.ren/magica/resource/image_web/banner/gacha/gachabanner_0673_m.png",
-			"http://jp.rika.ren/magica/resource/image_web/banner/gacha/gachabanner_0674_m.png"
-        ],
-        "column": 1,
-        "priority": 80,
-        "timers": [
-            {
-                "name": "Duration",
-                "start": "May 17 2021, 17:00",
-                "end": "May 24 2021, 14:59",
-                "extraPriority": 10
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"【Limited-time Gachas】",
-			"The Chiming Bell That Transcends Time Pickup Gacha Part 1",
-			"The Chiming Bell That Transcends Time Pickup Gacha Part 2",
-			"Rebels from the Land of Everlasting Night Pickup Gacha",
-			"End of a Legend, the Limits of Light Pickup Gacha"
-			
-        ],
-        "image": [
-            "http://jp.rika.ren/magica/resource/image_web/banner/gacha/gachabanner_0675_m.png",
-			"http://jp.rika.ren/magica/resource/image_web/banner/gacha/gachabanner_0676_m.png",
-			"http://jp.rika.ren/magica/resource/image_web/banner/gacha/gachabanner_0677_m.png",
-			"http://jp.rika.ren/magica/resource/image_web/banner/gacha/gachabanner_0678_m.png"
-			
-        ],
-        "column": 1,
-        "priority": 79,
-        "timers": [
-            {
-                "name": "Duration",
-                "start": "May 17 2021, 17:00",
-                "end": "June 4 2021, 14:59",
-                "extraPriority": 10,
-				keepAfterFinished: "9 hours"
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"【Limited-time Gachas】",
-            "The masked Student Council Strikes back Part 1: Isabeau (Witch ver.)",
-			"The masked Student Council Strikes back Part 2: Minou"
-        ],
-        "image": [
-            "http://jp.rika.ren/magica/resource/image_web/banner/gacha/gachabanner_0681_m.png",
-			"http://jp.rika.ren/magica/resource/image_web/banner/gacha/gachabanner_0683_m.png"
-        ],
-        "column": 1,
-        "priority": 78,
-        "timers": [
-            {
-                "name": "Duration",
-                "start": "May 24 2021, 16:00",
-                "end": "June 4 2021, 14:59",
-                "extraPriority": 10,
-				keepAfterFinished: "9 hours"
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"【Pickup Gacha】",
-            "Kirino Sae Pickup Gacha"
-        ],
-        "image": [
-            "http://jp.rika.ren/magica/resource/image_web/banner/gacha/gachabanner_0687_m.png"
-        ],
-        "column": 1,
-        "priority": 76,
-        "timers": [
-            {
-                "name": "Duration",
-                "start": "June 4 2021, 16:00",
-                "end": "June 11 2021, 14:59",
-                "extraPriority": 10,
-				keepAfterFinished: "9 hours"
-            }
-        ]
-    },
-	{
         "type": "Gacha",
         "title": [
 			"【Pickup Gacha】",
             "Satomi Nayuta Pickup Gacha"
         ],
         "image": [
-            "http://jp.rika.ren/magica/resource/image_web/banner/gacha/gachabanner_0691_m.png"
+            "imgs/gachabanner_0691_m.png"
         ],
         "column": 1,
         "priority": 75,
@@ -453,8 +295,8 @@ var timerData = [
             "1400 Days Since Release"
         ],
         image: [
-			"http://jp.rika.ren/magica/resource/image_web/banner/announce/banner_0488_m.png",
-			"http://jp.rika.ren/magica/resource/image_web/banner/announce/banner_0490_m.png"
+			"imgs/banner_0488_m.png",
+			"imgs/banner_0490_m.png"
 		],
         column: 0,
 		priority: 35,
@@ -476,57 +318,6 @@ var timerData = [
 				start: "June 17 2021, 00:00",
 				end: "July 5 2021, 23:59",
 				keepAfterFinished: "9 hours"
-			}
-        ]
-    },
-    {
-        type: "Event",
-        title: [
-            "Pleased Sapphire Lips Kimochi Battle",
-            "キモチ戦悦ぶサファイアの唇 開催"
-        ],
-        image: "http://jp.rika.ren/magica/resource/image_web/banner/announce/banner_0314_m.png",
-		priority: 36,
-        column: 0,
-        timers: [
-			{
-				name: "Duration",
-				start: "May 17 2021, 17:00",
-				end: "May 22 2021, 16:59",
-				keepAfterFinished: "12 hours",
-				extraPriority: 10,
-				markers: [
-				{
-					title: "Day 2",
-					time: "May 18 2021, 16:00",
-					type: "battle"
-				},
-				{
-					title: "Aggregation Period I",
-					time: "May 19 2021, 16:00",
-					type: "story"
-				},
-				{
-					title: "Day 3",
-					time: "May 19 2021, 17:00",
-					type: "battle"
-				},
-				{
-					title: "Day 4",
-					time: "May 20 2021, 16:00",
-					type: "battle"
-				},
-				{
-					title: "Day 5",
-					time: "May 21 2021, 16:00",
-					type: "battle"
-				},
-				{
-					title: "Aggregation Period II",
-					time: "May 22 2021, 16:00",
-					type: "story"
-				}
-			]
 			}
         ]
     }
