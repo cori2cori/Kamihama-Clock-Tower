@@ -26,7 +26,7 @@ body {
     height: 60px;
     margin-right: 25px;
 }
-  
+
 .c-header h1{
     position: relative;
     text-align: center;
@@ -103,7 +103,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0.25rem;
-
+}
+.thumb::selection {
+    background-color: transparent;
 }
 .thumb .type {
     display:none;
@@ -506,7 +508,7 @@ body {
     margin-top: 1rem;
 }
 
-.modal-content{ 
+.modal-content{
     background-color: white;
 }
 
@@ -532,4 +534,21 @@ body {
     .alert {
         margin-top: 0.5rem;
     }
+}
+
+
+/* ******************* */
+/* EFFECTS             */
+/* ******************* */
+
+img.lcarousel {
+    z-index: 10;
+    left: -20%;
+    opacity: 0;
+    transition: all 1s;
+}
+img.lcarousel.current {
+    z-index: 20;
+    left: 0;
+    opacity: 1;
 }
