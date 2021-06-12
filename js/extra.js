@@ -15,32 +15,36 @@ const theme = {
 		if (old_name)
 			document.body.classList.remove("theme-"+old_name);
 		document.body.setAttribute("data-theme", name);
-		document.body.classList.add('theme-'+name);
+		document.body.classList.add("theme-"+name);
 		document.cookie = "theme="+name+"; path=/; max-age=436320000; secure; samesite=lax";
 		return true;
 	}
 };
 
+// e.g.: <div class="lcarousel"><img class="lcarousel current" /><img class="lcarousel" /></div>
 const lcarousel = {
-	name: 'lcarousel',
+	name: "lcarousel",
+	cursor: "current",
+	wrapTag: "div",
+	itemTag: "img",
 	init: function() {
-		document.querySelectorAll("div."+lcarousel.name+" > img."+lcarousel.name+":first-of-type").forEach((el) => {
-			el.classList.add('current');
+		document.querySelectorAll(lcarousel.wrapTag+"."+lcarousel.name+" > "+lcarousel.itemTag+"."+lcarousel.name+":first-of-type").forEach((el) => {
+			el.classList.add(lcarousel.cursor);
 		});
 		return true;
 	},
-	cycle: function(wrapper) {
-		const current = wrapper.querySelector("img.lcarousel.current");
-		current.classList.remove('current');
-		if (current.nextElementSibling && current.nextElementSibling.classList.contains('lcarousel'))
-			current.nextElementSibling.classList.add('current');
+	cycle: function($wrapper) {
+		const $current = $wrapper.querySelector(lcarousel.itemTag+"."+lcarousel.name+"."+lcarousel.cursor);
+		$current.classList.remove(lcarousel.cursor);
+		if ($current.nextElementSibling && $current.nextElementSibling.classList.contains(lcarousel.name))
+			$current.nextElementSibling.classList.add(lcarousel.cursor);
 		else
-			wrapper.querySelector("img.lcarousel:first-of-type").classList.add('current');
+			$wrapper.querySelector(lcarousel.itemTag+"."+lcarousel.name+":first-of-type").classList.add(lcarousel.cursor);
 		return true;
 	},
 	cycleAll: function() {
-		document.querySelectorAll("div."+lcarousel.name).forEach((el) => {
-			if (el.querySelectorAll("img."+lcarousel.name).length > 1)
+		document.querySelectorAll(lcarousel.wrapTag+"."+lcarousel.name).forEach((el) => {
+			if (el.querySelectorAll(lcarousel.itemTag+"."+lcarousel.name).length > 1)
 				lcarousel.cycle(el);
 		});
 		return true;
