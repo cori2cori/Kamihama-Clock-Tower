@@ -66,6 +66,9 @@ body.theme-dark {
 .theme-dark .modal-content{
 	background-color: #242424;
 }
+.theme-dark .mark-next {
+    background-color: #323232;
+}
 
 /* body.theme-pink {
 	background-color: #ee00ee;
