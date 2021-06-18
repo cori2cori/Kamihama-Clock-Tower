@@ -120,10 +120,12 @@ var timerData = [
         "type": "Event",
         "title": [
 			"【Event】",
-            "Extermination Battle: Witches' Paradox"
+            "Extermination Battle: Witches' Paradox",
+			"Main Story Arc 2 Chapter 6 Release"
         ],
         "image": [
-            "imgs/banner_0487_m.png"
+            "imgs/banner_0487_m.png",
+			"imgs/banner_1030600_m.png"
         ],
         "column": 0,
         "priority": 35,
@@ -138,7 +140,19 @@ var timerData = [
                 "name": "Main Event",
                 "start": "June 21 2021, 17:00",
                 "end": "June 28 2021, 14:59",
-                "extraPriority": 10
+                "extraPriority": 10,
+				"markers": [
+				{
+					title: "Challenge Stage",
+					time: "June 23 2021, 16:00",
+					type: "battle"
+				},
+				{
+					title: "EX Challenge Stage",
+					time: "June 25 2021, 16:00",
+					type: "battle"
+				}
+				]
             }
         ]
     },
@@ -220,6 +234,12 @@ var timerData = [
 				start:  "June 11 2021, 16:00",
 				end: "June 28 2021, 14:59",
 				keepAfterFinished: "9 hours"
+			},
+			{
+				name: "New Chapter Campaign - Limited time missions",
+				start: "June 21 2021, 17:00",
+				end: "June 28 2021, 14:59",
+				keepAfterFinished: "9 hours"
 			}
         ]
     },
@@ -245,6 +265,26 @@ var timerData = [
 			name: "4★ Magical Girl & Memoria Selection Tickets Exchange",
 			start: "June 11 2021, 16:00",
 			end: "July 5 2021, 14:59",
+			keepAfterFinished: "9 hours"
+		}
+		]
+	},
+	{
+		type: "Other",
+		title: [
+		"【Paid Shop】",
+		"Mitama's Special Deal in occasion of the Extermination Battle"
+		],
+		image: [
+            "imgs/banner_0491_m.png"
+        ],
+		column: 2,
+		priority: 8,
+		timers: [
+		{
+			name: "Sales period",
+			start: "June 21 2021, 17:00",
+			end: "June 28 2021, 14:59",
 			keepAfterFinished: "9 hours"
 		}
 		]
@@ -283,6 +323,27 @@ var timerData = [
                 "name": "Duration",
                 "start": "June 11 2021, 16:00",
                 "end": "June 21 2021, 14:59",
+                "extraPriority": 10,
+				keepAfterFinished: "9 hours"
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【Gacha】",
+            "Choose Your 4* Memoria Selection Gacha"
+        ],
+        "image": [
+            "imgs/gachabanner_0696_m.png"
+        ],
+        "column": 1,
+        "priority": 74,
+        "timers": [
+            {
+                "name": "Duration",
+                "start": "June 21 2021, 17:00",
+                "end": "June 28 2021, 14:59",
                 "extraPriority": 10,
 				keepAfterFinished: "9 hours"
             }
