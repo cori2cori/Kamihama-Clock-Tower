@@ -188,36 +188,6 @@ var timerData = [
         "priority": 10,
         "timers": [
 			{
-				"name": "Adjuster Coins Shop: Yellow - Tart☆Magica Gachas",
-				"start": "May 17 2021, 17:00",
-				"end": "June 11 2021, 14:59",
-				keepAfterFinished: "9 hours"
-			},
-			{
-				"name": "The Masked Student Council Strikes Back: Event Shop and Missions",
-				"start": "May 24 2021, 16:00",
-                "end": "June 11 2021, 14:59",
-				keepAfterFinished: "9 hours"
-			},
-			{
-				"name": "Adjuster Coins Shop: Black - The Masked Student Council Strikes Back Pickup Gacha Parts 1 & 2",
-				"start": "May 24 2021, 16:00",
-				"end": "June 11 2021, 14:59",
-				keepAfterFinished: "9 hours"
-			},
-			{
-				"name": "The mirror that reflects my true self - Event Shop and Missions",
-				"start": "June 4 2021, 16:00",
-				"end": "June 18 2021, 14:59",
-				keepAfterFinished: "9 hours"
-			},
-			{
-				"name": "Adjuster Coins Shop: Red - Kirino Sae Pickup Gacha",
-				"start": "June 4 2021, 16:00",
-				"end": "June 18 2021, 14:59",
-				keepAfterFinished: "9 hours"
-			},
-			{
 				"name": "The Peaceful Daily Life of Nayuta's Family - Event Shop and Missions",
 				"start": "June 11 2021, 16:00",
 				"end": "June 28 2021, 14:59",
@@ -239,6 +209,12 @@ var timerData = [
 				name: "New Chapter Campaign - Limited time missions",
 				start: "June 21 2021, 17:00",
 				end: "June 28 2021, 14:59",
+				keepAfterFinished: "9 hours"
+			},
+			{
+				"name": "Adjuster Coins Shop: Brown - Choose your 4★ Selection Gacha",
+				"start": "June 11 2021, 16:00",
+				"end": "July 5 2021, 14:59",
 				keepAfterFinished: "9 hours"
 			}
         ]
