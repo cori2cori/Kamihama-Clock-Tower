@@ -87,30 +87,78 @@ var timerData = [
         "type": "Event",
         "title": [
 			"【Event】",
-            "The Peaceful Daily Life of Nayuta's Family"
+            "The Legendary Story of the Paper Mulberry Leaf",
+			"～These Shaking Feelings are Once Again Fascinating～"
         ],
         "image": [
-            "imgs/banner_0486_m.png"
+            "imgs/banner_0495_m.png"
         ],
         "column": 0,
-        "priority": 36,
+        "priority": 34,
         "timers": [
 			{
 				name: "Maintenance",
-				start: "June 11 2021, 15:00",
-				end: "June 11 2021, 15:59",
+				start: "June 28 2021, 15:00",
+				end: "June 28 2021, 15:59",
 				extraPriority: 10
 			},
             {
                 "name": "Main Event",
-                "start": "June 11 2021, 16:00",
-                "end": "June 21 2021, 14:59",
+                "start": "June 28 2021, 16:00",
+                "end": "July 12 2021, 14:59",
                 "extraPriority": 10,
 				"markers": [
 				{
 					title: "Story quests 11-20",
-					time: "June 16 2021, 16:00",
+					time: "July 5 2021, 17:00",
 					type: "story"
+				}
+				]
+            }
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
+			"【Campaign】",
+            "Summer Missions"
+        ],
+        "image": [
+            "imgs/banner_0492_m.png"
+        ],
+        "column": 0,
+        "priority": 33,
+        "timers": [
+            {
+                "name": "Duration",
+                "start": "June 28 2021, 16:00",
+                "end": "August 6 2021, 14:59",
+                "extraPriority": 10,
+				"markers": [
+				{
+					title: "Missions 1-5",
+					time: "June 28 2021, 16:00",
+					type: "battle"
+				},
+				{
+					title: "Missions 6-10",
+					time: "July 5 2021, 17:00",
+					type: "battle"
+				},
+				{
+					title: "Missions 11-15",
+					time: "July 12 2021, 16:00",
+					type: "battle"
+				},
+				{
+					title: "Missions 15-20",
+					time: "July 19 2021, 16:00",
+					type: "battle"
+				},
+				{
+					title: "Missions 21-26",
+					time: "July 26 2021, 16:00",
+					type: "battle"
 				}
 				]
             }
@@ -216,6 +264,18 @@ var timerData = [
 				"start": "June 11 2021, 16:00",
 				"end": "July 5 2021, 14:59",
 				keepAfterFinished: "9 hours"
+			},
+			{
+				"name": "Adjuster Coins Shop: Blue - Nanami Yachiyo (Tanabata ver.) Pickup Gacha",
+				"start": "June 28 2021, 16:00",
+				"end": "July 19 2021, 14:59",
+				keepAfterFinished: "9 hours"
+			},
+			{
+				"name": "The Legendary Story of the Paper Mulberry Leaf - Event Shop and Missions",
+				"start": "June 28 2021, 16:00",
+				"end": "July 19 2021, 14:59",
+				keepAfterFinished: "9 hours"
 			}
         ]
     },
@@ -320,6 +380,27 @@ var timerData = [
                 "name": "Duration",
                 "start": "June 21 2021, 17:00",
                 "end": "June 28 2021, 14:59",
+                "extraPriority": 10,
+				keepAfterFinished: "9 hours"
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【Limited-time Gacha】",
+            "Nanami Yachiyo (Tanabata ver.) Pickup Gacha"
+        ],
+        "image": [
+            "imgs/gachabanner_0699_m.png"
+        ],
+        "column": 1,
+        "priority": 73,
+        "timers": [
+            {
+                "name": "Duration",
+                "start": "June 28 2021, 16:00",
+                "end": "July 12 2021, 14:59",
                 "extraPriority": 10,
 				keepAfterFinished: "9 hours"
             }
