@@ -109,9 +109,9 @@ var timerData = [
                 "extraPriority": 10,
 				"markers": [
 				{
-					title: "Story quests 11-20",
+					title: "Story quests 11-20 & 100Evil I-III",
 					time: "July 5 2021, 17:00",
-					type: "story"
+					type: "battle"
 				}
 				]
             }
