@@ -236,6 +236,11 @@ var timerData = [
         "priority": 10,
         "timers": [
 			{
+				name: "Monthly Magia Stones Shops - July",
+				start: "July 1 2021, 00:00",
+				end: "July 31 2021, 23:59"
+			},
+			{
 				name: "1400 Days Since Release - Medal Shop",
 				start: "June 11 2021, 17:00",
 				end: "July 5 2021, 14:59",
