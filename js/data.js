@@ -236,27 +236,9 @@ var timerData = [
         "priority": 10,
         "timers": [
 			{
-				"name": "The Peaceful Daily Life of Nayuta's Family - Event Shop and Missions",
-				"start": "June 11 2021, 16:00",
-				"end": "June 28 2021, 14:59",
-				keepAfterFinished: "9 hours"
-			},
-			{
-				"name": "Adjuster Coins Shop: Purple - Satomi Nayuta Pickup Gacha",
-				"start": "June 11 2021, 16:00",
-				"end": "June 28 2021, 14:59",
-				keepAfterFinished: "9 hours"
-			},
-			{
-				name: "1400 Days Since Release - Limited time Shop and Missions",
-				start:  "June 11 2021, 16:00",
-				end: "June 28 2021, 14:59",
-				keepAfterFinished: "9 hours"
-			},
-			{
-				name: "New Chapter Campaign - Limited time missions",
-				start: "June 21 2021, 17:00",
-				end: "June 28 2021, 14:59",
+				name: "1400 Days Since Release - Medal Shop",
+				start: "June 11 2021, 17:00",
+				end: "July 5 2021, 14:59",
 				keepAfterFinished: "9 hours"
 			},
 			{
