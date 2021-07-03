@@ -455,7 +455,7 @@ var timerData = [
 			"imgs/banner_0496_m.png"
 		],
 		column: 1,
-		priority: 100,
+		priority: 75,
 		timers: [
 			{
 				name: "Free roll 1",
