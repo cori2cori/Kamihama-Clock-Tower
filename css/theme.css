@@ -70,6 +70,10 @@ body.theme-dark {
     background-color: #323232;
 }
 
+.theme-dark .date-next {
+    background-color: #242424;
+}
+
 /* body.theme-pink {
 	background-color: #ee00ee;
 	color: #880066;
