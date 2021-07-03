@@ -379,7 +379,7 @@ var timerData = [
         "timers": [
             {
                 "name": "Duration",
-                "start": "July 7 2021, 17:00",
+                "start": "July 5 2021, 17:00",
                 "end": "July 12 2021, 14:59",
                 "extraPriority": 10,
 				keepAfterFinished: "9 hours",
