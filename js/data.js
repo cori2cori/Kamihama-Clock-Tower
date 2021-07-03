@@ -310,18 +310,18 @@ var timerData = [
 		type: "Other",
 		title: [
 		"【Paid Shop】",
-		"Mitama's Special Deal in occasion of the Extermination Battle"
+		"Mirrors Selection Pack & Mirrors Beginner Pack"
 		],
 		image: [
-            "imgs/banner_0491_m.png"
+            "imgs/banner_0436_m.png"
         ],
 		column: 2,
 		priority: 8,
-		timers: [
+		timers: [ /*7/5 17:00～7/12 14:59*/
 		{
 			name: "Sales period",
-			start: "June 21 2021, 17:00",
-			end: "June 28 2021, 14:59",
+			start: "July 5 2021, 17:00",
+			end: "July 12 2021, 14:59",
 			keepAfterFinished: "9 hours"
 		}
 		]
@@ -449,7 +449,7 @@ var timerData = [
 		type: "LoginDays",
 		title: [
 			"【Campaign】",
-            "Free Rolls in occasion of the TV Anime 2nd Season"
+            "Free Rolls in occasion of the 2nd SEASON of the TV Anime"
 		],
 		image: [
 			"imgs/banner_0496_m.png"
