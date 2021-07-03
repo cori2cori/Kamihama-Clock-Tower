@@ -204,26 +204,30 @@ var timerData = [
             }
         ]
     },
-	/* {
+	{
         "type": "Event",
         "title": [
 			"【Mirrors Ranking】",
-            "Scheduled to be held in July 2021"
+            "11th Session"
         ],
         "image": [
             "mirroran"
         ],
         "column": 0,
-        "priority": 30,
-		"keepAfterFinished": "60 days",
+        "priority": 33, /*7/5 17:00～7/11 20:59 JST*/
         "timers": [
 			{
-				name: "Test",
-				start: "June 4 2021, 15:00",
-				end: "June 4 2021, 16:00"
+				name: "Maintenance",
+				start: "July 5 2021, 15:00",
+				end: "July 5 2021, 16:59"
+			},
+			{
+				name: "Main Event",
+				start: "July 5 2021, 17:00",
+				end: "July 11 2021, 20:59"
 			}
         ]
-    }, */
+    },
 	{
         "type": "Other",
         "title": [
@@ -247,7 +251,7 @@ var timerData = [
 				keepAfterFinished: "9 hours"
 			},
 			{
-				"name": "Adjuster Coins Shop: Brown - Choose your 4★ Selection Gacha",
+				"name": "Adjuster Coins Shop: Brown - Choose your 4★ Memoria Selection Gacha",
 				"start": "June 11 2021, 16:00",
 				"end": "July 5 2021, 14:59",
 				keepAfterFinished: "9 hours"
@@ -263,6 +267,16 @@ var timerData = [
 				"start": "June 28 2021, 16:00",
 				"end": "July 19 2021, 14:59",
 				keepAfterFinished: "9 hours"
+			},
+			{
+				name: "A. C. Shop: Yellow-Green - Choose your 4★ Memoria Selection Gacha",
+				start: "July 5 2021, 17:00",
+				end: "July 19 2021, 14:59"
+			},
+			{
+				name: "Adjuster Coins Shop: Green - TV Anime 2nd Season Celebration", /*2021 9/26 14:59*/
+				start: "July 3 2021, 00:00",
+				end: "September 26 2021, 14:59"
 			}
         ]
     },
@@ -358,17 +372,24 @@ var timerData = [
             "Choose Your 4* Memoria Selection Gacha"
         ],
         "image": [
-            "imgs/gachabanner_0696_m.png"
+            "imgs/gachabanner_0705_m.png"
         ],
         "column": 1,
-        "priority": 74,
+        "priority": 72,
         "timers": [
             {
                 "name": "Duration",
-                "start": "June 21 2021, 17:00",
-                "end": "June 28 2021, 14:59",
+                "start": "July 7 2021, 17:00",
+                "end": "July 12 2021, 14:59",
                 "extraPriority": 10,
-				keepAfterFinished: "9 hours"
+				keepAfterFinished: "9 hours",
+				markers: [
+				{
+					title: "2nd Pool",
+					time: "July 9 2021, 15:00",
+					type: "star"
+				}
+				]
             }
         ]
     },
@@ -415,15 +436,148 @@ var timerData = [
 			{
 				name: "1/2 AP, x2 Player EXP, 2x Support Points, 2x Great Success & Super Success",
 				start: "June 11 2021, 16:00",
-                end: "June 28 2021, 14:59",
-				keepAfterFinished: "9 hours"
+                end: "June 28 2021, 14:59"
 			},
 			{
 				name: "Guaranteed 4★ Magical Girl Ticket Exchange",
 				start: "June 17 2021, 00:00",
-				end: "July 5 2021, 23:59",
-				keepAfterFinished: "9 hours"
+				end: "July 5 2021, 23:59"
 			}
         ]
-    }
+    },
+	{
+		type: "LoginDays",
+		title: [
+			"【Campaign】",
+            "Free Rolls in occasion of the TV Anime 2nd Season"
+		],
+		image: [
+			"imgs/banner_0496_m.png"
+		],
+		column: 1,
+		priority: 100,
+		timers: [
+			{
+				name: "Free roll 1",
+				date: "July 3 2021",
+				days: "1"
+			},
+			{
+				name: "Free roll 2",
+				date: "July 4 2021",
+				days: "1"
+			},
+			{
+				name: "Free roll 3",
+				date: "July 10 2021",
+				days: "1"
+			},
+			{
+				name: "Free roll 4",
+				date: "July 11 2021",
+				days: "1"
+			},
+			{
+				name: "Free roll 5",
+				date: "July 17 2021",
+				days: "1"
+			},
+			{
+				name: "Free roll 6",
+				date: "July 18 2021",
+				days: "1"
+			}
+			,
+			{
+				name: "Free roll 7",
+				date: "July 24 2021",
+				days: "1"
+			},
+			{
+				name: "Free roll 8",
+				date: "July 25 2021",
+				days: "1"
+			},
+			{
+				name: "Free roll 9",
+				date: "July 31 2021",
+				days: "1"
+			},
+			{
+				name: "Free roll 10",
+				date: "August 1 2021",
+				days: "1"
+			},
+			{
+				name: "Free roll 11",
+				date: "August 7 2021",
+				days: "1"
+			},
+			{
+				name: "Free roll 12",
+				date: "August 8 2021",
+				days: "1"
+			},
+			{
+				name: "Free roll 13",
+				date: "August 14 2021",
+				days: "1"
+			},
+			{
+				name: "Free roll 14",
+				date: "August 15 2021",
+				days: "1"
+			},
+			{
+				name: "Free roll 15",
+				date: "August 21 2021",
+				days: "1"
+			},
+			{
+				name: "Free roll 16",
+				date: "August 22 2021",
+				days: "1"
+			},
+			{
+				name: "Free roll 17",
+				date: "August 28 2021",
+				days: "1"
+			},
+			{
+				name: "Free roll 18",
+				date: "August 29 2021",
+				days: "1"
+			},
+			{
+				name: "Free roll 19",
+				date: "September 4 2021",
+				days: "1"
+			},
+			{
+				name: "Free roll 20",
+				date: "September 5 2021",
+				days: "1"
+			},
+			{
+				name: "Free roll 21",
+				date: "September 11 2021",
+				days: "1"
+			},
+			{
+				name: "Free roll 22",
+				date: "September 12 2021",
+				days: "1"
+			},
+			{
+				name: "Free roll 23",
+				date: "September 18 2021",
+				days: "1"
+			},
+			{
+				name: "Free roll 24",
+				date: "September 19 2021",
+				days: "1"
+			}
+		]
+	}
 ];
