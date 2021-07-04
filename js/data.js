@@ -323,6 +323,12 @@ var timerData = [
 			start: "July 5 2021, 17:00",
 			end: "July 12 2021, 14:59",
 			keepAfterFinished: "9 hours"
+		},
+		{
+			name: "Ticket Exchange",
+			start: "July 5 2021, 17:00",
+			end: "July 19 2021, 14:59",
+			keepAfterFinished: "9 hours"
 		}
 		]
 	},
