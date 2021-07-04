@@ -219,12 +219,14 @@ var timerData = [
 			{
 				name: "Maintenance",
 				start: "July 5 2021, 15:00",
-				end: "July 5 2021, 16:59"
+				end: "July 5 2021, 16:59",
+				extraPriority: 20
 			},
 			{
 				name: "Main Event",
 				start: "July 5 2021, 17:00",
-				end: "July 11 2021, 20:59"
+				end: "July 11 2021, 20:59",
+				extraPriority: 20
 			}
         ]
     },
