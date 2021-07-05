@@ -161,7 +161,12 @@ var timerData = [
 					type: "battle"
 				}
 				]
-            }
+            },
+			{
+				"name": "Guaranteed 4★ Ticket Exchange",
+                "start": "July 26 2021, 16:00",
+                "end": "August 13 2021, 14:59"
+			}
         ]
     },
 	{
@@ -218,14 +223,14 @@ var timerData = [
         "timers": [
 			{
 				name: "Maintenance",
-				start: "July 5 2021, 15:00",
-				end: "July 5 2021, 16:59",
+				start: "July 19 2021, 15:00",
+				end: "July 19 2021, 16:59",
 				extraPriority: 20
 			},
 			{
 				name: "Main Event",
-				start: "July 5 2021, 17:00",
-				end: "July 11 2021, 20:59",
+				start: "July 19 2021, 17:00",
+				end: "July 25 2021, 20:59",
 				extraPriority: 20
 			}
         ]
@@ -268,6 +273,12 @@ var timerData = [
 				"name": "The Legendary Story of the Paper Mulberry Leaf - Event Shop and Missions",
 				"start": "June 28 2021, 16:00",
 				"end": "July 19 2021, 14:59",
+				keepAfterFinished: "9 hours"
+			},
+			{
+				"name": "Swimsuit Costume Tickets - Exchange Shop",
+				"start": "June 28 2021, 16:00",
+				"end": "August 13 2021, 14:59",
 				keepAfterFinished: "9 hours"
 			},
 			{
@@ -323,13 +334,13 @@ var timerData = [
 		{
 			name: "Sales period",
 			start: "July 5 2021, 17:00",
-			end: "July 12 2021, 14:59",
+			end: "July 26 2021, 14:59",
 			keepAfterFinished: "9 hours"
 		},
 		{
 			name: "Ticket Exchange",
 			start: "July 5 2021, 17:00",
-			end: "July 19 2021, 14:59",
+			end: "August 2 2021, 14:59",
 			keepAfterFinished: "9 hours"
 		}
 		]
@@ -387,14 +398,14 @@ var timerData = [
         "timers": [
             {
                 "name": "Duration",
-                "start": "July 5 2021, 17:00",
-                "end": "July 12 2021, 14:59",
+                "start": "July 19 2021, 17:00",
+                "end": "July 26 2021, 14:59",
                 "extraPriority": 10,
 				keepAfterFinished: "9 hours",
 				markers: [
 				{
 					title: "2nd Pool",
-					time: "July 9 2021, 15:00",
+					time: "July 23 2021, 15:00",
 					type: "star"
 				}
 				]
