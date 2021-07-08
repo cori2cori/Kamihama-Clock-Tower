@@ -51,6 +51,10 @@ Vue.directive('tooltip', {
     }
 });
 
+var release = moment.tz(releaseDate, "MMM D YYYY, H:mm", "Asia/Tokyo");
+var nextAnnounc = moment.tz(possibleNextAnnouncementDate, "MMM D YYYY, H:mm", "Asia/Tokyo");
+var nextAnniv = moment.tz(nextAnniversary, "MMM D YYYY, H:mm", "Asia/Tokyo");
+
 var vm = new Vue({
     el: '#app',
     data: {
@@ -64,16 +68,12 @@ var vm = new Vue({
         columns: 3,
         filters: null,
         alerts: alertMessages,
-        alertTypes: alertTypes
+        alertTypes: alertTypes,
+        d_since_release:0,
+        t_to_next_ann:[0,0,0],
+        t_to_anniv:[0,0,0]
     },
     methods: {
-        getDaysFromRelease: function() {
-            var r_date="August 22 2017, 0:00";
-            let rMoment = moment.tz(r_date, "MMM D YYYY, H:mm", "Asia/Tokyo");
-            let nowMoment = moment.tz("Asia/Tokyo");
-            
-            return nowMoment.diff(rMoment,"days");
-        },
         changeTimezone: function() {
             var c, t, e, col, ev, timer, data = this.timersData;
 
@@ -126,6 +126,19 @@ var vm = new Vue({
                 this.filters = filters;
             }
         },
+
+        getMagiaStonesTimer : function(){
+            let nowMoment = moment.tz("Asia/Tokyo")
+            let month = nowMoment.format('MMMM')
+            let n = {
+                name: "Monthly Magia Stones Shops - "+month,
+                start: moment().startOf('month').format("MMMM D YYYY, H:mm","Asia/Tokyo"),
+                end: moment().endOf('month').format("MMMM D YYYY, H:mm","Asia/Tokyo")
+            }
+            //console.log(n)
+            return n;
+        },
+
         buildTimerData: function(data) {
             var res = [];
             var ev, i, col;
@@ -145,11 +158,17 @@ var vm = new Vue({
                 ev.bonusPriority = 0;
                 ev.visible = true;
 
+                if (ev.type == "Shop"){
+                    ev.timers.unshift(this.getMagiaStonesTimer());
+                }
+
                 if (ev.type == "DailyQuest") {
                     ev = this.buildDailyQuestTimer(ev, nowMoment);
                 } else {
                     ev = this.buildEventGroup(ev, localZone);
                 }
+
+                
 
                 if (this.filterCheck(ev, this.filters, i)){
                     col = ev.column ? ev.column : 0;
@@ -350,7 +369,17 @@ var vm = new Vue({
             this.japanTime = moment().tz('Asia/Tokyo').format("ddd D MMM, H:mm");
             this.localTime = moment().format("ddd D MMM, H:mm");
             this.updateTimerData();
+            this.updateTextTimers();
         },
+        updateTextTimers:function() {
+            let nowMoment = moment.tz("Asia/Tokyo");
+            //console.log(this.d_since_release, this.t_to_next_ann);
+            this.d_since_release = nowMoment.diff(release,"days");
+            this.t_to_next_ann = [ nextAnnounc.diff(nowMoment,"days"), nextAnnounc.diff(nowMoment,"hours"),  nextAnnounc.diff(nowMoment,"seconds") ];
+            this.t_to_anniv = [ nextAnniv.diff(nowMoment,"days"), nextAnniv.diff(nowMoment,"hours"),  nextAnniv.diff(nowMoment,"seconds") ];
+
+        },
+
         updateTimerData: function() {
             var c, e, ev, col, data = this.timersData;
             var nowMoment = moment.tz("Asia/Tokyo");

@@ -1,3 +1,6 @@
+var releaseDate = "August 22 2017, 0:00";
+var possibleNextAnnouncementDate = "July 9 2021, 18:00";
+var nextAnniversary = "August 22 2021, 0:00";
 var alertMessages = [];
 var alertTypes = [];
 var timerData = [
@@ -236,7 +239,7 @@ var timerData = [
         ]
     },
 	{
-        "type": "Other",
+        "type": "Shop",
         "title": [
             "【Shops and Limited-time Missions】"
         ],
@@ -246,11 +249,11 @@ var timerData = [
         "column": 2,
         "priority": 10,
         "timers": [
-			{
+			/*{
 				name: "Monthly Magia Stones Shops - July",
 				start: "July 1 2021, 00:00",
 				end: "July 31 2021, 23:59"
-			},
+			},*/
 			{
 				name: "1400 Days Since Release - Medal Shop",
 				start: "June 11 2021, 17:00",

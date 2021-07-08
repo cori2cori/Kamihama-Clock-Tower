@@ -3,6 +3,11 @@ body {
     overflow: scroll;
 }
 
+.timer-number {
+    color:violet;
+    font-size: xx-large;
+}
+
 .event-group {
     background-color: white;
     padding: 0.5rem;

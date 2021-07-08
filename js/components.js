@@ -1,3 +1,67 @@
+Vue.component("text-timer", {
+    props: ["d_since_release", "t_to_next_ann", "t_to_next_anniv"],
+    template: 
+    `<h4>
+        <span class="timer-number">{{ dRelease }}</span> days since <span >Magia Record</span> released; <span v-if="nextAnnVisible()"> <span class="timer-number">{{ tNextAnniv[0] }}</span> {{tNextAnniv[1]}} until 4th anniversary.</span></br>
+        <span v-if="nextEvVisible()">We expect a new announcements in <span class="timer-number">{{ tNextEv[0] }}</span> {{ tNextEv[1] }}</span></br>
+    </h4>`/*`<h5>{{ d_since_release }}</h5>`*/,
+    computed: {
+        dRelease : function() {
+            return this.d_since_release
+        },
+        tNextEv : function() {
+            let time,format=null;
+            let array = this.t_to_next_ann;
+            if (array[0]>0){
+                time = array[0];
+                format = time == 1 ? "day" : "days";
+            }
+            else if (array[1]>0){
+                time = array[1];
+                format = time == 1 ? "hour" : "hours";
+            }
+            else if (array[2]>0){
+                time = array[2];
+                format = time == 1 ? "second" : "seconds";
+            }
+            else{
+                return "";
+            }
+            return [time, format]
+        },
+        tNextAnniv : function() {
+            let time,format=null;
+            let array = this.t_to_next_anniv;
+            if (array[0]>0){
+                time = array[0];
+                format = time == 1 ? "day" : "days";
+            }
+            else if (array[1]>0){
+                time = array[1];
+                format = time == 1 ? "hour" : "hours";
+            }
+            else if (array[2]>0){
+                time = array[2];
+                format = time == 1 ? "second" : "seconds";
+            }
+            else{
+                return "";
+            }
+            return [time, format]
+        }
+    },
+    methods: {
+        nextEvVisible : function() { 
+            //console.log(this.t_to_next_ann, this.t_to_next_ann[0], this.t_to_next_ann[1], this.t_to_next_ann[2])
+            return this.t_to_next_ann[2]>0;
+        },
+        nextAnnVisible : function() { 
+            //console.log(this.t_to_next_ann, this.t_to_next_ann[0], this.t_to_next_ann[1], this.t_to_next_ann[2])
+            return this.t_to_next_ann[2]>0;
+        }
+    }
+});
+
 Vue.component("ev-charicon", {
     props: ["data"],
     template: `<div class='char-icon' data-toggle='tooltip' v-tooltip:top='tip'>
