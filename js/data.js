@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "July 9 2021, 18:00";
+var possibleNextAnnouncementDate = "July 23 2021, 18:00";
 var nextAnniversary = "August 22 2021, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -114,6 +114,39 @@ var timerData = [
 				{
 					title: "Story quests 11-20 & 100Evil I-III",
 					time: "July 5 2021, 17:00",
+					type: "battle"
+				}
+				]
+            }
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
+			"【Event】",
+            "The Call of the Open Sea"
+        ],
+        "image": [
+            "imgs/banner_0493_m.png"
+        ],
+        "column": 0,
+        "priority": 33,
+        "timers": [
+			{
+				name: "Maintenance",
+				start: "July 12 2021, 15:00",
+				end: "July 12 2021, 15:59",
+				extraPriority: 10
+			},
+            {
+                "name": "Main Event",
+                "start": "July 12 2021, 16:00",
+                "end": "July 26 2021, 14:59",
+                "extraPriority": 10,
+				"markers": [
+				{
+					title: "Second Part",
+					time: "July 19 2021, 17:00",
 					type: "battle"
 				}
 				]
@@ -285,9 +318,21 @@ var timerData = [
 				keepAfterFinished: "9 hours"
 			},
 			{
+				"name": "The Call of the Open Sea - Event Shop and Missions",
+				"start": "July 12 2021, 16:00",
+				"end": "August 2 2021, 14:59",
+				keepAfterFinished: "9 hours"
+			},
+			{
+				"name": "Adjuster's Coins Shop: Black - Summer Limited-time Gachas",
+				"start": "July 12 2021, 16:00",
+				"end": "August 2 2021, 14:59",
+				keepAfterFinished: "9 hours"
+			},
+			{
 				name: "A. C. Shop: Yellow-Green - Choose your 4★ Memoria Selection Gacha",
-				start: "July 5 2021, 17:00",
-				end: "July 19 2021, 14:59"
+				start: "July 19 2021, 17:00",
+				end: "August 2 2021, 14:59"
 			},
 			{
 				name: "Adjuster Coins Shop: Green - TV Anime 2nd Season Celebration", /*2021 9/26 14:59*/
@@ -397,7 +442,7 @@ var timerData = [
             "imgs/gachabanner_0705_m.png"
         ],
         "column": 1,
-        "priority": 72,
+        "priority": 60,
         "timers": [
             {
                 "name": "Duration",
@@ -431,6 +476,71 @@ var timerData = [
                 "name": "Duration",
                 "start": "June 28 2021, 16:00",
                 "end": "July 12 2021, 14:59",
+                "extraPriority": 10,
+				keepAfterFinished: "9 hours"
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【Limited-time Gacha】",
+            "Momoko and Mitama (Mermaid ver.) Pickup Gacha"
+        ],
+        "image": [
+            "imgs/gachabanner_0711_m.png"
+        ],
+        "column": 1,
+        "priority": 72,
+        "timers": [
+            {
+                "name": "Duration",
+                "start": "July 12 2021, 16:00",
+                "end": "July 26 2021, 14:59",
+                "extraPriority": 10,
+				keepAfterFinished: "9 hours"
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【Limited-time Gacha Rerun】",
+            "The Crescent Moon Manor's Summer Vacation Pickup Gacha",
+			"The Ribbon at the Beach Pickup Gacha"
+        ],
+        "image": [
+            "imgs/gachabanner_0714_m.png",
+			"imgs/gachabanner_0713_m.png"
+        ],
+        "column": 1,
+        "priority": 71,
+        "timers": [
+            {
+                "name": "Duration",
+                "start": "July 12 2021, 16:00",
+                "end": "July 26 2021, 14:59",
+                "extraPriority": 10,
+				keepAfterFinished: "9 hours"
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【Paid Gacha】",
+            "2018 4★ Swimsuit Magical Girl Guaranteed Gacha"
+        ],
+        "image": [
+            "imgs/gachabanner_0715_m.png"
+        ],
+        "column": 1,
+        "priority": 70,
+        "timers": [
+            {
+                "name": "Duration",
+                "start": "July 12 2021, 16:00",
+                "end": "July 26 2021, 14:59",
                 "extraPriority": 10,
 				keepAfterFinished: "9 hours"
             }
