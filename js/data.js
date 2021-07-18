@@ -188,7 +188,7 @@ var timerData = [
 				},
 				{
 					title: "Missions 15-20",
-					time: "July 19 2021, 16:00",
+					time: "July 19 2021, 17:00",
 					type: "battle"
 				},
 				{
