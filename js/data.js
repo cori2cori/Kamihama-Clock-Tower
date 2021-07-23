@@ -338,6 +338,16 @@ var timerData = [
 				name: "Adjuster Coins Shop: Green - TV Anime 2nd Season Celebration", /*2021 9/26 14:59*/
 				start: "July 3 2021, 00:00",
 				end: "September 26 2021, 14:59"
+			},
+			{
+				name: "Mirrors Ranking - Limited-time Shop and Missions",
+				start: "July 19 2021, 17:00",
+				end: "August 2 2021, 14:59"
+			},
+			{
+				name: "Mirrors Ranking - Limited-time Shop and Missions",
+				start: "July 19 2021, 17:00",
+				end: "August 2 2021, 14:59"
 			}
         ]
     },
@@ -414,27 +424,6 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Pickup Gacha】",
-            "Satomi Nayuta Pickup Gacha"
-        ],
-        "image": [
-            "imgs/gachabanner_0691_m.png"
-        ],
-        "column": 1,
-        "priority": 75,
-        "timers": [
-            {
-                "name": "Duration",
-                "start": "June 11 2021, 16:00",
-                "end": "June 21 2021, 14:59",
-                "extraPriority": 10,
-				keepAfterFinished: "9 hours"
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
 			"【Gacha】",
             "Choose Your 4* Memoria Selection Gacha"
         ],
@@ -457,27 +446,6 @@ var timerData = [
 					type: "star"
 				}
 				]
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"【Limited-time Gacha】",
-            "Nanami Yachiyo (Tanabata ver.) Pickup Gacha"
-        ],
-        "image": [
-            "imgs/gachabanner_0699_m.png"
-        ],
-        "column": 1,
-        "priority": 73,
-        "timers": [
-            {
-                "name": "Duration",
-                "start": "June 28 2021, 16:00",
-                "end": "July 12 2021, 14:59",
-                "extraPriority": 10,
-				keepAfterFinished: "9 hours"
             }
         ]
     },
@@ -528,6 +496,29 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
+			"【Limited-time Gacha Rerun】",
+            "The Ephemeral Summer Night Pickup Gacha",
+			"SamaTore! Pickup Gacha"
+        ],
+        "image": [
+            "imgs/gachabanner_0724_m.png",
+			"imgs/gachabanner_0725_m.png"
+        ],
+        "column": 1,
+        "priority": 70,
+        "timers": [
+            {
+                "name": "Duration",
+                "start": "July 26 2021, 16:00",
+                "end": "August 10 2021, 14:59",
+                "extraPriority": 10,
+				keepAfterFinished: "9 hours"
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
 			"【Paid Gacha】",
             "2018 4★ Swimsuit Magical Girl Guaranteed Gacha"
         ],
@@ -541,6 +532,27 @@ var timerData = [
                 "name": "Duration",
                 "start": "July 12 2021, 16:00",
                 "end": "July 26 2021, 14:59",
+                "extraPriority": 10,
+				keepAfterFinished: "9 hours"
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【Paid Gacha】",
+            "2019 4★ Swimsuit Magical Girl Guaranteed Gacha"
+        ],
+        "image": [
+            "imgs/gachabanner_0726_m.png"
+        ],
+        "column": 1,
+        "priority": 70,
+        "timers": [
+            {
+                "name": "Duration",
+                "start": "July 26 2021, 16:00",
+                "end": "August 10 2021, 14:59",
                 "extraPriority": 10,
 				keepAfterFinished: "9 hours"
             }
