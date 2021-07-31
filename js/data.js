@@ -154,6 +154,26 @@ var timerData = [
         ]
     },
 	{
+		type: "Event",
+		title: [
+			"【Campaign】",
+			"Anime Countdown Login Bonus"
+		],
+		"image": [
+			"imgs/banner_0497_m.png"
+		],
+		column: 0,
+		priority: 32,
+		timers: [
+		{
+			name: "Bonus Period",
+			start: "July 26 2021, 00:00",
+			end: "August 1 2021, 23:59",
+			extraPriority: 10
+		}
+		]
+	},
+	{
         "type": "Event",
         "title": [
 			"【Campaign】",
@@ -163,7 +183,7 @@ var timerData = [
             "imgs/banner_0492_m.png"
         ],
         "column": 0,
-        "priority": 33,
+        "priority": 31,
         "timers": [
             {
                 "name": "Duration",
