@@ -228,6 +228,69 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
+			"【Campaign】",
+            "Saturday and Sunday Awakening-Strengthening Quests",
+			"Limited-time Missions"
+        ],
+        "image": [
+            "imgs/banner_0498_m.png"
+        ],
+        "column": 0,
+        "priority": 31,
+        "timers": [
+            {
+                "name": "Weekend 1 - Iroha",
+                "start": "July 31 2021, 00:00",
+                "end": "August 1 2021, 23:59",
+                "extraPriority": 10
+            },
+			{
+                "name": "Weekend 2 - Yachiyo",
+                "start": "August 7 2021, 00:00",
+                "end": "August 8 2021, 23:59",
+                "extraPriority": 10
+            },
+			{
+                "name": "Weekend 3 - Defeat 30 Enemies",
+                "start": "August 14 2021, 00:00",
+                "end": "August 15 2021, 23:59",
+                "extraPriority": 10
+            },
+			{
+                "name": "Weekend 4 - Tsuruno",
+                "start": "August 21 2021, 00:00",
+                "end": "August 22 2021, 23:59",
+                "extraPriority": 10
+            },
+			{
+                "name": "Weekend 5 - Defeat 30 Enemies",
+                "start": "August 28 2021, 00:00",
+                "end": "August 29 2021, 23:59",
+                "extraPriority": 10
+            },
+			{
+                "name": "Weekend 6 - Felicia",
+                "start": "September 4 2021, 00:00",
+                "end": "September 5 2021, 23:59",
+                "extraPriority": 10
+            },
+			{
+                "name": "Weekend 7 - Sana",
+                "start": "September 11 2021, 00:00",
+                "end": "September 12 2021, 23:59",
+                "extraPriority": 10
+            },
+			{
+                "name": "Weekend 8 - Defeat 30 Enemies",
+                "start": "September 18 2021, 00:00",
+                "end": "September 19 2021, 23:59",
+                "extraPriority": 10
+            }
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
 			"【Event】",
             "Extermination Battle: Witches' Paradox",
 			"Main Story Arc 2 Chapter 6 Release"
@@ -368,6 +431,11 @@ var timerData = [
 				name: "Adjuster Coin Shop: Water - 2019 Swimsuit Banners",
 				start: "July 26 2021, 16:00",
 				end: "August 17 2021, 14:59"
+			},
+			{
+				name: "Limited-time Daily Missions",
+				start: "July 26 2021, 00:00",
+				end: "September 19 2021, 23:59"
 			},
 			{
 				name: "Adjuster Coin Shop: Blue - Miki Sayaka (Surfing ver.) Pickup Gacha",
