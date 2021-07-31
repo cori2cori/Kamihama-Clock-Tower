@@ -249,7 +249,7 @@ var timerData = [
                 "start": "August 7 2021, 00:00",
                 "end": "August 8 2021, 23:59",
                 "extraPriority": 10
-            },
+            }/*,
 			{
                 "name": "Weekend 3 - Defeat 30 Enemies",
                 "start": "August 14 2021, 00:00",
@@ -285,7 +285,7 @@ var timerData = [
                 "start": "September 18 2021, 00:00",
                 "end": "September 19 2021, 23:59",
                 "extraPriority": 10
-            }
+            }*/
         ]
     },
 	{
