@@ -128,14 +128,15 @@ var vm = new Vue({
         },
 
         getMagiaStonesTimer : function(){
-            let nowMoment = moment.tz("Asia/Tokyo")
-            let month = nowMoment.format('MMMM')
+            let month = moment.tz("Asia/Tokyo").format('MMMM')
+            let momentTz = moment().tz("Asia/Tokyo")
+
             let n = {
                 name: "Monthly Magia Stones Shops - "+month,
-                start: moment().startOf('month').format("MMMM D YYYY, H:mm","Asia/Tokyo"),
-                end: moment().endOf('month').format("MMMM D YYYY, H:mm","Asia/Tokyo")
+                start: momentTz.startOf('month').format("MMMM D YYYY, H:mm","Asia/Tokyo"),
+                end: momentTz.endOf('month').format("MMMM D YYYY, H:mm","Asia/Tokyo")
             }
-            //console.log(n)
+            console.log(n)
             return n;
         },
 
