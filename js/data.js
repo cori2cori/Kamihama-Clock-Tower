@@ -124,29 +124,29 @@ var timerData = [
         "type": "Event",
         "title": [
 			"【Event】",
-            "The Call of the Open Sea"
+            "Night Fairytale ～You Were At the Water's Edge～ "
         ],
         "image": [
-            "imgs/banner_0493_m.png"
+            "imgs/banner_0501_m.png"
         ],
         "column": 0,
         "priority": 33,
         "timers": [
 			{
 				name: "Maintenance",
-				start: "July 12 2021, 15:00",
-				end: "July 12 2021, 15:59",
+				start: "July 30 2021, 15:00",
+				end: "July 30 2021, 18:59",
 				extraPriority: 10
 			},
             {
                 "name": "Main Event",
-                "start": "July 12 2021, 16:00",
-                "end": "July 26 2021, 14:59",
+                "start": "July 30 2021, 19:00",
+                "end": "August 10 2021, 14:59",
                 "extraPriority": 10,
 				"markers": [
 				{
-					title: "Second Part",
-					time: "July 19 2021, 17:00",
+					title: "Story Quests 11~20 & 100Evil",
+					time: "August 4 2021, 16:00",
 					type: "battle"
 				}
 				]
@@ -345,38 +345,22 @@ var timerData = [
 				end: "August 2 2021, 14:59"
 			},
 			{
-				name: "Mirrors Ranking - Limited-time Shop and Missions",
-				start: "July 19 2021, 17:00",
-				end: "August 2 2021, 14:59"
+				name: "Adjuster Coin Shop: Water - 2019 Swimsuit Banners",
+				start: "July 26 2021, 16:00",
+				end: "August 17 2021, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Blue - Miki Sayaka (Surfing ver.) Pickup Gacha",
+				start: "July 30 2021, 19:00",
+				end: "August 17 2021, 14:59"
+			},
+			{
+				name: "Night Fairytale: Limited-time Shop and Missions",
+				start: "July 30 2021, 19:00",
+				end: "August 17 2021, 14:59"
 			}
         ]
     },
-	{
-		type: "Other",
-		title: [
-		"【Premium Bundle】",
-		"1400 Days since Release Commemorative Bags"
-		],
-		image: [
-            "imgs/banner_0489_m.png"
-        ],
-		column: 2,
-		priority: 9,
-		timers: [
-		{
-			name: "Sales period",
-			start: "June 11 2021, 16:00",
-			end: "June 28 2021, 14:59",
-			keepAfterFinished: "9 hours"
-		},
-		{
-			name: "4★ Magical Girl & Memoria Selection Tickets Exchange",
-			start: "June 11 2021, 16:00",
-			end: "July 5 2021, 14:59",
-			keepAfterFinished: "9 hours"
-		}
-		]
-	},
 	{
 		type: "Other",
 		title: [
@@ -453,18 +437,18 @@ var timerData = [
         "type": "Gacha",
         "title": [
 			"【Limited-time Gacha】",
-            "Momoko and Mitama (Mermaid ver.) Pickup Gacha"
+            "Night Fairytale - Miki Sayaka (Surfing ver.) Pickup Gacha"
         ],
         "image": [
-            "imgs/gachabanner_0711_m.png"
+            "imgs/gachabanner_0731_m.png"
         ],
         "column": 1,
         "priority": 72,
         "timers": [
             {
                 "name": "Duration",
-                "start": "July 12 2021, 16:00",
-                "end": "July 26 2021, 14:59",
+                "start": "July 30 2021, 19:00",
+                "end": "August 10 2021, 14:59",
                 "extraPriority": 10,
 				keepAfterFinished: "9 hours"
             }
