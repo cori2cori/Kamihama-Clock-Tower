@@ -249,13 +249,13 @@ var timerData = [
                 "start": "August 7 2021, 00:00",
                 "end": "August 8 2021, 23:59",
                 "extraPriority": 10
-            }/*,
+            },
 			{
                 "name": "Weekend 3 - Defeat 30 Enemies",
                 "start": "August 14 2021, 00:00",
                 "end": "August 15 2021, 23:59",
                 "extraPriority": 10
-            },
+            }/*,
 			{
                 "name": "Weekend 4 - Tsuruno",
                 "start": "August 21 2021, 00:00",
