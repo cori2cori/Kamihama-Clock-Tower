@@ -168,7 +168,7 @@ var timerData = [
 			{
 				name: "Maintenance",
 				start: "August 10 2021, 15:00",
-				end: "August 30 2021, 16:00",
+				end: "August 10 2021, 16:00",
 				extraPriority: 10
 			},
             {
