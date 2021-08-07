@@ -194,7 +194,7 @@ var timerData = [
 		],
 		"image": [
 			"imgs/banner_1030700_m.png",
-			"imgs/banner_0490_m.png"
+			"imgs/banner_0359_m.png"
 		],
 		column: 0,
 		priority: 29,
