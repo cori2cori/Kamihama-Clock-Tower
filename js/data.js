@@ -154,21 +154,55 @@ var timerData = [
         ]
     },
 	{
+        "type": "Event",
+        "title": [
+			"【Event】",
+            "Please Yuna-san ～Leave your worries to your eldest daughter～"
+        ],
+        "image": [
+            "imgs/banner_0499_m.png"
+        ],
+        "column": 0,
+        "priority": 30,
+        "timers": [
+			{
+				name: "Maintenance",
+				start: "August 10 2021, 15:00",
+				end: "August 30 2021, 16:00",
+				extraPriority: 10
+			},
+            {
+                "name": "Main Event",
+                "start": "August 10 2021, 16:00",
+                "end": "August 21 2021, 14:59",
+                "extraPriority": 10,
+				"markers": [
+				{
+					title: "Story Quests 11~20 & 100Evil",
+					time: "August 16 2021, 17:00",
+					type: "battle"
+				}
+				]
+            }
+        ]
+    },
+	{
 		type: "Event",
 		title: [
 			"【Campaign】",
-			"Anime Countdown Login Bonus"
+			"New Chapter Release & Campaign"
 		],
 		"image": [
-			"imgs/banner_0497_m.png"
+			"imgs/banner_1030700_m.png",
+			"imgs/banner_0490_m.png"
 		],
 		column: 0,
-		priority: 32,
+		priority: 29,
 		timers: [
 		{
-			name: "Bonus Period",
-			start: "July 26 2021, 00:00",
-			end: "August 1 2021, 23:59",
+			name: "Campaign Period",
+			start: "August 10 2021, 16:00",
+			end: "August 21 2021, 23:59",
 			extraPriority: 10
 		}
 		]
@@ -236,7 +270,7 @@ var timerData = [
             "imgs/banner_0498_m.png"
         ],
         "column": 0,
-        "priority": 31,
+        "priority": 25,
         "timers": [
             {
                 "name": "Weekend 1 - Iroha",
@@ -371,30 +405,6 @@ var timerData = [
 				end: "July 31 2021, 23:59"
 			},*/
 			{
-				name: "1400 Days Since Release - Medal Shop",
-				start: "June 11 2021, 17:00",
-				end: "July 5 2021, 14:59",
-				keepAfterFinished: "9 hours"
-			},
-			{
-				"name": "Adjuster Coins Shop: Brown - Choose your 4★ Memoria Selection Gacha",
-				"start": "June 11 2021, 16:00",
-				"end": "July 5 2021, 14:59",
-				keepAfterFinished: "9 hours"
-			},
-			{
-				"name": "Adjuster Coins Shop: Blue - Nanami Yachiyo (Tanabata ver.) Pickup Gacha",
-				"start": "June 28 2021, 16:00",
-				"end": "July 19 2021, 14:59",
-				keepAfterFinished: "9 hours"
-			},
-			{
-				"name": "The Legendary Story of the Paper Mulberry Leaf - Event Shop and Missions",
-				"start": "June 28 2021, 16:00",
-				"end": "July 19 2021, 14:59",
-				keepAfterFinished: "9 hours"
-			},
-			{
 				"name": "Swimsuit Costume Tickets - Exchange Shop",
 				"start": "June 28 2021, 16:00",
 				"end": "August 13 2021, 14:59",
@@ -446,6 +456,16 @@ var timerData = [
 				name: "Night Fairytale: Limited-time Shop and Missions",
 				start: "July 30 2021, 19:00",
 				end: "August 17 2021, 14:59"
+			},
+			{
+				name: "Please Yuna-san: Limited-time Shop and Missions",
+				start: "August 10 2021, 16:00",
+				end: "August 28 2021, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Red - Kureha Yuna Pickup Gacha",
+				start: "August 10 2021, 16:00",
+				end: "August 28 2021, 14:59"
 			}
         ]
     },
@@ -625,6 +645,27 @@ var timerData = [
                 "name": "Duration",
                 "start": "July 26 2021, 16:00",
                 "end": "August 10 2021, 14:59",
+                "extraPriority": 10,
+				keepAfterFinished: "9 hours"
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【Pickup Gacha】",
+            "Kureha Yuna Pickup Gacha"
+        ],
+        "image": [
+            "imgs/gachabanner_0739_m.png"
+        ],
+        "column": 1,
+        "priority": 70,
+        "timers": [
+            {
+                "name": "Duration",
+                "start": "August 10 2021, 16:00",
+                "end": "August 21 2021, 14:59",
                 "extraPriority": 10,
 				keepAfterFinished: "9 hours"
             }
