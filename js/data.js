@@ -612,18 +612,18 @@ var timerData = [
         "type": "Gacha",
         "title": [
 			"【Paid Gacha】",
-            "2018 4★ Swimsuit Magical Girl Guaranteed Gacha"
+            "Promised Blood 4★ Magical Girl Guaranteed Gacha"
         ],
         "image": [
-            "imgs/gachabanner_0715_m.png"
+            "imgs/gachabanner_0740_m.png"
         ],
         "column": 1,
-        "priority": 70,
+        "priority": 69,
         "timers": [
             {
                 "name": "Duration",
-                "start": "July 12 2021, 16:00",
-                "end": "July 26 2021, 14:59",
+                "start": "August 10 2021, 16:00",
+                "end": "August 21 2021, 14:59",
                 "extraPriority": 10,
 				keepAfterFinished: "9 hours"
             }
