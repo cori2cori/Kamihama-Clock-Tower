@@ -289,13 +289,13 @@ var timerData = [
                 "start": "August 14 2021, 00:00",
                 "end": "August 15 2021, 23:59",
                 "extraPriority": 10
-            }/*,
+            },
 			{
                 "name": "Weekend 4 - Tsuruno",
                 "start": "August 21 2021, 00:00",
                 "end": "August 22 2021, 23:59",
                 "extraPriority": 10
-            },
+            }/*,,
 			{
                 "name": "Weekend 5 - Defeat 30 Enemies",
                 "start": "August 28 2021, 00:00",
@@ -714,7 +714,7 @@ var timerData = [
 		column: 1,
 		priority: 75,
 		timers: [
-			{
+			/*{
 				name: "Free roll 1",
 				date: "July 3 2021",
 				days: "1"
@@ -774,7 +774,7 @@ var timerData = [
 				name: "Free roll 12",
 				date: "August 8 2021",
 				days: "1"
-			},
+			},*/
 			{
 				name: "Free roll 13",
 				date: "August 14 2021",
