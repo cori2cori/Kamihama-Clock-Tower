@@ -148,6 +148,11 @@ var timerData = [
 					title: "Story Quests 11~20 & 100Evil",
 					time: "August 4 2021, 16:00",
 					type: "battle"
+				},
+				{
+					title: "Special Login Story",
+					time: "August 10 2021, 0:00",
+					type: "story"
 				}
 				]
             }
