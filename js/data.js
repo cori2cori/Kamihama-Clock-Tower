@@ -192,6 +192,26 @@ var timerData = [
         ]
     },
 	{
+        "type": "Event",
+        "title": [
+			"【Kimochi Battle】",
+            "Depressed Turquoise Ears Kimochi Battle"
+        ],
+        "image": [
+            "imgs/banner_0424_m.png"
+        ],
+        "column": 0,
+        "priority": 29,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "August 16 2021, 17:00",
+                "end": "August 21 2021, 15:59",
+                "extraPriority": 10
+			}
+				]
+    },
+	{
 		type: "Event",
 		title: [
 			"【Campaign】",
