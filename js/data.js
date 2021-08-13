@@ -201,7 +201,7 @@ var timerData = [
             "imgs/banner_0424_m.png"
         ],
         "column": 0,
-        "priority": 29,
+        "priority": 27,
         "timers": [
             {
                 "name": "Main Event",
@@ -302,7 +302,7 @@ var timerData = [
             "imgs/banner_0498_m.png"
         ],
         "column": 0,
-        "priority": 25,
+        "priority": 28,
         "timers": [
 			{
                 "name": "Weekend 3 - Defeat 30 Enemies",
