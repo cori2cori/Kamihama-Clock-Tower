@@ -207,7 +207,14 @@ var timerData = [
                 "name": "Main Event",
                 "start": "August 16 2021, 17:00",
                 "end": "August 21 2021, 15:59",
-                "extraPriority": 10
+                "extraPriority": 10,
+				"markers": [
+				{
+					title: "Part 2 - Group Battles",
+					time: "August 18 2021, 17:00",
+					type: "battle"
+				}
+				]
 			}
 				]
     },
@@ -297,53 +304,35 @@ var timerData = [
         "column": 0,
         "priority": 25,
         "timers": [
-            {
-                "name": "Weekend 1 - Iroha",
-                "start": "July 31 2021, 00:00",
-                "end": "August 1 2021, 23:59",
-                "extraPriority": 10
-            },
-			{
-                "name": "Weekend 2 - Yachiyo",
-                "start": "August 7 2021, 00:00",
-                "end": "August 8 2021, 23:59",
-                "extraPriority": 10
-            },
 			{
                 "name": "Weekend 3 - Defeat 30 Enemies",
                 "start": "August 14 2021, 00:00",
-                "end": "August 15 2021, 23:59",
-                "extraPriority": 10
+                "end": "August 15 2021, 23:59"
             },
 			{
                 "name": "Weekend 4 - Tsuruno",
                 "start": "August 21 2021, 00:00",
-                "end": "August 22 2021, 23:59",
-                "extraPriority": 10
-            }/*,,
+                "end": "August 22 2021, 23:59"
+            }/*,
 			{
                 "name": "Weekend 5 - Defeat 30 Enemies",
                 "start": "August 28 2021, 00:00",
-                "end": "August 29 2021, 23:59",
-                "extraPriority": 10
+                "end": "August 29 2021, 23:59"
             },
 			{
                 "name": "Weekend 6 - Felicia",
                 "start": "September 4 2021, 00:00",
-                "end": "September 5 2021, 23:59",
-                "extraPriority": 10
+                "end": "September 5 2021, 23:59"
             },
 			{
                 "name": "Weekend 7 - Sana",
                 "start": "September 11 2021, 00:00",
-                "end": "September 12 2021, 23:59",
-                "extraPriority": 10
+                "end": "September 12 2021, 23:59"
             },
 			{
                 "name": "Weekend 8 - Defeat 30 Enemies",
                 "start": "September 18 2021, 00:00",
-                "end": "September 19 2021, 23:59",
-                "extraPriority": 10
+                "end": "September 19 2021, 23:59"
             }*/
         ]
     },
@@ -491,6 +480,11 @@ var timerData = [
 				name: "Adjuster Coin Shop: Red - Kureha Yuna Pickup Gacha",
 				start: "August 10 2021, 16:00",
 				end: "August 28 2021, 14:59"
+			},
+			{
+				name: "Ad. Coin Shop: Purple - Little Kyubey & Iroha and Yachiyo Pickup Gachas",
+				start: "August 16 2021, 17:00",
+				end: "September 13 2021, 14:59"
 			}
         ]
     },
@@ -498,24 +492,18 @@ var timerData = [
 		type: "Other",
 		title: [
 		"【Paid Shop】",
-		"Mirrors Selection Pack & Mirrors Beginner Pack"
+		"Light Attribute Strengthening Pack"
 		],
 		image: [
-            "imgs/banner_0436_m.png"
+            "imgs/banner_0506_m.png"
         ],
 		column: 2,
 		priority: 8,
-		timers: [ /*7/5 17:00～7/12 14:59*/
+		timers: [ 
 		{
 			name: "Sales period",
-			start: "July 5 2021, 17:00",
-			end: "July 26 2021, 14:59",
-			keepAfterFinished: "9 hours"
-		},
-		{
-			name: "Ticket Exchange",
-			start: "July 5 2021, 17:00",
-			end: "August 2 2021, 14:59",
+			start: "August 16 2021, 17:00",
+			end: "August 21 2021, 14:59",
 			keepAfterFinished: "9 hours"
 		}
 		]
@@ -542,46 +530,39 @@ var timerData = [
         "type": "Gacha",
         "title": [
 			"【Gacha】",
-            "Choose Your 4* Memoria Selection Gacha"
+            "Light Attribute Pickup Gacha"
         ],
         "image": [
-            "imgs/gachabanner_0705_m.png"
+            "imgs/gachabanner_0747_m.png"
         ],
         "column": 1,
-        "priority": 60,
+        "priority": 67,
         "timers": [
             {
                 "name": "Duration",
-                "start": "July 19 2021, 17:00",
-                "end": "July 26 2021, 14:59",
+                "start": "August 16 2021, 17:00",
+                "end": "August 21 2021, 14:59",
                 "extraPriority": 10,
-				keepAfterFinished: "9 hours",
-				markers: [
-				{
-					title: "2nd Pool",
-					time: "July 23 2021, 15:00",
-					type: "star"
-				}
-				]
+				keepAfterFinished: "9 hours"
             }
         ]
     },
 	{
         "type": "Gacha",
         "title": [
-			"【Limited-time Gacha】",
-            "Night Fairytale - Miki Sayaka (Surfing ver.) Pickup Gacha"
+			"【Paid Gacha】",
+            "Limited-time Paid 4★ Light Attribute Magical Girl Guaranteed Gacha"
         ],
         "image": [
-            "imgs/gachabanner_0731_m.png"
+            "imgs/gachabanner_0748_m.png"
         ],
         "column": 1,
-        "priority": 72,
+        "priority": 66,
         "timers": [
             {
                 "name": "Duration",
-                "start": "July 30 2021, 19:00",
-                "end": "August 10 2021, 14:59",
+                "start": "August 16 2021, 17:00",
+                "end": "August 21 2021, 14:59",
                 "extraPriority": 10,
 				keepAfterFinished: "9 hours"
             }
@@ -591,43 +572,20 @@ var timerData = [
         "type": "Gacha",
         "title": [
 			"【Limited-time Gacha Rerun】",
-            "The Crescent Moon Manor's Summer Vacation Pickup Gacha",
-			"The Ribbon at the Beach Pickup Gacha"
+            "Lets go to Zen Shin Sai! - Little Kyubey Pickup Gacha",
+			"Iroha & Yachiyo (Final Battle ver.) Pickup Gacha"
         ],
         "image": [
-            "imgs/gachabanner_0714_m.png",
-			"imgs/gachabanner_0713_m.png"
+            "imgs/gachabanner_0749_m.png",
+			"imgs/gachabanner_0750_m.png"
         ],
         "column": 1,
-        "priority": 71,
+        "priority": 68,
         "timers": [
             {
                 "name": "Duration",
-                "start": "July 12 2021, 16:00",
-                "end": "July 26 2021, 14:59",
-                "extraPriority": 10,
-				keepAfterFinished: "9 hours"
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"【Limited-time Gacha Rerun】",
-            "The Ephemeral Summer Night Pickup Gacha",
-			"SamaTore! Pickup Gacha"
-        ],
-        "image": [
-            "imgs/gachabanner_0724_m.png",
-			"imgs/gachabanner_0725_m.png"
-        ],
-        "column": 1,
-        "priority": 70,
-        "timers": [
-            {
-                "name": "Duration",
-                "start": "July 26 2021, 16:00",
-                "end": "August 10 2021, 14:59",
+                "start": "August 16 2021, 17:00",
+                "end": "September 6 2021, 14:59",
                 "extraPriority": 10,
 				keepAfterFinished: "9 hours"
             }
@@ -700,31 +658,52 @@ var timerData = [
         type: "Event",
         title: [
 			"【Campaign】",
-            "1400 Days Since Release"
+            "4th Anniversary pre-campaign: 4th Anniversary Countdown Login Story"
         ],
         image: [
-			"imgs/banner_0488_m.png",
-			"imgs/banner_0490_m.png"
+			"imgs/banner_0505_m.png"
 		],
         column: 0,
-		priority: 35,
+		priority: 28,
         timers: [
             {
-                name: "Login Bonus",
-                start: "June 11 2021, 16:00",
-                end: "June 28 2021, 23:59",
-				extraPriority: 10
-            },
-			{
-				name: "1/2 AP, x2 Player EXP, 2x Support Points, 2x Great Success & Super Success",
-				start: "June 11 2021, 16:00",
-                end: "June 28 2021, 14:59"
-			},
-			{
-				name: "Guaranteed 4★ Magical Girl Ticket Exchange",
-				start: "June 17 2021, 00:00",
-				end: "July 5 2021, 23:59"
-			}
+                name: "Duration",
+                start: "August 18 2021, 0:00",
+                end: "September 6 2021, 23:59",
+				extraPriority: 10,
+				markers: [
+				{
+					title: "Episode 1",
+					time: "August 18 2021, 0:00",
+					type: "story"
+				},
+				{
+					title: "Episode 2",
+					time: "August 19 2021, 0:00",
+					type: "story"
+				},
+				{
+					title: "Episode 3",
+					time: "August 20 2021, 0:00",
+					type: "story"
+				},
+				{
+					title: "Episode 4",
+					time: "August 21 2021, 0:00",
+					type: "story"
+				},
+				{
+					title: "Episode 5",
+					time: "August 22 2021, 0:00",
+					type: "story"
+				},
+				{
+					title: "Archive Improvements",
+					time: "August 20 2021, 17:00",
+					type: "star"
+				}
+			]
+            }
         ]
     },
 	{
