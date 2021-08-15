@@ -203,6 +203,12 @@ var timerData = [
         "column": 0,
         "priority": 27,
         "timers": [
+			{
+				name: "Maintenance",
+				start: "August 16 2021, 15:00",
+				end: "August 16 2021, 17:00",
+				extraPriority: 10
+			},
             {
                 "name": "Main Event",
                 "start": "August 16 2021, 17:00",
