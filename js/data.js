@@ -201,7 +201,7 @@ var timerData = [
             "imgs/banner_0424_m.png"
         ],
         "column": 0,
-        "priority": 27,
+        "priority": 29,
         "timers": [
 			{
 				name: "Maintenance",
@@ -235,7 +235,7 @@ var timerData = [
 			"imgs/banner_0359_m.png"
 		],
 		column: 0,
-		priority: 29,
+		priority: 28,
 		timers: [
 		{
 			name: "Campaign Period",
