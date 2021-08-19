@@ -300,7 +300,8 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"【Server Maintenance】"
+			"【Server Maintenance】",
+			"APK Update 2.4.1"
         ],
         "image": [
             "maintenance"
@@ -329,11 +330,6 @@ var timerData = [
         "column": 0,
         "priority": 28,
         "timers": [
-			{
-                "name": "Weekend 3 - Defeat 30 Enemies",
-                "start": "August 14 2021, 00:00",
-                "end": "August 15 2021, 23:59"
-            },
 			{
                 "name": "Weekend 4 - Tsuruno",
                 "start": "August 21 2021, 00:00",
@@ -721,11 +717,6 @@ var timerData = [
 					title: "Episode 5",
 					time: "August 22 2021, 0:00",
 					type: "story"
-				},
-				{
-					title: "Archive Improvements",
-					time: "August 20 2021, 17:00",
-					type: "star"
 				}
 			]
             }
