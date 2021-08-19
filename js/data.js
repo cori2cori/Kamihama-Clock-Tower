@@ -300,6 +300,25 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
+			"【Server Maintenance】"
+        ],
+        "image": [
+            "maintenance"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+			{
+				name: "Duration",
+				start: "August 20 2021, 16:00",
+				end: "August 20 2021, 17:00",
+				extraPriority: 100
+			}
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
 			"【Campaign】",
             "Saturday and Sunday Awakening-Strengthening Quests",
 			"Limited-time Missions"
