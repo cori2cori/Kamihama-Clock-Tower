@@ -90,78 +90,6 @@ var timerData = [
         "type": "Event",
         "title": [
 			"【Event】",
-            "The Legendary Story of the Paper Mulberry Leaf",
-			"～These Shaking Feelings are Once Again Fascinating～"
-        ],
-        "image": [
-            "imgs/banner_0495_m.png"
-        ],
-        "column": 0,
-        "priority": 34,
-        "timers": [
-			{
-				name: "Maintenance",
-				start: "June 28 2021, 15:00",
-				end: "June 28 2021, 15:59",
-				extraPriority: 10
-			},
-            {
-                "name": "Main Event",
-                "start": "June 28 2021, 16:00",
-                "end": "July 12 2021, 14:59",
-                "extraPriority": 10,
-				"markers": [
-				{
-					title: "Story quests 11-20 & 100Evil I-III",
-					time: "July 5 2021, 17:00",
-					type: "battle"
-				}
-				]
-            }
-        ]
-    },
-	{
-        "type": "Event",
-        "title": [
-			"【Event】",
-            "Night Fairytale ～You Were At the Water's Edge～ "
-        ],
-        "image": [
-            "imgs/banner_0501_m.png"
-        ],
-        "column": 0,
-        "priority": 33,
-        "timers": [
-			{
-				name: "Maintenance",
-				start: "July 30 2021, 15:00",
-				end: "July 30 2021, 18:59",
-				extraPriority: 10
-			},
-            {
-                "name": "Main Event",
-                "start": "July 30 2021, 19:00",
-                "end": "August 10 2021, 14:59",
-                "extraPriority": 10,
-				"markers": [
-				{
-					title: "Story Quests 11~20 & 100Evil",
-					time: "August 4 2021, 16:00",
-					type: "battle"
-				},
-				{
-					title: "Special Login Story",
-					time: "August 10 2021, 0:00",
-					type: "story"
-				}
-				]
-            }
-        ]
-    },
-	{
-        "type": "Event",
-        "title": [
-			"【Event】",
             "Please Yuna-san ～Leave your worries to your eldest daughter～"
         ],
         "image": [
@@ -185,6 +113,33 @@ var timerData = [
 				{
 					title: "Story Quests 11~20 & 100Evil",
 					time: "August 16 2021, 17:00",
+					type: "battle"
+				}
+				]
+            }
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
+			"【Event】",
+            "The Great Banquet that Transcends Time "
+        ],
+        "image": [
+            "imgs/banner_0509_m.png"
+        ],
+        "column": 0,
+        "priority": 25,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "August 22 2021, 0:00",
+                "end": "September 6 2021, 14:59",
+                "extraPriority": 20,
+				"markers": [
+				{
+					title: "Story Quests 11~20 & 100Evil",
+					time: "August 30 2021, 16:00",
 					type: "battle"
 				}
 				]
@@ -245,6 +200,66 @@ var timerData = [
 		}
 		]
 	},
+	{
+		type: "Event",
+		title: [
+			"【Campaign】",
+			"4th Anniversary Campaigns"
+		],
+		"image": [
+			"imgs/banner_0503_m.png",
+			"imgs/banner_0513_m.png"
+		],
+		column: 0,
+		priority: 24,
+		timers: [
+		{
+			name: "4th Anniversary Login Bonus & Limited-time Daily Missions",
+			start: "August 22 2021, 0:00",
+			end: "September 6 2021, 23:59",
+			extraPriority: 20
+		},
+		{
+			name: "1/2 AP, x2 EXP, x2 SP, x2 Great & Super Success Rate & x2 Mirrors Coins",
+			start: "August 22 2021, 0:00",
+			end: "September 6 2021, 14:59",
+			extraPriority: 20
+		},
+		{
+			name: "Addition of Limited-time memoriae to the SP shop",
+			start: "August 22 2021, 0:00",
+			end: "September 30 2021, 23:59",
+			extraPriority: 20
+		}
+		]
+	},
+	{
+		type: "Event",
+		title: [
+			"【Campaign】",
+			"Tamaki Iroha Birthday Celebration"
+		],
+		"image": [
+			"imgs/banner_0504_m.png"
+		],
+		column: 0,
+		priority: 25,
+		timers: [
+		{
+			name: "Campaign Period",
+			start: "August 22 2021, 0:00",
+			end: "September 13 2021, 14:59",
+			extraPriority: 20
+		},
+		{
+			name: "Guaranteed Unlimited 4★ Magical Girl Ticket Exchange",
+			start: "August 22 2021, 0:00",
+			end: "September 13 2021, 14:59",
+			extraPriority: 20
+		},
+		]
+	},
+		
 	{
         "type": "Event",
         "title": [
@@ -440,29 +455,6 @@ var timerData = [
 				end: "July 31 2021, 23:59"
 			},*/
 			{
-				"name": "Swimsuit Costume Tickets - Exchange Shop",
-				"start": "June 28 2021, 16:00",
-				"end": "August 13 2021, 14:59",
-				keepAfterFinished: "9 hours"
-			},
-			{
-				"name": "The Call of the Open Sea - Event Shop and Missions",
-				"start": "July 12 2021, 16:00",
-				"end": "August 2 2021, 14:59",
-				keepAfterFinished: "9 hours"
-			},
-			{
-				"name": "Adjuster's Coins Shop: Black - Summer Limited-time Gachas",
-				"start": "July 12 2021, 16:00",
-				"end": "August 2 2021, 14:59",
-				keepAfterFinished: "9 hours"
-			},
-			{
-				name: "A. C. Shop: Yellow-Green - Choose your 4★ Memoria Selection Gacha",
-				start: "July 19 2021, 17:00",
-				end: "August 2 2021, 14:59"
-			},
-			{
 				name: "Adjuster Coins Shop: Green - TV Anime 2nd Season Celebration", /*2021 9/26 14:59*/
 				start: "July 3 2021, 00:00",
 				end: "September 26 2021, 14:59"
@@ -506,6 +498,31 @@ var timerData = [
 				name: "Ad. Coin Shop: Purple - Little Kyubey & Iroha and Yachiyo Pickup Gachas",
 				start: "August 16 2021, 17:00",
 				end: "September 13 2021, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Navy Blue - Choose your 4★ Memoria Selection Gacha",
+				start: "August 22 2021, 0:00",
+				end: "September 13 2021, 14:59"
+			},
+			{
+				name: "Adj. Coin Shop: Brown - Choose your 4★ Magical Girl Pickup Gacha",
+				start: "August 22 2021, 0:00",
+				end: "September 13 2021, 14:59"
+			},
+			{
+				name: "Adj. Coin Shop: Orange - Choose your 4★ Madoka☆Magica Magical Girl Pickup Gacha",
+				start: "August 22 2021, 0:00",
+				end: "September 13 2021, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Peach - Madoka·Iroha Pickup Gacha",
+				start: "August 22 2021, 0:00",
+				end: "September 13 2021, 14:59"
+			},
+			{
+				name: "4th Anniversary Medal Shop",
+				start: "August 22 2021, 0:00",
+				end: "September 13 2021, 14:59"
 			}
         ]
     },
@@ -524,8 +541,58 @@ var timerData = [
 		{
 			name: "Sales period",
 			start: "August 16 2021, 17:00",
-			end: "August 21 2021, 14:59",
-			keepAfterFinished: "9 hours"
+			end: "August 21 2021, 14:59"
+		}
+		]
+	},
+	{
+		type: "Other",
+		title: [
+		"【Paid Bundles】",
+		"4th Anniversary Lucky Bags"
+		],
+		image: [
+            "imgs/banner_0510_m.png",
+			"imgs/banner_0511_m.png"
+        ],
+		column: 2,
+		priority: 7,
+		timers: [ 
+		{
+			name: "Sales period",
+			start: "August 22 2021, 0:00",
+			end: "September 6 2021, 14:59"
+		},
+		{
+			name: "Tickets Exchange",
+			start: "August 22 2021, 0:00",
+			end: "September 13 2021, 14:59"
+		}
+		]
+	},
+	{
+		type: "Other",
+		title: [
+		"【Sales】",
+		"4th Anniversary Magia Stones Special Bundles",
+		"Daily Magia Stones Bundle with Bonus"
+		],
+		image: [
+            "imgs/banner_0129_m.png",
+			"imgs/banner_0514_m.png"
+        ],
+		column: 2,
+		priority: 6,
+		timers: [ 
+		{
+			name: "Magia Stones Special Bundles Sales",
+			start: "August 22 2021, 0:00",
+			end: "August 31 2021, 23:59"
+		},
+		{
+			name: "Daily Magia Stones Bundle with Bonus Sales",
+			start: "September 1 2021, 0:00",
+			end: "September 6 2021, 23:59"
 		}
 		]
 	},
@@ -563,8 +630,7 @@ var timerData = [
                 "name": "Duration",
                 "start": "August 16 2021, 17:00",
                 "end": "August 21 2021, 14:59",
-                "extraPriority": 10,
-				keepAfterFinished: "9 hours"
+                "extraPriority": 10
             }
         ]
     },
@@ -584,8 +650,7 @@ var timerData = [
                 "name": "Duration",
                 "start": "August 16 2021, 17:00",
                 "end": "August 21 2021, 14:59",
-                "extraPriority": 10,
-				keepAfterFinished: "9 hours"
+                "extraPriority": 10
             }
         ]
     },
@@ -628,8 +693,7 @@ var timerData = [
                 "name": "Duration",
                 "start": "August 10 2021, 16:00",
                 "end": "August 21 2021, 14:59",
-                "extraPriority": 10,
-				keepAfterFinished: "9 hours"
+                "extraPriority": 10
             }
         ]
     },
@@ -670,8 +734,87 @@ var timerData = [
                 "name": "Duration",
                 "start": "August 10 2021, 16:00",
                 "end": "August 21 2021, 14:59",
-                "extraPriority": 10,
-				keepAfterFinished: "9 hours"
+                "extraPriority": 10
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【Limited-time Gacha】",
+            "4th Anniversary Choose your 4★ Memoria Selection Gacha"
+        ],
+        "image": [
+            "imgs/gachabanner_0757_m.png"
+        ],
+        "column": 1,
+        "priority": 64,
+        "timers": [
+            {
+                "name": "Duration",
+                "start": "August 22 2021, 0:00",
+                "end": "September 6 2021, 23:59",
+                "extraPriority": 20
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【Limited-time Gacha】",
+            "4th Anniversary Choose your 4★ Magical Girl Pickup Gacha"
+        ],
+        "image": [
+            "imgs/gachabanner_0756_m.png"
+        ],
+        "column": 1,
+        "priority": 63,
+        "timers": [
+            {
+                "name": "Duration",
+                "start": "August 22 2021, 0:00",
+                "end": "September 6 2021, 23:59",
+                "extraPriority": 20
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【Limited-time Gacha】",
+            "Madoka·Iroha Pickup Gacha"
+        ],
+        "image": [
+            "imgs/gachabanner_0753_m.png"
+        ],
+        "column": 1,
+        "priority": 65,
+        "timers": [
+            {
+                "name": "Duration",
+                "start": "August 22 2021, 0:00",
+                "end": "September 6 2021, 23:59",
+                "extraPriority": 20
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"【Limited-time Gacha】",
+            "4th Anniversary Choose your 4★ Madoka☆Magica Magical Girl Pickup Gacha"
+        ],
+        "image": [
+            "imgs/gachabanner_0755_m.png"
+        ],
+        "column": 1,
+        "priority": 62,
+        "timers": [
+            {
+                "name": "Duration",
+                "start": "August 22 2021, 0:00",
+                "end": "September 6 2021, 23:59",
+                "extraPriority": 20
             }
         ]
     },
