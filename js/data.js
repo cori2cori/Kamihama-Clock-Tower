@@ -135,7 +135,7 @@ var timerData = [
                 "name": "Main Event",
                 "start": "August 22 2021, 0:00",
                 "end": "September 6 2021, 14:59",
-                "extraPriority": 20,
+                "extraPriority": 30,
 				"markers": [
 				{
 					title: "Story Quests 11~20 & 100Evil",
