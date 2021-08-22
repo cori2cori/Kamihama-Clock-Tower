@@ -349,12 +349,12 @@ var timerData = [
                 "name": "Weekend 4 - Tsuruno",
                 "start": "August 21 2021, 00:00",
                 "end": "August 22 2021, 23:59"
-            }/*,
+            },
 			{
                 "name": "Weekend 5 - Defeat 30 Enemies",
                 "start": "August 28 2021, 00:00",
                 "end": "August 29 2021, 23:59"
-            },
+            }/*,,
 			{
                 "name": "Weekend 6 - Felicia",
                 "start": "September 4 2021, 00:00",
