@@ -2,7 +2,7 @@ Vue.component("text-timer", {
     props: ["d_since_release", "t_to_next_ann", "t_to_next_anniv"],
     template: 
     `<h4>
-        <span class="timer-number">{{ dRelease }}</span> days since <span >Magia Record</span> released<span v-if="nextAnnVisible()">; <span class="timer-number">{{ tNextAnniv[0] }}</span> {{tNextAnniv[1]}} until 4th anniversary.</span></br>
+        <span class="timer-number">{{ dRelease }}</span> days since <span >Magia Record</span> released<span v-if="nextAnnVisible()">; <span class="timer-number">{{ tNextAnniv[0] }}</span> {{tNextAnniv[1]}} until 5th anniversary.</span></br>
         <span v-if="nextEvVisible()">We expect new announcements in <span class="timer-number">{{ tNextEv[0] }}</span> {{ tNextEv[1] }}</span></br>
     </h4>`/*`<h5>{{ d_since_release }}</h5>`*/,
     computed: {
