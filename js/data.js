@@ -129,13 +129,13 @@ var timerData = [
             "imgs/banner_0509_m.png"
         ],
         "column": 0,
-        "priority": 25,
+        "priority": 200,
         "timers": [
             {
                 "name": "Main Event",
                 "start": "August 22 2021, 0:00",
                 "end": "September 6 2021, 14:59",
-                "extraPriority": 30,
+                "extraPriority": 10,
 				"markers": [
 				{
 					title: "Story Quests 11~20 & 100Evil",
