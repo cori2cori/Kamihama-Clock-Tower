@@ -376,36 +376,28 @@ var timerData = [
         "type": "Event",
         "title": [
 			"【Event】",
-            "Extermination Battle: Witches' Paradox",
-			"Main Story Arc 2 Chapter 6 Release"
+            "Extermination Battle: Witches' Paradox"
         ],
         "image": [
-            "imgs/banner_0487_m.png",
-			"imgs/banner_1030600_m.png"
+            "imgs/extermination.png"
         ],
         "column": 0,
-        "priority": 35,
+        "priority": 27,
         "timers": [
-			{
-				name: "Maintenance",
-				start: "June 21 2021, 15:00",
-				end: "June 21 2021, 16:59",
-				extraPriority: 10
-			},
             {
                 "name": "Main Event",
-                "start": "June 21 2021, 17:00",
-                "end": "June 28 2021, 14:59",
+                "start": "September 6 2021, 17:00",
+                "end": "September 13 2021, 14:59",
                 "extraPriority": 10,
 				"markers": [
 				{
 					title: "Challenge Stage",
-					time: "June 23 2021, 16:00",
+					time: "September 8 2021, 16:00",
 					type: "battle"
 				},
 				{
 					title: "EX Challenge Stage",
-					time: "June 25 2021, 16:00",
+					time: "September 10 2021, 16:00",
 					type: "battle"
 				}
 				]
