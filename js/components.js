@@ -2,61 +2,50 @@ Vue.component("text-timer", {
     props: ["d_since_release", "t_to_next_ann", "t_to_next_anniv"],
     template: 
     `<h4>
-        <span class="timer-number">{{ dRelease }}</span> days since <span >Magia Record</span> released<span v-if="nextAnnVisible()">; <span class="timer-number">{{ tNextAnniv[0] }}</span> {{tNextAnniv[1]}} until 5th anniversary.</span></br>
-        <span v-if="nextEvVisible()">We expect new announcements in <span class="timer-number">{{ tNextEv[0] }}</span> {{ tNextEv[1] }}</span></br>
+        <span class="timer-number">{{ d_since_release }}</span> days since <span >Magia Record</span> released<span v-if="nextAnnVisible()">; <span v-html="tNext(t_to_next_anniv)"></span> until 5th anniversary.</span></br>
+        <span v-if="nextEvVisible()">We expect new announcements in <span class="timer-number">{{ tNext( t_to_next_ann) }}</span> {{ tNext( t_to_next_ann) }}</span></br>
     </h4>`/*`<h5>{{ d_since_release }}</h5>`*/,
-    computed: {
-        dRelease : function() {
-            return this.d_since_release
-        },
-        tNextEv : function() {
-            let time,format=null;
-            let array = this.t_to_next_ann;
-            if (array[0]>0){
-                time = array[0];
-                format = time == 1 ? "day" : "days";
-            }
-            else if (array[1]>0){
-                time = array[1];
-                format = time == 1 ? "hour" : "hours";
-            }
-            else if (array[2]>0){
-                time = array[2];
-                format = time == 1 ? "second" : "seconds";
-            }
-            else{
-                return "";
-            }
-            return [time, format]
-        },
-        tNextAnniv : function() {
-            let time,format=null;
-            let array = this.t_to_next_anniv;
-            if (array[0]>0){
-                time = array[0];
-                format = time == 1 ? "day" : "days";
-            }
-            else if (array[1]>0){
-                time = array[1];
-                format = time == 1 ? "hour" : "hours";
-            }
-            else if (array[2]>0){
-                time = array[2];
-                format = time == 1 ? "second" : "seconds";
-            }
-            else{
-                return "";
-            }
-            return [time, format]
-        }
-    },
+ 
     methods: {
+        tNext : function( seconds ){
+            let time, format, output=null;
+
+            if (seconds>86400){
+                time = Math.floor(seconds/86400);
+                format = time == 1 ? "day" : "days";
+                output = "<span class=\"timer-number\">"+time+" </span>"+format+" ";
+                time = Math.floor(seconds/3600)%24;
+                format = time == 1 ? "hour" : "hours";
+                output += "<span class=\"timer-number\">"+time+" </span>"+format+" ";
+            }
+            else if (seconds>3600){
+                time = Math.floor(seconds/3600)%24;
+                format = time == 1 ? "hour" : "hours";
+                output += "<span class=\"timer-number\">"+time+" </span>"+format+" ";
+                time = Math.floor(seconds/60)%60;
+                format = time == 1 ? "minute" : "minutes";
+                output += "<span class=\"timer-number\">"+time+" </span>"+format+" ";
+            }
+            else if (seconds>60){
+                time = Math.floor(seconds/60)%60;
+                format = time == 1 ? "minute" : "minutes";
+                output += "<span class=\"timer-number\">"+time+" </span>"+format+" ";
+                time = seconds%60;
+                format = time == 1 ? "second" : "seconds";
+                output += "<span class=\"timer-number\">"+time+" </span>"+format+" ";
+            }
+            else{
+                time = seconds%60;
+                format = time == 1 ? "second" : "seconds";
+                output += "<span class=\"timer-number\">"+time+" </span>"+format+" ";
+            }
+            return output;
+        },
         nextEvVisible : function() { 
-            //console.log(this.t_to_next_ann, this.t_to_next_ann[0], this.t_to_next_ann[1], this.t_to_next_ann[2])
-            return this.t_to_next_ann[2]>0;
+            return this.t_to_next_ann>0;
         },
         nextAnnVisible : function() { 
-            return this.t_to_next_anniv[2]>0;
+            return this.t_to_next_anniv>0;
         }
     }
 });

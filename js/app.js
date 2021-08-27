@@ -136,7 +136,7 @@ var vm = new Vue({
                 start: momentTz.startOf('month').format("MMMM D YYYY, H:mm","Asia/Tokyo"),
                 end: momentTz.endOf('month').format("MMMM D YYYY, H:mm","Asia/Tokyo")
             }
-            console.log(n)
+            //console.log(n)
             return n;
         },
 
@@ -376,8 +376,8 @@ var vm = new Vue({
             let nowMoment = moment.tz("Asia/Tokyo");
             //console.log(this.d_since_release, this.t_to_next_ann);
             this.d_since_release = nowMoment.diff(release,"days");
-            this.t_to_next_ann = [ nextAnnounc.diff(nowMoment,"days"), nextAnnounc.diff(nowMoment,"hours"),  nextAnnounc.diff(nowMoment,"seconds") ];
-            this.t_to_anniv = [ nextAnniv.diff(nowMoment,"days"), nextAnniv.diff(nowMoment,"hours"),  nextAnniv.diff(nowMoment,"seconds") ];
+            this.t_to_next_ann = nextAnnounc.diff(nowMoment,"seconds");
+            this.t_to_anniv = nextAnniv.diff(nowMoment,"seconds") ;
 
         },
 
