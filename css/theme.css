@@ -11,7 +11,7 @@
 		bottom: 1%;
 		right: 2%;
 		opacity: 0.4;
-		z-index: 10;
+		z-index: 80;
 		width:min-content;
 	}
 	#theme-switcher:hover {
