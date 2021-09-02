@@ -57,7 +57,7 @@ body {
     position: fixed;
     bottom: 1%;
     left: 2%;
-    z-index: 9;
+    z-index: 90;
     /*padding-right: 100px;*/
 }
 
