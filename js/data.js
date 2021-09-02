@@ -89,33 +89,20 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"【Event】",
-            "Please Yuna-san ～Leave your worries to your eldest daughter～"
+			"【Broadcast Event】",
+            "Magia Day 2021"
         ],
         "image": [
-            "imgs/banner_0499_m.png"
+            "imgs/banner_0507_m.png"
         ],
         "column": 0,
-        "priority": 30,
+        "priority": 20,
         "timers": [
-			{
-				name: "Maintenance",
-				start: "August 10 2021, 15:00",
-				end: "August 10 2021, 16:00",
-				extraPriority: 10
-			},
             {
-                "name": "Main Event",
-                "start": "August 10 2021, 16:00",
-                "end": "August 21 2021, 14:59",
-                "extraPriority": 10,
-				"markers": [
-				{
-					title: "Story Quests 11~20 & 100Evil",
-					time: "August 16 2021, 17:00",
-					type: "battle"
-				}
-				]
+                "name": "Available Online:",
+                "start": "September 12 2021, 17:00",
+                "end": "September 19 2021, 23:59",
+                "extraPriority": 10
             }
         ]
     },
@@ -354,7 +341,7 @@ var timerData = [
                 "name": "Weekend 5 - Defeat 30 Enemies",
                 "start": "August 28 2021, 00:00",
                 "end": "August 29 2021, 23:59"
-            }/*,,
+            },
 			{
                 "name": "Weekend 6 - Felicia",
                 "start": "September 4 2021, 00:00",
@@ -364,7 +351,7 @@ var timerData = [
                 "name": "Weekend 7 - Sana",
                 "start": "September 11 2021, 00:00",
                 "end": "September 12 2021, 23:59"
-            },
+            }/*,
 			{
                 "name": "Weekend 8 - Defeat 30 Enemies",
                 "start": "September 18 2021, 00:00",
