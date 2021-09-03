@@ -363,20 +363,35 @@ var timerData = [
         "type": "Event",
         "title": [
 			"【Event】",
-            "Extermination Battle: Witches' Paradox"
+            "Extermination Battle: Witches' Paradox",
+			"Midori Ryou 5★ Uncap & Doppel Release",
+			"Arc 2 Chapter 4 Voiced & Challenge Mode Release"
         ],
         "image": [
-            "imgs/extermination.png"
+            "imgs/extermination.png",
+			"imgs/banner_0516_m.png",
+			"imgs/banner_0508_m.png"
         ],
         "column": 0,
         "priority": 27,
         "timers": [
+			{
+				name: "Maintenance",
+				start: "September 6 2021, 15:00",
+				end: "September 6 2021, 17:00",
+				extraPriority: 10
+			},
             {
                 "name": "Main Event",
                 "start": "September 6 2021, 17:00",
                 "end": "September 13 2021, 14:59",
                 "extraPriority": 10,
 				"markers": [
+				{
+					title: "Ryou 5★ uncap & Doppel Release, Arc 2 Ch 4 Voices & Challenge Release",
+					time: "September 6 2021, 17:00",
+					type: "star"
+				},
 				{
 					title: "Challenge Stage",
 					time: "September 8 2021, 16:00",
@@ -509,18 +524,18 @@ var timerData = [
 		type: "Other",
 		title: [
 		"【Paid Shop】",
-		"Light Attribute Strengthening Pack"
+		"Mitama's special deal in occasion of the Extermination Battle"
 		],
 		image: [
-            "imgs/banner_0506_m.png"
+            "imgs/banner_0491_m.png"
         ],
 		column: 2,
-		priority: 8,
+		priority: 5,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "August 16 2021, 17:00",
-			end: "August 21 2021, 14:59"
+			start: "September 6 2021, 17:00",
+			end: "September 13 2021, 14:59"
 		}
 		]
 	},
@@ -596,19 +611,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Gacha】",
-            "Light Attribute Pickup Gacha"
+			"【Memoria Gacha】",
+            "Choose your 4★ Memoria Selection Gacha"
         ],
         "image": [
-            "imgs/gachabanner_0747_m.png"
+            "imgs/gachabanner_0769_m.png"
         ],
         "column": 1,
-        "priority": 67,
+        "priority": 60,
         "timers": [
             {
                 "name": "Duration",
-                "start": "August 16 2021, 17:00",
-                "end": "August 21 2021, 14:59",
+                "start": "September 6 2021, 17:00",
+                "end": "September 13 2021, 14:59",
                 "extraPriority": 10
             }
         ]
