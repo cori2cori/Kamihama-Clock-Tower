@@ -787,7 +787,7 @@ var timerData = [
             {
                 "name": "Duration",
                 "start": "August 22 2021, 0:00",
-                "end": "September 6 2021, 23:59",
+                "end": "September 6 2021, 14:59",
                 "extraPriority": 20
             }
         ]
@@ -807,7 +807,7 @@ var timerData = [
             {
                 "name": "Duration",
                 "start": "August 22 2021, 0:00",
-                "end": "September 6 2021, 23:59",
+                "end": "September 6 2021, 14:59",
                 "extraPriority": 20
             }
         ]
