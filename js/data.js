@@ -373,7 +373,7 @@ var timerData = [
 			"imgs/banner_0508_m.png"
         ],
         "column": 0,
-        "priority": 27,
+        "priority": 40,
         "timers": [
 			{
 				name: "Maintenance",
@@ -666,8 +666,7 @@ var timerData = [
                 "name": "Duration",
                 "start": "August 16 2021, 17:00",
                 "end": "September 6 2021, 14:59",
-                "extraPriority": 10,
-				keepAfterFinished: "9 hours"
+                "extraPriority": 10
             }
         ]
     },
