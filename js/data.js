@@ -378,12 +378,12 @@ var timerData = [
 			{
 				name: "Maintenance",
 				start: "September 6 2021, 15:00",
-				end: "September 6 2021, 17:00",
+				end: "September 6 2021, 19:00",
 				extraPriority: 10
 			},
             {
                 "name": "Main Event",
-                "start": "September 6 2021, 17:00",
+                "start": "September 6 2021, 19:00",
                 "end": "September 13 2021, 14:59",
                 "extraPriority": 10,
 				"markers": [
@@ -534,7 +534,7 @@ var timerData = [
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "September 6 2021, 17:00",
+			start: "September 6 2021, 19:00",
 			end: "September 13 2021, 14:59"
 		}
 		]
@@ -622,7 +622,7 @@ var timerData = [
         "timers": [
             {
                 "name": "Duration",
-                "start": "September 6 2021, 17:00",
+                "start": "September 6 2021, 19:00",
                 "end": "September 13 2021, 14:59",
                 "extraPriority": 16
             }
