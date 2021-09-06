@@ -389,7 +389,7 @@ var timerData = [
 				"markers": [
 				{
 					title: "Ryou 5★ uncap & Doppel Release, Arc 2 Ch 4 Voices & Challenge Release",
-					time: "September 6 2021, 17:00",
+					time: "September 6 2021, 19:00",
 					type: "star"
 				},
 				{
