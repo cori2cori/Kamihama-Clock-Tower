@@ -204,19 +204,19 @@ var timerData = [
 			name: "4th Anniversary Login Bonus & Limited-time Daily Missions",
 			start: "August 22 2021, 0:00",
 			end: "September 6 2021, 23:59",
-			extraPriority: 20
+			extraPriority: 10
 		},
 		{
 			name: "1/2 AP, x2 EXP, x2 SP, x2 Great & Super Success Rate & x2 Mirrors Coins",
 			start: "August 22 2021, 0:00",
 			end: "September 6 2021, 14:59",
-			extraPriority: 20
+			extraPriority: 10
 		},
 		{
 			name: "Addition of Limited-time memoriae to the SP shop",
 			start: "August 22 2021, 0:00",
 			end: "September 30 2021, 23:59",
-			extraPriority: 20
+			extraPriority: 10
 		}
 		]
 	},
@@ -236,13 +236,13 @@ var timerData = [
 			name: "Campaign Period",
 			start: "August 22 2021, 0:00",
 			end: "September 13 2021, 14:59",
-			extraPriority: 20
+			extraPriority: 10
 		},
 		{
 			name: "Guaranteed Unlimited 4★ Magical Girl Ticket Exchange",
 			start: "August 22 2021, 0:00",
 			end: "September 13 2021, 14:59",
-			extraPriority: 20
+			extraPriority: 10
 		},
 		]
 	},
