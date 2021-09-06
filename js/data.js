@@ -624,7 +624,7 @@ var timerData = [
                 "name": "Duration",
                 "start": "September 6 2021, 17:00",
                 "end": "September 13 2021, 14:59",
-                "extraPriority": 10
+                "extraPriority": 16
             }
         ]
     },
