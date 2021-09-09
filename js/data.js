@@ -188,35 +188,21 @@ var timerData = [
 		]
 	},
 	{
-		type: "Event",
+		type: "Other",
 		title: [
 			"【Campaign】",
 			"4th Anniversary Campaigns"
 		],
 		"image": [
-			"imgs/banner_0503_m.png",
-			"imgs/banner_0513_m.png"
+			"imgs/banner_0503_m.png"
 		],
-		column: 0,
-		priority: 24,
+		column: 2,
+		priority: 4,
 		timers: [
-		{
-			name: "4th Anniversary Login Bonus & Limited-time Daily Missions",
-			start: "August 22 2021, 0:00",
-			end: "September 6 2021, 23:59",
-			extraPriority: 10
-		},
-		{
-			name: "1/2 AP, x2 EXP, x2 SP, x2 Great & Super Success Rate & x2 Mirrors Coins",
-			start: "August 22 2021, 0:00",
-			end: "September 6 2021, 14:59",
-			extraPriority: 10
-		},
 		{
 			name: "Addition of Limited-time memoriae to the SP shop",
 			start: "August 22 2021, 0:00",
-			end: "September 30 2021, 23:59",
-			extraPriority: 10
+			end: "September 30 2021, 23:59"
 		}
 		]
 	},
@@ -233,17 +219,11 @@ var timerData = [
 		priority: 25,
 		timers: [
 		{
-			name: "Campaign Period",
+			name: "Campaign Period & Unlimited 4★ Magical Girl Ticket Exchange",
 			start: "August 22 2021, 0:00",
 			end: "September 13 2021, 14:59",
 			extraPriority: 10
-		},
-		{
-			name: "Guaranteed Unlimited 4★ Magical Girl Ticket Exchange",
-			start: "August 22 2021, 0:00",
-			end: "September 13 2021, 14:59",
-			extraPriority: 10
-		},
+		}
 		]
 	},
 		
@@ -368,9 +348,7 @@ var timerData = [
 			"Arc 2 Chapter 4 Voiced & Challenge Mode Release"
         ],
         "image": [
-            "imgs/extermination.png",
-			"imgs/banner_0516_m.png",
-			"imgs/banner_0508_m.png"
+            "imgs/extermination.png"
         ],
         "column": 0,
         "priority": 40,
@@ -441,7 +419,7 @@ var timerData = [
             "shop"
         ],
         "column": 2,
-        "priority": 10,
+        "priority": 100,
         "timers": [
 			/*{
 				name: "Monthly Magia Stones Shops - July",
@@ -530,7 +508,7 @@ var timerData = [
             "imgs/banner_0491_m.png"
         ],
 		column: 2,
-		priority: 5,
+		priority: 99,
 		timers: [ 
 		{
 			name: "Sales period",
@@ -550,7 +528,7 @@ var timerData = [
 			"imgs/banner_0511_m.png"
         ],
 		column: 2,
-		priority: 7,
+		priority: 98,
 		timers: [ 
 		{
 			name: "Sales period",
