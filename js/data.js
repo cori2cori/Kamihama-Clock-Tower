@@ -478,7 +478,7 @@ var timerData = [
 				"markers": [
 					{
 						title: "Costume Stories Release",
-						type: "Story",
+						type: "star",
 						time: "September 21 2021, 16:00"
 					}
 				]
