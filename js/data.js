@@ -475,7 +475,7 @@ var timerData = [
 				name: "Pyjama Ticket Exchange Shop",
 				start: "September 13 2021, 16:00",
 				end: "September 28 2021, 14:59",
-				markers: [
+				"markers": [
 					{
 						title: "Costume Stories Release",
 						type: "Story",
