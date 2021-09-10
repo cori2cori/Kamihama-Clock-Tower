@@ -331,12 +331,12 @@ var timerData = [
                 "name": "Weekend 7 - Sana",
                 "start": "September 11 2021, 00:00",
                 "end": "September 12 2021, 23:59"
-            }/*,
+            },
 			{
                 "name": "Weekend 8 - Defeat 30 Enemies",
                 "start": "September 18 2021, 00:00",
                 "end": "September 19 2021, 23:59"
-            }*/
+            }
         ]
     },
 	{
@@ -387,26 +387,26 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"【Mirrors Ranking】",
-            "11th Session"
+			"【Campaign】",
+            "Moon Viewing Pyjama Party"
         ],
         "image": [
-            "mirroran"
+            "imgs/banner_0515_m.png"
         ],
         "column": 0,
-        "priority": 33, /*7/5 17:00～7/11 20:59 JST*/
+        "priority": 19,
         "timers": [
 			{
 				name: "Maintenance",
-				start: "July 19 2021, 15:00",
-				end: "July 19 2021, 16:59",
-				extraPriority: 20
+				start: "September 13 2021, 15:00",
+				end: "September 13 2021, 15:59",
+				extraPriority: 10
 			},
 			{
-				name: "Main Event",
-				start: "July 19 2021, 17:00",
-				end: "July 25 2021, 20:59",
-				extraPriority: 20
+				name: "Campaign Duration",
+				start: "September 13 2021, 16:00",
+				end: "September 21 2021, 23:59",
+				extraPriority: 10
 			}
         ]
     },
@@ -432,39 +432,9 @@ var timerData = [
 				end: "September 26 2021, 14:59"
 			},
 			{
-				name: "Mirrors Ranking - Limited-time Shop and Missions",
-				start: "July 19 2021, 17:00",
-				end: "August 2 2021, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Water - 2019 Swimsuit Banners",
-				start: "July 26 2021, 16:00",
-				end: "August 17 2021, 14:59"
-			},
-			{
 				name: "Limited-time Daily Missions",
 				start: "July 26 2021, 00:00",
 				end: "September 19 2021, 23:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Blue - Miki Sayaka (Surfing ver.) Pickup Gacha",
-				start: "July 30 2021, 19:00",
-				end: "August 17 2021, 14:59"
-			},
-			{
-				name: "Night Fairytale: Limited-time Shop and Missions",
-				start: "July 30 2021, 19:00",
-				end: "August 17 2021, 14:59"
-			},
-			{
-				name: "Please Yuna-san: Limited-time Shop and Missions",
-				start: "August 10 2021, 16:00",
-				end: "August 28 2021, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Red - Kureha Yuna Pickup Gacha",
-				start: "August 10 2021, 16:00",
-				end: "August 28 2021, 14:59"
 			},
 			{
 				name: "Ad. Coin Shop: Purple - Little Kyubey & Iroha and Yachiyo Pickup Gachas",
@@ -495,6 +465,23 @@ var timerData = [
 				name: "4th Anniversary Medal Shop",
 				start: "August 22 2021, 0:00",
 				end: "September 13 2021, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Water - Moon Viewing Pyjama Party",
+				start: "September 13 2021, 16:00",
+				end: "September 28 2021, 14:59"
+			},
+			{
+				name: "Pyjama Ticket Exchange Shop",
+				start: "September 13 2021, 16:00",
+				end: "September 28 2021, 14:59",
+				markers: [
+					{
+						title: "Costume Stories Release",
+						type: "Story",
+						time: "September 21 2021, 16:00"
+					}
+				]
 			}
         ]
     },
@@ -609,19 +596,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Paid Gacha】",
-            "Limited-time Paid 4★ Light Attribute Magical Girl Guaranteed Gacha"
+			"【Limited-time Gacha】",
+            "Moon Viewing Pyjama Party "
         ],
         "image": [
-            "imgs/gachabanner_0748_m.png"
+            "imgs/gachabanner_0774_m.png"
         ],
         "column": 1,
         "priority": 66,
         "timers": [
             {
                 "name": "Duration",
-                "start": "August 16 2021, 17:00",
-                "end": "August 21 2021, 14:59",
+                "start": "September 13 2021, 16:00",
+                "end": "September 21 2021, 14:59",
                 "extraPriority": 10
             }
         ]
