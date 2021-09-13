@@ -102,7 +102,7 @@ var timerData = [
                 "name": "Available Online:",
                 "start": "September 12 2021, 17:00",
                 "end": "September 19 2021, 23:59",
-                "extraPriority": 10
+                "extraPriority": 0
             }
         ]
     },
@@ -310,7 +310,7 @@ var timerData = [
             "imgs/banner_0498_m.png"
         ],
         "column": 0,
-        "priority": 28,
+        "priority": 18,
         "timers": [
 			{
                 "name": "Weekend 4 - Tsuruno",
@@ -335,7 +335,8 @@ var timerData = [
 			{
                 "name": "Weekend 8 - Defeat 30 Enemies",
                 "start": "September 18 2021, 00:00",
-                "end": "September 19 2021, 23:59"
+                "end": "September 19 2021, 23:59",
+				extraPriority: 10
             }
         ]
     },
