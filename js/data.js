@@ -110,23 +110,29 @@ var timerData = [
         "type": "Event",
         "title": [
 			"【Event】",
-            "The Great Banquet that Transcends Time "
+            "Only Dreamers ~ The Fable Watches the Dream of the Girl"
         ],
         "image": [
-            "imgs/banner_0509_m.png"
+            "imgs/banner_0517_m.png"
         ],
         "column": 0,
-        "priority": 200,
+        "priority": 18,
         "timers": [
+			{
+				name: "Maintenance",
+				start: "September 21 2021, 15:00",
+				end: "September 21 2021, 16:00",
+				extraPriority: 20,
+			},
             {
                 "name": "Main Event",
-                "start": "August 22 2021, 0:00",
-                "end": "September 6 2021, 14:59",
-                "extraPriority": 10,
+                "start": "September 21 2021, 16:00",
+                "end": "October 4 2021, 14:59",
+                "extraPriority": 20,
 				"markers": [
 				{
 					title: "Story Quests 11~20 & 100Evil",
-					time: "August 30 2021, 16:00",
+					time: "September 27 2021, 17:00",
 					type: "battle"
 				}
 				]
@@ -337,7 +343,13 @@ var timerData = [
                 "start": "September 18 2021, 00:00",
                 "end": "September 19 2021, 23:59",
 				extraPriority: 10
-            }
+            },
+			{
+				name: "Weekend 9 - Defeat 30 Enemies",
+				start: "September 25 2021, 00:00",
+				end: "September 26 2021, 23:59",
+				extraPriority: 10
+			}
         ]
     },
 	{
@@ -430,12 +442,12 @@ var timerData = [
 			{
 				name: "Adjuster Coins Shop: Green - TV Anime 2nd Season Celebration", /*2021 9/26 14:59*/
 				start: "July 3 2021, 00:00",
-				end: "September 26 2021, 14:59"
+				end: "October 3 2021, 14:59"
 			},
 			{
 				name: "Limited-time Daily Missions",
 				start: "July 26 2021, 00:00",
-				end: "September 19 2021, 23:59"
+				end: "September 26 2021, 23:59"
 			},
 			{
 				name: "Ad. Coin Shop: Purple - Little Kyubey & Iroha and Yachiyo Pickup Gachas",
@@ -483,6 +495,11 @@ var timerData = [
 						time: "September 21 2021, 16:00"
 					}
 				]
+			},
+			{
+				name: "Adjuster Coin Shop: Red - Irina Kushu Pickup Gacha",
+				start: "September 21 2021, 16:00",
+				end: "October 11 2021, 14:59"
 			}
         ]
     },
@@ -577,20 +594,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Memoria Gacha】",
-            "Choose your 4★ Memoria Selection Gacha"
+			"【Unlimited Gacha】",
+            "Irina Kushu Pickup Gacha"
         ],
         "image": [
-            "imgs/gachabanner_0769_m.png"
+            "imgs/gachabanner_0779_m.png"
         ],
         "column": 1,
-        "priority": 60,
+        "priority": 65,
         "timers": [
             {
                 "name": "Duration",
-                "start": "September 6 2021, 19:00",
-                "end": "September 13 2021, 14:59",
-                "extraPriority": 16
+                "start": "September 21 2021, 16:00",
+                "end": "October 4 2021, 14:59",
+                "extraPriority": 11
             }
         ]
     },
@@ -896,7 +913,7 @@ var timerData = [
 				name: "Free roll 12",
 				date: "August 8 2021",
 				days: "1"
-			},*/
+			},
 			{
 				name: "Free roll 13",
 				date: "August 14 2021",
@@ -906,7 +923,7 @@ var timerData = [
 				name: "Free roll 14",
 				date: "August 15 2021",
 				days: "1"
-			},
+			},*/
 			{
 				name: "Free roll 15",
 				date: "August 21 2021",
@@ -955,6 +972,16 @@ var timerData = [
 			{
 				name: "Free roll 24",
 				date: "September 19 2021",
+				days: "1"
+			},
+			{
+				name: "Free roll 25",
+				date: "September 25 2021",
+				days: "1"
+			},
+			{
+				name: "Free roll 26",
+				date: "September 26 2021",
 				days: "1"
 			}
 		]
