@@ -485,6 +485,11 @@ var timerData = [
 				end: "September 28 2021, 14:59"
 			},
 			{
+				name: "Moon Viewing Pyjama Party - Event Shop & Missions",
+				start: "September 13 2021, 16:00",
+				end: "September 28 2021, 23:59"
+			},
+			{
 				name: "Pyjama Ticket Exchange Shop",
 				start: "September 13 2021, 16:00",
 				end: "September 28 2021, 14:59",
@@ -500,6 +505,11 @@ var timerData = [
 				name: "Adjuster Coin Shop: Red - Irina Kushu Pickup Gacha",
 				start: "September 21 2021, 16:00",
 				end: "October 11 2021, 14:59"
+			},
+			{
+				name: "Only Dreamers - Event Shop & Missions",
+				"start": "September 21 2021, 16:00",
+                "end": "October 11 2021, 14:59"
 			}
         ]
     },
@@ -851,7 +861,7 @@ var timerData = [
 			"imgs/banner_0496_m.png"
 		],
 		column: 1,
-		priority: 75,
+		priority: 60,
 		timers: [
 			/*{
 				name: "Free roll 1",
