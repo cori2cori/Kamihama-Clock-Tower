@@ -176,39 +176,26 @@ var timerData = [
 		type: "Event",
 		title: [
 			"【Campaign】",
-			"New Chapter Release & Campaign"
+			"1500 Days Celebration Campaign"
 		],
 		"image": [
-			"imgs/banner_1030700_m.png",
-			"imgs/banner_0359_m.png"
+			"imgs/banner_0519_m.png",
+			"imgs/banner_0521_m.png"
 		],
 		column: 0,
-		priority: 28,
+		priority: 16,
 		timers: [
 		{
-			name: "Campaign Period",
-			start: "August 10 2021, 16:00",
-			end: "August 21 2021, 23:59",
-			extraPriority: 10
-		}
-		]
-	},
-	{
-		type: "Other",
-		title: [
-			"【Campaign】",
-			"4th Anniversary Campaigns"
-		],
-		"image": [
-			"imgs/banner_0503_m.png"
-		],
-		column: 2,
-		priority: 4,
-		timers: [
+				name: "Limited-time Daily Missions & Login Bonus",
+				start: "September 27 2021, 17:00",
+				end: "October 13 2021, 23:59",
+				extraPriority: 20
+		},
 		{
-			name: "Addition of Limited-time memoriae to the SP shop",
-			start: "August 22 2021, 0:00",
-			end: "September 30 2021, 23:59"
+				name: "1/2 AP, x2 Player EXP, 2x Support Points, 2x Great & Super Success",
+				start: "September 27 2021, 17:00",
+				end: "October 13 2021, 14:59",
+				extraPriority: 20
 		}
 		]
 	},
@@ -400,26 +387,26 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"【Campaign】",
-            "Moon Viewing Pyjama Party"
+			"【Ranked Mirrors】",
+            "12th Session"
         ],
         "image": [
-            "imgs/banner_0515_m.png"
+            "mirroran"
         ],
         "column": 0,
         "priority": 19,
         "timers": [
 			{
 				name: "Maintenance",
-				start: "September 13 2021, 15:00",
-				end: "September 13 2021, 15:59",
-				extraPriority: 10
+				start: "September 27 2021, 15:00",
+				end: "September 27 2021, 16:59",
+				extraPriority: 20
 			},
 			{
-				name: "Campaign Duration",
-				start: "September 13 2021, 16:00",
-				end: "September 21 2021, 23:59",
-				extraPriority: 10
+				name: "Main Event",
+				start: "September 27 2021, 17:00",
+				end: "October 3 2021, 20:59",
+				extraPriority: 20
 			}
         ]
     },
@@ -450,34 +437,9 @@ var timerData = [
 				end: "September 26 2021, 23:59"
 			},
 			{
-				name: "Ad. Coin Shop: Purple - Little Kyubey & Iroha and Yachiyo Pickup Gachas",
-				start: "August 16 2021, 17:00",
-				end: "September 13 2021, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Navy Blue - Choose your 4★ Memoria Selection Gacha",
+				name: "4th Anniversary Campaign - Limited-time memoriae in the SP shop",
 				start: "August 22 2021, 0:00",
-				end: "September 13 2021, 14:59"
-			},
-			{
-				name: "Adj. Coin Shop: Brown - Choose your 4★ Magical Girl Pickup Gacha",
-				start: "August 22 2021, 0:00",
-				end: "September 13 2021, 14:59"
-			},
-			{
-				name: "Adj. Coin Shop: Orange - Choose your 4★ Madoka☆Magica Magical Girl Pickup Gacha",
-				start: "August 22 2021, 0:00",
-				end: "September 13 2021, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Peach - Madoka·Iroha Pickup Gacha",
-				start: "August 22 2021, 0:00",
-				end: "September 13 2021, 14:59"
-			},
-			{
-				name: "4th Anniversary Medal Shop",
-				start: "August 22 2021, 0:00",
-				end: "September 13 2021, 14:59"
+				end: "September 30 2021, 23:59"
 			},
 			{
 				name: "Adjuster Coin Shop: Water - Moon Viewing Pyjama Party",
@@ -516,44 +478,52 @@ var timerData = [
 	{
 		type: "Other",
 		title: [
-		"【Paid Shop】",
-		"Mitama's special deal in occasion of the Extermination Battle"
+		"【Sales】",
+		"Mirrors Selection Pack & Mirrors Beginner Pack"
 		],
 		image: [
-            "imgs/banner_0491_m.png"
+            "imgs/banner_0523_m.png"
         ],
 		column: 2,
-		priority: 99,
+		priority: 3,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "September 6 2021, 19:00",
-			end: "September 13 2021, 14:59"
+			start: "September 27 2021, 17:00",
+			end: "October 4 2021, 14:59",
+			extraPriority: 20
+		},
+		{
+			name: "Selection Ticket Exchange",
+			start: "September 27 2021, 17:00",
+			end: "October 11 2021, 14:59",
+			extraPriority: 20
 		}
 		]
 	},
 	{
 		type: "Other",
 		title: [
-		"【Paid Bundles】",
-		"4th Anniversary Lucky Bags"
+		"【Sales】",
+		"1500 Days Commemorative Bags"
 		],
 		image: [
-            "imgs/banner_0510_m.png",
-			"imgs/banner_0511_m.png"
+            "imgs/banner_0520_m.png"
         ],
 		column: 2,
-		priority: 98,
+		priority: 3,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "August 22 2021, 0:00",
-			end: "September 6 2021, 14:59"
+			start: "September 27 2021, 17:00",
+			end: "October 13 2021, 14:59",
+			extraPriority: 20
 		},
 		{
-			name: "Tickets Exchange",
-			start: "August 22 2021, 0:00",
-			end: "September 13 2021, 14:59"
+			name: "4★ Guaranteed Ticket Exchange",
+			start: "September 27 2021, 17:00",
+			end: "October 20 2021, 14:59",
+			extraPriority: 20
 		}
 		]
 	},
@@ -787,67 +757,28 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Limited-time Gacha】",
-            "4th Anniversary Choose your 4★ Madoka☆Magica Magical Girl Pickup Gacha"
+			"【Memoria Gacha】",
+            "Choose your 4★ Memoria Selection Gacha"
         ],
         "image": [
-            "imgs/gachabanner_0755_m.png"
+            "imgs/gachabanner_0786_m.png"
         ],
         "column": 1,
-        "priority": 62,
-        "timers": [
+        "priority": 59,
+        "timers": [ 
             {
                 "name": "Duration",
-                "start": "August 22 2021, 0:00",
-                "end": "September 6 2021, 14:59",
-                "extraPriority": 20
-            }
-        ]
-    },
-    {
-        type: "Event",
-        title: [
-			"【Campaign】",
-            "4th Anniversary pre-campaign: 4th Anniversary Countdown Login Story"
-        ],
-        image: [
-			"imgs/banner_0505_m.png"
-		],
-        column: 0,
-		priority: 28,
-        timers: [
-            {
-                name: "Duration",
-                start: "August 18 2021, 0:00",
-                end: "September 6 2021, 23:59",
-				extraPriority: 10,
+                "start": "September 27 2021, 17:00",
+                "end": "October 4 2021, 14:59",
+                "extraPriority": 20,
 				markers: [
 				{
-					title: "Episode 1",
-					time: "August 18 2021, 0:00",
-					type: "story"
-				},
-				{
-					title: "Episode 2",
-					time: "August 19 2021, 0:00",
-					type: "story"
-				},
-				{
-					title: "Episode 3",
-					time: "August 20 2021, 0:00",
-					type: "story"
-				},
-				{
-					title: "Episode 4",
-					time: "August 21 2021, 0:00",
-					type: "story"
-				},
-				{
-					title: "Episode 5",
-					time: "August 22 2021, 0:00",
-					type: "story"
+					title: "2nd 2ool",
+					time: "October 1 2021, 14:59",
+					type: "star"
+					
 				}
-			]
+				]
             }
         ]
     },
