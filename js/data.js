@@ -472,6 +472,11 @@ var timerData = [
 				name: "Only Dreamers - Event Shop & Missions",
 				"start": "September 21 2021, 16:00",
                 "end": "October 11 2021, 14:59"
+			},
+			{
+				name: "Ranked Mirrors - Ranked Medals Shop & Missions",
+				start: "September 27 2021, 17:00",
+				end: "October 11 2021, 14:59"
 			}
         ]
     },
