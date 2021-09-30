@@ -477,6 +477,11 @@ var timerData = [
 				name: "Ranked Mirrors - Ranked Medals Shop & Missions",
 				start: "September 27 2021, 17:00",
 				end: "October 11 2021, 14:59"
+			},
+			{
+				name: "Magia Report no. 200 Memoria in the SP Shop",
+				start: "October 1 2021, 0:00",
+				end: "October 31 2021, 23:59"
 			}
         ]
     },
