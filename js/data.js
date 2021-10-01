@@ -89,20 +89,26 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"【Broadcast Event】",
-            "Magia Day 2021"
+			"【Event Rerun】",
+            "Halloween Castle of Prayers and Funeral"
         ],
         "image": [
-            "imgs/banner_0507_m.png"
+            "imgs/banner_0522_m.png"
         ],
         "column": 0,
         "priority": 20,
         "timers": [
+			{
+				name: "Maintenance",
+				start: "October 4 2021, 15:00",
+				end: "October 4 2021, 16:00",
+				extraPriority: 20
+			},
             {
-                "name": "Available Online:",
-                "start": "September 12 2021, 17:00",
-                "end": "September 19 2021, 23:59",
-                "extraPriority": 0
+                "name": "Main Event",
+                "start": "October 4 2021, 17:00",
+                "end": "October 13 2021, 14:59",
+                "extraPriority": 20
             }
         ]
     },
@@ -482,6 +488,16 @@ var timerData = [
 				name: "Magia Report no. 200 Memoria in the SP Shop",
 				start: "October 1 2021, 0:00",
 				end: "October 31 2021, 23:59"
+			},
+			{
+				name: "Halloween Castle of Prayers and Funeral - Event Shop and Missions",
+				start: "October 4 2021, 16:00",
+				end: "October 20 2021, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Black - Halloween Castle of Prayers and Funeral",
+				start: "October 4 2021, 16:00",
+				end: "October 20 2021, 14:59"
 			}
         ]
     },
@@ -604,19 +620,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Limited-time Gacha】",
-            "Moon Viewing Pyjama Party "
+			"【Limited-time Gacha Rerun】",
+            "Halloween Castle of Prayers and Funeral Pickup Gacha Parts 1 & 2"
         ],
         "image": [
-            "imgs/gachabanner_0774_m.png"
+            "imgs/gachabanner_0791_m.png",
+			"imgs/gachabanner_0792_m.png"
         ],
         "column": 1,
         "priority": 66,
         "timers": [
             {
                 "name": "Duration",
-                "start": "September 13 2021, 16:00",
-                "end": "September 21 2021, 14:59",
+                "start": "October 4 2021, 16:00",
+                "end": "October 13 2021, 14:59",
                 "extraPriority": 10
             }
         ]
