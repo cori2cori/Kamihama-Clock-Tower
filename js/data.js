@@ -106,7 +106,7 @@ var timerData = [
 			},
             {
                 "name": "Main Event",
-                "start": "October 4 2021, 17:00",
+                "start": "October 4 2021, 16:00",
                 "end": "October 13 2021, 14:59",
                 "extraPriority": 20
             }
