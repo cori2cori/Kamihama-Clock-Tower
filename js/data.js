@@ -209,18 +209,18 @@ var timerData = [
 		type: "Event",
 		title: [
 			"【Campaign】",
-			"Tamaki Iroha Birthday Celebration"
+			"Kaname Madoka Birthday Celebration"
 		],
 		"image": [
-			"imgs/banner_0504_m.png"
+			"imgs/banner_0518_m.png"
 		],
 		column: 0,
 		priority: 25,
 		timers: [
 		{
-			name: "Campaign Period & Unlimited 4★ Magical Girl Ticket Exchange",
-			start: "August 22 2021, 0:00",
-			end: "September 13 2021, 14:59",
+			name: "Memoria Exchange & Limited-time missions",
+			start: "October 3 2021, 0:00",
+			end: "October 13 2021, 14:59",
 			extraPriority: 10
 		}
 		]
