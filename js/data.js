@@ -435,7 +435,7 @@ var timerData = [
 			{
 				name: "Adjuster Coins Shop: Green - TV Anime 2nd Season Celebration", /*2021 9/26 14:59*/
 				start: "July 3 2021, 00:00",
-				end: "October 3 2021, 14:59"
+				end: "October 3 2021, 23:59"
 			},
 			{
 				name: "Limited-time Daily Missions",
