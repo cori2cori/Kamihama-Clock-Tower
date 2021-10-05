@@ -89,8 +89,8 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"【Event Rerun】",
-            "Halloween Castle of Prayers and Mourning"
+            "Halloween Castle of Prayers and Mourning",
+			"祈りと弔いのハロウィン城～生者は惑い死者は黙する～"
         ],
         "image": [
             "imgs/banner_0522_m.png"
@@ -181,8 +181,8 @@ var timerData = [
 	{
 		type: "Event",
 		title: [
-			"【Campaign】",
-			"1500 Days Celebration Campaign"
+			"1500 Days Celebration Campaign",
+			"リリース1500日記念キャンペーン"
 		],
 		"image": [
 			"imgs/banner_0519_m.png",
@@ -208,8 +208,8 @@ var timerData = [
 	{
 		type: "Event",
 		title: [
-			"【Campaign】",
-			"Kaname Madoka Birthday Celebration"
+			"Kaname Madoka Birthday Celebration Campaign",
+			"鹿目まどか誕生日記念期間限定キャンペーン"
 		],
 		"image": [
 			"imgs/banner_0518_m.png"
@@ -504,8 +504,8 @@ var timerData = [
 	{
 		type: "Other",
 		title: [
-		"【Sales】",
-		"Mirrors Selection Pack & Mirrors Beginner Pack"
+		"Mirrors Selection Pack & Mirrors Beginner Pack",
+		"「ミラーズセレクションパック」「ミラーズビギナーズパック」の販売"
 		],
 		image: [
             "imgs/banner_0523_m.png"
@@ -530,8 +530,8 @@ var timerData = [
 	{
 		type: "Other",
 		title: [
-		"【Sales】",
-		"1500 Days Commemorative Bags"
+		"1500 Days Commemorative Bags",
+		"1500日記念パック"
 		],
 		image: [
             "imgs/banner_0520_m.png"
@@ -620,12 +620,32 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Limited-time Gacha Rerun】",
-            "Halloween Castle of Prayers and Mourning Pickup Gacha Parts 1 & 2"
+			"Halloween Castle of Prayers and Mourning Limited-time Pickup Gacha Part 1",
+			"期間限定ガチャ 祈りと弔いのハロウィン城 第1弾"
         ],
         "image": [
-            "imgs/gachabanner_0791_m.png",
-			"imgs/gachabanner_0792_m.png"
+            "imgs/gachabanner_0791_m.png"
+			
+        ],
+        "column": 1,
+        "priority": 66,
+        "timers": [
+            {
+                "name": "Duration",
+                "start": "October 4 2021, 16:00",
+                "end": "October 13 2021, 14:59",
+                "extraPriority": 10
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+            "Halloween Castle of Prayers and Mourning Pickup Limited-time Gacha Part 2",
+			"期間限定ガチャ 祈りと弔いのハロウィン城 第2弾"
+        ],
+        "image": [
+            "imgs/gachabanner_0792_m.png"
         ],
         "column": 1,
         "priority": 66,
