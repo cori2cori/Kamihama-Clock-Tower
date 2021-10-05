@@ -490,7 +490,7 @@ var timerData = [
 				end: "October 31 2021, 23:59"
 			},
 			{
-				name: "Halloween Castle of Prayers and Funeral - Event Shop and Missions",
+				name: "Halloween Castle of Prayers and Mourning - Event Shop and Missions",
 				start: "October 4 2021, 16:00",
 				end: "October 20 2021, 14:59"
 			},
