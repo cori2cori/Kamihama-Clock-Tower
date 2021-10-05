@@ -90,7 +90,7 @@ var timerData = [
         "type": "Event",
         "title": [
 			"【Event Rerun】",
-            "Halloween Castle of Prayers and Funeral"
+            "Halloween Castle of Prayers and Mourning"
         ],
         "image": [
             "imgs/banner_0522_m.png"
@@ -495,7 +495,7 @@ var timerData = [
 				end: "October 20 2021, 14:59"
 			},
 			{
-				name: "Adjuster Coin Shop: Black - Halloween Castle of Prayers and Funeral",
+				name: "Adjuster Coin Shop: Black - Halloween Castle of Prayers and Mourning",
 				start: "October 4 2021, 16:00",
 				end: "October 20 2021, 14:59"
 			}
@@ -621,7 +621,7 @@ var timerData = [
         "type": "Gacha",
         "title": [
 			"【Limited-time Gacha Rerun】",
-            "Halloween Castle of Prayers and Funeral Pickup Gacha Parts 1 & 2"
+            "Halloween Castle of Prayers and Mourning Pickup Gacha Parts 1 & 2"
         ],
         "image": [
             "imgs/gachabanner_0791_m.png",
