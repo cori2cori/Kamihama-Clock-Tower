@@ -419,7 +419,8 @@ var timerData = [
 	{
         "type": "Shop",
         "title": [
-            "【Shops and Limited-time Missions】"
+            "Shops and Limited-time Missions",
+			"ショップと期間限定ミッション"
         ],
         "image": [
             "shop"
