@@ -148,30 +148,30 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"【Kimochi Battle】",
-            "Depressed Turquoise Ears Kimochi Battle"
+			"Vigorous Opal Neck Kimochi Battle",
+            "キモチ戦健やかなるオパールの首"
         ],
         "image": [
-            "imgs/banner_0424_m.png"
+            "imgs/banner_0430_m.png"
         ],
         "column": 0,
         "priority": 29,
         "timers": [
 			{
 				name: "Maintenance",
-				start: "August 16 2021, 15:00",
-				end: "August 16 2021, 17:00",
-				extraPriority: 10
+				start: "October 13 2021, 15:00",
+				end: "October 13 2021, 17:00",
+				extraPriority: 30
 			},
             {
                 "name": "Main Event",
-                "start": "August 16 2021, 17:00",
-                "end": "August 21 2021, 15:59",
-                "extraPriority": 10,
+                "start": "October 13 2021, 17:00",
+                "end": "October 18 2021, 15:59",
+                "extraPriority": 30,
 				"markers": [
 				{
 					title: "Part 2 - Group Battles",
-					time: "August 18 2021, 17:00",
+					time: "October 15 2021, 17:00",
 					type: "battle"
 				}
 				]
@@ -557,26 +557,19 @@ var timerData = [
 	{
 		type: "Other",
 		title: [
-		"【Sales】",
-		"4th Anniversary Magia Stones Special Bundles",
-		"Daily Magia Stones Bundle with Bonus"
+		"Dark Attribute Strengthening Pack",
+		"闇属性魔法少女育成パック"
 		],
 		image: [
-            "imgs/banner_0129_m.png",
-			"imgs/banner_0514_m.png"
+            "imgs/banner_0526_m.png"
         ],
 		column: 2,
 		priority: 6,
 		timers: [ 
 		{
-			name: "Magia Stones Special Bundles Sales",
-			start: "August 22 2021, 0:00",
-			end: "August 31 2021, 23:59"
-		},
-		{
-			name: "Daily Magia Stones Bundle with Bonus Sales",
-			start: "September 1 2021, 0:00",
-			end: "September 6 2021, 23:59"
+			name: "Sales Period",
+			start: "October 13 2021, 17:00",
+			end: "October 20 2021, 14:59"
 		}
 		]
 	},
@@ -601,20 +594,40 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"【Unlimited Gacha】",
-            "Irina Kushu Pickup Gacha"
+			"Dark Attribute Pickup Gacha",
+            "闇属性ピックアップガチャ"
         ],
         "image": [
-            "imgs/gachabanner_0779_m.png"
+            "imgs/gachabanner_0795_m.png"
         ],
         "column": 1,
         "priority": 65,
         "timers": [
             {
-                "name": "Duration",
-                "start": "September 21 2021, 16:00",
-                "end": "October 4 2021, 14:59",
-                "extraPriority": 11
+                name: "Duration",
+                start: "October 13 2021, 17:00",
+				end: "October 20 2021, 14:59",
+                extraPriority: 11
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"Paid 4★ Dark Attribute Magical Girl Guaranteed Gacha",
+            "有償限定 闇属性★4魔法少女確定ガチャ"
+        ],
+        "image": [
+            "imgs/gachabanner_0796_m.png"
+        ],
+        "column": 1,
+        "priority": 65,
+        "timers": [
+            {
+                name: "Duration",
+                start: "October 13 2021, 17:00",
+				end: "October 20 2021, 14:59",
+                extraPriority: 11
             }
         ]
     },
