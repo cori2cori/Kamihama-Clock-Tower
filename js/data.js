@@ -434,58 +434,6 @@ var timerData = [
 				end: "July 31 2021, 23:59"
 			},*/
 			{
-				name: "Adjuster Coins Shop: Green - TV Anime 2nd Season Celebration", /*2021 9/26 14:59*/
-				start: "July 3 2021, 00:00",
-				end: "October 3 2021, 23:59"
-			},
-			{
-				name: "Limited-time Daily Missions",
-				start: "July 26 2021, 00:00",
-				end: "September 26 2021, 23:59"
-			},
-			{
-				name: "4th Anniversary Campaign - Limited-time memoriae in the SP shop",
-				start: "August 22 2021, 0:00",
-				end: "September 30 2021, 23:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Water - Moon Viewing Pyjama Party",
-				start: "September 13 2021, 16:00",
-				end: "September 28 2021, 14:59"
-			},
-			{
-				name: "Moon Viewing Pyjama Party - Event Shop & Missions",
-				start: "September 13 2021, 16:00",
-				end: "September 28 2021, 23:59"
-			},
-			{
-				name: "Pyjama Ticket Exchange Shop",
-				start: "September 13 2021, 16:00",
-				end: "September 28 2021, 14:59",
-				"markers": [
-					{
-						title: "Costume Stories Release",
-						type: "story",
-						time: "September 21 2021, 16:00"
-					}
-				]
-			},
-			{
-				name: "Adjuster Coin Shop: Red - Irina Kushu Pickup Gacha",
-				start: "September 21 2021, 16:00",
-				end: "October 11 2021, 14:59"
-			},
-			{
-				name: "Only Dreamers - Event Shop & Missions",
-				"start": "September 21 2021, 16:00",
-                "end": "October 11 2021, 14:59"
-			},
-			{
-				name: "Ranked Mirrors - Ranked Medals Shop & Missions",
-				start: "September 27 2021, 17:00",
-				end: "October 11 2021, 14:59"
-			},
-			{
 				name: "Magia Report no. 200 Memoria in the SP Shop",
 				start: "October 1 2021, 0:00",
 				end: "October 31 2021, 23:59"
@@ -499,6 +447,11 @@ var timerData = [
 				name: "Adjuster Coin Shop: Black - Halloween Castle of Prayers and Mourning",
 				start: "October 4 2021, 16:00",
 				end: "October 20 2021, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Purple - Dark Attribute Pickup Gacha",
+				start: "October 13 2021, 17:00",
+				end: "October 27 2021, 14:59"
 			}
         ]
     },
