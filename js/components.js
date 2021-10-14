@@ -3,7 +3,7 @@ Vue.component("text-timer", {
     template: 
     `<h4>
         <span class="timer-number">{{ d_since_release }}</span> days since <span >Magia Record</span> released<span v-if="nextAnnVisible()">; <span v-html="tNext(t_to_next_anniv)"></span> until 5th anniversary.</span></br>
-        <span v-if="nextEvVisible()">We expect new announcements in <span class="timer-number">{{ tNext( t_to_next_ann) }}</span> {{ tNext( t_to_next_ann) }}</span></br>
+        <span v-if="nextEvVisible()">We expect new announcements in <span v-html="tNext(t_to_next_ann)"></span>.</span></br>
     </h4>`/*`<h5>{{ d_since_release }}</h5>`*/,
  
     methods: {
@@ -16,7 +16,7 @@ Vue.component("text-timer", {
                 output = "<span class=\"timer-number\">"+time+" </span>"+format+" ";
                 time = Math.floor(seconds/3600)%24;
                 format = time == 1 ? "hour" : "hours";
-                output += "<span class=\"timer-number\">"+time+" </span>"+format+" ";
+                output += "<span class=\"timer-number\">"+time+" </span>"+format+"";
             }
             else if (seconds>3600){
                 time = Math.floor(seconds/3600)%24;
@@ -24,7 +24,7 @@ Vue.component("text-timer", {
                 output += "<span class=\"timer-number\">"+time+" </span>"+format+" ";
                 time = Math.floor(seconds/60)%60;
                 format = time == 1 ? "minute" : "minutes";
-                output += "<span class=\"timer-number\">"+time+" </span>"+format+" ";
+                output += "<span class=\"timer-number\">"+time+" </span>"+format+"";
             }
             else if (seconds>60){
                 time = Math.floor(seconds/60)%60;
@@ -32,12 +32,12 @@ Vue.component("text-timer", {
                 output += "<span class=\"timer-number\">"+time+" </span>"+format+" ";
                 time = seconds%60;
                 format = time == 1 ? "second" : "seconds";
-                output += "<span class=\"timer-number\">"+time+" </span>"+format+" ";
+                output += "<span class=\"timer-number\">"+time+" </span>"+format+"";
             }
             else{
                 time = seconds%60;
                 format = time == 1 ? "second" : "seconds";
-                output += "<span class=\"timer-number\">"+time+" </span>"+format+" ";
+                output += "<span class=\"timer-number\">"+time+" </span>"+format+"";
             }
             return output;
         },
