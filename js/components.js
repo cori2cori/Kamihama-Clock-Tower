@@ -8,7 +8,8 @@ Vue.component("text-timer", {
  
     methods: {
         tNext : function( seconds ){
-            let time, format, output=null;
+            let time=null, format=null;
+				let output="";
 
             if (seconds>86400){
                 time = Math.floor(seconds/86400);
