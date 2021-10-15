@@ -297,7 +297,7 @@ Vue.component("ev-header", {
     filters: {
         toptype: function (value) {
             value = value.toLowerCase();
-            if (["maintenance", "event", "mission", "gacha"].indexOf(value) == -1) {
+            if (["maintenance", "event", "mission", "gacha", "weekendboss"].indexOf(value) == -1) {
                 return "top-other";
             } else {
                 return "top-" + value;

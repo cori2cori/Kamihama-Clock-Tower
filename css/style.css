@@ -208,6 +208,18 @@ body {
     background-color: rgba(142, 50, 245, 0.75);
 }
 
+/* Weekend boss */
+.top-weekendboss .line {
+    background-color: #D2DAF7;
+}
+.top-weekendboss .line.header {
+    background-color: #385EE8;
+}
+.top-weekendboss .thumb .type {
+    background-color: rgba(56, 94, 232, 0.5);
+}
+
+
 /* Maintenance */
 /*.top-maintenance .title {
     border-color: #837e7e;

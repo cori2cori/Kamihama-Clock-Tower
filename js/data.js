@@ -146,7 +146,7 @@ var timerData = [
         ]
     },
 	{
-        "type": "Event",
+        "type": "WeekendBoss",
         "title": [
 			"Vigorous Opal Neck Kimochi Battle",
             "キモチ戦健やかなるオパールの首"
@@ -158,23 +158,36 @@ var timerData = [
         "priority": 29,
         "timers": [
 			{
-				name: "Maintenance",
-				start: "October 13 2021, 15:00",
-				end: "October 13 2021, 17:00",
-				extraPriority: 30
+				name: "Part 1 - Day 1",
+				start: "October 13 2021, 17:00",
+				end: "October 14 2021, 16:00"
+			},
+			{
+				name: "Part 1 - Day 2",
+				start: "October 14 2021, 16:00",
+				end: "October 15 2021, 16:00"
+			},
+			{
+				name: "Part 2 - Day 1",
+				start: "October 15 2021, 17:00",
+				end: "October 16 2021, 16:00"
+			},
+			{
+				name: "Part 2 - Day 2",
+				start: "October 16 2021, 16:00",
+				end: "October 17 2021, 16:00"
+			},
+			{
+				name: "Part 2 - Day 3",
+				start: "October 17 2021, 17:00",
+				end: "October 18 2021, 15:59"
 			},
             {
                 "name": "Main Event",
                 "start": "October 13 2021, 17:00",
                 "end": "October 18 2021, 15:59",
                 "extraPriority": 30,
-				"markers": [
-				{
-					title: "Part 2 - Group Battles",
-					time: "October 15 2021, 17:00",
-					type: "battle"
-				}
-				]
+				"type": "normal"
 			}
 				]
     },
