@@ -133,8 +133,8 @@ Vue.component("ev-content-weekend", {
 
 Vue.component("weekend-timer", {
     props: ["timer"],
-    template: `<div v-if='timer.type == \"weekend\"' class='date-timer text-white' :class='{ \"bg-success\": timer.progress > 0, \"bg-danger\": timer.progress >= 100 }' v-tooltip:top='replaceStars(timer.name)'>
-        {{ timer.dateDisplay.jpstart }} ~ {{timer.dateDisplay.jpend }}
+    template: `<div v-if='timer.type == \"weekend\"' class='date-timer text-white' :class='{ \"bg-success\": timer.progress > 0, \"bg-danger\": timer.progress >= 100 }' v-tooltip:top='timer.dateDisplay.jpstart+" ~ "+timer.dateDisplay.jpend' >
+        {{replaceStars(timer.name)}}
         <br>
         <small>{{timer.dateDisplay.barLabel}}</small>
     </div>`,
