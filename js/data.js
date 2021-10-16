@@ -179,7 +179,7 @@ var timerData = [
 			},
 			{
 				name: "Part 2 - Day 3",
-				start: "October 17 2021, 17:00",
+				start: "October 17 2021, 16:00",
 				end: "October 18 2021, 15:59"
 			},
             {
