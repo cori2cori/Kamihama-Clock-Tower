@@ -465,6 +465,11 @@ var timerData = [
 				name: "Adjuster Coin Shop: Purple - Dark Attribute Pickup Gacha",
 				start: "October 13 2021, 17:00",
 				end: "October 27 2021, 14:59"
+			},
+			{
+				name: "Kimochi Medals Shop",
+				start: "October 13 2021, 17:00",
+				end: "October 27 2021, 14:59"
 			}
         ]
     },
