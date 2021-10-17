@@ -467,7 +467,7 @@ var timerData = [
 				end: "October 27 2021, 14:59"
 			},
 			{
-				name: "Kimochi Medals Shop",
+				name: "Kimochi Medals Shop & Limited-time Missions",
 				start: "October 13 2021, 17:00",
 				end: "October 27 2021, 14:59"
 			}
