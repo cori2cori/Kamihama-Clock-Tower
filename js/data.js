@@ -115,32 +115,32 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"【Event】",
-            "Only Dreamers ~ The Fable Watches the Dream of the Girl"
+			"The Cuddly Despairs ～Mahou Shoujo Kazumi☆Magica～",
+			"The Cuddly Despairs～魔法少女かずみ☆マギカ～"
         ],
         "image": [
-            "imgs/banner_0517_m.png"
+            "imgs/banner_0527_m.png"
         ],
         "column": 0,
-        "priority": 18,
+        "priority": 1,
         "timers": [
 			{
 				name: "Maintenance",
-				start: "September 21 2021, 15:00",
-				end: "September 21 2021, 16:00",
-				extraPriority: 20,
+				start: "October 20 2021, 15:00",
+				end: "October 20 2021, 16:00",
+				extraPriority: 100
 			},
             {
                 "name": "Main Event",
-                "start": "September 21 2021, 16:00",
-                "end": "October 4 2021, 14:59",
-                "extraPriority": 20,
-				"markers": [
-				{
-					title: "Story Quests 11~20 & 100Evil",
-					time: "September 27 2021, 17:00",
-					type: "battle"
-				}
+                "start": "October 20 2021, 16:00",
+                "end": "October 29 2021, 14:59",
+                "extraPriority": 100,
+				markers: [
+					{
+						title: "100Evils Release",
+						time: "October 20 2021, 16:00",
+						type: "battle"
+					}
 				]
             }
         ]
@@ -470,6 +470,16 @@ var timerData = [
 				name: "Kimochi Medals Shop & Limited-time Missions",
 				start: "October 13 2021, 17:00",
 				end: "October 27 2021, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Navy Blue - The Cuddly Despairs Pickup Gacha",
+				start: "October 20 2021, 16:00",
+				end: "November 5 2021, 14:59"
+			},
+			{
+				name: "The Cuddly Despairs Event Shop & Limited-time Missions",
+				start: "October 20 2021, 16:00",
+				end: "November 5 2021, 14:59"
 			}
         ]
     },
@@ -572,13 +582,13 @@ var timerData = [
             "imgs/gachabanner_0795_m.png"
         ],
         "column": 1,
-        "priority": 65,
+        "priority": 2,
         "timers": [
             {
                 name: "Duration",
                 start: "October 13 2021, 17:00",
 				end: "October 20 2021, 14:59",
-                extraPriority: 11
+                extraPriority: 100
             }
         ]
     },
@@ -592,34 +602,33 @@ var timerData = [
             "imgs/gachabanner_0796_m.png"
         ],
         "column": 1,
-        "priority": 65,
+        "priority": 1,
         "timers": [
             {
                 name: "Duration",
                 start: "October 13 2021, 17:00",
 				end: "October 20 2021, 14:59",
-                extraPriority: 11
+                extraPriority: 100
             }
         ]
     },
 	{
         "type": "Gacha",
         "title": [
-			"Halloween Castle of Prayers and Mourning Limited-time Pickup Gacha Part 1",
-			"期間限定ガチャ 祈りと弔いのハロウィン城 第1弾"
+			"The Cuddly Despairs ～Mahou Shoujo Kazumi☆Magica～ Limited-time Gacha",
+			"期間限定ガチャ The Cuddly Despairs ～魔法少女かずみ☆マギカ～"
         ],
         "image": [
-            "imgs/gachabanner_0791_m.png"
-			
+            "imgs/gachabanner_0799_m.png"
         ],
         "column": 1,
-        "priority": 66,
+        "priority": 3,
         "timers": [
             {
                 "name": "Duration",
-                "start": "October 4 2021, 16:00",
-                "end": "October 13 2021, 14:59",
-                "extraPriority": 10
+                "start": "October 20 2021, 16:00",
+                "end": "October 29 2021, 14:59",
+                "extraPriority": 100
             }
         ]
     },
