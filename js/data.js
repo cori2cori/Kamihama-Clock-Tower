@@ -472,7 +472,7 @@ var timerData = [
 				end: "October 27 2021, 14:59"
 			},
 			{
-				name: "Adjuster Coin Shop: Navy Blue - The Cuddly Despairs Pickup Gacha",
+				name: "Adjuster Coin Shop: Navy Blue - The Cuddly Despairs & Another Daze Pickup Gachas",
 				start: "October 20 2021, 16:00",
 				end: "November 5 2021, 14:59"
 			},
