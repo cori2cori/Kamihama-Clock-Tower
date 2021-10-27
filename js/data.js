@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "October 18 2021, 18:00";
+var possibleNextAnnouncementDate = "November 10 2021, 18:00";
 var nextAnniversary = "August 22 2022, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -89,26 +89,33 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Halloween Castle of Prayers and Mourning",
-			"祈りと弔いのハロウィン城～生者は惑い死者は黙する～"
+            "Dream Halloween Festa ～Alina-senpai! Be a good girl!",
+			"ドリームハロウィンフェスタ～アリナ先輩！いい子になるの！～"
         ],
         "image": [
-            "imgs/banner_0522_m.png"
+            "imgs/banner_0528_m.png"
         ],
         "column": 0,
-        "priority": 20,
+        "priority": 2,
         "timers": [
 			{
 				name: "Maintenance",
-				start: "October 4 2021, 15:00",
-				end: "October 4 2021, 16:00",
+				start: "October 29 2021, 15:00",
+				end: "October 29 2021, 16:00",
 				extraPriority: 20
 			},
             {
                 "name": "Main Event",
-                "start": "October 4 2021, 16:00",
-                "end": "October 13 2021, 14:59",
-                "extraPriority": 20
+                "start": "October 29 2021, 16:00",
+                "end": "November 12 2021, 14:59",
+                "extraPriority": 20,
+				markers:[
+				{
+					title: "Part 2",
+					time: "November 5 2021, 16:00",
+					type: "battle"
+				}
+				]
             }
         ]
     },
@@ -452,34 +459,24 @@ var timerData = [
 				end: "October 31 2021, 23:59"
 			},
 			{
-				name: "Halloween Castle of Prayers and Mourning - Event Shop and Missions",
-				start: "October 4 2021, 16:00",
-				end: "October 20 2021, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Black - Halloween Castle of Prayers and Mourning",
-				start: "October 4 2021, 16:00",
-				end: "October 20 2021, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Purple - Dark Attribute Pickup Gacha",
-				start: "October 13 2021, 17:00",
-				end: "October 27 2021, 14:59"
-			},
-			{
-				name: "Kimochi Medals Shop & Limited-time Missions",
-				start: "October 13 2021, 17:00",
-				end: "October 27 2021, 14:59"
-			},
-			{
 				name: "Adjuster Coin Shop: Navy Blue - The Cuddly Despairs Pickup Gacha",
 				start: "October 20 2021, 16:00",
 				end: "November 5 2021, 14:59"
 			},
 			{
-				name: "The Cuddly Despairs Event Shop & Limited-time Missions",
+				name: "The Cuddly Despairs Event Shop & Missions",
 				start: "October 20 2021, 16:00",
 				end: "November 5 2021, 14:59"
+			},
+			{
+				name: "Dream Halloween Festa - Event shops & Missions",
+				start: "October 29 2021, 16:00",
+				end: "November 19 2021, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Orange - Dream Halloween Festa Limited-time Gacha",
+				start: "October 29 2021, 16:00",
+				end: "November 19 2021, 14:59"
 			}
         ]
     },
@@ -538,19 +535,24 @@ var timerData = [
 	{
 		type: "Other",
 		title: [
-		"Dark Attribute Strengthening Pack",
-		"闇属性魔法少女育成パック"
+		"Autumn Selection Pack",
+		"オータムセレクションパック"
 		],
 		image: [
-            "imgs/banner_0526_m.png"
+            "imgs/banner_0531_m.png"
         ],
 		column: 2,
 		priority: 6,
 		timers: [ 
 		{
 			name: "Sales Period",
-			start: "October 13 2021, 17:00",
-			end: "October 20 2021, 14:59"
+			start: "October 29 2021, 16:00",
+			end: "November 12 2021, 14:59"
+		},
+		{
+			name: "Salection Ticket Exchange",
+			start: "October 29 2021, 16:00",
+			end: "November 19 2021, 14:59"
 		}
 		]
 	},
@@ -595,19 +597,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Paid 4★ Dark Attribute Magical Girl Guaranteed Gacha",
-            "有償限定 闇属性★4魔法少女確定ガチャ"
+			"Dream Halloween Festa Limited-time Gacha",
+            "期間限定ガチャドリームハロウィンフェスタ"
         ],
         "image": [
-            "imgs/gachabanner_0796_m.png"
+            "imgs/gachabanner_0804_m.png"
         ],
         "column": 1,
-        "priority": 1,
+        "priority": 4,
         "timers": [
             {
                 name: "Duration",
-                start: "October 13 2021, 17:00",
-				end: "October 20 2021, 14:59",
+                start: "October 29 2021, 16:00",
+				end: "November 12 2021, 14:59",
                 extraPriority: 100
             }
         ]
