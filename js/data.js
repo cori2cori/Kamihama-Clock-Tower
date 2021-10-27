@@ -459,7 +459,7 @@ var timerData = [
 				end: "October 31 2021, 23:59"
 			},
 			{
-				name: "Adjuster Coin Shop: Navy Blue - The Cuddly Despairs Pickup Gacha",
+				name: "Adjuster Coin Shop: Navy Blue - The Cuddly Despairs & Another Daze Pickup Gachas",
 				start: "October 20 2021, 16:00",
 				end: "November 5 2021, 14:59"
 			},
@@ -625,6 +625,26 @@ var timerData = [
         ],
         "column": 1,
         "priority": 3,
+        "timers": [
+            {
+                "name": "Duration",
+                "start": "October 20 2021, 16:00",
+                "end": "October 29 2021, 14:59",
+                "extraPriority": 100
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"Another Daze ～Mahou Shoujo Kazumi☆Magica～ Limited-time Gacha",
+			"期間限定ガチャ Another Daze～魔法少女かずみ☆マギカ～"
+        ],
+        "image": [
+            "imgs/gachabanner_0801_m.png"
+        ],
+        "column": 1,
+        "priority": 2,
         "timers": [
             {
                 "name": "Duration",
