@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "November 10 2021, 18:00";
+var possibleNextAnnouncementDate = "November 17 2021, 18:00";
 var nextAnniversary = "August 22 2022, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -122,33 +122,20 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"The Cuddly Despairs ～Mahou Shoujo Kazumi☆Magica～",
-			"The Cuddly Despairs～魔法少女かずみ☆マギカ～"
+			"Kagura San Wants to be Honest - Story Campaign",
+			"正直になりたい神楽燦 "
         ],
         "image": [
-            "imgs/banner_0527_m.png"
+            "imgs/banner_0532_m.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 3,
         "timers": [
-			{
-				name: "Maintenance",
-				start: "October 20 2021, 15:00",
-				end: "October 20 2021, 16:00",
-				extraPriority: 100
-			},
             {
-                "name": "Main Event",
-                "start": "October 20 2021, 16:00",
-                "end": "October 29 2021, 14:59",
-                "extraPriority": 100,
-				markers: [
-					{
-						title: "100Evils Release",
-						time: "October 20 2021, 16:00",
-						type: "battle"
-					}
-				]
+                "name": "Campaign duration",
+                start: "November 12 2021, 17:00",
+                end: "November 19 2021, 23:59",
+                "extraPriority": 100
             }
         ]
     },
@@ -201,47 +188,46 @@ var timerData = [
 	{
 		type: "Event",
 		title: [
-			"1500 Days Celebration Campaign",
-			"リリース1500日記念キャンペーン"
+			"New Chapter Campaign",
+			"新章キャンペーン "
 		],
 		"image": [
-			"imgs/banner_0519_m.png",
-			"imgs/banner_0521_m.png"
+			"imgs/banner_0359_m.png"
 		],
 		column: 0,
-		priority: 16,
+		priority: 1,
 		timers: [
 		{
-				name: "Limited-time Daily Missions & Login Bonus",
-				start: "September 27 2021, 17:00",
-				end: "October 13 2021, 23:59",
-				extraPriority: 20
-		},
-		{
 				name: "1/2 AP, x2 Player EXP, 2x Support Points, 2x Great & Super Success",
-				start: "September 27 2021, 17:00",
-				end: "October 13 2021, 14:59",
-				extraPriority: 20
+				start: "November 12 2021, 17:00",
+				end: "November 19 2021, 23:59",
+				extraPriority: 100
 		}
 		]
 	},
 	{
 		type: "Event",
 		title: [
-			"Kaname Madoka Birthday Celebration Campaign",
-			"鹿目まどか誕生日記念期間限定キャンペーン"
+			"Battle Museum",
+			"バトルミュージアム"
 		],
 		"image": [
-			"imgs/banner_0518_m.png"
+			"imgs/banner_0530_m.png"
 		],
 		column: 0,
-		priority: 25,
+		priority: 5,
 		timers: [
 		{
-			name: "Memoria Exchange & Limited-time missions",
-			start: "October 3 2021, 0:00",
-			end: "October 13 2021, 14:59",
-			extraPriority: 10
+				name: "Maintenance",
+				start: "November 12 2021, 15:00",
+				end: "November 12 2021, 17:00",
+				extraPriority: 100
+		},
+		{
+			name: "Event duration",
+			start: "November 12 2021, 17:00",
+			end: "November 19 2021, 14:59",
+			extraPriority: 100
 		}
 		]
 	},
@@ -315,53 +301,6 @@ var timerData = [
 				start: "August 20 2021, 16:00",
 				end: "August 20 2021, 17:00",
 				extraPriority: 100
-			}
-        ]
-    },
-	{
-        "type": "Event",
-        "title": [
-			"【Campaign】",
-            "Saturday and Sunday Awakening-Strengthening Quests",
-			"Limited-time Missions"
-        ],
-        "image": [
-            "imgs/banner_0498_m.png"
-        ],
-        "column": 0,
-        "priority": 18,
-        "timers": [
-			{
-                "name": "Weekend 4 - Tsuruno",
-                "start": "August 21 2021, 00:00",
-                "end": "August 22 2021, 23:59"
-            },
-			{
-                "name": "Weekend 5 - Defeat 30 Enemies",
-                "start": "August 28 2021, 00:00",
-                "end": "August 29 2021, 23:59"
-            },
-			{
-                "name": "Weekend 6 - Felicia",
-                "start": "September 4 2021, 00:00",
-                "end": "September 5 2021, 23:59"
-            },
-			{
-                "name": "Weekend 7 - Sana",
-                "start": "September 11 2021, 00:00",
-                "end": "September 12 2021, 23:59"
-            },
-			{
-                "name": "Weekend 8 - Defeat 30 Enemies",
-                "start": "September 18 2021, 00:00",
-                "end": "September 19 2021, 23:59",
-				extraPriority: 10
-            },
-			{
-				name: "Weekend 9 - Defeat 30 Enemies",
-				start: "September 25 2021, 00:00",
-				end: "September 26 2021, 23:59",
-				extraPriority: 10
 			}
         ]
     },
@@ -446,7 +385,7 @@ var timerData = [
             "shop"
         ],
         "column": 2,
-        "priority": 100,
+        "priority": 1000,
         "timers": [
 			/*{
 				name: "Monthly Magia Stones Shops - July",
@@ -477,32 +416,37 @@ var timerData = [
 				name: "Adjuster Coin Shop: Orange - Dream Halloween Festa Limited-time Gacha",
 				start: "October 29 2021, 16:00",
 				end: "November 19 2021, 14:59"
+			},
+			{
+				name: "Battle Museum - Limited-time Missions",
+				start: "November 12 2021, 17:00",
+				end: "November 26 2021, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Green - Kagura San Pickup Gacha",
+				start: "November 12 2021, 17:00",
+				end: "November 26 2021, 14:59"
 			}
         ]
     },
 	{
 		type: "Other",
 		title: [
-		"Mirrors Selection Pack & Mirrors Beginner Pack",
-		"「ミラーズセレクションパック」「ミラーズビギナーズパック」の販売"
+		"Special Offers in Occasion of the Battle Museum",
+		"バトルミュージアム開催記念!!スペシャルオファー"
 		],
 		image: [
-            "imgs/banner_0523_m.png"
+            "imgs/banner_0535_m.png",
+			"imgs/banner_0536_m.png"
         ],
 		column: 2,
-		priority: 3,
+		priority: 1,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "September 27 2021, 17:00",
-			end: "October 4 2021, 14:59",
-			extraPriority: 20
-		},
-		{
-			name: "Selection Ticket Exchange",
-			start: "September 27 2021, 17:00",
-			end: "October 11 2021, 14:59",
-			extraPriority: 20
+			start: "November 12 2021, 17:00",
+			end: "November 19 2021, 14:59",
+			extraPriority: 100
 		}
 		]
 	},
@@ -542,12 +486,13 @@ var timerData = [
             "imgs/banner_0531_m.png"
         ],
 		column: 2,
-		priority: 6,
+		priority: 2,
 		timers: [ 
 		{
 			name: "Sales Period",
 			start: "October 29 2021, 16:00",
-			end: "November 12 2021, 14:59"
+			end: "November 12 2021, 14:59",
+			extraPriority: 100
 		},
 		{
 			name: "Salection Ticket Exchange",
@@ -577,19 +522,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Dark Attribute Pickup Gacha",
-            "闇属性ピックアップガチャ"
+			"Kagura San Pickup Gacha",
+            "神楽燦 ピックアップガチャ"
         ],
         "image": [
-            "imgs/gachabanner_0795_m.png"
+            "imgs/gachabanner_0808_m.png"
         ],
         "column": 1,
-        "priority": 2,
+        "priority": 3,
         "timers": [
             {
                 name: "Duration",
-                start: "October 13 2021, 17:00",
-				end: "October 20 2021, 14:59",
+                start: "November 12 2021, 17:00",
+				end: "November 19 2021, 14:59",
                 extraPriority: 100
             }
         ]
