@@ -287,20 +287,33 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"【Server Maintenance】",
-			"APK Update 2.4.1"
+			"Yukari Miyuri on practice!",
+			"遊狩ミユリの現在修行中！"
         ],
         "image": [
-            "maintenance"
+            "imgs/banner_0534_m.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 4,
         "timers": [
 			{
-				name: "Duration",
-				start: "August 20 2021, 16:00",
-				end: "August 20 2021, 17:00",
+				name: "Maintenance",
+				start: "November 19 2021, 15:00",
+				end: "November 19 2021, 16:00",
 				extraPriority: 100
+			},
+			{
+				name: "Main Event",
+				start: "November 19 2021, 16:00",
+				end: "November 29 2021, 14:59",
+				extraPriority: 100,
+				markers: [
+				{
+					title: "Story quests 11-20 & 100Evils I-III",
+					time: "November 24 2021, 16:00",
+					type: "Battle"
+				}
+				]
 			}
         ]
     },
@@ -423,9 +436,24 @@ var timerData = [
 				end: "November 26 2021, 14:59"
 			},
 			{
+				name: "Kagura San Wants to be Honest - Campaign Shop & Missions",
+				start: "November 12 2021, 17:00",
+				end: "November 26 2021, 14:59"
+			},
+			{
 				name: "Adjuster Coin Shop: Green - Kagura San Pickup Gacha",
 				start: "November 12 2021, 17:00",
 				end: "November 26 2021, 14:59"
+			},
+			{
+				name: "Yukari Miyuri on Practice! - Event Shop & Limited-time missions",
+				start: "November 19 2021, 16:00",
+				end: "December 6 2021, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Water - Yukari Miyuri Pickup Gacha",
+				start: "November 19 2021, 16:00",
+				end: "December 6 2021, 14:59"
 			}
         ]
     },
@@ -495,7 +523,7 @@ var timerData = [
 			extraPriority: 100
 		},
 		{
-			name: "Salection Ticket Exchange",
+			name: "Selection Ticket Exchange",
 			start: "October 29 2021, 16:00",
 			end: "November 19 2021, 14:59"
 		}
@@ -542,19 +570,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Dream Halloween Festa Limited-time Gacha",
-            "期間限定ガチャドリームハロウィンフェスタ"
+			"Yukari Miyuri Pickup Gacha",
+            "遊狩ミユリ ピックアップガチャ"
         ],
         "image": [
-            "imgs/gachabanner_0804_m.png"
+            "imgs/gachabanner_0813_m.png"
         ],
         "column": 1,
         "priority": 4,
         "timers": [
             {
                 name: "Duration",
-                start: "October 29 2021, 16:00",
-				end: "November 12 2021, 14:59",
+                start: "November 19 2021, 16:00",
+				end: "November 29 2021, 14:59",
                 extraPriority: 100
             }
         ]
