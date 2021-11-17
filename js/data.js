@@ -311,7 +311,7 @@ var timerData = [
 				{
 					title: "Story quests 11-20 & 100Evils I-III",
 					time: "November 24 2021, 16:00",
-					type: "Battle"
+					type: "battle"
 				}
 				]
 			}
