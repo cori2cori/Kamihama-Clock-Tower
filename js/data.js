@@ -318,6 +318,26 @@ var timerData = [
         ]
     },
 	{
+		type: "Event",
+		title: [
+			"F4 Fan Festival -Part 3-",
+			"f4ファンフェスティバル part3"
+		],
+		"image": [
+			"imgs/f4fanfest.png"
+		],
+		column: 0,
+		priority: 5,
+		timers: [
+		{
+				name: "Live Event",
+				start: "December 5 2021, 20:30",
+				end: "December 5 2021, 22:00",
+				extraPriority: 100
+		}
+		]
+	},
+	{
         "type": "Event",
         "title": [
 			"【Event】",
