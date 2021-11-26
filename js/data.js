@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "November 26 2021, 18:00";
+var possibleNextAnnouncementDate = "December 8 2021, 18:00";
 var nextAnniversary = "August 22 2022, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -122,20 +122,33 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"Kagura San Wants to be Honest - Story Campaign",
-			"正直になりたい神楽燦 "
+			"Angels on the Road～Reindeer Santa Prospering Season～",
+			"Angels on the Road～トナカイサンタ繁盛記～"
         ],
         "image": [
-            "imgs/banner_0532_m.png"
+            "imgs/banner_0537_m.png"
         ],
         "column": 0,
-        "priority": 3,
+        "priority": 6,
         "timers": [
+			{
+				name: "Maintenance",
+				start: "November 29 2021, 15:00",
+				end: "November 29 2021, 16:00"
+			},
             {
-                "name": "Campaign duration",
-                start: "November 12 2021, 17:00",
-                end: "November 19 2021, 23:59",
-                "extraPriority": 100
+                "name": "Event duration",
+                start: "November 29 2021, 16:00",
+                end: "December 10 2021, 14:59",
+                "extraPriority": 100,
+				markers:
+				[
+					{
+						time: "December 3 2021, 16:00",
+						title: "Part 2",
+						type: "story"
+					}
+				]
             }
         ]
     },
@@ -426,46 +439,6 @@ var timerData = [
 				end: "July 31 2021, 23:59"
 			},*/
 			{
-				name: "Magia Report no. 200 Memoria in the SP Shop",
-				start: "October 1 2021, 0:00",
-				end: "October 31 2021, 23:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Navy Blue - The Cuddly Despairs & Another Daze Pickup Gachas",
-				start: "October 20 2021, 16:00",
-				end: "November 5 2021, 14:59"
-			},
-			{
-				name: "The Cuddly Despairs Event Shop & Missions",
-				start: "October 20 2021, 16:00",
-				end: "November 5 2021, 14:59"
-			},
-			{
-				name: "Dream Halloween Festa - Event shops & Missions",
-				start: "October 29 2021, 16:00",
-				end: "November 19 2021, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Orange - Dream Halloween Festa Limited-time Gacha",
-				start: "October 29 2021, 16:00",
-				end: "November 19 2021, 14:59"
-			},
-			{
-				name: "Battle Museum - Limited-time Missions",
-				start: "November 12 2021, 17:00",
-				end: "November 26 2021, 14:59"
-			},
-			{
-				name: "Kagura San Wants to be Honest - Campaign Shop & Missions",
-				start: "November 12 2021, 17:00",
-				end: "November 26 2021, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Green - Kagura San Pickup Gacha",
-				start: "November 12 2021, 17:00",
-				end: "November 26 2021, 14:59"
-			},
-			{
 				name: "Yukari Miyuri on Practice! - Event Shop & Limited-time missions",
 				start: "November 19 2021, 16:00",
 				end: "December 6 2021, 14:59"
@@ -474,6 +447,16 @@ var timerData = [
 				name: "Adjuster Coin Shop: Water - Yukari Miyuri Pickup Gacha",
 				start: "November 19 2021, 16:00",
 				end: "December 6 2021, 14:59"
+			},
+			{
+				name: "Angels on the Road - Event Shop",
+				start: "November 29 2021, 16:00",
+				end: "December 17 2021, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Orange - Christmas 2019 & 2020 Gachas",
+				start: "November 29 2021, 16:00",
+				end: "December 17 2021, 14:59"
 			}
         ]
     },
@@ -570,19 +553,21 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Kagura San Pickup Gacha",
-            "神楽燦 ピックアップガチャ"
+			"Angels on the Road & Christmas String & The Page I write in the Holy Night Limited-time Pickup Gachas",
+            "期間限定ガチャ Angels on the Road · 期間限定ガチャ Christmas String · 期間限定ガチャ 聖夜に刻む1ページ"
         ],
         "image": [
-            "imgs/gachabanner_0808_m.png"
+            "imgs/gachabanner_0819_m.png",
+			"imgs/gachabanner_0820_m.png",
+			"imgs/gachabanner_0821_m.png"
         ],
         "column": 1,
-        "priority": 3,
+        "priority": 6,
         "timers": [
             {
                 name: "Duration",
-                start: "November 12 2021, 17:00",
-				end: "November 19 2021, 14:59",
+                start: "November 29 2021, 16:00",
+				end: "December 10 2021, 14:59",
                 extraPriority: 100
             }
         ]
@@ -610,19 +595,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"The Cuddly Despairs ～Mahou Shoujo Kazumi☆Magica～ Limited-time Gacha",
-			"期間限定ガチャ The Cuddly Despairs ～魔法少女かずみ☆マギカ～"
+			"Christmas ★4 Magical Girl Guaranteed Gacha",
+			"期間限定 クリスマス★4魔法少女確定ガチャ"
         ],
         "image": [
-            "imgs/gachabanner_0799_m.png"
+            "imgs/gachabanner_0822_m.png"
         ],
         "column": 1,
-        "priority": 3,
+        "priority": 5,
         "timers": [
             {
                 "name": "Duration",
-                "start": "October 20 2021, 16:00",
-                "end": "October 29 2021, 14:59",
+                "start": "November 29 2021, 16:00",
+                "end": "December 10 2021, 14:59",
                 "extraPriority": 100
             }
         ]
