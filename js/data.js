@@ -439,16 +439,6 @@ var timerData = [
 				end: "July 31 2021, 23:59"
 			},*/
 			{
-				name: "Yukari Miyuri on Practice! - Event Shop & Limited-time missions",
-				start: "November 19 2021, 16:00",
-				end: "December 6 2021, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Water - Yukari Miyuri Pickup Gacha",
-				start: "November 19 2021, 16:00",
-				end: "December 6 2021, 14:59"
-			},
-			{
 				name: "Angels on the Road - Event Shop",
 				start: "November 29 2021, 16:00",
 				end: "December 17 2021, 14:59"
@@ -457,6 +447,11 @@ var timerData = [
 				name: "Adjuster Coin Shop: Orange - Christmas 2019 & 2020 Gachas",
 				start: "November 29 2021, 16:00",
 				end: "December 17 2021, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Yellow-green - Holy Mami & Holy Mami (Anime ver.) Gachas",
+				start: "December 10 2021, 15:00",
+				end: "December 27 2021, 14:59"
 			}
         ]
     },
