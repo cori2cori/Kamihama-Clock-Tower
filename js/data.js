@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "December 8 2021, 18:00";
+var possibleNextAnnouncementDate = "December 17 2021, 18:00";
 var nextAnniversary = "August 22 2022, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -575,19 +575,39 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Yukari Miyuri Pickup Gacha",
-            "遊狩ミユリ ピックアップガチャ"
+			"The Saint Who Alights Upon Kamihama Limited-time Gacha",
+            "期間限定ガチャ 神浜に舞い降りた聖女"
         ],
         "image": [
-            "imgs/gachabanner_0813_m.png"
+            "imgs/gachabanner_0827_m.png"
         ],
         "column": 1,
-        "priority": 4,
+        "priority": 7,
         "timers": [
             {
                 name: "Duration",
-                start: "November 19 2021, 16:00",
-				end: "November 29 2021, 14:59",
+                start: "December 10 2021, 15:00",
+				end: "December 20 2021, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"Holy Mami (Anime ver.) Limited-time Pickup Gacha",
+            "期間限定 ホーリーマミ アニメver. ピックアップガチャ"
+        ],
+        "image": [
+            "imgs/gachabanner_0825_m.png"
+        ],
+        "column": 1,
+        "priority": 6,
+        "timers": [
+            {
+                name: "Duration",
+                start: "December 10 2021, 15:00",
+				end: "December 20 2021, 14:59",
                 extraPriority: 100
             }
         ]
