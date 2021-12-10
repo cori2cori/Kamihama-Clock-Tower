@@ -398,26 +398,26 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"【Ranked Mirrors】",
-            "12th Session"
+			"Ranked Mirrors",
+            "ミラーズランキング"
         ],
         "image": [
             "mirroran"
         ],
         "column": 0,
-        "priority": 19,
+        "priority": 1,
         "timers": [
 			{
 				name: "Maintenance",
-				start: "September 27 2021, 15:00",
-				end: "September 27 2021, 16:59",
-				extraPriority: 20
+				start: "December 13 2021, 15:00",
+				end: "December 13 2021, 16:59",
+				extraPriority: 100
 			},
 			{
 				name: "Main Event",
-				start: "September 27 2021, 17:00",
-				end: "October 3 2021, 20:59",
-				extraPriority: 20
+				start: "December 13 2021, 17:00",
+				end: "December 19 2021, 20:59",
+				extraPriority: 100
 			}
         ]
     },
@@ -452,26 +452,36 @@ var timerData = [
 				name: "Adjuster Coin Shop: Yellow-green - Holy Mami & Holy Mami (Anime ver.) Gachas",
 				start: "December 10 2021, 15:00",
 				end: "December 27 2021, 14:59"
+			},
+			{
+				name: "Ranked Medals Shop",
+				start: "December 13 2021, 17:00",
+				end: "December 27 2021, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Brown - Memoria Selection Gacha",
+				start: "December 13 2021, 17:00",
+				end: "December 27 2021, 14:59"
 			}
+			
         ]
     },
 	{
 		type: "Other",
 		title: [
-		"Special Offers in Occasion of the Battle Museum",
-		"バトルミュージアム開催記念!!スペシャルオファー"
+		"Mirrors Selection Pack & Mirrors Beginner Pack",
+		"「ミラーズセレクションパック」·「ミラーズビギナーズパック」"
 		],
 		image: [
-            "imgs/banner_0535_m.png",
-			"imgs/banner_0536_m.png"
+            "imgs/banner_0539_m.png"
         ],
 		column: 2,
 		priority: 1,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "November 12 2021, 17:00",
-			end: "November 19 2021, 14:59",
+			start: "December 13 2021, 17:00",
+			end: "December 20 2021, 14:59",
 			extraPriority: 100
 		}
 		]
@@ -548,22 +558,27 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Angels on the Road & Christmas String & The Page I write in the Holy Night Limited-time Pickup Gachas",
-            "期間限定ガチャ Angels on the Road · 期間限定ガチャ Christmas String · 期間限定ガチャ 聖夜に刻む1ページ"
+			"Choose Your 4★  Memoria Selection Gacha",
+            "選べる★4メモリアセレクションガチャ"
         ],
         "image": [
-            "imgs/gachabanner_0819_m.png",
-			"imgs/gachabanner_0820_m.png",
-			"imgs/gachabanner_0821_m.png"
+            "imgs/gachabanner_0830_m.png"
         ],
         "column": 1,
-        "priority": 6,
+        "priority": 8,
         "timers": [
             {
                 name: "Duration",
-                start: "November 29 2021, 16:00",
-				end: "December 10 2021, 14:59",
-                extraPriority: 100
+                start: "December 13 2021, 17:00",
+				end: "December 20 2021, 14:59",
+                extraPriority: 100,
+				markers: [
+					{
+						title: "Part 2",
+						time: "December 17 2021, 15:00",
+						type: "star"
+					}
+				]
             }
         ]
     },
