@@ -89,30 +89,30 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Dream Halloween Festa ～Alina-senpai! Be a good girl!",
-			"ドリームハロウィンフェスタ～アリナ先輩！いい子になるの！～"
+            "Snow Thawing Befana",
+			"雪解けのベファーナ"
         ],
         "image": [
-            "imgs/banner_0528_m.png"
+            "imgs/banner_0541_m.png"
         ],
         "column": 0,
         "priority": 2,
         "timers": [
 			{
 				name: "Maintenance",
-				start: "October 29 2021, 15:00",
-				end: "October 29 2021, 16:00",
+				start: "December 20 2021, 15:00",
+				end: "December 20 2021, 16:00",
 				extraPriority: 20
 			},
             {
                 "name": "Main Event",
-                "start": "October 29 2021, 16:00",
-                "end": "November 12 2021, 14:59",
-                "extraPriority": 20,
+                "start": "December 20 2021, 16:00",
+                "end": "December 31 2021, 14:59",
+                "extraPriority": 100,
 				markers:[
 				{
-					title: "Part 2",
-					time: "November 5 2021, 16:00",
+					title: "Story quests 11~20 & 100Evils I~III",
+					time: "December 24 2021, 16:00",
 					type: "battle"
 				}
 				]
@@ -439,11 +439,6 @@ var timerData = [
 				end: "July 31 2021, 23:59"
 			},*/
 			{
-				name: "Angels on the Road - Event Shop",
-				start: "November 29 2021, 16:00",
-				end: "December 17 2021, 14:59"
-			},
-			{
 				name: "Adjuster Coin Shop: Orange - Christmas 2019 & 2020 Gachas",
 				start: "November 29 2021, 16:00",
 				end: "December 17 2021, 14:59"
@@ -462,6 +457,16 @@ var timerData = [
 				name: "Adjuster Coin Shop: Brown - Memoria Selection Gacha",
 				start: "December 13 2021, 17:00",
 				end: "December 27 2021, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Navy Blue - Snow Thawing Befana",
+				start: "December 20 2021, 16:00",
+				end: "January 7 2022, 14:59"
+			},
+			{
+				name: "Snow Thawing Befana - Event Shop & Missions",
+				start: "December 20 2021, 16:00",
+				end: "January 7 2022, 14:59"
 			}
 			
         ]
@@ -625,19 +630,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Christmas ★4 Magical Girl Guaranteed Gacha",
-			"期間限定 クリスマス★4魔法少女確定ガチャ"
+			"Snow Thawing Befana Limited-time Pickup Gacha",
+			"期間限定ガチャ雪解けのベファーナ"
         ],
         "image": [
-            "imgs/gachabanner_0822_m.png"
+            "imgs/gachabanner_0834_m.png"
         ],
         "column": 1,
-        "priority": 5,
+        "priority": 3,
         "timers": [
             {
                 "name": "Duration",
-                "start": "November 29 2021, 16:00",
-                "end": "December 10 2021, 14:59",
+                "start": "December 20 2021, 16:00",
+                "end": "December 31 2021, 14:59",
                 "extraPriority": 100
             }
         ]
