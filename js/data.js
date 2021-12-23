@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "December 17 2021, 18:00";
+var possibleNextAnnouncementDate = "December 29 2021, 18:00";
 var nextAnniversary = "August 22 2022, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -122,34 +122,27 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"Angels on the Road～Reindeer Santa Prospering Season～",
-			"Angels on the Road～トナカイサンタ繁盛記～"
+			"NAYUTAN EXPRESS ～Nayuta & Mikage Christmas Challenge～",
+			"NAYUTAN EXPRESS ～那由他みかげのクリスマスチャレンジ～"
         ],
         "image": [
-            "imgs/banner_0537_m.png"
+            "imgs/announce_2112231.png"
         ],
         "column": 0,
-        "priority": 6,
+        "priority": 2,
         "timers": [
 			{
-				name: "Maintenance",
-				start: "November 29 2021, 15:00",
-				end: "November 29 2021, 16:00"
-			},
-            {
-                "name": "Event duration",
-                start: "November 29 2021, 16:00",
-                end: "December 10 2021, 14:59",
-                "extraPriority": 100,
-				markers:
-				[
-					{
-						time: "December 3 2021, 16:00",
-						title: "Part 2",
-						type: "story"
-					}
-				]
-            }
+                "name": "NAYUTAN EXPRESS Campaign",
+                start: "December 23 2021, 18:00",
+                end: "December 28 2021, 14:59",
+                "extraPriority": 100
+            },
+			{
+				name: "Christmas Login Bonus",
+				start: "December 25 2021, 00:00",
+				end: "December 25 2021, 23:59"
+			}
+            
         ]
     },
 	{
