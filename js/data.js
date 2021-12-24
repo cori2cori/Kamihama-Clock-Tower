@@ -116,7 +116,12 @@ var timerData = [
 					type: "battle"
 				}
 				]
-            }
+            },
+			{
+				name: "Christmas Login Bonus",
+				start: "December 25 2021, 00:00",
+				end: "December 25 2021, 23:59"
+			},
         ]
     },
 	{
@@ -132,17 +137,11 @@ var timerData = [
         "priority": 2,
         "timers": [
 			{
-                "name": "NAYUTAN EXPRESS Campaign",
+                name: "NAYUTAN EXPRESS Campaign",
                 start: "December 23 2021, 18:00",
                 end: "December 28 2021, 14:59",
-                "extraPriority": 100
-            },
-			{
-				name: "Christmas Login Bonus",
-				start: "December 25 2021, 00:00",
-				end: "December 25 2021, 23:59"
-			}
-            
+                extraPriority: 100
+            }
         ]
     },
 	{
@@ -460,6 +459,11 @@ var timerData = [
 				name: "Snow Thawing Befana - Event Shop & Missions",
 				start: "December 20 2021, 16:00",
 				end: "January 7 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Yellow - Haregi Gachas",
+				start: "December 28 2021, 16:00",
+				end: "January 18 2022, 14:59"
 			}
 			
         ]
@@ -467,19 +471,19 @@ var timerData = [
 	{
 		type: "Other",
 		title: [
-		"Mirrors Selection Pack & Mirrors Beginner Pack",
-		"「ミラーズセレクションパック」·「ミラーズビギナーズパック」"
+		"Magia Stones Sales",
+		"お得な期間限定マギアストーン"
 		],
 		image: [
-            "imgs/banner_0539_m.png"
+            "imgs/banner_0129_m.png"
         ],
 		column: 2,
 		priority: 1,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "December 13 2021, 17:00",
-			end: "December 20 2021, 14:59",
+			start: "December 28 2021, 16:00",
+			end: "January 11 2022, 14:59",
 			extraPriority: 100
 		}
 		]
@@ -556,34 +560,30 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Choose Your 4★  Memoria Selection Gacha",
-            "選べる★4メモリアセレクションガチャ"
+			"Haregi Limited-time Gacha",
+            "晴着期間限定ガチャ"
         ],
         "image": [
-            "imgs/gachabanner_0830_m.png"
+            "imgs/gachabanner_0838_m.png",
+			"imgs/gachabanner_0839_m.png",
+			"imgs/gachabanner_0840_m.png",
+			"imgs/gachabanner_0841_m.png"
         ],
         "column": 1,
-        "priority": 8,
+        "priority": 4,
         "timers": [
             {
                 name: "Duration",
-                start: "December 13 2021, 17:00",
-				end: "December 20 2021, 14:59",
-                extraPriority: 100,
-				markers: [
-					{
-						title: "Part 2",
-						time: "December 17 2021, 15:00",
-						type: "star"
-					}
-				]
+                start: "December 28 2021, 16:00",
+				end: "January 11 2022, 14:59",
+                extraPriority: 100
             }
         ]
     },
 	{
         "type": "Gacha",
         "title": [
-			"The Saint Who Alights Upon Kamihama Limited-time Gacha",
+			"The Saint Who Alights Upon Kamihama Limited-time Gachas",
             "期間限定ガチャ 神浜に舞い降りた聖女"
         ],
         "image": [
@@ -852,147 +852,130 @@ var timerData = [
         ]
     },
 	{
-		type: "LoginDays",
+		type: "Gacha",
 		title: [
-			"【Campaign】",
-            "Free Rolls in occasion of the 2nd SEASON of the TV Anime"
+			"New Year Campaign Vol. 1: Free x10 rolls in Premium Gacha",
+            "10連レアガチャ毎日1回無料"
 		],
 		image: [
-			"imgs/banner_0496_m.png"
+			"imgs/banner_0547_m.png"
 		],
 		column: 1,
-		priority: 60,
+		priority: 1,
 		timers: [
-			/*{
-				name: "Free roll 1",
-				date: "July 3 2021",
-				days: "1"
+			{
+                "name": "Duration",
+                "start": "December 28 2021, 16:00",
+                "end": "January 10 2022, 23:59",
+                "extraPriority": 100,
+				markers: [
+				{
+					title: "Free Pull 2",
+					time: "December 29 2021, 00:00",
+					type: "star"
+				},
+				{
+					title: "Free Pull 3",
+					time: "December 30 2021, 00:00",
+					type: "star"
+				},
+				{
+					title: "Free Pull 4",
+					time: "December 31 2021, 00:00",
+					type: "star"
+				},
+				{
+					title: "Free Pull 5",
+					time: "January 1 2022, 00:00",
+					type: "star"
+				},
+				{
+					title: "Free Pull 6",
+					time: "January 2 2022, 00:00",
+					type: "star"
+				},
+				{
+					title: "Free Pull 7",
+					time: "January 3 2022, 00:00",
+					type: "star"
+				},
+				{
+					title: "Free Pull 8",
+					time: "January 4 2022, 00:00",
+					type: "star"
+				},
+				{
+					title: "Free Pull 9",
+					time: "January 5 2022, 00:00",
+					type: "star"
+				},
+				{
+					title: "Free Pull 10",
+					time: "January 6 2022, 00:00",
+					type: "star"
+				},
+				{
+					title: "Free Pull 11",
+					time: "January 7 2022, 00:00",
+					type: "star"
+				},
+				{
+					title: "Free Pull 12",
+					time: "January 8 2022, 00:00",
+					type: "star"
+				},
+				{
+					title: "Free Pull 13",
+					time: "January 9 2022, 00:00",
+					type: "star"
+				},
+				{
+					title: "Free Pull 14",
+					time: "January 10 2022, 00:00",
+					type: "star"
+				},
+				]
+            }
+		]
+	},
+	{
+		type: "WeekendBoss",
+		title: [
+			"Happy New Year Campaign Vol. 1",
+            "謹賀新年 お正月キャンペーン 第1弾 "
+		],
+		image: [
+			"imgs/banner_0551_m.png"
+		],
+		column: 0,
+		priority: 3,
+		timers: [
+			{
+				name: "New Year Countdown Login Bonus 1",
+				start: "December 29 2021, 0:00",
+				end: "December 29 2021, 23:59"
 			},
 			{
-				name: "Free roll 2",
-				date: "July 4 2021",
-				days: "1"
+				name: "New Year Countdown Login Bonus 2",
+				start: "December 30 2021, 0:00",
+				end: "December 30 2021, 23:59"
 			},
 			{
-				name: "Free roll 3",
-				date: "July 10 2021",
-				days: "1"
+				name: "New Year Countdown Login Bonus 3",
+				start: "December 31 2021, 0:00",
+				end: "December 31 2021, 23:59"
 			},
 			{
-				name: "Free roll 4",
-				date: "July 11 2021",
-				days: "1"
+				name: "New Year Countdown Login Bonus 4",
+				start: "January 1 2022, 0:00",
+				end: "January 1 2022, 23:59"
 			},
 			{
-				name: "Free roll 5",
-				date: "July 17 2021",
-				days: "1"
-			},
-			{
-				name: "Free roll 6",
-				date: "July 18 2021",
-				days: "1"
-			}
-			,
-			{
-				name: "Free roll 7",
-				date: "July 24 2021",
-				days: "1"
-			},
-			{
-				name: "Free roll 8",
-				date: "July 25 2021",
-				days: "1"
-			},
-			{
-				name: "Free roll 9",
-				date: "July 31 2021",
-				days: "1"
-			},
-			{
-				name: "Free roll 10",
-				date: "August 1 2021",
-				days: "1"
-			},
-			{
-				name: "Free roll 11",
-				date: "August 7 2021",
-				days: "1"
-			},
-			{
-				name: "Free roll 12",
-				date: "August 8 2021",
-				days: "1"
-			},
-			{
-				name: "Free roll 13",
-				date: "August 14 2021",
-				days: "1"
-			},
-			{
-				name: "Free roll 14",
-				date: "August 15 2021",
-				days: "1"
-			},*/
-			{
-				name: "Free roll 15",
-				date: "August 21 2021",
-				days: "1"
-			},
-			{
-				name: "Free roll 16",
-				date: "August 22 2021",
-				days: "1"
-			},
-			{
-				name: "Free roll 17",
-				date: "August 28 2021",
-				days: "1"
-			},
-			{
-				name: "Free roll 18",
-				date: "August 29 2021",
-				days: "1"
-			},
-			{
-				name: "Free roll 19",
-				date: "September 4 2021",
-				days: "1"
-			},
-			{
-				name: "Free roll 20",
-				date: "September 5 2021",
-				days: "1"
-			},
-			{
-				name: "Free roll 21",
-				date: "September 11 2021",
-				days: "1"
-			},
-			{
-				name: "Free roll 22",
-				date: "September 12 2021",
-				days: "1"
-			},
-			{
-				name: "Free roll 23",
-				date: "September 18 2021",
-				days: "1"
-			},
-			{
-				name: "Free roll 24",
-				date: "September 19 2021",
-				days: "1"
-			},
-			{
-				name: "Free roll 25",
-				date: "September 25 2021",
-				days: "1"
-			},
-			{
-				name: "Free roll 26",
-				date: "September 26 2021",
-				days: "1"
+				name: " 1/2 AP, x2 Player EXP, x2 SP and x2 Mirrors Coins Campaign",
+				start: "December 28 2021, 16:00",
+				end: "January 11 2022, 14:59",
+				extraPriority: 100,
+				type: "normal"
 			}
 		]
 	}
