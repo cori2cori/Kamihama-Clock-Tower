@@ -478,7 +478,7 @@ var timerData = [
             "imgs/banner_0129_m.png"
         ],
 		column: 2,
-		priority: 1,
+		priority: 3,
 		timers: [ 
 		{
 			name: "Sales period",
@@ -517,25 +517,25 @@ var timerData = [
 	{
 		type: "Other",
 		title: [
-		"Autumn Selection Pack",
-		"オータムセレクションパック"
+		"Mirrors Selection Pack & Mirrors Beginner Pack",
+		"「ミラーズセレクションパック」「ミラーズビギナーズパック」の販売"
 		],
 		image: [
-            "imgs/banner_0531_m.png"
+            "imgs/banner_0539_m.png"
         ],
 		column: 2,
 		priority: 2,
 		timers: [ 
 		{
 			name: "Sales Period",
-			start: "October 29 2021, 16:00",
-			end: "November 12 2021, 14:59",
+			start: "December 13 2021, 17:00",
+			end: "December 20 2021, 14:59",
 			extraPriority: 100
 		},
 		{
 			name: "Selection Ticket Exchange",
-			start: "October 29 2021, 16:00",
-			end: "November 19 2021, 14:59"
+			start: "December 13 2021, 16:00",
+			end: "December 27 2021, 14:59"
 		}
 		]
 	},
