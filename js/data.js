@@ -971,9 +971,37 @@ var timerData = [
 				end: "January 1 2022, 23:59"
 			},
 			{
+				name: "Maintenance",
+				start: "December 28 2021, 15:00",
+				end: "December 28 2021, 16:00",
+				extraPriority: 100,
+				type: "normal"
+			},
+			{
 				name: " 1/2 AP, x2 Player EXP, x2 SP and x2 Mirrors Coins Campaign",
 				start: "December 28 2021, 16:00",
 				end: "January 11 2022, 14:59",
+				extraPriority: 100,
+				type: "normal"
+			}
+		]
+	},
+	{
+		type: "Event",
+		title: [
+			"Maintenance",
+            "メンテナンス"
+		],
+		image: [
+			"imgs/maintenance.png"
+		],
+		column: 0,
+		priority: 4,
+		timers: [
+			{
+				name: "Maintenance",
+				start: "December 28 2021, 15:00",
+				end: "December 28 2021, 16:00",
 				extraPriority: 100,
 				type: "normal"
 			}
