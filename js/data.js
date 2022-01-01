@@ -466,8 +466,12 @@ var timerData = [
 				name: "New Year 2022 Ticket Exchange Shop",
 				start: "January 1 2022, 0:00",
 				end: "January 18 2022, 14:59"
+			},
+			{
+				name: "Limited-time Memoria in the SP Shop",
+				start: "January 1 2022, 0:00",
+				end: "January 31 2022, 23:59"
 			}
-			
         ]
     },
 	{
