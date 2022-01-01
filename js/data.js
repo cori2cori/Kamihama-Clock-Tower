@@ -127,20 +127,27 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"NAYUTAN EXPRESS ～Nayuta & Mikage Christmas Challenge～",
-			"NAYUTAN EXPRESS ～那由他みかげのクリスマスチャレンジ～"
+			"Tokime Clan Monogatari ～Let's Go See the First Sunrise of the Year～",
+			"時女拾遺物語～初日の出を呼びませう！～"
         ],
         "image": [
-            "imgs/announce_2112231.png"
+            "imgs/banner_0555_m.png"
         ],
         "column": 0,
-        "priority": 2,
+        "priority": 4,
         "timers": [
 			{
-                name: "NAYUTAN EXPRESS Campaign",
-                start: "December 23 2021, 18:00",
-                end: "December 28 2021, 14:59",
-                extraPriority: 100
+                name: "Duration",
+                start: "January 1 2022, 00:00",
+                end: "January 11 2022, 14:59",
+                extraPriority: 100,
+				markers: [
+					{
+						title: "Story Quests 11~20 & 100Evils I~III",
+						time: "January 5 2022, 16:00",
+						type: "battle"
+					}
+				]
             }
         ]
     },
@@ -193,19 +200,19 @@ var timerData = [
 	{
 		type: "Event",
 		title: [
-			"New Chapter Campaign",
-			"新章キャンペーン "
+			"New Year Campaign Vol. 2",
+			"謹賀新年お正月キャンペーン 第2弾"
 		],
 		"image": [
-			"imgs/banner_0359_m.png"
+			"imgs/banner_0552_m.png"
 		],
 		column: 0,
-		priority: 1,
+		priority: 3,
 		timers: [
 		{
-				name: "1/2 AP, x2 Player EXP, 2x Support Points, 2x Great & Super Success",
-				start: "November 12 2021, 17:00",
-				end: "November 19 2021, 23:59",
+				name: "Fortune Telling at Mizuna Shrine, New Year Login Bonus & New Year Limited Daily Missions",
+				start: "January 1 2022, 0:00",
+				end: "January 11 2022, 23:59",
 				extraPriority: 100
 		}
 		]
@@ -431,26 +438,6 @@ var timerData = [
 				end: "July 31 2021, 23:59"
 			},*/
 			{
-				name: "Adjuster Coin Shop: Orange - Christmas 2019 & 2020 Gachas",
-				start: "November 29 2021, 16:00",
-				end: "December 17 2021, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Yellow-green - Holy Mami & Holy Mami (Anime ver.) Gachas",
-				start: "December 10 2021, 15:00",
-				end: "December 27 2021, 14:59"
-			},
-			{
-				name: "Ranked Medals Shop",
-				start: "December 13 2021, 17:00",
-				end: "December 27 2021, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Brown - Memoria Selection Gacha",
-				start: "December 13 2021, 17:00",
-				end: "December 27 2021, 14:59"
-			},
-			{
 				name: "Adjuster Coin Shop: Navy Blue - Snow Thawing Befana",
 				start: "December 20 2021, 16:00",
 				end: "January 7 2022, 14:59"
@@ -463,6 +450,21 @@ var timerData = [
 			{
 				name: "Adjuster Coin Shop: Yellow - Haregi Gachas",
 				start: "December 28 2021, 16:00",
+				end: "January 18 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Peach - Tokime Shizuka (First Sunrise of the Year ver.) Gacha",
+				start: "January 1 2022, 0:00",
+				end: "January 18 2022, 14:59"
+			},
+			{
+				name: "Tokime Clan Monogatari - Event Missions & Omikuji Box",
+				start: "January 1 2022, 0:00",
+				end: "January 18 2022, 14:59"
+			},
+			{
+				name: "New Year 2022 Ticket Exchange Shop",
+				start: "January 1 2022, 0:00",
 				end: "January 18 2022, 14:59"
 			}
 			
@@ -491,25 +493,25 @@ var timerData = [
 	{
 		type: "Other",
 		title: [
-		"1500 Days Commemorative Bags",
-		"1500日記念パック"
+		"Mitama's New Year Lucky Bags",
+		"みたまのお正月DX福袋"
 		],
 		image: [
-            "imgs/banner_0520_m.png"
+            "imgs/banner_0544_m.png"
         ],
 		column: 2,
-		priority: 3,
+		priority: 4,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "September 27 2021, 17:00",
-			end: "October 13 2021, 14:59",
-			extraPriority: 20
+			start: "January 1 2022, 00:00",
+			end: "January 11 2022, 14:59",
+			extraPriority: 100
 		},
 		{
-			name: "4★ Guaranteed Ticket Exchange",
-			start: "September 27 2021, 17:00",
-			end: "October 20 2021, 14:59",
+			name: "Tickets Exchange",
+			start: "January 1 2022, 00:00",
+			end: "January 18 2022, 14:59",
 			extraPriority: 20
 		}
 		]
@@ -583,19 +585,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"The Saint Who Alights Upon Kamihama Limited-time Gachas",
-            "期間限定ガチャ 神浜に舞い降りた聖女"
+			"Tokime Shizuka (First Sunrise of the Year ver.) Limited-time Pickup Gacha",
+            "期間限定 時女静香 初日の出ver.ピックアップガチャ"
         ],
         "image": [
-            "imgs/gachabanner_0827_m.png"
+            "imgs/gachabanner_0844_m.png"
         ],
         "column": 1,
-        "priority": 7,
+        "priority": 5,
         "timers": [
             {
                 name: "Duration",
-                start: "December 10 2021, 15:00",
-				end: "December 20 2021, 14:59",
+                start: "January 1 2022, 0:00",
+				end: "January 11 2022, 14:59",
                 extraPriority: 100
             }
         ]
