@@ -200,15 +200,21 @@ var timerData = [
 	{
 		type: "Event",
 		title: [
-			"New Year Campaign Vol. 2",
-			"謹賀新年お正月キャンペーン 第2弾"
+			"Happy New Year Campaign",
+			"謹賀新年お正月キャンペーン"
 		],
 		"image": [
+			"imgs/banner_0551_m.png",
 			"imgs/banner_0552_m.png"
 		],
 		column: 0,
 		priority: 3,
 		timers: [
+		{
+				name: " 1/2 AP, x2 Player EXP, x2 SP and x2 Mirrors Coins Campaign",
+				start: "December 28 2021, 16:00",
+				end: "January 11 2022, 14:59"
+		},
 		{
 				name: "Fortune Telling at Mizuna Shrine, New Year Login Bonus & New Year Limited Daily Missions",
 				start: "January 1 2022, 0:00",
@@ -942,54 +948,6 @@ var timerData = [
 				},
 				]
             }
-		]
-	},
-	{
-		type: "WeekendBoss",
-		title: [
-			"Happy New Year Campaign Vol. 1",
-            "謹賀新年 お正月キャンペーン 第1弾 "
-		],
-		image: [
-			"imgs/banner_0551_m.png"
-		],
-		column: 0,
-		priority: 3,
-		timers: [
-			{
-				name: "New Year Countdown Login Bonus 1",
-				start: "December 29 2021, 0:00",
-				end: "December 29 2021, 23:59"
-			},
-			{
-				name: "New Year Countdown Login Bonus 2",
-				start: "December 30 2021, 0:00",
-				end: "December 30 2021, 23:59"
-			},
-			{
-				name: "New Year Countdown Login Bonus 3",
-				start: "December 31 2021, 0:00",
-				end: "December 31 2021, 23:59"
-			},
-			{
-				name: "New Year Countdown Login Bonus 4",
-				start: "January 1 2022, 0:00",
-				end: "January 1 2022, 23:59"
-			},
-			{
-				name: "Maintenance",
-				start: "December 28 2021, 15:00",
-				end: "December 28 2021, 16:00",
-				extraPriority: 100,
-				type: "normal"
-			},
-			{
-				name: " 1/2 AP, x2 Player EXP, x2 SP and x2 Mirrors Coins Campaign",
-				start: "December 28 2021, 16:00",
-				end: "January 11 2022, 14:59",
-				extraPriority: 100,
-				type: "normal"
-			}
 		]
 	},
 	{
