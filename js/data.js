@@ -89,39 +89,27 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Snow Thawing Befana",
-			"雪解けのベファーナ"
+            "Mitama's Special Training",
+			"みたまの特訓"
         ],
         "image": [
-            "imgs/banner_0541_m.png"
+            "imgs/banner_0554_m.png"
         ],
         "column": 0,
-        "priority": 2,
+        "priority": 7,
         "timers": [
 			{
 				name: "Maintenance",
-				start: "December 20 2021, 15:00",
-				end: "December 20 2021, 16:00",
-				extraPriority: 20
+				start: "January 11 2022, 15:00",
+				end: "January 11 2022, 16:00",
+				extraPriority: 100
 			},
             {
                 "name": "Main Event",
-                "start": "December 20 2021, 16:00",
-                "end": "December 31 2021, 14:59",
-                "extraPriority": 100,
-				markers:[
-				{
-					title: "Story quests 11~20 & 100Evils I~III",
-					time: "December 24 2021, 16:00",
-					type: "battle"
-				}
-				]
-            },
-			{
-				name: "Christmas Login Bonus",
-				start: "December 25 2021, 00:00",
-				end: "December 25 2021, 23:59"
-			},
+                "start": "January 11 2022, 16:00",
+                "end": "January 21 2022, 14:59",
+                "extraPriority": 100
+            }
         ]
     },
 	{
@@ -211,7 +199,7 @@ var timerData = [
 		priority: 3,
 		timers: [
 		{
-				name: " 1/2 AP, x2 Player EXP, x2 SP and x2 Mirrors Coins Campaign",
+				name: "1/2 AP, x2 Player EXP, x2 SP and x2 Mirrors Coins Campaign",
 				start: "December 28 2021, 16:00",
 				end: "January 11 2022, 14:59"
 		},
@@ -226,26 +214,30 @@ var timerData = [
 	{
 		type: "Event",
 		title: [
-			"Battle Museum",
-			"バトルミュージアム"
+			"1600 Days Anniversary Campaign",
+			"リリース1600日記念キャンペーン"
 		],
 		"image": [
-			"imgs/banner_0530_m.png"
+			"imgs/banner_0549_m.png"
 		],
 		column: 0,
-		priority: 5,
+		priority: 6,
 		timers: [
 		{
-				name: "Maintenance",
-				start: "November 12 2021, 15:00",
-				end: "November 12 2021, 17:00",
-				extraPriority: 100
+			name: "1/2 AP, x2 Player EXP, x2 SP",
+			start: "January 11 2022, 16:00",
+			end: "January 21 2022, 14:59"
 		},
 		{
-			name: "Event duration",
-			start: "November 12 2021, 17:00",
-			end: "November 19 2021, 14:59",
+			name: "Login Bonus",
+			start: "January 11 2022, 16:00",
+			end: "January 21 2022, 23:59",
 			extraPriority: 100
+		},
+		{
+			name: "Limited-time Daily Missions",
+			start: "January 12 2022, 00:00",
+			end: "January 21 2022, 23:59"
 		}
 		]
 	},
@@ -477,6 +469,16 @@ var timerData = [
 				name: "Limited-time Memoria in the SP Shop",
 				start: "January 1 2022, 0:00",
 				end: "January 31 2022, 23:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Water - Nanami Yachiyo (Anime ver.) Gacha",
+				start: "January 11 2022, 16:00",
+				end: "January 28 2022, 14:59"
+			},
+			{
+				name: "Mitama's Special Training - Event Shop & Missions",
+				start: "January 11 2022, 16:00",
+				end: "January 28 2022, 14:59"
 			}
         ]
     },
@@ -521,33 +523,47 @@ var timerData = [
 		{
 			name: "Tickets Exchange",
 			start: "January 1 2022, 00:00",
-			end: "January 18 2022, 14:59",
-			extraPriority: 20
+			end: "January 18 2022, 14:59"
 		}
 		]
 	},
 	{
 		type: "Other",
 		title: [
-		"Mirrors Selection Pack & Mirrors Beginner Pack",
-		"「ミラーズセレクションパック」「ミラーズビギナーズパック」の販売"
+		"Daily Magia Stones Bundle with Bonus",
+		"1日1回限定 お得なマギアストーン販売"
 		],
 		image: [
-            "imgs/banner_0539_m.png"
+            "imgs/banner_0514_m.png"
         ],
 		column: 2,
-		priority: 2,
+		priority: 5,
 		timers: [ 
 		{
 			name: "Sales Period",
-			start: "December 13 2021, 17:00",
-			end: "December 20 2021, 14:59",
+			start: "January 11 2022, 16:00",
+			end: "January 21 2022, 23:59",
 			extraPriority: 100
-		},
+		}
+		]
+	},
+	{
+		type: "Other",
+		title: [
+		"1600 Days Anniversary Packs",
+		"1600日記念パック"
+		],
+		image: [
+            "imgs/banner_0550_m.png"
+        ],
+		column: 2,
+		priority: 6,
+		timers: [ 
 		{
-			name: "Selection Ticket Exchange",
-			start: "December 13 2021, 16:00",
-			end: "December 27 2021, 14:59"
+			name: "Sales Period",
+			start: "January 11 2022, 16:00",
+			end: "January 21 2022, 14:59",
+			extraPriority: 100
 		}
 		]
 	},
@@ -615,19 +631,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Holy Mami (Anime ver.) Limited-time Pickup Gacha",
-            "期間限定 ホーリーマミ アニメver. ピックアップガチャ"
+			"Nanami Yachiyo (Anime ver.) Limited-time Pickup Gacha",
+            "期間限定 七海やちよ アニメver. ピックアップガチャ"
         ],
         "image": [
-            "imgs/gachabanner_0825_m.png"
+            "imgs/gachabanner_0855_m.png"
         ],
         "column": 1,
         "priority": 6,
         "timers": [
             {
                 name: "Duration",
-                start: "December 10 2021, 15:00",
-				end: "December 20 2021, 14:59",
+                start: "January 11 2022, 16:00",
+				end: "January 21 2022, 14:59",
                 extraPriority: 100
             }
         ]
