@@ -256,7 +256,7 @@ Vue.component("ev-thumb", {
             let filter = true;
             for(let t of ev.timers)
             {
-                filter &= (t.rawStart > now || t.rawEnd < now)
+                filter &= (t.rawStart > now || t.rawEnd < now);
             }
             return filter;
         }
