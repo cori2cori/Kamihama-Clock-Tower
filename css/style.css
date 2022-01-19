@@ -563,6 +563,7 @@ img.lcarousel {
     left: -20%;
     opacity: 0;
     transition: all 1s;
+    border-radius: 1.434%/5.416%;
 }
 img.lcarousel.current {
     z-index: 20;

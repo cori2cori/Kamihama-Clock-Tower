@@ -60,5 +60,5 @@ document.addEventListener("DOMContentLoaded", function() {
 		});
 
 	lcarousel.init();
-});
+}, {once: true});
 

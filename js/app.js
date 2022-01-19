@@ -128,14 +128,14 @@ var vm = new Vue({
         },
 
         getMagiaStonesTimer : function(){
-            let month = moment.tz("Asia/Tokyo").format('MMMM')
-            let momentTz = moment().tz("Asia/Tokyo")
+            let month = moment.tz("Asia/Tokyo").format('MMMM');
+            let momentTz = moment().tz("Asia/Tokyo");
 
             let n = {
                 name: "Monthly Magia Stones Shops - "+month,
                 start: momentTz.startOf('month').format("MMMM D YYYY, H:mm","Asia/Tokyo"),
                 end: momentTz.endOf('month').format("MMMM D YYYY, H:mm","Asia/Tokyo")
-            }
+            };
             //console.log(n)
             return n;
         },
@@ -273,7 +273,7 @@ var vm = new Vue({
             var marks = [];
             if (timer.hasOwnProperty("markers")) {
                 let marker;
-                for (var m = 0; m < timer.markers.length; m++) {
+                for (let m = 0; m < timer.markers.length; m++) {
                     marker = this.createMarker(timer.markers[m], timer, localZone);
                     marks.push(marker);
                 }
@@ -281,7 +281,7 @@ var vm = new Vue({
             }
             if (timer.hasOwnProperty("banners")) {
                 let marker;
-                for (var m = 0; m < timer.banners.length; m++) {
+                for (let m = 0; m < timer.banners.length; m++) {
                     marker = this.createMarker(timer.banners[m], timer, localZone);
                     if (marker.rawtime != timer.rawStart) {
                         marks.push(marker);
@@ -431,10 +431,11 @@ var vm = new Vue({
             let allExpired = true,
                 nextDate = Infinity,
                 nextType = "finished",
-                lastDate = 0;
+                lastDate = 0,
+                timer;
 
             // Check each individual timer
-            for (t = 0; t < ev.timers.length; t++) {
+            for (let t = 0; t < ev.timers.length; t++) {
                 timer = ev.timers[t];
                 this.updateEventTimer(timer, ev, now);
 
