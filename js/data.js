@@ -142,45 +142,45 @@ var timerData = [
 	{
         "type": "WeekendBoss",
         "title": [
-			"Vigorous Opal Neck Kimochi Battle",
-            "キモチ戦健やかなるオパールの首"
+			"Pleased Sapphire Lips Kimochi Battle",
+            "キモチ戦 悦ぶサファイアの唇"
         ],
         "image": [
-            "imgs/banner_0430_m.png"
+            "imgs/banner_0314_m.png"
         ],
         "column": 0,
-        "priority": 29,
+        "priority": 7,
         "timers": [
 			{
 				name: "Part 1 - Day 1",
-				start: "October 13 2021, 17:00",
-				end: "October 14 2021, 16:00"
+				start: "January 21 2022, 17:00",
+				end: "January 22 2022, 15:59"
 			},
 			{
 				name: "Part 1 - Day 2",
-				start: "October 14 2021, 16:00",
-				end: "October 15 2021, 16:00"
+				start: "January 22 2022, 16:00",
+				end: "January 23 2022, 15:59"
 			},
 			{
 				name: "Part 2 - Day 1",
-				start: "October 15 2021, 17:00",
-				end: "October 16 2021, 16:00"
+				start: "January 23 2022, 17:00",
+				end: "January 24 2022, 15:59"
 			},
 			{
 				name: "Part 2 - Day 2",
-				start: "October 16 2021, 16:00",
-				end: "October 17 2021, 16:00"
+				start: "January 24 2022, 16:00",
+				end: "January 25 2022, 15:59"
 			},
 			{
 				name: "Part 2 - Day 3",
-				start: "October 17 2021, 16:00",
-				end: "October 18 2021, 15:59"
+				start: "January 25 2022, 16:00",
+				end: "January 26 2022, 15:59"
 			},
             {
                 "name": "Main Event",
-                "start": "October 13 2021, 17:00",
-                "end": "October 18 2021, 15:59",
-                "extraPriority": 30,
+                "start": "January 21 2022, 17:00",
+                "end": "January 26 2022, 15:59",
+                "extraPriority": 100,
 				"type": "normal"
 			}
 				]
@@ -436,36 +436,6 @@ var timerData = [
 				end: "July 31 2021, 23:59"
 			},*/
 			{
-				name: "Adjuster Coin Shop: Navy Blue - Snow Thawing Befana",
-				start: "December 20 2021, 16:00",
-				end: "January 7 2022, 14:59"
-			},
-			{
-				name: "Snow Thawing Befana - Event Shop & Missions",
-				start: "December 20 2021, 16:00",
-				end: "January 7 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Yellow - Haregi Gachas",
-				start: "December 28 2021, 16:00",
-				end: "January 18 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Peach - Tokime Shizuka (First Sunrise of the Year ver.) Gacha",
-				start: "January 1 2022, 0:00",
-				end: "January 18 2022, 14:59"
-			},
-			{
-				name: "Tokime Clan Monogatari - Event Missions & Omikuji Box",
-				start: "January 1 2022, 0:00",
-				end: "January 18 2022, 14:59"
-			},
-			{
-				name: "New Year 2022 Ticket Exchange Shop",
-				start: "January 1 2022, 0:00",
-				end: "January 18 2022, 14:59"
-			},
-			{
 				name: "Limited-time Memoria in the SP Shop",
 				start: "January 1 2022, 0:00",
 				end: "January 31 2022, 23:59"
@@ -479,6 +449,16 @@ var timerData = [
 				name: "Mitama's Special Training - Event Shop & Missions",
 				start: "January 11 2022, 16:00",
 				end: "January 28 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Green - Forest Attribute Gacha",
+				start: "January 21 2022, 17:00",
+				end: "February 4 2022, 14:59"
+			},
+			{
+				name: "Pleased Sapphire Lips Kimochi Battle - Event Shop & Missions",
+				start: "January 21 2022, 17:00",
+				end: "February 2 2022, 14:59"
 			}
         ]
     },
@@ -505,25 +485,20 @@ var timerData = [
 	{
 		type: "Other",
 		title: [
-		"Mitama's New Year Lucky Bags",
-		"みたまのお正月DX福袋"
+		"Forest Attribute Strengthening Pack",
+		"木属性魔法少女育成パックの販売"
 		],
 		image: [
-            "imgs/banner_0544_m.png"
+            "imgs/banner_0556_m.png"
         ],
 		column: 2,
-		priority: 4,
+		priority: 5,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "January 1 2022, 00:00",
-			end: "January 11 2022, 14:59",
+			start: "January 21 2022, 17:00",
+			end: "January 28 2022, 14:59",
 			extraPriority: 100
-		},
-		{
-			name: "Tickets Exchange",
-			start: "January 1 2022, 00:00",
-			end: "January 18 2022, 14:59"
 		}
 		]
 	},
@@ -567,24 +542,26 @@ var timerData = [
 		}
 		]
 	},
-	/*{
+	{
         type: "Maintenance",
         title: [
-            "Maintenance"
+            "Maintenance",
+			"维护"
         ],
-		"image": "maintenance",
+		"image": [
+			"imgs/maintenance.png"
+		],
         column: 0,
-        priority: 39,
+        priority: 8,
         timers: [
             {
                 name: "Scheduled Time",
-                start: "May 24 2021, 15:00",
-                end: "May 24 2021, 16:00",
-                keepAfterFinished: "60 minutes",
-				extraPriority: 10
+                start: "January 21 2022, 16:00",
+                end: "January 21 2022, 16:59",
+				extraPriority: 100
             }
         ]
-    },*/
+    },
 	{
         "type": "Gacha",
         "title": [
@@ -611,19 +588,39 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Tokime Shizuka (First Sunrise of the Year ver.) Limited-time Pickup Gacha",
-            "期間限定 時女静香 初日の出ver.ピックアップガチャ"
+			"Forest Attribute Guaranteed 4★ Paid Gacha",
+            "有償限定 木属性★4魔法少女確定ガチャ"
         ],
         "image": [
-            "imgs/gachabanner_0844_m.png"
+            "imgs/gachabanner_0860_m.png"
         ],
         "column": 1,
-        "priority": 5,
+        "priority": 7,
         "timers": [
             {
                 name: "Duration",
-                start: "January 1 2022, 0:00",
-				end: "January 11 2022, 14:59",
+                start: "January 21 2022, 17:00",
+				end: "January 28 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"Forest Attribute Gacha",
+            "木属性ピックアップガチャ"
+        ],
+        "image": [
+            "imgs/gachabanner_0859_m.png"
+        ],
+        "column": 1,
+        "priority": 8,
+        "timers": [
+            {
+                name: "Duration",
+                start: "January 21 2022, 17:00",
+				end: "January 28 2022, 14:59",
                 extraPriority: 100
             }
         ]
