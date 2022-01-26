@@ -89,26 +89,33 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Mitama's Special Training",
-			"みたまの特訓"
+            "Grey Revolution",
+			"灰色革命"
         ],
         "image": [
-            "imgs/banner_0554_m.png"
+            "imgs/banner_0559_m.png"
         ],
         "column": 0,
-        "priority": 7,
+        "priority": 8,
         "timers": [
 			{
 				name: "Maintenance",
-				start: "January 11 2022, 15:00",
-				end: "January 11 2022, 16:00",
+				start: "January 28 2022, 15:00",
+				end: "January 28 2022, 16:00",
 				extraPriority: 100
 			},
             {
                 "name": "Main Event",
-                "start": "January 11 2022, 16:00",
-                "end": "January 21 2022, 14:59",
-                "extraPriority": 100
+                "start": "January 28 2022, 16:00",
+                "end": "February 10 2022, 14:59",
+                "extraPriority": 100,
+				markers: [
+				{
+					title: "Part 2 - Ch. 5 to 13",
+					time: "February 4 2022, 16:00",
+					type: "battle"
+				}
+				]
             }
         ]
     },
@@ -459,6 +466,16 @@ var timerData = [
 				name: "Pleased Sapphire Lips Kimochi Battle - Event Shop & Missions",
 				start: "January 21 2022, 17:00",
 				end: "February 2 2022, 14:59"
+			},
+			{
+				name: "Grey Revolution - Event Shop",
+				start: "January 28 2022, 16:00",
+				end: "February 17 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Black - Miura Asahi Gacha",
+				start: "January 28 2022, 16:00",
+				end: "February 17 2022, 14:59"
 			}
         ]
     },
@@ -565,22 +582,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Haregi Limited-time Gacha",
-            "晴着期間限定ガチャ"
+			"Miura Asahi Pickup Gacha",
+            "三浦旭 ピックアップガチャ"
         ],
         "image": [
-            "imgs/gachabanner_0838_m.png",
-			"imgs/gachabanner_0839_m.png",
-			"imgs/gachabanner_0840_m.png",
-			"imgs/gachabanner_0841_m.png"
+            "imgs/gachabanner_0863_m.png"
         ],
         "column": 1,
-        "priority": 4,
+        "priority": 8,
         "timers": [
             {
                 name: "Duration",
-                start: "December 28 2021, 16:00",
-				end: "January 11 2022, 14:59",
+                start: "January 28 2022, 16:00",
+				end: "February 10 2022, 14:59",
                 extraPriority: 100
             }
         ]
