@@ -465,7 +465,7 @@ var timerData = [
 			{
 				name: "Pleased Sapphire Lips Kimochi Battle - Event Shop & Missions",
 				start: "January 21 2022, 17:00",
-				end: "February 2 2022, 14:59"
+				end: "February 4 2022, 14:59"
 			},
 			{
 				name: "Grey Revolution - Event Shop",
