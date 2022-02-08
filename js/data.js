@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "January 19 2022, 18:00";
+var possibleNextAnnouncementDate = "February 18 2022, 18:00";
 var nextAnniversary = "August 22 2022, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -122,24 +122,30 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"Tokime Clan Monogatari ～Let's Go See the First Sunrise of the Year～",
-			"時女拾遺物語～初日の出を呼びませう！～"
+			"Homecoming ～Three Days of Kyouko Sakura～",
+			"Homecoming ～佐倉杏子の３日間～"
         ],
         "image": [
-            "imgs/banner_0555_m.png"
+            "imgs/banner_0561_m.png"
         ],
         "column": 0,
         "priority": 4,
         "timers": [
 			{
+				name: "Maintenance",
+				start: "Feb 10 2022, 15:00",
+				end: "Feb 10 2022, 16:00",
+				extraPriority: 100,
+			},
+			{
                 name: "Duration",
-                start: "January 1 2022, 00:00",
-                end: "January 11 2022, 14:59",
+                start: "February 10 2022, 16:00",
+                end: "February 21 2022, 14:59",
                 extraPriority: 100,
 				markers: [
 					{
 						title: "Story Quests 11~20 & 100Evils I~III",
-						time: "January 5 2022, 16:00",
+						time: "February 15 2022, 16:00",
 						type: "battle"
 					}
 				]
@@ -443,31 +449,6 @@ var timerData = [
 				end: "July 31 2021, 23:59"
 			},*/
 			{
-				name: "Limited-time Memoria in the SP Shop",
-				start: "January 1 2022, 0:00",
-				end: "January 31 2022, 23:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Water - Nanami Yachiyo (Anime ver.) Gacha",
-				start: "January 11 2022, 16:00",
-				end: "January 28 2022, 14:59"
-			},
-			{
-				name: "Mitama's Special Training - Event Shop & Missions",
-				start: "January 11 2022, 16:00",
-				end: "January 28 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Green - Forest Attribute Gacha",
-				start: "January 21 2022, 17:00",
-				end: "February 4 2022, 14:59"
-			},
-			{
-				name: "Pleased Sapphire Lips Kimochi Battle - Event Shop & Missions",
-				start: "January 21 2022, 17:00",
-				end: "February 4 2022, 14:59"
-			},
-			{
 				name: "Grey Revolution - Event Shop",
 				start: "January 28 2022, 16:00",
 				end: "February 17 2022, 14:59"
@@ -476,6 +457,21 @@ var timerData = [
 				name: "Adjuster Coin Shop: Black - Miura Asahi Gacha",
 				start: "January 28 2022, 16:00",
 				end: "February 17 2022, 14:59"
+			},
+			{
+				name: "Homecoming - Event Shop & Missions",
+				start: "Feb 10 2022, 16:00",
+				end: "Feb 28 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Orange - Sakura Kyouko (Doppel ver.) Gacha",
+				start: "Feb 10 2022, 16:00",
+				end: "Feb 28 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Brown - Valentines 2020 & 2021 Rerun Gachas",
+				start: "Feb 10 2022, 16:00",
+				end: "Feb 28 2022, 14:59"
 			}
         ]
     },
@@ -602,19 +598,41 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Forest Attribute Guaranteed 4★ Paid Gacha",
-            "有償限定 木属性★4魔法少女確定ガチャ"
+			"Sakura Kyouko (Doppel ver.) Limited-time Pickup Gacha",
+            "期間限定 佐倉杏子 ドッペルver.ピックアップガチャ"
         ],
         "image": [
-            "imgs/gachabanner_0860_m.png"
+            "imgs/gachabanner_0868_m.png"
         ],
         "column": 1,
-        "priority": 7,
+        "priority": 11,
         "timers": [
             {
                 name: "Duration",
-                start: "January 21 2022, 17:00",
-				end: "January 28 2022, 14:59",
+                start: "Feb 10 2022, 16:00",
+				end: "Feb 21 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+		{
+        "type": "Gacha",
+        "title": [
+			"Valentines Day 2020 & 2021 Limited-time Gachas Rerun",
+            "限定バレンタインガチャ復刻"
+        ],
+        "image": [
+            "imgs/gachabanner_0872_m.png",
+			"imgs/gachabanner_0871_m.png",
+			"imgs/gachabanner_0870_m.png"
+        ],
+        "column": 1,
+        "priority": 10,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Feb 10 2022, 16:00",
+				end: "Feb 21 2022, 14:59",
                 extraPriority: 100
             }
         ]
@@ -622,271 +640,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Forest Attribute Gacha",
-            "木属性ピックアップガチャ"
+			"Limited-time Paid 4★ Valentines Day Magical Girl Guaranteed Gacha",
+            "期間限定 バレンタイン★4魔法少女確定ガチャ"
         ],
         "image": [
-            "imgs/gachabanner_0859_m.png"
+            "imgs/gachabanner_0873_m.png"
         ],
         "column": 1,
-        "priority": 8,
+        "priority": 9,
         "timers": [
             {
                 name: "Duration",
-                start: "January 21 2022, 17:00",
-				end: "January 28 2022, 14:59",
+                start: "Feb 10 2022, 16:00",
+				end: "Feb 21 2022, 14:59",
                 extraPriority: 100
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"Nanami Yachiyo (Anime ver.) Limited-time Pickup Gacha",
-            "期間限定 七海やちよ アニメver. ピックアップガチャ"
-        ],
-        "image": [
-            "imgs/gachabanner_0855_m.png"
-        ],
-        "column": 1,
-        "priority": 6,
-        "timers": [
-            {
-                name: "Duration",
-                start: "January 11 2022, 16:00",
-				end: "January 21 2022, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"Snow Thawing Befana Limited-time Pickup Gacha",
-			"期間限定ガチャ雪解けのベファーナ"
-        ],
-        "image": [
-            "imgs/gachabanner_0834_m.png"
-        ],
-        "column": 1,
-        "priority": 3,
-        "timers": [
-            {
-                "name": "Duration",
-                "start": "December 20 2021, 16:00",
-                "end": "December 31 2021, 14:59",
-                "extraPriority": 100
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"Another Daze ～Mahou Shoujo Kazumi☆Magica～ Limited-time Gacha",
-			"期間限定ガチャ Another Daze～魔法少女かずみ☆マギカ～"
-        ],
-        "image": [
-            "imgs/gachabanner_0801_m.png"
-        ],
-        "column": 1,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Duration",
-                "start": "October 20 2021, 16:00",
-                "end": "October 29 2021, 14:59",
-                "extraPriority": 100
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-            "Halloween Castle of Prayers and Mourning Pickup Limited-time Gacha Part 2",
-			"期間限定ガチャ 祈りと弔いのハロウィン城 第2弾"
-        ],
-        "image": [
-            "imgs/gachabanner_0792_m.png"
-        ],
-        "column": 1,
-        "priority": 66,
-        "timers": [
-            {
-                "name": "Duration",
-                "start": "October 4 2021, 16:00",
-                "end": "October 13 2021, 14:59",
-                "extraPriority": 10
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"【Limited-time Gacha Rerun】",
-            "Lets go to Zen Shin Sai! - Little Kyubey Pickup Gacha",
-			"Iroha & Yachiyo (Final Battle ver.) Pickup Gacha"
-        ],
-        "image": [
-            "imgs/gachabanner_0749_m.png",
-			"imgs/gachabanner_0750_m.png"
-        ],
-        "column": 1,
-        "priority": 68,
-        "timers": [
-            {
-                "name": "Duration",
-                "start": "August 16 2021, 17:00",
-                "end": "September 6 2021, 14:59",
-                "extraPriority": 10
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"【Paid Gacha】",
-            "Promised Blood 4★ Magical Girl Guaranteed Gacha"
-        ],
-        "image": [
-            "imgs/gachabanner_0740_m.png"
-        ],
-        "column": 1,
-        "priority": 69,
-        "timers": [
-            {
-                "name": "Duration",
-                "start": "August 10 2021, 16:00",
-                "end": "August 21 2021, 14:59",
-                "extraPriority": 10
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"【Paid Gacha】",
-            "2019 4★ Swimsuit Magical Girl Guaranteed Gacha"
-        ],
-        "image": [
-            "imgs/gachabanner_0726_m.png"
-        ],
-        "column": 1,
-        "priority": 70,
-        "timers": [
-            {
-                "name": "Duration",
-                "start": "July 26 2021, 16:00",
-                "end": "August 10 2021, 14:59",
-                "extraPriority": 10,
-				keepAfterFinished: "9 hours"
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"【Pickup Gacha】",
-            "Kureha Yuna Pickup Gacha"
-        ],
-        "image": [
-            "imgs/gachabanner_0739_m.png"
-        ],
-        "column": 1,
-        "priority": 70,
-        "timers": [
-            {
-                "name": "Duration",
-                "start": "August 10 2021, 16:00",
-                "end": "August 21 2021, 14:59",
-                "extraPriority": 10
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"【Limited-time Gacha】",
-            "4th Anniversary Choose your 4★ Memoria Selection Gacha"
-        ],
-        "image": [
-            "imgs/gachabanner_0757_m.png"
-        ],
-        "column": 1,
-        "priority": 64,
-        "timers": [
-            {
-                "name": "Duration",
-                "start": "August 22 2021, 0:00",
-                "end": "September 6 2021, 23:59",
-                "extraPriority": 20
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"【Limited-time Gacha】",
-            "4th Anniversary Choose your 4★ Magical Girl Pickup Gacha"
-        ],
-        "image": [
-            "imgs/gachabanner_0756_m.png"
-        ],
-        "column": 1,
-        "priority": 63,
-        "timers": [
-            {
-                "name": "Duration",
-                "start": "August 22 2021, 0:00",
-                "end": "September 6 2021, 23:59",
-                "extraPriority": 20
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"【Limited-time Gacha】",
-            "Madoka·Iroha Pickup Gacha"
-        ],
-        "image": [
-            "imgs/gachabanner_0753_m.png"
-        ],
-        "column": 1,
-        "priority": 65,
-        "timers": [
-            {
-                "name": "Duration",
-                "start": "August 22 2021, 0:00",
-                "end": "September 6 2021, 14:59",
-                "extraPriority": 20
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"【Memoria Gacha】",
-            "Choose your 4★ Memoria Selection Gacha"
-        ],
-        "image": [
-            "imgs/gachabanner_0786_m.png"
-        ],
-        "column": 1,
-        "priority": 59,
-        "timers": [ 
-            {
-                "name": "Duration",
-                "start": "September 27 2021, 17:00",
-                "end": "October 4 2021, 14:59",
-                "extraPriority": 20,
-				markers: [
-				{
-					title: "2nd 2ool",
-					time: "October 1 2021, 14:59",
-					type: "star"
-					
-				}
-				]
             }
         ]
     },
