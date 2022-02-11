@@ -19,7 +19,11 @@
 	}
 }
 
-body.theme-dark {
+.theme-dark {
+	color-scheme: dark;
+}
+
+.theme-dark body {
 	background-color: #131313;
 	color: #dedad6;
 }

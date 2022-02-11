@@ -11,11 +11,11 @@ const theme = {
 	set: function(name) {
 		if (!name)
 			return false;
-		const old_name = document.body.getAttribute("data-theme");
+		const old_name = document.documentElement.getAttribute("data-theme");
 		if (old_name)
-			document.body.classList.remove("theme-"+old_name);
-		document.body.setAttribute("data-theme", name);
-		document.body.classList.add("theme-"+name);
+			document.documentElement.classList.remove("theme-"+old_name);
+		document.documentElement.setAttribute("data-theme", name);
+		document.documentElement.classList.add("theme-"+name);
 		document.cookie = "theme="+name+"; path=/; max-age=436320000; secure; samesite=lax";
 		return true;
 	}
