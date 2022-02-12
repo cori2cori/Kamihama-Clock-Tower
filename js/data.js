@@ -89,34 +89,21 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Grey Revolution",
-			"灰色革命"
+            "Valentines Day Login Bonus",
+			"バレンタインログインボーナス"
         ],
         "image": [
-            "imgs/banner_0559_m.png"
+            "imgs/banner_0562_m.png"
         ],
         "column": 0,
-        "priority": 8,
+        "priority": 5,
         "timers": [
 			{
-				name: "Maintenance",
-				start: "January 28 2022, 15:00",
-				end: "January 28 2022, 16:00",
+				name: "Duration",
+				start: "February 14 2022, 00:00",
+				end: "February 24 2022, 23:59",
 				extraPriority: 100
-			},
-            {
-                "name": "Main Event",
-                "start": "January 28 2022, 16:00",
-                "end": "February 10 2022, 14:59",
-                "extraPriority": 100,
-				markers: [
-				{
-					title: "Part 2 - Ch. 5 to 13",
-					time: "February 4 2022, 16:00",
-					type: "battle"
-				}
-				]
-            }
+			}
         ]
     },
 	{
