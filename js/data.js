@@ -101,7 +101,7 @@ var timerData = [
 			{
 				name: "Duration",
 				start: "February 14 2022, 00:00",
-				end: "February 24 2022, 23:59",
+				end: "February 14 2022, 23:59",
 				extraPriority: 100
 			}
         ]
