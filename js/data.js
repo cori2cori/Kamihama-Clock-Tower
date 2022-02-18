@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "February 18 2022, 18:00";
+var possibleNextAnnouncementDate = "February 25 2022, 18:00";
 var nextAnniversary = "August 22 2022, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -142,46 +142,53 @@ var timerData = [
 	{
         "type": "WeekendBoss",
         "title": [
-			"Pleased Sapphire Lips Kimochi Battle",
-            "キモチ戦 悦ぶサファイアの唇"
+			"Moving Aquamarine Heels Kimochi Battle",
+            "キモチ戦振動するアクアマリンの踵"
         ],
         "image": [
-            "imgs/banner_0314_m.png"
+            "imgs/aquamarine.png"
         ],
         "column": 0,
-        "priority": 7,
+        "priority": 5,
         "timers": [
 			{
 				name: "Part 1 - Day 1",
-				start: "January 21 2022, 17:00",
-				end: "January 22 2022, 15:59"
+				start: "Feb 21 2022, 17:00",
+				end: "Feb 22 2022, 15:59"
 			},
 			{
 				name: "Part 1 - Day 2",
-				start: "January 22 2022, 16:00",
-				end: "January 23 2022, 15:59"
+				start: "Feb 22 2022, 16:00",
+				end: "Feb 23 2022, 15:59"
 			},
 			{
 				name: "Part 2 - Day 1",
-				start: "January 23 2022, 17:00",
-				end: "January 24 2022, 15:59"
+				start: "Feb 23 2022, 17:00",
+				end: "Feb 24 2022, 15:59"
 			},
 			{
 				name: "Part 2 - Day 2",
-				start: "January 24 2022, 16:00",
-				end: "January 25 2022, 15:59"
+				start: "Feb 24 2022, 16:00",
+				end: "Feb 25 2022, 15:59"
 			},
 			{
 				name: "Part 2 - Day 3",
-				start: "January 25 2022, 16:00",
-				end: "January 26 2022, 15:59"
+				start: "Feb 25 2022, 16:00",
+				end: "Feb 26 2022, 15:59"
 			},
             {
                 "name": "Main Event",
-                "start": "January 21 2022, 17:00",
-                "end": "January 26 2022, 15:59",
+                "start": "Feb 21 2022, 17:00",
+                "end": "Feb 26 2022, 15:59",
                 "extraPriority": 100,
-				"type": "normal"
+				"type": "normal",
+				markers: [
+					{
+						title: "Part 2 - Groups",
+						time: "Feb 23 2022, 17:00",
+						type: "battle"
+					}
+				]
 			}
 				]
     },
@@ -459,6 +466,16 @@ var timerData = [
 				name: "Adjuster Coin Shop: Brown - Valentines 2020 & 2021 Rerun Gachas",
 				start: "Feb 10 2022, 16:00",
 				end: "Feb 28 2022, 14:59"
+			},
+			{
+				name: "Moving Aquamarine Heels Kimochi Battle Shop",
+				start: "Feb 21 2022, 17:00",
+				end: "Mar 7 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Red - Flame Attribute Pickup Gacha",
+				start: "Feb 21 2022, 17:00",
+				end: "Mar 7 2022, 14:59"
 			}
         ]
     },
@@ -485,19 +502,19 @@ var timerData = [
 	{
 		type: "Other",
 		title: [
-		"Forest Attribute Strengthening Pack",
-		"木属性魔法少女育成パックの販売"
+		"Flame Attribute Strengthening Pack",
+		"火属性魔法少女育成パックの販売"
 		],
 		image: [
-            "imgs/banner_0556_m.png"
+            "imgs/banner_0566_m.png"
         ],
 		column: 2,
 		priority: 5,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "January 21 2022, 17:00",
-			end: "January 28 2022, 14:59",
+			start: "Feb 21 2022, 17:00",
+			end: "Feb 28 2022, 14:59",
 			extraPriority: 100
 		}
 		]
@@ -556,8 +573,8 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "January 21 2022, 16:00",
-                end: "January 21 2022, 16:59",
+                start: "Feb 21 2022, 15:00",
+                end: "Feb 21 2022, 17:00",
 				extraPriority: 100
             }
         ]
@@ -565,19 +582,39 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Miura Asahi Pickup Gacha",
-            "三浦旭 ピックアップガチャ"
+			"Flame Attribute Pickup Gacha",
+            "火属性魔法少女ピックアップガチャ"
         ],
         "image": [
-            "imgs/gachabanner_0863_m.png"
+            "imgs/gachabanner_0876_m.png"
         ],
         "column": 1,
-        "priority": 8,
+        "priority": 13,
         "timers": [
             {
                 name: "Duration",
-                start: "January 28 2022, 16:00",
-				end: "February 10 2022, 14:59",
+                start: "Feb 21 2022, 17:00",
+				end: "Feb 28 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+		{
+        "type": "Gacha",
+        "title": [
+			"Limited-time Paid 4★ Flame Attribute Magical Girl Guaranteed Gacha",
+            "有償限定 火属性★4魔法少女確定ガチャ"
+        ],
+        "image": [
+            "imgs/gachabanner_0877_m.png"
+        ],
+        "column": 1,
+        "priority": 12,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Feb 21 2022, 17:00",
+				end: "Feb 28 2022, 14:59",
                 extraPriority: 100
             }
         ]
