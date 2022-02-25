@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "February 25 2022, 18:00";
+var possibleNextAnnouncementDate = "March 4 2022, 18:00";
 var nextAnniversary = "August 22 2022, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -357,42 +357,35 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"【Event】",
             "Extermination Battle: Witches' Paradox",
-			"Midori Ryou 5★ Uncap & Doppel Release",
-			"Arc 2 Chapter 4 Voiced & Challenge Mode Release"
+			"殲滅戦 魔女たちのパラドクス"
         ],
         "image": [
             "imgs/extermination.png"
         ],
         "column": 0,
-        "priority": 40,
+        "priority": 6,
         "timers": [
 			{
 				name: "Maintenance",
-				start: "September 6 2021, 15:00",
-				end: "September 6 2021, 19:00",
+				start: "Feb 28 2022, 15:00",
+				end: "Feb 28 2022, 17:00",
 				extraPriority: 10
 			},
             {
                 "name": "Main Event",
-                "start": "September 6 2021, 19:00",
-                "end": "September 13 2021, 14:59",
+                "start": "Feb 28 2022, 17:00",
+                "end": "Mar 7 2022, 14:59",
                 "extraPriority": 10,
 				"markers": [
 				{
-					title: "Ryou 5★ uncap & Doppel Release, Arc 2 Ch 4 Voices & Challenge Release",
-					time: "September 6 2021, 19:00",
-					type: "star"
-				},
-				{
 					title: "Challenge Stage",
-					time: "September 8 2021, 16:00",
+					time: "Mar 2 2022, 16:00",
 					type: "battle"
 				},
 				{
 					title: "EX Challenge Stage",
-					time: "September 10 2021, 16:00",
+					time: "Mar 4 2022, 16:00",
 					type: "battle"
 				}
 				]
@@ -443,16 +436,6 @@ var timerData = [
 				end: "July 31 2021, 23:59"
 			},*/
 			{
-				name: "Grey Revolution - Event Shop",
-				start: "January 28 2022, 16:00",
-				end: "February 17 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Black - Miura Asahi Gacha",
-				start: "January 28 2022, 16:00",
-				end: "February 17 2022, 14:59"
-			},
-			{
 				name: "Homecoming - Event Shop & Missions",
 				start: "Feb 10 2022, 16:00",
 				end: "Feb 28 2022, 14:59"
@@ -476,6 +459,11 @@ var timerData = [
 				name: "Adjuster Coin Shop: Red - Flame Attribute Pickup Gacha",
 				start: "Feb 21 2022, 17:00",
 				end: "Mar 7 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Yellow-Gree - Memoria Selection Gacha",
+				start: "Feb 28 2022, 17:00",
+				end: "Mar 14 2022, 14:59"
 			}
         ]
     },
@@ -542,19 +530,19 @@ var timerData = [
 	{
 		type: "Other",
 		title: [
-		"1600 Days Anniversary Packs",
-		"1600日記念パック"
+		"Mitama's Extermination Battle Special Deal",
+		"殲滅戦開催記念!!みたまのスペシャルオファー "
 		],
 		image: [
-            "imgs/banner_0550_m.png"
+            "imgs/banner_0567_m.png"
         ],
 		column: 2,
 		priority: 6,
 		timers: [ 
 		{
 			name: "Sales Period",
-			start: "January 11 2022, 16:00",
-			end: "January 21 2022, 14:59",
+			start: "Feb 28 2022, 17:00",
+			end: "Mar 7 2022, 14:59",
 			extraPriority: 100
 		}
 		]
@@ -622,19 +610,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Sakura Kyouko (Doppel ver.) Limited-time Pickup Gacha",
-            "期間限定 佐倉杏子 ドッペルver.ピックアップガチャ"
+			"Choose Your 4★  Memoria Selection Gacha",
+            "選べる★4メモリアセレクションガチャ"
         ],
         "image": [
-            "imgs/gachabanner_0868_m.png"
+            "imgs/gachabanner_0880_m.png"
         ],
         "column": 1,
-        "priority": 11,
+        "priority": 13,
         "timers": [
             {
                 name: "Duration",
-                start: "Feb 10 2022, 16:00",
-				end: "Feb 21 2022, 14:59",
+                start: "Feb 28 2022, 17:00",
+				end: "Mar 7 2022, 14:59",
                 extraPriority: 100
             }
         ]
