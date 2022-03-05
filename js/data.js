@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "March 4 2022, 18:00";
+var possibleNextAnnouncementDate = "March 16 2022, 18:00";
 var nextAnniversary = "August 22 2022, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -304,31 +304,31 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"Yukari Miyuri on practice!",
-			"遊狩ミユリの現在修行中！"
+			"End of a Legend ～The Limits of Light～",
+			"伝説の終わり、光の果て"
         ],
         "image": [
-            "imgs/banner_0534_m.png"
+            "imgs/0503/banner_0568_m.png"
         ],
         "column": 0,
-        "priority": 4,
+        "priority": 8,
         "timers": [
 			{
 				name: "Maintenance",
-				start: "November 19 2021, 15:00",
-				end: "November 19 2021, 16:00",
+				start: "Mar 7 2022, 15:00",
+				end: "Mar 7 2022, 16:00",
 				extraPriority: 100
 			},
 			{
 				name: "Main Event",
-				start: "November 19 2021, 16:00",
-				end: "November 29 2021, 14:59",
+				start: "Mar 7 2022, 16:00",
+				end: "Mar 18 2022, 14:59",
 				extraPriority: 100,
 				markers: [
 				{
-					title: "Story quests 11-20 & 100Evils I-III",
-					time: "November 24 2021, 16:00",
-					type: "battle"
+					title: "Part 2",
+					time: "Mar 11 2022, 16:00",
+					type: "story"
 				}
 				]
 			}
@@ -337,19 +337,20 @@ var timerData = [
 	{
 		type: "Event",
 		title: [
-			"F4 Fan Festival -Part 3-",
-			"f4ファンフェスティバル part3"
+			"Arc 2 Chapter 9 Release & Campaign",
+			"メインストーリー第2部9章配信と新章キャンペーン"
 		],
 		"image": [
-			"imgs/f4fanfest.png"
+			"imgs/0503/banner_1030900_m.png",
+			"imgs/0503/banner_0359_m.png"
 		],
 		column: 0,
-		priority: 5,
+		priority: 7,
 		timers: [
 		{
-				name: "Live Event",
-				start: "December 5 2021, 20:30",
-				end: "December 5 2021, 22:00",
+				name: "Duration",
+				start: "March 7 2022, 16:00",
+				end: "March 18 2022, 23:59",
 				extraPriority: 100
 		}
 		]
@@ -436,21 +437,6 @@ var timerData = [
 				end: "July 31 2021, 23:59"
 			},*/
 			{
-				name: "Homecoming - Event Shop & Missions",
-				start: "Feb 10 2022, 16:00",
-				end: "Feb 28 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Orange - Sakura Kyouko (Doppel ver.) Gacha",
-				start: "Feb 10 2022, 16:00",
-				end: "Feb 28 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Brown - Valentines 2020 & 2021 Rerun Gachas",
-				start: "Feb 10 2022, 16:00",
-				end: "Feb 28 2022, 14:59"
-			},
-			{
 				name: "Moving Aquamarine Heels Kimochi Battle Shop",
 				start: "Feb 21 2022, 17:00",
 				end: "Mar 7 2022, 14:59"
@@ -461,9 +447,31 @@ var timerData = [
 				end: "Mar 7 2022, 14:59"
 			},
 			{
-				name: "Adjuster Coin Shop: Yellow-Gree - Memoria Selection Gacha",
+				name: "Adjuster Coin Shop: Yellow-Green - Memoria Selection Gacha",
 				start: "Feb 28 2022, 17:00",
 				end: "Mar 14 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Blue - Tart☆Magica Gachas",
+				start: "Mar 7 2022, 16:00",
+				end: "Apr 4 2022, 14:59"
+			},
+			{
+				name: "End of a Legend, The Limits of Light - Event Shop and Missions",
+				start: "Mar 7 2022, 16:00",
+				end: "Mar 25 2022, 14:59",
+				markers:[
+				{
+					title: "Part 2",
+					time: "Mar 11 2022, 16:00",
+					type: "story"
+				}
+				]
+			},
+			{
+				name: "New Chapter Release Missions",
+				start: "Mar 7 2022, 16:00",
+				end: "Mar 25 2022, 14:59"
 			}
         ]
     },
@@ -570,7 +578,7 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Flame Attribute Pickup Gacha",
+			"Tart☆Magica Limited-time Gachas Rerun",
             "火属性魔法少女ピックアップガチャ"
         ],
         "image": [
@@ -617,7 +625,7 @@ var timerData = [
             "imgs/gachabanner_0880_m.png"
         ],
         "column": 1,
-        "priority": 13,
+        "priority": 1,
         "timers": [
             {
                 name: "Duration",
@@ -630,21 +638,24 @@ var timerData = [
 		{
         "type": "Gacha",
         "title": [
-			"Valentines Day 2020 & 2021 Limited-time Gachas Rerun",
-            "限定バレンタインガチャ復刻"
+			"Tart☆Magica Limited-time Gachas Rerun",
+            "限定魔法少女たると☆マギカガチャ復刻"
         ],
         "image": [
-            "imgs/gachabanner_0872_m.png",
-			"imgs/gachabanner_0871_m.png",
-			"imgs/gachabanner_0870_m.png"
+            "imgs/0503/gachabanner_0883_m.png",
+			"imgs/0503/gachabanner_0885_m.png",
+			"imgs/0503/gachabanner_0884_m.png",
+			"imgs/0503/gachabanner_0886_m.png",
+			"imgs/0503/gachabanner_0887_m.png",
+			"imgs/0503/gachabanner_0888_m.png"
         ],
         "column": 1,
-        "priority": 10,
+        "priority": 3,
         "timers": [
             {
                 name: "Duration",
-                start: "Feb 10 2022, 16:00",
-				end: "Feb 21 2022, 14:59",
+                start: "Mar 7 2022, 16:00",
+				end: "Mar 28 2022, 14:59",
                 extraPriority: 100
             }
         ]
@@ -652,19 +663,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Limited-time Paid 4★ Valentines Day Magical Girl Guaranteed Gacha",
-            "期間限定 バレンタイン★4魔法少女確定ガチャ"
+			"Paid 4★ Tart☆Magica Magical Girl Guaranteed Gacha",
+            "有償限定 魔法少女たると☆マギカ★4魔法少女確定ガチャ"
         ],
         "image": [
-            "imgs/gachabanner_0873_m.png"
+            "imgs/0503/gachabanner_0889_m.png"
         ],
         "column": 1,
-        "priority": 9,
+        "priority": 2,
         "timers": [
             {
                 name: "Duration",
-                start: "Feb 10 2022, 16:00",
-				end: "Feb 21 2022, 14:59",
+                start: "Mar 7 2022, 16:00",
+				end: "Mar 28 2022, 14:59",
                 extraPriority: 100
             }
         ]
