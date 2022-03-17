@@ -344,6 +344,16 @@ var timerData = [
 				name: "New Chapter Release Missions",
 				start: "Mar 7 2022, 16:00",
 				end: "Mar 25 2022, 14:59"
+			},
+			{
+				name: "The Inheritors of Our Souls - Event Shop & Missions",
+				start: "Mar 18 2022, 16:00",
+				end: "Apr 4 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Purple - Isabeau Pickup Gacha",
+				start: "Mar 18 2022, 16:00",
+				end: "Apr 8 2022, 14:59"
 			}
         ]
     },
