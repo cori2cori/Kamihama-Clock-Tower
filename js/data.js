@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "March 16 2022, 18:00";
+var possibleNextAnnouncementDate = "March 18 2022, 16:00";
 var nextAnniversary = "August 22 2022, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -86,59 +86,7 @@ var timerData = [
             }
         ]
     },*/
-	{
-        "type": "Event",
-        "title": [
-            "Valentines Day Login Bonus",
-			"バレンタインログインボーナス"
-        ],
-        "image": [
-            "imgs/banner_0562_m.png"
-        ],
-        "column": 0,
-        "priority": 5,
-        "timers": [
-			{
-				name: "Duration",
-				start: "February 14 2022, 00:00",
-				end: "February 14 2022, 23:59",
-				extraPriority: 100
-			}
-        ]
-    },
-	{
-        "type": "Event",
-        "title": [
-			"Homecoming ～Three Days of Kyouko Sakura～",
-			"Homecoming ～佐倉杏子の３日間～"
-        ],
-        "image": [
-            "imgs/banner_0561_m.png"
-        ],
-        "column": 0,
-        "priority": 4,
-        "timers": [
-			{
-				name: "Maintenance",
-				start: "Feb 10 2022, 15:00",
-				end: "Feb 10 2022, 16:00",
-				extraPriority: 100,
-			},
-			{
-                name: "Duration",
-                start: "February 10 2022, 16:00",
-                end: "February 21 2022, 14:59",
-                extraPriority: 100,
-				markers: [
-					{
-						title: "Story Quests 11~20 & 100Evils I~III",
-						time: "February 15 2022, 16:00",
-						type: "battle"
-					}
-				]
-            }
-        ]
-    },
+
 	{
         "type": "WeekendBoss",
         "title": [
@@ -191,115 +139,6 @@ var timerData = [
 				]
 			}
 				]
-    },
-	{
-		type: "Event",
-		title: [
-			"Happy New Year Campaign",
-			"謹賀新年お正月キャンペーン"
-		],
-		"image": [
-			"imgs/banner_0551_m.png",
-			"imgs/banner_0552_m.png"
-		],
-		column: 0,
-		priority: 3,
-		timers: [
-		{
-				name: "1/2 AP, x2 Player EXP, x2 SP and x2 Mirrors Coins Campaign",
-				start: "December 28 2021, 16:00",
-				end: "January 11 2022, 14:59"
-		},
-		{
-				name: "Fortune Telling at Mizuna Shrine, New Year Login Bonus & New Year Limited Daily Missions",
-				start: "January 1 2022, 0:00",
-				end: "January 11 2022, 23:59",
-				extraPriority: 100
-		}
-		]
-	},
-	{
-		type: "Event",
-		title: [
-			"1600 Days Anniversary Campaign",
-			"リリース1600日記念キャンペーン"
-		],
-		"image": [
-			"imgs/banner_0549_m.png"
-		],
-		column: 0,
-		priority: 6,
-		timers: [
-		{
-			name: "1/2 AP, x2 Player EXP, x2 SP",
-			start: "January 11 2022, 16:00",
-			end: "January 21 2022, 14:59"
-		},
-		{
-			name: "Login Bonus",
-			start: "January 11 2022, 16:00",
-			end: "January 21 2022, 23:59",
-			extraPriority: 100
-		},
-		{
-			name: "Limited-time Daily Missions",
-			start: "January 12 2022, 00:00",
-			end: "January 21 2022, 23:59"
-		}
-		]
-	},
-		
-	{
-        "type": "Event",
-        "title": [
-			"【Campaign】",
-            "Summer Missions"
-        ],
-        "image": [
-            "imgs/banner_0492_m.png"
-        ],
-        "column": 0,
-        "priority": 31,
-        "timers": [
-            {
-                "name": "Duration",
-                "start": "June 28 2021, 16:00",
-                "end": "August 6 2021, 14:59",
-                "extraPriority": 10,
-				"markers": [
-				{
-					title: "Missions 1-5",
-					time: "June 28 2021, 16:00",
-					type: "battle"
-				},
-				{
-					title: "Missions 6-10",
-					time: "July 5 2021, 17:00",
-					type: "battle"
-				},
-				{
-					title: "Missions 11-15",
-					time: "July 12 2021, 16:00",
-					type: "battle"
-				},
-				{
-					title: "Missions 15-20",
-					time: "July 19 2021, 17:00",
-					type: "battle"
-				},
-				{
-					title: "Missions 21-26",
-					time: "July 26 2021, 16:00",
-					type: "battle"
-				}
-				]
-            },
-			{
-				"name": "Guaranteed 4★ Ticket Exchange",
-                "start": "July 26 2021, 16:00",
-                "end": "August 13 2021, 14:59"
-			}
-        ]
     },
 	{
         "type": "Event",
@@ -355,6 +194,39 @@ var timerData = [
 		}
 		]
 	},
+		{
+        "type": "Event",
+        "title": [
+			"The Inheritors of Our Souls ～Puella Magi Tart☆Magica～",
+			"想いを継ぐものたち～魔法少女たると☆マギカ～ "
+        ],
+        "image": [
+            "imgs/1703/banner_0569_m.png"
+        ],
+        "column": 0,
+        "priority": 9,
+        "timers": [
+			{
+				name: "Maintenance",
+				start: "Mar 18 2022, 15:00",
+				end: "Mar 18 2022, 16:00",
+				extraPriority: 100
+			},
+			{
+				name: "Main Event",
+				start: "Mar 18 2022, 16:00",
+				end: "Mar 28 2022, 14:59",
+				extraPriority: 100,
+				markers: [
+				{
+					title: "Story Quests 10~20 & Evil100 Challenges I~III",
+					time: "Mar 24 2022, 16:00",
+					type: "battle"
+				}
+				]
+			}
+        ]
+    },
 	{
         "type": "Event",
         "title": [
@@ -498,19 +370,19 @@ var timerData = [
 	{
 		type: "Other",
 		title: [
-		"Flame Attribute Strengthening Pack",
-		"火属性魔法少女育成パックの販売"
+		"Tart☆Magica Collaboration Support Pack",
+		"魔法少女たると☆マギカコラボ記念育成応援パックの販売"
 		],
 		image: [
-            "imgs/banner_0566_m.png"
+            "imgs/1703/banner_0570_m.png"
         ],
 		column: 2,
 		priority: 5,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "Feb 21 2022, 17:00",
-			end: "Feb 28 2022, 14:59",
+			start: "Mar 18 2022, 16:00",
+			end: "Apr 1 2022, 14:59",
 			extraPriority: 100
 		}
 		]
@@ -575,66 +447,6 @@ var timerData = [
             }
         ]
     },
-	{
-        "type": "Gacha",
-        "title": [
-			"Tart☆Magica Limited-time Gachas Rerun",
-            "火属性魔法少女ピックアップガチャ"
-        ],
-        "image": [
-            "imgs/gachabanner_0876_m.png"
-        ],
-        "column": 1,
-        "priority": 13,
-        "timers": [
-            {
-                name: "Duration",
-                start: "Feb 21 2022, 17:00",
-				end: "Feb 28 2022, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-		{
-        "type": "Gacha",
-        "title": [
-			"Limited-time Paid 4★ Flame Attribute Magical Girl Guaranteed Gacha",
-            "有償限定 火属性★4魔法少女確定ガチャ"
-        ],
-        "image": [
-            "imgs/gachabanner_0877_m.png"
-        ],
-        "column": 1,
-        "priority": 12,
-        "timers": [
-            {
-                name: "Duration",
-                start: "Feb 21 2022, 17:00",
-				end: "Feb 28 2022, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"Choose Your 4★  Memoria Selection Gacha",
-            "選べる★4メモリアセレクションガチャ"
-        ],
-        "image": [
-            "imgs/gachabanner_0880_m.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Duration",
-                start: "Feb 28 2022, 17:00",
-				end: "Mar 7 2022, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
 		{
         "type": "Gacha",
         "title": [
@@ -676,6 +488,27 @@ var timerData = [
                 name: "Duration",
                 start: "Mar 7 2022, 16:00",
 				end: "Mar 28 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+			{
+        "type": "Gacha",
+        "title": [
+			"Isabeau Limited-time Pickup Gacha & Step-up Gacha",
+            "期間限定 イザボーピックアップガチャとステップアップガチャ"
+        ],
+        "image": [
+            "imgs/1703/gachabanner_0892_m.png",
+			"imgs/1703/gachabanner_0899_m.png"
+        ],
+        "column": 1,
+        "priority": 4,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Mar 18 2022, 16:00",
+				end: "Apr 1 2022, 14:59",
                 extraPriority: 100
             }
         ]
