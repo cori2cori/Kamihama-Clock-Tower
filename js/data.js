@@ -356,7 +356,7 @@ var timerData = [
 				end: "Apr 8 2022, 14:59"
 			},
 			{
-				name: "Adjuster Coin Shop: Peach - Isabeau Pickup Gacha",
+				name: "Adjuster Coin Shop: Peach - Pernelle Pickup Gacha",
 				start: "Mar 24 2022, 16:00",
 				end: "Apr 8 2022, 14:59"
 			}
@@ -539,7 +539,7 @@ var timerData = [
 			"imgs/1703/gachabanner_0904_m.png"
         ],
         "column": 1,
-        "priority": 4,
+        "priority": 5,
         "timers": [
             {
                 name: "Duration",
