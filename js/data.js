@@ -354,6 +354,11 @@ var timerData = [
 				name: "Adjuster Coin Shop: Purple - Isabeau Pickup Gacha",
 				start: "Mar 18 2022, 16:00",
 				end: "Apr 8 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Peach - Isabeau Pickup Gacha",
+				start: "Mar 24 2022, 16:00",
+				end: "Apr 8 2022, 14:59"
 			}
         ]
     },
