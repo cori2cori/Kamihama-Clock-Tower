@@ -502,7 +502,7 @@ var timerData = [
             }
         ]
     },
-			{
+	{
         "type": "Gacha",
         "title": [
 			"Isabeau Limited-time Pickup Gacha & Step-up Gacha",
@@ -518,6 +518,27 @@ var timerData = [
             {
                 name: "Duration",
                 start: "Mar 18 2022, 16:00",
+				end: "Apr 1 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"Pernelle Limited-time Pickup Gacha & Step-up Gacha",
+            "期間限定 ペレネルピックアップガチャとステップアップガチャ"
+        ],
+        "image": [
+            "imgs/1703/gachabanner_0896_m.png",
+			"imgs/1703/gachabanner_0904_m.png"
+        ],
+        "column": 1,
+        "priority": 4,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Mar 24 2022, 16:00",
 				end: "Apr 1 2022, 14:59",
                 extraPriority: 100
             }
