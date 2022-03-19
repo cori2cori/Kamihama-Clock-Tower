@@ -143,33 +143,20 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"End of a Legend ～The Limits of Light～",
-			"伝説の終わり、光の果て"
+			"ANIPLEX STAGE - Special Program before Magia Record Final SEASON broadcast",
+			"ANIPLEXステージ - TVアニメ「マギアレコード Final SEASON -浅き夢の暁-」放送直前スペシャルステージ"
         ],
         "image": [
-            "imgs/0503/banner_0568_m.png"
+            "imgs/1703/aniplexstage.png"
         ],
         "column": 0,
-        "priority": 8,
+        "priority": 10,
         "timers": [
 			{
-				name: "Maintenance",
-				start: "Mar 7 2022, 15:00",
-				end: "Mar 7 2022, 16:00",
+				name: "Duration",
+				start: "Mar 26 2022, 16:20",
+				end: "Mar 26 2022, 16:50",
 				extraPriority: 100
-			},
-			{
-				name: "Main Event",
-				start: "Mar 7 2022, 16:00",
-				end: "Mar 18 2022, 14:59",
-				extraPriority: 100,
-				markers: [
-				{
-					title: "Part 2",
-					time: "Mar 11 2022, 16:00",
-					type: "story"
-				}
-				]
 			}
         ]
     },
