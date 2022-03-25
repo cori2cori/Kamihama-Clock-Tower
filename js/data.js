@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "March 30 2022, 18:00";
+var possibleNextAnnouncementDate = "April 6 2022, 18:00";
 var nextAnniversary = "August 22 2022, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -150,7 +150,7 @@ var timerData = [
             "imgs/1703/aniplexstage.png"
         ],
         "column": 0,
-        "priority": 10,
+        "priority": 15,
         "timers": [
 			{
 				name: "Duration",
@@ -211,6 +211,121 @@ var timerData = [
 					type: "battle"
 				}
 				]
+			}
+        ]
+    },
+{
+        "type": "Event",
+        "title": [
+			"Little Bird's Star",
+			"Little Bird's Star "
+        ],
+        "image": [
+            "imgs/2503/banner_0575_m.png"
+        ],
+        "column": 0,
+        "priority": 11,
+        "timers": [
+			{
+				name: "Maintenance",
+				start: "Mar 28 2022, 15:00",
+				end: "Mar 28 2022, 16:00",
+				extraPriority: 100
+			},
+			{
+				name: "Main Event",
+				start: "Mar 28 2022, 16:00",
+				end: "Apr 8 2022, 14:59",
+				extraPriority: 100,
+				markers: [
+				{
+					title: "Story Quests 10~20 & Evil100 Challenges I~III",
+					time: "Apr 1 2022, 16:00",
+					type: "battle"
+				}
+				]
+			}
+        ]
+    },
+	{
+        "type": "LoginDays",
+        "title": [
+			"TV Anime FINAL SEASON Countdown Login Bonus",
+			"TVアニメFinal SEASON放送カウントダウンログインボーナス"
+        ],
+        "image": [
+            "imgs/2503/banner_0572_m.png"
+        ],
+        "column": 0,
+        "priority": 10,
+        "timers": [
+			{
+				name: "10 Magia Stones",
+				date: "Mar 29 2022",
+				extraPriority: 100
+			},
+			{
+				name: "10 Magia Stones",
+				date: "Mar 30 2022",
+				extraPriority: 100
+			},
+			{
+				name: "10 Magia Stones",
+				date: "Mar 31 2022",
+				extraPriority: 100
+			},
+			{
+				name: "10 Magia Stones",
+				date: "Apr 1 2022",
+				extraPriority: 100
+			},
+			{
+				name: "10 Magia Stones",
+				date: "Apr 2 2022",
+				extraPriority: 100
+			},
+			{
+				name: "Special 4✷ Memoria",
+				date: "Apr 3 2022",
+				extraPriority: 100
+			},
+			{
+				name: "Extra",
+				date: "Apr 4 2022",
+				extraPriority: 100
+			}
+        ]
+    },
+{
+        "type": "Event",
+        "title": [
+			"TV Anime FINAL SEASON Broadcast Campaign",
+			"TVアニメFinal SEASON 放送記念キャンペーン"
+        ],
+        "image": [
+            "imgs/2503/banner_0573_m.png",
+			"imgs/2503/banner_0571_m.png"
+        ],
+        "column": 0,
+        "priority": 9,
+        "timers": [
+			{
+				name: "1/2 AP, x2 Player EXP, x2 SP & x2 Magical Girl Enhancement Great and Super Success Rate",
+				start: "Mar 28 2022, 16:00",
+				end: "Apr 8 2022, 14:59",
+				extraPriority: 100
+			},
+			{
+				name: "Limited-time Missions",
+				start: "Mar 29 2022, 0:00",
+				end: "Apr 8 2022, 23:59",
+				extraPriority: 100
+			},
+			{
+				name: "Login Bonus",
+				start: "Apr 3 2022, 0:00",
+				end: "Apr 8 2022, 23:59",
+				extraPriority: 100
 			}
         ]
     },
@@ -296,21 +411,6 @@ var timerData = [
 				end: "July 31 2021, 23:59"
 			},*/
 			{
-				name: "Moving Aquamarine Heels Kimochi Battle Shop",
-				start: "Feb 21 2022, 17:00",
-				end: "Mar 7 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Red - Flame Attribute Pickup Gacha",
-				start: "Feb 21 2022, 17:00",
-				end: "Mar 7 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Yellow-Green - Memoria Selection Gacha",
-				start: "Feb 28 2022, 17:00",
-				end: "Mar 14 2022, 14:59"
-			},
-			{
 				name: "Adjuster Coin Shop: Blue - Tart☆Magica Gachas",
 				start: "Mar 7 2022, 16:00",
 				end: "Apr 4 2022, 14:59"
@@ -346,6 +446,21 @@ var timerData = [
 				name: "Adjuster Coin Shop: Peach - Pernelle Pickup Gacha",
 				start: "Mar 24 2022, 16:00",
 				end: "Apr 8 2022, 14:59"
+			},
+			{
+				name: "Little Bird's Star - Event Shop & Missions",
+				start: "Mar 28 2022, 16:00",
+				end: "Apr 15 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Black - Kuroe Pickup Gacha",
+				start: "Mar 28 2022, 16:00",
+				end: "Apr 15 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Water - Premium Gacha",
+				start: "Mar 28 2022, 16:00",
+				end: "Apr 15 2022, 23:59"
 			}
         ]
     },
@@ -537,92 +652,46 @@ var timerData = [
         ]
     },
 	{
-		type: "Gacha",
-		title: [
-			"New Year Campaign Vol. 1: Free x10 rolls in Premium Gacha",
-            "10連レアガチャ毎日1回無料"
-		],
-		image: [
-			"imgs/banner_0547_m.png"
-		],
-		column: 1,
-		priority: 1,
-		timers: [
-			{
-                "name": "Duration",
-                "start": "December 28 2021, 16:00",
-                "end": "January 10 2022, 23:59",
-                "extraPriority": 100,
-				markers: [
-				{
-					title: "Free Pull 2",
-					time: "December 29 2021, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free Pull 3",
-					time: "December 30 2021, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free Pull 4",
-					time: "December 31 2021, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free Pull 5",
-					time: "January 1 2022, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free Pull 6",
-					time: "January 2 2022, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free Pull 7",
-					time: "January 3 2022, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free Pull 8",
-					time: "January 4 2022, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free Pull 9",
-					time: "January 5 2022, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free Pull 10",
-					time: "January 6 2022, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free Pull 11",
-					time: "January 7 2022, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free Pull 12",
-					time: "January 8 2022, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free Pull 13",
-					time: "January 9 2022, 00:00",
-					type: "star"
-				},
-				{
-					title: "Free Pull 14",
-					time: "January 10 2022, 00:00",
-					type: "star"
-				},
-				]
+        "type": "Gacha",
+        "title": [
+			"Kuroe Limited-time Pickup Gacha & Step-up Gacha",
+            "期間限定 黒江ピックアップガチャとステップアップガチャ"
+        ],
+        "image": [
+            "imgs/2503/gachabanner_0909_m.png",
+			"imgs/2503/gachabanner_0910_m.png"
+        ],
+        "column": 1,
+        "priority": 7,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Mar 28 2022, 16:00",
+				end: "Apr 8 2022, 14:59",
+                extraPriority: 100
             }
-		]
-	},
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"Free 10-Roll in Premium Gacha Once a Day",
+            "毎日1回10連レアガチャ無料"
+        ],
+        "image": [
+            "imgs/2503/banner_0574_m.png"
+        ],
+        "column": 1,
+        "priority": 7,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Mar 28 2022, 16:00",
+				end: "Apr 8 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
 	{
 		type: "Event",
 		title: [
