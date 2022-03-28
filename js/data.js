@@ -686,8 +686,8 @@ var timerData = [
         "timers": [
             {
                 name: "Duration",
-                start: "Mar 28 2022, 16:00",
-				end: "Apr 8 2022, 14:59",
+                start: "Mar 29 2022, 00:00",
+				end: "Apr 8 2022, 23:59",
                 extraPriority: 100
             }
         ]
