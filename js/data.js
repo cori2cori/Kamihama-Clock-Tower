@@ -459,7 +459,7 @@ var timerData = [
 			},
 			{
 				name: "Adjuster Coin Shop: Water - Premium Gacha",
-				start: "Mar 29 2022, 00:00",
+				start: "Mar 29 2022, 0:00",
 				end: "Apr 15 2022, 23:59"
 			}
         ]
