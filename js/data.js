@@ -313,7 +313,7 @@ var timerData = [
 				name: "1/2 AP, x2 Player EXP, x2 SP & x2 Magical Girl Enhancement Great and Super Success Rate",
 				start: "Mar 28 2022, 16:00",
 				end: "Apr 8 2022, 14:59",
-				extraPriority: 100
+				extraPriority: 0
 			},
 			{
 				name: "Limited-time Missions",
@@ -325,7 +325,7 @@ var timerData = [
 				name: "Login Bonus",
 				start: "Apr 3 2022, 0:00",
 				end: "Apr 8 2022, 23:59",
-				extraPriority: 100
+				extraPriority: 0
 			}
         ]
     },
