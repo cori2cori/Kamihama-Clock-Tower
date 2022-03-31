@@ -233,7 +233,7 @@ var timerData = [
 				extraPriority: 100
 			},
 			{
-				name: "Main Event",
+				name: "Part 1",
 				start: "Mar 28 2022, 16:00",
 				end: "Apr 8 2022, 14:59",
 				extraPriority: 100,
@@ -307,7 +307,7 @@ var timerData = [
 			"imgs/2503/banner_0571_m.png"
         ],
         "column": 0,
-        "priority": 9,
+        "priority": 11,
         "timers": [
 			{
 				name: "1/2 AP, x2 Player EXP, x2 SP & x2 Magical Girl Enhancement Great and Super Success Rate",
@@ -706,10 +706,9 @@ var timerData = [
 		timers: [
 			{
 				name: "Maintenance",
-				start: "December 28 2021, 15:00",
-				end: "December 28 2021, 16:00",
-				extraPriority: 100,
-				type: "normal"
+				start: "Apr 1 2022, 15:00",
+				end: "Apr 1 2022, 16:00",
+				extraPriority: 200
 			}
 		]
 	}
