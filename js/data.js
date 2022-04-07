@@ -19,74 +19,7 @@ var timerData = [
         }
     },
     
-    {
-        "type": "Event",
-        "title": [
-            "No Laughing in the Maid Manor!",
-            "メイド館では笑えない！",
-            "Maid 2021 Event"
-        ],
-        "image": [
-            "https://i.imgur.com/NjKzQaN.png",
-            "https://i.imgur.com/5UpNoBs.png",
-            "https://i.imgur.com/XVjhDho.png",
-            "https://i.imgur.com/pLSTVc3.png",
-            "https://i.imgur.com/g8JoM7F.png"
-        ],
-        "column": 0,
-        "priority": 32,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "April 27 2021, 17:00",
-                "end": "May 14 2021, 15:59",
-                "markers": [
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "May 5 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "May 6 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "May 7 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "May 8 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "April 29 2021, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "EX Quest",
-                        "time": "May 1 2021, 17:00",
-                        "type": "battle"
-                    }
-                ],
-                "extraPriority": 4
-            },
-            {
-                "name": "Missions",
-                "start": "April 27 2021, 17:00",
-                "end": "May 14 2021, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "April 27 2021, 17:00",
-                "end": "May 21 2021, 13:59"
-            }
-        ]
-    },*/
-
+  */
 	{
         "type": "WeekendBoss",
         "title": [
@@ -140,80 +73,6 @@ var timerData = [
 			}
 				]
     },
-	{
-        "type": "Event",
-        "title": [
-			"ANIPLEX STAGE - Special Program before Magia Record Final SEASON broadcast",
-			"ANIPLEXステージ - TVアニメ「マギアレコード Final SEASON -浅き夢の暁-」放送直前スペシャルステージ"
-        ],
-        "image": [
-            "imgs/1703/aniplexstage.png"
-        ],
-        "column": 0,
-        "priority": 15,
-        "timers": [
-			{
-				name: "Duration",
-				start: "Mar 26 2022, 16:20",
-				end: "Mar 26 2022, 16:50",
-				extraPriority: 100
-			}
-        ]
-    },
-	{
-		type: "Event",
-		title: [
-			"Arc 2 Chapter 9 Release & Campaign",
-			"メインストーリー第2部9章配信と新章キャンペーン"
-		],
-		"image": [
-			"imgs/0503/banner_1030900_m.png",
-			"imgs/0503/banner_0359_m.png"
-		],
-		column: 0,
-		priority: 7,
-		timers: [
-		{
-				name: "Duration",
-				start: "March 7 2022, 16:00",
-				end: "March 18 2022, 23:59",
-				extraPriority: 100
-		}
-		]
-	},
-		{
-        "type": "Event",
-        "title": [
-			"The Inheritors of Our Souls ～Puella Magi Tart☆Magica～",
-			"想いを継ぐものたち～魔法少女たると☆マギカ～ "
-        ],
-        "image": [
-            "imgs/1703/banner_0569_m.png"
-        ],
-        "column": 0,
-        "priority": 9,
-        "timers": [
-			{
-				name: "Maintenance",
-				start: "Mar 18 2022, 15:00",
-				end: "Mar 18 2022, 16:00",
-				extraPriority: 100
-			},
-			{
-				name: "Main Event",
-				start: "Mar 18 2022, 16:00",
-				end: "Mar 28 2022, 14:59",
-				extraPriority: 100,
-				markers: [
-				{
-					title: "Story Quests 10~20 & Evil100 Challenges I~III",
-					time: "Mar 24 2022, 16:00",
-					type: "battle"
-				}
-				]
-			}
-        ]
-    },
 {
         "type": "Event",
         "title": [
@@ -233,7 +92,7 @@ var timerData = [
 				extraPriority: 100
 			},
 			{
-				name: "Part 1",
+				name: "Main Event",
 				start: "Mar 28 2022, 16:00",
 				end: "Apr 8 2022, 14:59",
 				extraPriority: 100,
@@ -242,6 +101,69 @@ var timerData = [
 					title: "Story Quests 10~20 & Evil100 Challenges I~III",
 					time: "Apr 1 2022, 16:00",
 					type: "battle"
+				}
+				]
+			}
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
+			"Kamihama Beach Spa Adventure: The Demon's Grudge Whirlpooling at the Beach",
+			"神浜スパアドベンチャービーチに渦巻く悪魔の怨嗟"
+        ],
+        "image": [
+            "imgs/0704/banner_0576_m.png"
+        ],
+        "column": 0,
+        "priority": 14,
+        "timers": [
+			{
+				name: "Maintenance",
+				start: "Apr 8 2022, 15:00",
+				end: "Apr 8 2022, 16:00",
+				extraPriority: 100
+			},
+			{
+				name: "Main Event",
+				start: "Apr 8 2022, 16:00",
+				end: "Apr 18 2022, 14:59",
+				extraPriority: 100,
+				markers: [
+				{
+					title: "Story Quests",
+					time: "Apr 9 2022, 16:00",
+					type: "story"
+				},
+				{
+					title: "Story Quests",
+					time: "Apr 10 2022, 16:00",
+					type: "story"
+				},
+				{
+					title: "Story Quests",
+					time: "Apr 11 2022, 16:00",
+					type: "story"
+				},
+				{
+					title: "Story Quests",
+					time: "Apr 12 2022, 16:00",
+					type: "story"
+				},
+				{
+					title: "Story Quests & Evil100 Challenges I~III",
+					time: "Apr 13 2022, 16:00",
+					type: "battle"
+				},
+				{
+					title: "Story Quests",
+					time: "Apr 14 2022, 16:00",
+					type: "story"
+				},
+				{
+					title: "Story Quests",
+					time: "Apr 15 2022, 16:00",
+					type: "story"
 				}
 				]
 			}
@@ -461,6 +383,21 @@ var timerData = [
 				name: "Adjuster Coin Shop: Water - Premium Gacha",
 				start: "Mar 29 2022, 0:00",
 				end: "Apr 15 2022, 23:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Navy Blue - Akuma Homura-chan Gacha",
+				start: "Apr 8 2022, 16:00",
+				end: "Apr 25 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Orange - Magia☆Report Gachas Rerun & Step-up Gacha",
+				start: "Apr 8 2022, 16:00",
+				end: "Apr 25 2022, 14:59"
+			},
+			{
+				name: "Kamihama Beach Spa Adventure - Event Shops & Missions",
+				start: "Apr 8 2022, 16:00",
+				end: "Apr 25 2022, 14:59"
 			}
         ]
     },
@@ -564,7 +501,7 @@ var timerData = [
             }
         ]
     },
-		{
+{
         "type": "Gacha",
         "title": [
 			"Tart☆Magica Limited-time Gachas Rerun",
@@ -668,6 +605,71 @@ var timerData = [
                 name: "Duration",
                 start: "Mar 28 2022, 16:00",
 				end: "Apr 8 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+		{
+        "type": "Gacha",
+        "title": [
+			"Akuma Homura-chan Limited-time Pickup Gacha & Step-up Gacha",
+            "期間限定 悪魔ほむらちゃんピックアップガチャとステップアップガチャ"
+        ],
+        "image": [
+            "imgs/0704/gachabanner_0918_m.png",
+			"imgs/0704/gachabanner_0919_m.png"
+        ],
+        "column": 1,
+        "priority": 10,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Apr 8 2022, 16:00",
+				end: "Apr 18 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"Limited-time Magia☆Report Gachas Rerun",
+            "期間限定 マギア☆レポートピックアップガチャ復刻"
+        ],
+        "image": [
+            "imgs/0704/gachabanner_0929_m.png",
+			"imgs/0704/gachabanner_0930_m.png",
+			"imgs/0704/gachabanner_0931_m.png"
+
+        ],
+        "column": 1,
+        "priority": 8,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Apr 8 2022, 16:00",
+				end: "Apr 18 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+		{
+        "type": "Gacha",
+        "title": [
+			"Limited-time Paid Magia☆Report Step-up Gacha",
+            "有償限定 ステップアップガチャマギア☆レポート編"
+        ],
+        "image": [
+            "imgs/0704/gachabanner_0924_m.png"
+
+        ],
+        "column": 1,
+        "priority": 9,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Apr 8 2022, 16:00",
+				end: "Apr 18 2022, 14:59",
                 extraPriority: 100
             }
         ]
