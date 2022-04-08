@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "April 6 2022, 18:00";
+var possibleNextAnnouncementDate = "April 15 2022, 18:00";
 var nextAnniversary = "August 22 2022, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -131,37 +131,37 @@ var timerData = [
 				extraPriority: 100,
 				markers: [
 				{
-					title: "Story Quests",
+					title: "Story Quests 5-6",
 					time: "Apr 9 2022, 16:00",
 					type: "story"
 				},
 				{
-					title: "Story Quests",
+					title: "Story Quests 7-8",
 					time: "Apr 10 2022, 16:00",
 					type: "story"
 				},
 				{
-					title: "Story Quests",
+					title: "Story Quests 9-10",
 					time: "Apr 11 2022, 16:00",
 					type: "story"
 				},
 				{
-					title: "Story Quests",
+					title: "Story Quests 11-12",
 					time: "Apr 12 2022, 16:00",
 					type: "story"
 				},
 				{
-					title: "Story Quests & Evil100 Challenges I~III",
+					title: "Story Quests 13-14 & Evil100 Challenges I~III",
 					time: "Apr 13 2022, 16:00",
 					type: "battle"
 				},
 				{
-					title: "Story Quests",
+					title: "Story Quests 15-17",
 					time: "Apr 14 2022, 16:00",
 					type: "story"
 				},
 				{
-					title: "Story Quests",
+					title: "Story Quests 18-20",
 					time: "Apr 15 2022, 16:00",
 					type: "story"
 				}
@@ -396,6 +396,11 @@ var timerData = [
 			},
 			{
 				name: "Kamihama Beach Spa Adventure - Event Shops & Missions",
+				start: "Apr 8 2022, 16:00",
+				end: "Apr 25 2022, 14:59"
+			},
+			{
+				name: "Magia☆Report ★4 Magical Girl Exchange Ticket Shop",
 				start: "Apr 8 2022, 16:00",
 				end: "Apr 25 2022, 14:59"
 			}
