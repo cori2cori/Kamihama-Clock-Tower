@@ -73,39 +73,6 @@ var timerData = [
 			}
 				]
     },
-{
-        "type": "Event",
-        "title": [
-			"Little Bird's Star",
-			"Little Bird's Star "
-        ],
-        "image": [
-            "imgs/2503/banner_0575_m.png"
-        ],
-        "column": 0,
-        "priority": 13,
-        "timers": [
-			{
-				name: "Maintenance",
-				start: "Mar 28 2022, 15:00",
-				end: "Mar 28 2022, 16:00",
-				extraPriority: 100
-			},
-			{
-				name: "Main Event",
-				start: "Mar 28 2022, 16:00",
-				end: "Apr 8 2022, 14:59",
-				extraPriority: 100,
-				markers: [
-				{
-					title: "Story Quests 10~20 & Evil100 Challenges I~III",
-					time: "Apr 1 2022, 16:00",
-					type: "battle"
-				}
-				]
-			}
-        ]
-    },
 	{
         "type": "Event",
         "title": [
@@ -221,32 +188,45 @@ var timerData = [
 {
         "type": "Event",
         "title": [
-			"TV Anime FINAL SEASON Broadcast Campaign",
-			"TVアニメFinal SEASON 放送記念キャンペーン"
+			"1700 Days Since Release Campaign",
+			"リリース1700日記念キャンペーン"
         ],
         "image": [
-            "imgs/2503/banner_0573_m.png",
-			"imgs/2503/banner_0571_m.png"
+            "imgs/1604/banner_0584_m.png"
         ],
         "column": 0,
-        "priority": 11,
+        "priority": 15,
         "timers": [
 			{
 				name: "1/2 AP, x2 Player EXP, x2 SP & x2 Magical Girl Enhancement Great and Super Success Rate",
-				start: "Mar 28 2022, 16:00",
-				end: "Apr 8 2022, 14:59",
+				start: "Apr 18 2022, 17:00",
+				end: "Apr 28 2022, 14:59",
 				extraPriority: 0
 			},
 			{
-				name: "Limited-time Missions",
-				start: "Mar 29 2022, 0:00",
-				end: "Apr 8 2022, 23:59",
-				extraPriority: 100
-			},
-			{
 				name: "Login Bonus",
-				start: "Apr 3 2022, 0:00",
-				end: "Apr 8 2022, 23:59",
+				start: "Apr 18 2022, 17:00",
+				end: "Apr 28 2022, 23:59",
+				extraPriority: 0
+			}
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
+			"Mitama's Special Training",
+			"みたまの特訓"
+        ],
+        "image": [
+            "imgs/1604/banner_0577_m.png"
+        ],
+        "column": 0,
+        "priority": 16,
+        "timers": [
+			{
+				name: "Main Event",
+				start: "Apr 18 2022, 17:00",
+				end: "Apr 28 2022, 14:59",
 				extraPriority: 0
 			}
         ]
@@ -299,18 +279,18 @@ var timerData = [
             "mirroran"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 17,
         "timers": [
 			{
 				name: "Maintenance",
-				start: "December 13 2021, 15:00",
-				end: "December 13 2021, 16:59",
+				start: "Apr 18 2022, 15:00",
+				end: "Apr 18 2022, 16:59",
 				extraPriority: 100
 			},
 			{
 				name: "Main Event",
-				start: "December 13 2021, 17:00",
-				end: "December 19 2021, 20:59",
+				start: "Apr 18 2022, 17:00",
+				end: "Apr 24 2022, 20:59",
 				extraPriority: 100
 			}
         ]
@@ -332,53 +312,6 @@ var timerData = [
 				start: "July 1 2021, 00:00",
 				end: "July 31 2021, 23:59"
 			},*/
-			{
-				name: "Adjuster Coin Shop: Blue - Tart☆Magica Gachas",
-				start: "Mar 7 2022, 16:00",
-				end: "Apr 4 2022, 14:59"
-			},
-			{
-				name: "End of a Legend, The Limits of Light - Event Shop and Missions",
-				start: "Mar 7 2022, 16:00",
-				end: "Mar 25 2022, 14:59",
-				markers:[
-				{
-					title: "Part 2",
-					time: "Mar 11 2022, 16:00",
-					type: "story"
-				}
-				]
-			},
-			{
-				name: "New Chapter Release Missions",
-				start: "Mar 7 2022, 16:00",
-				end: "Mar 25 2022, 14:59"
-			},
-			{
-				name: "The Inheritors of Our Souls - Event Shop & Missions",
-				start: "Mar 18 2022, 16:00",
-				end: "Apr 4 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Purple - Isabeau Pickup Gacha",
-				start: "Mar 18 2022, 16:00",
-				end: "Apr 8 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Peach - Pernelle Pickup Gacha",
-				start: "Mar 24 2022, 16:00",
-				end: "Apr 8 2022, 14:59"
-			},
-			{
-				name: "Little Bird's Star - Event Shop & Missions",
-				start: "Mar 28 2022, 16:00",
-				end: "Apr 15 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Black - Kuroe Pickup Gacha",
-				start: "Mar 28 2022, 16:00",
-				end: "Apr 15 2022, 14:59"
-			},
 			{
 				name: "Adjuster Coin Shop: Water - Premium Gacha",
 				start: "Mar 29 2022, 0:00",
@@ -403,25 +336,45 @@ var timerData = [
 				name: "Magia☆Report ★4 Magical Girl Exchange Ticket Shop",
 				start: "Apr 8 2022, 16:00",
 				end: "Apr 25 2022, 14:59"
+			},
+			{
+				name: "Ranked Medals Shop",
+				start: "Apr 18 2022, 17:00",
+				end: "May 2 2022, 14:59"
+			},
+			{
+				name: "Mitama's Special Training - Event Shop",
+				start: "Apr 18 2022, 17:00",
+				end: "May 5 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Yellow - Tamaki Iroha (Anime ver.) Gacha",
+				start: "Apr 18 2022, 17:00",
+				end: "May 5 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Brown - Memoria Selection Gacha",
+				start: "Apr 18 2022, 17:00",
+				end: "May 2 2022, 14:59"
 			}
         ]
     },
 	{
 		type: "Other",
 		title: [
-		"Magia Stones Sales",
-		"お得な期間限定マギアストーン"
+		"1700 Days Anniversary Packs",
+		"1700日記念パック"
 		],
 		image: [
-            "imgs/banner_0129_m.png"
+            "imgs/1604/banner_0583_m.png"
         ],
 		column: 2,
 		priority: 3,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "December 28 2021, 16:00",
-			end: "January 11 2022, 14:59",
+			start: "Apr 18 2022, 16:00",
+			end: "Apr 28 2022, 14:59",
 			extraPriority: 100
 		}
 		]
@@ -429,19 +382,19 @@ var timerData = [
 	{
 		type: "Other",
 		title: [
-		"Tart☆Magica Collaboration Support Pack",
-		"魔法少女たると☆マギカコラボ記念育成応援パックの販売"
+		"Mirrors Selection Pack & Mirrors Beginner Pack",
+		"「ミラーズセレクションパック」と「ミラーズビギナーズパック」の販売"
 		],
 		image: [
-            "imgs/1703/banner_0570_m.png"
+            "imgs/1604/banner_0580_m.png"
         ],
 		column: 2,
 		priority: 5,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "Mar 18 2022, 16:00",
-			end: "Apr 1 2022, 14:59",
+			start: "Apr 18 2022, 16:00",
+			end: "Apr 25 2022, 14:59",
 			extraPriority: 100
 		}
 		]
@@ -534,89 +487,6 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Paid 4★ Tart☆Magica Magical Girl Guaranteed Gacha",
-            "有償限定 魔法少女たると☆マギカ★4魔法少女確定ガチャ"
-        ],
-        "image": [
-            "imgs/0503/gachabanner_0889_m.png"
-        ],
-        "column": 1,
-        "priority": 2,
-        "timers": [
-            {
-                name: "Duration",
-                start: "Mar 7 2022, 16:00",
-				end: "Mar 28 2022, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"Isabeau Limited-time Pickup Gacha & Step-up Gacha",
-            "期間限定 イザボーピックアップガチャとステップアップガチャ"
-        ],
-        "image": [
-            "imgs/1703/gachabanner_0892_m.png",
-			"imgs/1703/gachabanner_0899_m.png"
-        ],
-        "column": 1,
-        "priority": 4,
-        "timers": [
-            {
-                name: "Duration",
-                start: "Mar 18 2022, 16:00",
-				end: "Apr 1 2022, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"Pernelle Limited-time Pickup Gacha & Step-up Gacha",
-            "期間限定 ペレネルピックアップガチャとステップアップガチャ"
-        ],
-        "image": [
-            "imgs/1703/gachabanner_0896_m.png",
-			"imgs/1703/gachabanner_0904_m.png"
-        ],
-        "column": 1,
-        "priority": 5,
-        "timers": [
-            {
-                name: "Duration",
-                start: "Mar 24 2022, 16:00",
-				end: "Apr 1 2022, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"Kuroe Limited-time Pickup Gacha & Step-up Gacha",
-            "期間限定 黒江ピックアップガチャとステップアップガチャ"
-        ],
-        "image": [
-            "imgs/2503/gachabanner_0909_m.png",
-			"imgs/2503/gachabanner_0910_m.png"
-        ],
-        "column": 1,
-        "priority": 7,
-        "timers": [
-            {
-                name: "Duration",
-                start: "Mar 28 2022, 16:00",
-				end: "Apr 8 2022, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-		{
-        "type": "Gacha",
-        "title": [
 			"Akuma Homura-chan Limited-time Pickup Gacha & Step-up Gacha",
             "期間限定 悪魔ほむらちゃんピックアップガチャとステップアップガチャ"
         ],
@@ -666,7 +536,6 @@ var timerData = [
         ],
         "image": [
             "imgs/0704/gachabanner_0924_m.png"
-
         ],
         "column": 1,
         "priority": 9,
@@ -682,20 +551,48 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Free 10-Roll in Premium Gacha Once a Day",
-            "毎日1回10連レアガチャ無料"
+			"Tamaki Iroha (Anime ver.) Pickup Gacha & Step-up Gacha",
+            "期間限定 環いろは アニメver.ピックアップガチャとステップアップガチャ"
         ],
         "image": [
-            "imgs/2503/banner_0574_m.png"
+            "imgs/1604/gachabanner_0934_m.png",
+			"imgs/1604/gachabanner_0935_m.png"
         ],
         "column": 1,
-        "priority": 7,
+        "priority": 12,
         "timers": [
             {
                 name: "Duration",
-                start: "Mar 29 2022, 00:00",
-				end: "Apr 8 2022, 23:59",
+                start: "Apr 18 2022, 17:00",
+				end: "Apr 28 2022, 14:59",
                 extraPriority: 100
+            }
+        ]
+    },
+			{
+        "type": "Gacha",
+        "title": [
+			"Limited-time Choose Your 4★ Memoria Selection Gacha",
+            "選べる★4メモリアセレクションガチャ"
+        ],
+        "image": [
+            "imgs/1604/gachabanner_0940_m.png"
+        ],
+        "column": 1,
+        "priority": 11,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Apr 18 2022, 17:00",
+				end: "Apr 25 2022, 14:59",
+                extraPriority: 100,
+				markers: [
+				{
+					time: "Apr 22 2022, 16:00",
+					title: "Part 2",
+					type: "star"
+				}
+				]
             }
         ]
     },
