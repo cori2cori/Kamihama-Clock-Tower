@@ -373,7 +373,7 @@ var timerData = [
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "Apr 18 2022, 16:00",
+			start: "Apr 18 2022, 17:00",
 			end: "Apr 28 2022, 14:59",
 			extraPriority: 100
 		}
@@ -393,7 +393,7 @@ var timerData = [
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "Apr 18 2022, 16:00",
+			start: "Apr 18 2022, 17:00",
 			end: "Apr 25 2022, 14:59",
 			extraPriority: 100
 		}
