@@ -396,6 +396,12 @@ var timerData = [
 			start: "Apr 18 2022, 17:00",
 			end: "Apr 25 2022, 14:59",
 			extraPriority: 100
+		},
+		{
+			name: "Ticket Exchange",
+			start: "Apr 18 2022, 17:00",
+			end: "May 2 2022, 14:59",
+			extraPriority: 100
 		}
 		]
 	},
