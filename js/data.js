@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "April 26 2022, 18:00";
+var possibleNextAnnouncementDate = "May 9 2022, 18:00";
 var nextAnniversary = "August 22 2022, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -207,7 +207,7 @@ var timerData = [
 				name: "Login Bonus",
 				start: "Apr 18 2022, 17:00",
 				end: "Apr 28 2022, 23:59",
-				extraPriority: 0
+				extraPriority: 100
 			}
         ]
     },
@@ -227,6 +227,59 @@ var timerData = [
 				name: "Main Event",
 				start: "Apr 18 2022, 17:00",
 				end: "Apr 28 2022, 14:59",
+				extraPriority: 100
+			}
+        ]
+    },
+		{
+        "type": "Event",
+        "title": [
+			"Night Fairytale",
+			"ナハトメルヒェン～水際に君がいた～"
+        ],
+        "image": [
+            "imgs/2704/banner_0588_m.png"
+        ],
+        "column": 0,
+        "priority": 18,
+        "timers": [
+			{
+				name: "Main Event",
+				start: "Apr 28 2022, 16:00",
+				end: "May 11 2022, 14:59",
+				extraPriority: 100,
+				markers: [
+				{
+					title: "Story Quests 11-20 & 100Evil Challenges I-III",
+					type: "battle",
+					time: "May 2 2022, 16:00"
+				}
+				]
+			}
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
+			"Golden Week Campaign",
+			"ゴールデンウィークキャンペーン"
+        ],
+        "image": [
+            "imgs/2704/banner_0587_m.png"
+        ],
+        "column": 0,
+        "priority": 17,
+        "timers": [
+			{
+				name: "1/2 AP, x2 Player EXP, x2 SP & x2 Magical Girl Enhancement Great and Super Success Rate",
+				start: "Apr 28 2022, 16:00",
+				end: "May 8 2022, 23:59",
+				extraPriority: 100
+			},
+			{
+				name: "Limited-time Daily Missions",
+				start: "Apr 29 2022, 00:00",
+				end: "May 8 2022, 23:59",
 				extraPriority: 0
 			}
         ]
@@ -356,7 +409,22 @@ var timerData = [
 				name: "Adjuster Coin Shop: Brown - Memoria Selection Gacha",
 				start: "Apr 18 2022, 17:00",
 				end: "May 2 2022, 14:59"
-			}
+			},
+			{
+				name: "Night Fairytale - Event Shop & Missions",
+				start: "Apr 28 2022, 16:00",
+				end: "May 18 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Blue - Swimsuit Magical Girl Gachas",
+				start: "Apr 28 2022, 16:00",
+				end: "May 18 2022, 14:59"
+			},
+			{
+				name: "Swimsuit Magical Girl Tickets Exchange",
+				start: "Apr 28 2022, 16:00",
+				end: "May 18 2022, 14:59"
+			},
         ]
     },
 	{
@@ -493,20 +561,41 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Akuma Homura-chan Limited-time Pickup Gacha & Step-up Gacha",
-            "期間限定 悪魔ほむらちゃんピックアップガチャとステップアップガチャ"
+			"Swimsuit Magical Girl 2020-2021 Limited-time Pickup Gacha & Step-up Gacha",
+            "期間限定 水着魔法少女2020-2021ピックアップガチャとステップアップガチャ"
         ],
         "image": [
-            "imgs/0704/gachabanner_0918_m.png",
-			"imgs/0704/gachabanner_0919_m.png"
+            "imgs/2704/gachabanner_0944_m.png",
+			"imgs/2704/gachabanner_0946_m.png"
         ],
         "column": 1,
-        "priority": 10,
+        "priority": 14,
         "timers": [
             {
                 name: "Duration",
-                start: "Apr 8 2022, 16:00",
-				end: "Apr 18 2022, 14:59",
+                start: "Apr 28 2022, 16:00",
+				end: "May 11 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+		{
+        "type": "Gacha",
+        "title": [
+			"Swimsuit Magical Girl 2018-2019 Limited-time Pickup Gacha & Step-up Gacha",
+            "期間限定 水着魔法少女2018-2019ピックアップガチャとステップアップガチャ"
+        ],
+        "image": [
+            "imgs/2704/gachabanner_0945_m.png",
+			"imgs/2704/gachabanner_0951_m.png"
+        ],
+        "column": 1,
+        "priority": 13,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Apr 28 2022, 16:00",
+				end: "May 11 2022, 14:59",
                 extraPriority: 100
             }
         ]
@@ -525,26 +614,6 @@ var timerData = [
         ],
         "column": 1,
         "priority": 8,
-        "timers": [
-            {
-                name: "Duration",
-                start: "Apr 8 2022, 16:00",
-				end: "Apr 18 2022, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-		{
-        "type": "Gacha",
-        "title": [
-			"Limited-time Paid Magia☆Report Step-up Gacha",
-            "有償限定 ステップアップガチャマギア☆レポート編"
-        ],
-        "image": [
-            "imgs/0704/gachabanner_0924_m.png"
-        ],
-        "column": 1,
-        "priority": 9,
         "timers": [
             {
                 name: "Duration",
