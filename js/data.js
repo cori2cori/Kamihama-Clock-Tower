@@ -74,69 +74,6 @@ var timerData = [
 				]
     },
 	{
-        "type": "Event",
-        "title": [
-			"Kamihama Beach Spa Adventure: The Demon's Grudge Whirlpooling at the Beach",
-			"神浜スパアドベンチャービーチに渦巻く悪魔の怨嗟"
-        ],
-        "image": [
-            "imgs/0704/banner_0576_m.png"
-        ],
-        "column": 0,
-        "priority": 14,
-        "timers": [
-			{
-				name: "Maintenance",
-				start: "Apr 8 2022, 15:00",
-				end: "Apr 8 2022, 16:00",
-				extraPriority: 100
-			},
-			{
-				name: "Main Event",
-				start: "Apr 8 2022, 16:00",
-				end: "Apr 18 2022, 14:59",
-				extraPriority: 100,
-				markers: [
-				{
-					title: "Story Quests 5-6",
-					time: "Apr 9 2022, 16:00",
-					type: "story"
-				},
-				{
-					title: "Story Quests 7-8",
-					time: "Apr 10 2022, 16:00",
-					type: "story"
-				},
-				{
-					title: "Story Quests 9-10",
-					time: "Apr 11 2022, 16:00",
-					type: "story"
-				},
-				{
-					title: "Story Quests 11-12",
-					time: "Apr 12 2022, 16:00",
-					type: "story"
-				},
-				{
-					title: "Story Quests 13-14 & Evil100 Challenges I~III",
-					time: "Apr 13 2022, 16:00",
-					type: "battle"
-				},
-				{
-					title: "Story Quests 15-17",
-					time: "Apr 14 2022, 16:00",
-					type: "story"
-				},
-				{
-					title: "Story Quests 18-20",
-					time: "Apr 15 2022, 16:00",
-					type: "story"
-				}
-				]
-			}
-        ]
-    },
-	{
         "type": "LoginDays",
         "title": [
 			"TV Anime FINAL SEASON Countdown Login Bonus",
@@ -211,26 +148,7 @@ var timerData = [
 			}
         ]
     },
-	{
-        "type": "Event",
-        "title": [
-			"Mitama's Special Training",
-			"みたまの特訓"
-        ],
-        "image": [
-            "imgs/1604/banner_0577_m.png"
-        ],
-        "column": 0,
-        "priority": 16,
-        "timers": [
-			{
-				name: "Main Event",
-				start: "Apr 18 2022, 17:00",
-				end: "Apr 28 2022, 14:59",
-				extraPriority: 100
-			}
-        ]
-    },
+
 		{
         "type": "Event",
         "title": [
@@ -241,7 +159,7 @@ var timerData = [
             "imgs/2704/banner_0588_m.png"
         ],
         "column": 0,
-        "priority": 18,
+        "priority": 1,
         "timers": [
 			{
 				name: "Main Event",
@@ -253,6 +171,33 @@ var timerData = [
 					title: "Story Quests 11-20 & 100Evil Challenges I-III",
 					type: "battle",
 					time: "May 2 2022, 16:00"
+				}
+				]
+			}
+        ]
+    },
+		{
+        "type": "Event",
+        "title": [
+			"My Only Salvation ～Puella Magi Oriko☆Magica～",
+			"My Only Salvation ～魔法少女おりこ☆マギカ～"
+        ],
+        "image": [
+            "imgs/0905/banner_0586_m.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+			{
+				name: "Main Event",
+				start: "May 11 2022, 16:00",
+				end: "May 23 2022, 14:59",
+				extraPriority: 100,
+				markers: [
+				{
+					title: "Story Quests 15-30",
+					type: "story",
+					time: "May 17 2022, 16:00"
 				}
 				]
 			}
@@ -366,51 +311,6 @@ var timerData = [
 				end: "July 31 2021, 23:59"
 			},*/
 			{
-				name: "Adjuster Coin Shop: Water - Premium Gacha",
-				start: "Mar 29 2022, 0:00",
-				end: "Apr 15 2022, 23:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Navy Blue - Akuma Homura-chan Gacha",
-				start: "Apr 8 2022, 16:00",
-				end: "Apr 25 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Orange - Magia☆Report Gachas Rerun & Step-up Gacha",
-				start: "Apr 8 2022, 16:00",
-				end: "Apr 25 2022, 14:59"
-			},
-			{
-				name: "Kamihama Beach Spa Adventure - Event Shops & Missions",
-				start: "Apr 8 2022, 16:00",
-				end: "Apr 25 2022, 14:59"
-			},
-			{
-				name: "Magia☆Report ★4 Magical Girl Exchange Ticket Shop",
-				start: "Apr 8 2022, 16:00",
-				end: "Apr 25 2022, 14:59"
-			},
-			{
-				name: "Ranked Medals Shop",
-				start: "Apr 18 2022, 17:00",
-				end: "May 2 2022, 14:59"
-			},
-			{
-				name: "Mitama's Special Training - Event Shop",
-				start: "Apr 18 2022, 17:00",
-				end: "May 5 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Yellow - Tamaki Iroha (Anime ver.) Gacha",
-				start: "Apr 18 2022, 17:00",
-				end: "May 5 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Brown - Memoria Selection Gacha",
-				start: "Apr 18 2022, 17:00",
-				end: "May 2 2022, 14:59"
-			},
-			{
 				name: "Night Fairytale - Event Shop & Missions",
 				start: "Apr 28 2022, 16:00",
 				end: "May 18 2022, 14:59"
@@ -425,6 +325,16 @@ var timerData = [
 				start: "Apr 28 2022, 16:00",
 				end: "May 18 2022, 14:59"
 			},
+			{
+				name: "My Only Salvation - Event Shop & Missions",
+				start: "May 11 2022, 16:00",
+				end: "May 30 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Yellow-Green - Mikuni Oriko (Final ver.) Gacha",
+				start: "May 11 2022, 16:00",
+				end: "May 30 2022, 14:59"
+			}
         ]
     },
 	{
@@ -626,20 +536,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Tamaki Iroha (Anime ver.) Pickup Gacha & Step-up Gacha",
-            "期間限定 環いろは アニメver.ピックアップガチャとステップアップガチャ"
+			"Limited-time Mikuni Oriko (Final ver.) Pickup Gacha & Step-up Gacha",
+            "期間限定 美国織莉子 ver.Finalピックアップガチャとステップアップガチャ"
         ],
         "image": [
-            "imgs/1604/gachabanner_0934_m.png",
-			"imgs/1604/gachabanner_0935_m.png"
+            "imgs/0905/gachabanner_0958_m.png",
+			"imgs/0905/gachabanner_0959_m.png"
         ],
         "column": 1,
-        "priority": 12,
+        "priority": 16,
         "timers": [
             {
                 name: "Duration",
-                start: "Apr 18 2022, 17:00",
-				end: "Apr 28 2022, 14:59",
+                start: "May 11 2022, 16:00",
+				end: "May 23 2022, 14:59",
                 extraPriority: 100
             }
         ]
