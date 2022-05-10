@@ -189,6 +189,12 @@ var timerData = [
         "priority": 2,
         "timers": [
 			{
+				name: "Maintenance",
+				start: "May 11 2022, 15:00",
+				end: "May 11 2022, 16:00",
+				extraPriority: 100
+			},
+			{
 				name: "Main Event",
 				start: "May 11 2022, 16:00",
 				end: "May 23 2022, 14:59",
