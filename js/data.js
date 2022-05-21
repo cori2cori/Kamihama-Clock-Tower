@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "May 20 2022, 18:00";
+var possibleNextAnnouncementDate = "May 28 2022, 18:00";
 var nextAnniversary = "August 22 2022, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -122,60 +122,6 @@ var timerData = [
 			}
         ]
     },
-{
-        "type": "Event",
-        "title": [
-			"1700 Days Since Release Campaign",
-			"リリース1700日記念キャンペーン"
-        ],
-        "image": [
-            "imgs/1604/banner_0584_m.png"
-        ],
-        "column": 0,
-        "priority": 15,
-        "timers": [
-			{
-				name: "1/2 AP, x2 Player EXP, x2 SP & x2 Magical Girl Enhancement Great and Super Success Rate",
-				start: "Apr 18 2022, 17:00",
-				end: "Apr 28 2022, 14:59",
-				extraPriority: 0
-			},
-			{
-				name: "Login Bonus",
-				start: "Apr 18 2022, 17:00",
-				end: "Apr 28 2022, 23:59",
-				extraPriority: 100
-			}
-        ]
-    },
-
-		{
-        "type": "Event",
-        "title": [
-			"Night Fairytale",
-			"ナハトメルヒェン～水際に君がいた～"
-        ],
-        "image": [
-            "imgs/2704/banner_0588_m.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-			{
-				name: "Main Event",
-				start: "Apr 28 2022, 16:00",
-				end: "May 11 2022, 14:59",
-				extraPriority: 100,
-				markers: [
-				{
-					title: "Story Quests 11-20 & 100Evil Challenges I-III",
-					type: "battle",
-					time: "May 2 2022, 16:00"
-				}
-				]
-			}
-        ]
-    },
 		{
         "type": "Event",
         "title": [
@@ -209,29 +155,44 @@ var timerData = [
 			}
         ]
     },
+			{
+        "type": "Event",
+        "title": [
+			"Battle Museum",
+			"バトルミュージアム"
+        ],
+        "image": [
+            "imgs/museum.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+			{
+				name: "Main Event",
+				start: "May 23 2022, 17:00",
+				end: "May 30 2022, 14:59",
+				extraPriority: 100
+			}
+        ]
+    },
 	{
         "type": "Event",
         "title": [
-			"Golden Week Campaign",
-			"ゴールデンウィークキャンペーン"
+			"New Chapter Campaign: Main Story Arc 2 Chapter 10",
+			"新章キャンペーン：メインストーリー第2部10章"
         ],
         "image": [
-            "imgs/2704/banner_0587_m.png"
+            "imgs/2105/banner_1031000_m.png",
+			"imgs/2105/banner_0590_m.png"
         ],
         "column": 0,
-        "priority": 17,
+        "priority": 1,
         "timers": [
 			{
 				name: "1/2 AP, x2 Player EXP, x2 SP & x2 Magical Girl Enhancement Great and Super Success Rate",
-				start: "Apr 28 2022, 16:00",
-				end: "May 8 2022, 23:59",
+				start: "May 23 2022, 17:00",
+				end: "May 30 2022, 23:59",
 				extraPriority: 100
-			},
-			{
-				name: "Limited-time Daily Missions",
-				start: "Apr 29 2022, 00:00",
-				end: "May 8 2022, 23:59",
-				extraPriority: 0
 			}
         ]
     },
@@ -317,21 +278,6 @@ var timerData = [
 				end: "July 31 2021, 23:59"
 			},*/
 			{
-				name: "Night Fairytale - Event Shop & Missions",
-				start: "Apr 28 2022, 16:00",
-				end: "May 18 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Blue - Swimsuit Magical Girl Gachas",
-				start: "Apr 28 2022, 16:00",
-				end: "May 18 2022, 14:59"
-			},
-			{
-				name: "Swimsuit Magical Girl Tickets Exchange",
-				start: "Apr 28 2022, 16:00",
-				end: "May 18 2022, 14:59"
-			},
-			{
 				name: "My Only Salvation - Event Shop & Missions",
 				start: "May 11 2022, 16:00",
 				end: "May 30 2022, 14:59"
@@ -340,25 +286,46 @@ var timerData = [
 				name: "Adjuster Coin Shop: Yellow-Green - Mikuni Oriko (Final ver.) Gacha",
 				start: "May 11 2022, 16:00",
 				end: "May 30 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Water - Aika Himena Gacha",
+				start: "May 23 2022, 17:00",
+				end: "Jun 6 2022, 14:59"
+			},
+			{
+				name: "4★ Memoria Selection Ticket Exchange",
+				start: "May 23 2022, 17:00",
+				end: "Jun 6 2022, 14:59"
+			},
+			{
+				name: "Battle Museum: Limited-time Missions",
+				start: "May 23 2022, 17:00",
+				end: "Jun 6 2022, 14:59"
+			},
+			{
+				name: "New Chapter Campaign: Limited-time Missions",
+				start: "May 23 2022, 17:00",
+				end: "Jun 6 2022, 14:59"
 			}
         ]
     },
 	{
 		type: "Other",
 		title: [
-		"1700 Days Anniversary Packs",
-		"1700日記念パック"
+		"Battle Museum Special Offers",
+		"バトルミュージアム開催記念!! スペシャルオファー"
 		],
 		image: [
-            "imgs/1604/banner_0583_m.png"
+            "imgs/2105/banner_0591_m.png",
+			"imgs/2105/banner_0592_m.png"
         ],
 		column: 2,
 		priority: 3,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "Apr 18 2022, 17:00",
-			end: "Apr 28 2022, 14:59",
+			start: "May 23 2022, 17:00",
+			end: "May 30 2022, 14:59",
 			extraPriority: 100
 		}
 		]
@@ -410,109 +377,22 @@ var timerData = [
 		]
 	},
 	{
-		type: "Other",
-		title: [
-		"Mitama's Extermination Battle Special Deal",
-		"殲滅戦開催記念!!みたまのスペシャルオファー "
-		],
-		image: [
-            "imgs/banner_0567_m.png"
-        ],
-		column: 2,
-		priority: 6,
-		timers: [ 
-		{
-			name: "Sales Period",
-			start: "Feb 28 2022, 17:00",
-			end: "Mar 7 2022, 14:59",
-			extraPriority: 100
-		}
-		]
-	},
-	{
         type: "Maintenance",
         title: [
-            "Maintenance",
-			"维护"
+            "Maintenance & App Version 2.5.0 Forced Update",
+			"维护とバージョン2.5.0"
         ],
 		"image": [
 			"imgs/maintenance.png"
 		],
         column: 0,
-        priority: 8,
+        priority: 50,
         timers: [
             {
                 name: "Scheduled Time",
-                start: "Feb 21 2022, 15:00",
-                end: "Feb 21 2022, 17:00",
+                start: "May 23 2022, 15:00",
+                end: "May 23 2022, 17:00",
 				extraPriority: 100
-            }
-        ]
-    },
-{
-        "type": "Gacha",
-        "title": [
-			"Tart☆Magica Limited-time Gachas Rerun",
-            "限定魔法少女たると☆マギカガチャ復刻"
-        ],
-        "image": [
-            "imgs/0503/gachabanner_0883_m.png",
-			"imgs/0503/gachabanner_0885_m.png",
-			"imgs/0503/gachabanner_0884_m.png",
-			"imgs/0503/gachabanner_0886_m.png",
-			"imgs/0503/gachabanner_0887_m.png",
-			"imgs/0503/gachabanner_0888_m.png"
-        ],
-        "column": 1,
-        "priority": 3,
-        "timers": [
-            {
-                name: "Duration",
-                start: "Mar 7 2022, 16:00",
-				end: "Mar 28 2022, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"Swimsuit Magical Girl 2020-2021 Limited-time Pickup Gacha & Step-up Gacha",
-            "期間限定 水着魔法少女2020-2021ピックアップガチャとステップアップガチャ"
-        ],
-        "image": [
-            "imgs/2704/gachabanner_0944_m.png",
-			"imgs/2704/gachabanner_0946_m.png"
-        ],
-        "column": 1,
-        "priority": 14,
-        "timers": [
-            {
-                name: "Duration",
-                start: "Apr 28 2022, 16:00",
-				end: "May 11 2022, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-		{
-        "type": "Gacha",
-        "title": [
-			"Swimsuit Magical Girl 2018-2019 Limited-time Pickup Gacha & Step-up Gacha",
-            "期間限定 水着魔法少女2018-2019ピックアップガチャとステップアップガチャ"
-        ],
-        "image": [
-            "imgs/2704/gachabanner_0945_m.png",
-			"imgs/2704/gachabanner_0951_m.png"
-        ],
-        "column": 1,
-        "priority": 13,
-        "timers": [
-            {
-                name: "Duration",
-                start: "Apr 28 2022, 16:00",
-				end: "May 11 2022, 14:59",
-                extraPriority: 100
             }
         ]
     },
@@ -550,7 +430,7 @@ var timerData = [
 			"imgs/0905/gachabanner_0959_m.png"
         ],
         "column": 1,
-        "priority": 16,
+        "priority": 1,
         "timers": [
             {
                 name: "Duration",
@@ -560,51 +440,45 @@ var timerData = [
             }
         ]
     },
-			{
+	{
         "type": "Gacha",
         "title": [
-			"Limited-time Choose Your 4★ Memoria Selection Gacha",
-            "選べる★4メモリアセレクションガチャ"
+			"Aika Himena Pickup Gacha & Step-up Gacha",
+            "藍家ひめなピックアップガチャとステップアップガチャ"
         ],
         "image": [
-            "imgs/1604/gachabanner_0940_m.png"
+            "imgs/2105/gachabanner_0966_m.png",
+			"imgs/2105/gachabanner_0967_m.png"
         ],
         "column": 1,
-        "priority": 11,
+        "priority": 3,
         "timers": [
             {
                 name: "Duration",
-                start: "Apr 18 2022, 17:00",
-				end: "Apr 25 2022, 14:59",
-                extraPriority: 100,
-				markers: [
-				{
-					time: "Apr 22 2022, 16:00",
-					title: "Part 2",
-					type: "star"
-				}
-				]
+                start: "May 23 2022, 17:00",
+				end: "May 30 2022, 14:59",
+                extraPriority: 100
             }
         ]
     },
 	{
-		type: "Event",
-		title: [
-			"Maintenance",
-            "メンテナンス"
-		],
-		image: [
-			"imgs/maintenance.png"
-		],
-		column: 0,
-		priority: 4,
-		timers: [
-			{
-				name: "Maintenance",
-				start: "Apr 1 2022, 15:00",
-				end: "Apr 1 2022, 16:00",
-				extraPriority: 200
-			}
-		]
-	}
+        "type": "Gacha",
+        "title": [
+			"Limited-time paid Step-UP Gacha: Battle Museum Edition",
+            "有償限定 ステップアップガチャバトルミュージアム編"
+        ],
+        "image": [
+            "imgs/2105/gachabanner_0976_m.png"
+        ],
+        "column": 1,
+        "priority": 2,
+        "timers": [
+            {
+                name: "Duration",
+                start: "May 23 2022, 17:00",
+				end: "May 30 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    }
 ];
