@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "May 27 2022, 18:00";
+var possibleNextAnnouncementDate = "Jun 7 2022, 18:00";
 var nextAnniversary = "August 22 2022, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -23,50 +23,50 @@ var timerData = [
 	{
         "type": "WeekendBoss",
         "title": [
-			"Moving Aquamarine Heels Kimochi Battle",
-            "キモチ戦振動するアクアマリンの踵"
+			"Docile Ruby Navel Kimochi Battle",
+            "キモチ戦 従順なルビーのへそ"
         ],
         "image": [
-            "imgs/aquamarine.png"
+            "imgs/3005/banner_0385_m.png"
         ],
         "column": 0,
         "priority": 5,
         "timers": [
 			{
 				name: "Part 1 - Day 1",
-				start: "Feb 21 2022, 17:00",
-				end: "Feb 22 2022, 15:59"
+				start: "May 30 2022, 17:00",
+				end: "May 31 2022, 15:59"
 			},
 			{
 				name: "Part 1 - Day 2",
-				start: "Feb 22 2022, 16:00",
-				end: "Feb 23 2022, 15:59"
+				start: "May 31 2022, 16:00",
+				end: "June 1 2022, 15:59"
 			},
 			{
 				name: "Part 2 - Day 1",
-				start: "Feb 23 2022, 17:00",
-				end: "Feb 24 2022, 15:59"
+				start: "Jun 1 2022, 17:00",
+				end: "Jun 2 2022, 15:59"
 			},
 			{
 				name: "Part 2 - Day 2",
-				start: "Feb 24 2022, 16:00",
-				end: "Feb 25 2022, 15:59"
+				start: "Jun 2 2022, 16:00",
+				end: "Jun 3 2022, 15:59"
 			},
 			{
 				name: "Part 2 - Day 3",
-				start: "Feb 25 2022, 16:00",
-				end: "Feb 26 2022, 15:59"
+				start: "Jun 3 2022, 16:00",
+				end: "Jun 4 2022, 15:59"
 			},
             {
                 "name": "Main Event",
-                "start": "Feb 21 2022, 17:00",
-                "end": "Feb 26 2022, 15:59",
+                "start": "May 30 2022, 17:00",
+                "end": "Jun 4 2022, 15:59",
                 "extraPriority": 100,
 				"type": "normal",
 				markers: [
 					{
 						title: "Part 2 - Groups",
-						time: "Feb 23 2022, 17:00",
+						time: "Jun 1 2022, 17:00",
 						type: "battle"
 					}
 				]
@@ -306,6 +306,21 @@ var timerData = [
 				name: "New Chapter Campaign: Limited-time Missions",
 				start: "May 23 2022, 17:00",
 				end: "Jun 6 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Navy Blue - Rena (Anime ver.) Gacha",
+				start: "May 30 2022, 17:00",
+				end: "Jun 16 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Peach - Aqua Attribute Gacha",
+				start: "May 30 2022, 17:00",
+				end: "Jun 16 2022, 14:59"
+			},
+			{
+				name: "Docile Ruby Navel Kimochi Fight - Event Shop & Missions",
+				start: "May 30 2022, 17:00",
+				end: "Jun 11 2022, 14:59"
 			}
         ]
     },
@@ -333,25 +348,19 @@ var timerData = [
 	{
 		type: "Other",
 		title: [
-		"Mirrors Selection Pack & Mirrors Beginner Pack",
-		"「ミラーズセレクションパック」と「ミラーズビギナーズパック」の販売"
+		"Aqua Attribute Strengthening Pack",
+		"水属性魔法少女育成パックの販売"
 		],
 		image: [
-            "imgs/1604/banner_0580_m.png"
+            "imgs/3005/banner_0593_m.png"
         ],
 		column: 2,
-		priority: 5,
+		priority: 2,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "Apr 18 2022, 17:00",
-			end: "Apr 25 2022, 14:59",
-			extraPriority: 100
-		},
-		{
-			name: "Ticket Exchange",
-			start: "Apr 18 2022, 17:00",
-			end: "May 2 2022, 14:59",
+			start: "May 30 2022, 17:00",
+			end: "Jun 9 2022, 14:59",
 			extraPriority: 100
 		}
 		]
@@ -379,8 +388,8 @@ var timerData = [
 	{
         type: "Maintenance",
         title: [
-            "Maintenance & App Version 2.5.0 Forced Update",
-			"维护とバージョン2.5.0"
+            "Maintenance & App Version 2.5.1 Forced Update",
+			"维护とバージョン2.5.1"
         ],
 		"image": [
 			"imgs/maintenance.png"
@@ -390,8 +399,8 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "May 23 2022, 15:00",
-                end: "May 23 2022, 17:00",
+                start: "May 30 2022, 15:00",
+                end: "May 30 2022, 17:00",
 				extraPriority: 100
             }
         ]
@@ -422,20 +431,60 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Limited-time Mikuni Oriko (Final ver.) Pickup Gacha & Step-up Gacha",
-            "期間限定 美国織莉子 ver.Finalピックアップガチャとステップアップガチャ"
+			"Limited-time Minami Rena (Anime ver.) Pickup Gacha & Step-up Gacha",
+            "期間限定 美水波レナ アニメver.ピックアップガチャとステップアップガチャ"
         ],
         "image": [
-            "imgs/0905/gachabanner_0958_m.png",
-			"imgs/0905/gachabanner_0959_m.png"
+            "imgs/3005/gachabanner_0981_m.png",
+			"imgs/3005/gachabanner_0982_m.png"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Duration",
+                start: "May 30 2022, 17:00",
+				end: "Jun 9 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"Aqua Attribute Pickup Gacha",
+            "水属性魔法少女 ピックアップガチャ"
+        ],
+        "image": [
+            "imgs/3005/gachabanner_0987_m.png"
+        ],
+        "column": 1,
+        "priority": 2,
+        "timers": [
+            {
+                name: "Duration",
+                start: "May 30 2022, 17:00",
+				end: "Jun 9 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"Limited-time Paid 4★ Aqua Attribute Magical Girl Guaranteed Gacha",
+            "有償限定 水属性★4魔法少女確定ガチャ"
+        ],
+        "image": [
+            "imgs/3005/gachabanner_0988_m.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
                 name: "Duration",
-                start: "May 11 2022, 16:00",
-				end: "May 23 2022, 14:59",
+                start: "May 30 2022, 17:00",
+				end: "Jun 9 2022, 14:59",
                 extraPriority: 100
             }
         ]
