@@ -316,12 +316,12 @@ var timerData = [
 				name: "Adjuster Coin Shop: Peach - Aqua Attribute Gacha",
 				start: "May 30 2022, 17:00",
 				end: "Jun 16 2022, 14:59"
-			},
+			}/*,
 			{
 				name: "Docile Ruby Navel Kimochi Fight - Event Shop & Missions",
 				start: "May 30 2022, 17:00",
 				end: "Jun 11 2022, 14:59"
-			}
+			}*/
         ]
     },
 	{
