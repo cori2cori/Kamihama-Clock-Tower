@@ -20,7 +20,7 @@ var timerData = [
     },
     
   */
-	{
+	/*{
         "type": "WeekendBoss",
         "title": [
 			"Docile Ruby Navel Kimochi Battle",
@@ -72,7 +72,7 @@ var timerData = [
 				]
 			}
 				]
-    },
+    },*/
 	{
         "type": "LoginDays",
         "title": [
