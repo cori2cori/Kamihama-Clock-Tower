@@ -20,7 +20,7 @@ var timerData = [
     },
     
   */
-	/*{
+	{
         "type": "WeekendBoss",
         "title": [
 			"Docile Ruby Navel Kimochi Battle",
@@ -30,49 +30,49 @@ var timerData = [
             "imgs/3005/banner_0385_m.png"
         ],
         "column": 0,
-        "priority": 5,
+        "priority": 1,
         "timers": [
 			{
 				name: "Part 1 - Day 1",
-				start: "May 30 2022, 17:00",
-				end: "May 31 2022, 15:59"
+				start: "Jun 20 2022, 17:00",
+				end: "Jun 21 2022, 15:59"
 			},
 			{
 				name: "Part 1 - Day 2",
-				start: "May 31 2022, 16:00",
-				end: "June 1 2022, 15:59"
+				start: "Jun 21 2022, 16:00",
+				end: "June 22 2022, 15:59"
 			},
 			{
 				name: "Part 2 - Day 1",
-				start: "Jun 1 2022, 17:00",
-				end: "Jun 2 2022, 15:59"
+				start: "Jun 22 2022, 17:00",
+				end: "Jun 23 2022, 15:59"
 			},
 			{
 				name: "Part 2 - Day 2",
-				start: "Jun 2 2022, 16:00",
-				end: "Jun 3 2022, 15:59"
+				start: "Jun 23 2022, 16:00",
+				end: "Jun 24 2022, 15:59"
 			},
 			{
 				name: "Part 2 - Day 3",
-				start: "Jun 3 2022, 16:00",
-				end: "Jun 4 2022, 15:59"
+				start: "Jun 24 2022, 16:00",
+				end: "Jun 25 2022, 15:59"
 			},
             {
                 "name": "Main Event",
-                "start": "May 30 2022, 17:00",
-                "end": "Jun 4 2022, 15:59",
+                "start": "Jun 20 2022, 17:00",
+                "end": "Jun 25 2022, 15:59",
                 "extraPriority": 100,
 				"type": "normal",
 				markers: [
 					{
 						title: "Part 2 - Groups",
-						time: "Jun 1 2022, 17:00",
+						time: "Jun 22 2022, 17:00",
 						type: "battle"
 					}
 				]
 			}
 				]
-    },*/
+    },
 	{
         "type": "LoginDays",
         "title": [
@@ -316,12 +316,12 @@ var timerData = [
 				name: "Adjuster Coin Shop: Peach - Aqua Attribute Gacha",
 				start: "May 30 2022, 17:00",
 				end: "Jun 16 2022, 14:59"
-			}/*,
+			},
 			{
 				name: "Docile Ruby Navel Kimochi Fight - Event Shop & Missions",
-				start: "May 30 2022, 17:00",
-				end: "Jun 11 2022, 14:59"
-			}*/
+				start: "Jun 20 2022, 17:00",
+				end: "July 2 2022, 14:59"
+			}
         ]
     },
 	{
@@ -388,19 +388,19 @@ var timerData = [
 	{
         type: "Maintenance",
         title: [
-            "Maintenance & App Version 2.5.1 Forced Update",
-			"维护とバージョン2.5.1"
+            "Maintenance & App Version 2.5.2 Forced Update",
+			"维护とバージョン2.5.2"
         ],
 		"image": [
 			"imgs/maintenance.png"
 		],
         column: 0,
-        priority: 50,
+        priority: 2,
         timers: [
             {
                 name: "Scheduled Time",
-                start: "May 30 2022, 15:00",
-                end: "May 30 2022, 17:00",
+                start: "Jun 20 2022, 15:00",
+                end: "Jun 20 2022, 17:00",
 				extraPriority: 100
             }
         ]
