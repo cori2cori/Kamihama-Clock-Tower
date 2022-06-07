@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "Jun 7 2022, 18:00";
+var possibleNextAnnouncementDate = "Jun 17 2022, 18:00";
 var nextAnniversary = "August 22 2022, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -122,34 +122,48 @@ var timerData = [
 			}
         ]
     },
+			{
+        "type": "Maintenance",
+        "title": [
+			"Maintenance",
+			"维护"
+        ],
+        "image": [
+            "imgs/maintenance.png"
+        ],
+        "column": 0,
+        "priority": 3,
+        "timers": [
+			{
+				name: "Scheduled time",
+				start: "Jun 9 2022, 15:00",
+				end: "Jun 9 2022, 16:00",
+				extraPriority: 100
+			}
+        ]
+    },
 		{
         "type": "Event",
         "title": [
-			"My Only Salvation ～Puella Magi Oriko☆Magica～",
-			"My Only Salvation ～魔法少女おりこ☆マギカ～"
+			"Passion is Sharp △, Love is Rounded ●",
+			"恋は△ 愛は● "
         ],
         "image": [
-            "imgs/0905/banner_0586_m.png"
+            "imgs/0706/banner_0595_m.png"
         ],
         "column": 0,
         "priority": 2,
         "timers": [
 			{
-				name: "Maintenance",
-				start: "May 11 2022, 15:00",
-				end: "May 11 2022, 16:00",
-				extraPriority: 100
-			},
-			{
 				name: "Main Event",
-				start: "May 11 2022, 16:00",
-				end: "May 23 2022, 14:59",
+				start: "Jun 9 2022, 20:00",
+				end: "Jun 20 2022, 14:59",
 				extraPriority: 100,
 				markers: [
 				{
-					title: "Story Quests 16-30",
-					type: "story",
-					time: "May 17 2022, 16:00"
+					title: "Story Quests 11-20 & 100Evils I-III",
+					type: "battle",
+					time: "Jun 15 2022, 16:00"
 				}
 				]
 			}
@@ -321,6 +335,16 @@ var timerData = [
 				name: "Docile Ruby Navel Kimochi Fight - Event Shop & Missions",
 				start: "Jun 20 2022, 17:00",
 				end: "July 2 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Orange & Memoria Selection Ticket Exchange - Mai Akari Gacha",
+				start: "Jun 9 2022, 16:00",
+				end: "Jun 27 2022, 14:59"
+			},
+			{
+				name: "Passion is Sharp △, Love is Rounded ● - Event Shop & Missions",
+				start: "Jun 9 2022, 16:00",
+				end: "Jun 27 2022, 14:59"
 			}
         ]
     },
@@ -492,20 +516,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Aika Himena Pickup Gacha & Step-up Gacha",
-            "藍家ひめなピックアップガチャとステップアップガチャ"
+			"Mai Akari Gacha & Step-up Gacha",
+            "真井あかり ピックアップガチャとステップアップガチャ"
         ],
         "image": [
-            "imgs/2105/gachabanner_0966_m.png",
-			"imgs/2105/gachabanner_0967_m.png"
+            "imgs/0706/gachabanner_0991_m.png",
+			"imgs/0706/gachabanner_0992_m.png"
         ],
         "column": 1,
-        "priority": 3,
+        "priority": 4,
         "timers": [
             {
                 name: "Duration",
-                start: "May 23 2022, 17:00",
-				end: "May 30 2022, 14:59",
+                start: "Jun 9 2022, 16:00",
+				end: "Jun 20 2022, 14:59",
                 extraPriority: 100
             }
         ]
