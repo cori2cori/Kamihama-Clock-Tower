@@ -156,7 +156,7 @@ var timerData = [
         "timers": [
 			{
 				name: "Main Event",
-				start: "Jun 9 2022, 20:00",
+				start: "Jun 9 2022, 16:00",
 				end: "Jun 20 2022, 14:59",
 				extraPriority: 100,
 				markers: [
