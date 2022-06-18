@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "Jun 17 2022, 18:00";
+var possibleNextAnnouncementDate = "Jun 27 2022, 18:00";
 var nextAnniversary = "August 22 2022, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -345,6 +345,11 @@ var timerData = [
 				name: "Passion is Sharp △, Love is Rounded ● - Event Shop & Missions",
 				start: "Jun 9 2022, 16:00",
 				end: "Jun 27 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Purble - Yachiyo·Mifuyu Gacha",
+				start: "Jun 20 2022, 17:00",
+				end: "Jul 4 2022, 14:59"
 			}
         ]
     },
@@ -455,20 +460,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Limited-time Minami Rena (Anime ver.) Pickup Gacha & Step-up Gacha",
-            "期間限定 美水波レナ アニメver.ピックアップガチャとステップアップガチャ"
+			"Limited-time Yachiyo·Mifuyu (Origin ver.) Pickup Gacha & Step-up Gacha",
+            "期間限定 やちよ・みふゆ 始まりver.ピックアップガチャとステップアップガチャ"
         ],
         "image": [
-            "imgs/3005/gachabanner_0981_m.png",
-			"imgs/3005/gachabanner_0982_m.png"
+            "imgs/1806/gachabanner_1001_m.png",
+			"imgs/1806/gachabanner_1002_m.png"
         ],
         "column": 1,
         "priority": 3,
         "timers": [
             {
                 name: "Duration",
-                start: "May 30 2022, 17:00",
-				end: "Jun 9 2022, 14:59",
+                start: "Jun 20 2022, 17:00",
+				end: "Jun 27 2022, 14:59",
                 extraPriority: 100
             }
         ]
