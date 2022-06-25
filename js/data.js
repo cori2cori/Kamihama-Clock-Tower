@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "Jun 27 2022, 18:00";
+var possibleNextAnnouncementDate = "Jul 1 2022, 18:00";
 var nextAnniversary = "August 22 2022, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -21,18 +21,18 @@ var timerData = [
     
   */
 	{
-        "type": "WeekendBoss",
+        "type": "Event",
         "title": [
-			"Docile Ruby Navel Kimochi Battle",
-            "キモチ戦 従順なルビーのへそ"
+			"Kimochi Battle Special Edition: Alina Eve",
+            "キモチ戦特別編 アリナ・イブ"
         ],
         "image": [
-            "imgs/3005/banner_0385_m.png"
+            "imgs/2506/banner_0603_m.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
-			{
+			/*{
 				name: "Part 1 - Day 1",
 				start: "Jun 20 2022, 17:00",
 				end: "Jun 21 2022, 15:59"
@@ -56,71 +56,22 @@ var timerData = [
 				name: "Part 2 - Day 3",
 				start: "Jun 24 2022, 16:00",
 				end: "Jun 25 2022, 15:59"
-			},
+			},*/
             {
                 "name": "Main Event",
-                "start": "Jun 20 2022, 17:00",
-                "end": "Jun 25 2022, 15:59",
-                "extraPriority": 100,
-				"type": "normal",
+                "start": "Jul 4 2022, 17:00",
+                "end": "Jul 9 2022, 15:59",
+                "extraPriority": 100
+				/*"type": "normal",
 				markers: [
 					{
 						title: "Part 2 - Groups",
 						time: "Jun 22 2022, 17:00",
 						type: "battle"
 					}
-				]
+				]*/
 			}
 				]
-    },
-	{
-        "type": "LoginDays",
-        "title": [
-			"TV Anime FINAL SEASON Countdown Login Bonus",
-			"TVアニメFinal SEASON放送カウントダウンログインボーナス"
-        ],
-        "image": [
-            "imgs/2503/banner_0572_m.png"
-        ],
-        "column": 0,
-        "priority": 10,
-        "timers": [
-			{
-				name: "10 Magia Stones",
-				date: "Mar 29 2022",
-				extraPriority: 100
-			},
-			{
-				name: "10 Magia Stones",
-				date: "Mar 30 2022",
-				extraPriority: 100
-			},
-			{
-				name: "10 Magia Stones",
-				date: "Mar 31 2022",
-				extraPriority: 100
-			},
-			{
-				name: "10 Magia Stones",
-				date: "Apr 1 2022",
-				extraPriority: 100
-			},
-			{
-				name: "10 Magia Stones",
-				date: "Apr 2 2022",
-				extraPriority: 100
-			},
-			{
-				name: "Special 4✷ Memoria",
-				date: "Apr 3 2022",
-				extraPriority: 100
-			},
-			{
-				name: "Extra",
-				date: "Apr 4 2022",
-				extraPriority: 100
-			}
-        ]
     },
 			{
         "type": "Maintenance",
@@ -132,38 +83,44 @@ var timerData = [
             "imgs/maintenance.png"
         ],
         "column": 0,
-        "priority": 3,
+        "priority": 10,
         "timers": [
 			{
-				name: "Scheduled time",
-				start: "Jun 9 2022, 15:00",
-				end: "Jun 9 2022, 16:00",
-				extraPriority: 100
+				name: "Maintenance 1 & App Version 2.5.3",
+				start: "Jun 27 2022, 15:00",
+				end: "Jun 27 2022, 16:00",
+				extraPriority: 1000
+			},
+			{
+				name: "Maintenance 2",
+				start: "Jul 4 2022, 15:00",
+				end: "Jul 4 2022, 17:00",
+				extraPriority: 1000
 			}
         ]
     },
 		{
         "type": "Event",
         "title": [
-			"Passion is Sharp △, Love is Rounded ●",
-			"恋は△ 愛は● "
+			"Urara, a Secret, and a Farewell Party",
+			"うららとナイショと送別会"
         ],
         "image": [
-            "imgs/0706/banner_0595_m.png"
+            "imgs/2506/banner_0563_m.png"
         ],
         "column": 0,
-        "priority": 2,
+        "priority": 6,
         "timers": [
 			{
 				name: "Main Event",
-				start: "Jun 9 2022, 16:00",
-				end: "Jun 20 2022, 14:59",
+				start: "Jun 27 2022, 16:00",
+				end: "Jul 11 2022, 14:59",
 				extraPriority: 100,
 				markers: [
 				{
 					title: "Story Quests 11-20 & 100Evils I-III",
 					type: "battle",
-					time: "Jun 15 2022, 16:00"
+					time: "Jul 4 2022, 17:00"
 				}
 				]
 			}
@@ -192,21 +149,27 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"New Chapter Campaign: Main Story Arc 2 Chapter 10",
-			"新章キャンペーン：メインストーリー第2部10章"
+			"TV Anime Final Season BD&DVD Vol. 2 Release Campaign",
+			"TVアニメFinal SEASON Blu-ray＆DVD 第2巻発売記念キャンペーン"
         ],
         "image": [
-            "imgs/2105/banner_1031000_m.png",
-			"imgs/2105/banner_0590_m.png"
+            "imgs/2506/banner_0596_m.png",
+			"imgs/2506/banner_0598_m.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 3,
         "timers": [
 			{
+				name: "Login Bonus",
+				start: "Jun 28 2022, 00:00",
+				end: "Jul 11 2022, 23:59",
+				extraPriority: 50
+			},
+			{
 				name: "1/2 AP, x2 Player EXP, x2 SP & x2 Magical Girl Enhancement Great and Super Success Rate",
-				start: "May 23 2022, 17:00",
-				end: "May 30 2022, 23:59",
-				extraPriority: 100
+				start: "Jun 27 2022, 16:00",
+				end: "Jul 11 2022, 14:59",
+				extraPriority: 50
 			}
         ]
     },
@@ -284,53 +247,13 @@ var timerData = [
             "shop"
         ],
         "column": 2,
-        "priority": 1000,
+        "priority": 100,
         "timers": [
 			/*{
 				name: "Monthly Magia Stones Shops - July",
 				start: "July 1 2021, 00:00",
 				end: "July 31 2021, 23:59"
 			},*/
-			{
-				name: "My Only Salvation - Event Shop & Missions",
-				start: "May 11 2022, 16:00",
-				end: "May 30 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Yellow-Green - Mikuni Oriko (Final ver.) Gacha",
-				start: "May 11 2022, 16:00",
-				end: "May 30 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Water - Aika Himena Gacha",
-				start: "May 23 2022, 17:00",
-				end: "Jun 6 2022, 14:59"
-			},
-			{
-				name: "4★ Memoria Selection Ticket Exchange",
-				start: "May 23 2022, 17:00",
-				end: "Jun 6 2022, 14:59"
-			},
-			{
-				name: "Battle Museum: Limited-time Missions",
-				start: "May 23 2022, 17:00",
-				end: "Jun 6 2022, 14:59"
-			},
-			{
-				name: "New Chapter Campaign: Limited-time Missions",
-				start: "May 23 2022, 17:00",
-				end: "Jun 6 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Navy Blue - Rena (Anime ver.) Gacha",
-				start: "May 30 2022, 17:00",
-				end: "Jun 16 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Peach - Aqua Attribute Gacha",
-				start: "May 30 2022, 17:00",
-				end: "Jun 16 2022, 14:59"
-			},
 			{
 				name: "Docile Ruby Navel Kimochi Fight - Event Shop & Missions",
 				start: "Jun 20 2022, 17:00",
@@ -347,29 +270,53 @@ var timerData = [
 				end: "Jun 27 2022, 14:59"
 			},
 			{
-				name: "Adjuster Coin Shop: Purble - Yachiyo·Mifuyu Gacha",
+				name: "Adjuster Coin Shop: Purple - Yachiyo · Mifuyu Gacha",
 				start: "Jun 20 2022, 17:00",
 				end: "Jul 4 2022, 14:59"
+			},
+			{
+				name: "Urara, a Secret, and a Farewell Party - Event Shop & Missions",
+				start: "Jun 27 2022, 16:00",
+				end: "Jul 18 2022, 14:59"
+			},
+			{
+				name: "TV Anime Final Season BD2 Release Campaign - Limited time Missions",
+				start: "Jun 27 2022, 16:00",
+				end: "Jul 11 2022, 23:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Black - Kuroe & Anime Magical Girls Gachas",
+				start: "Jun 27 2022, 16:00",
+				end: "Jul 18 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Blue - Urara Gacha",
+				start: "Jun 27 2022, 16:00",
+				end: "Jul 18 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Green - Premium Gacha",
+				start: "Jun 28 2022, 00:00",
+				end: "Jul 11 2022, 23:59"
 			}
         ]
     },
 	{
 		type: "Other",
 		title: [
-		"Battle Museum Special Offers",
-		"バトルミュージアム開催記念!! スペシャルオファー"
+		"TV Anime BD2 Release Campaign - Support Bag",
+		"TVアニメFinal SEASON Blu-ray＆DVD第2巻発売記念 育成応援パック"
 		],
 		image: [
-            "imgs/2105/banner_0591_m.png",
-			"imgs/2105/banner_0592_m.png"
+            "imgs/2506/banner_0602_m.png"
         ],
 		column: 2,
 		priority: 3,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "May 23 2022, 17:00",
-			end: "May 30 2022, 14:59",
+			start: "Jun 27 2022, 16:00",
+			end: "Jul 11 2022, 14:59",
 			extraPriority: 100
 		}
 		]
@@ -481,19 +428,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Aqua Attribute Pickup Gacha",
-            "水属性魔法少女 ピックアップガチャ"
+			"Limited-time Kuroe Pickup Gacha & Step-up Gacha",
+            "期間限定 黒江 ピックアップガチャとステップアップガチャ"
         ],
         "image": [
-            "imgs/3005/gachabanner_0987_m.png"
+            "imgs/2506/gachabanner_1009_m.png",
+			"imgs/2506/gachabanner_1010_m.png"
         ],
         "column": 1,
         "priority": 2,
         "timers": [
             {
                 name: "Duration",
-                start: "May 30 2022, 17:00",
-				end: "Jun 9 2022, 14:59",
+                start: "Jun 27 2022, 16:00",
+				end: "Jul 11 2022, 14:59",
                 extraPriority: 100
             }
         ]
@@ -501,19 +449,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Limited-time Paid 4★ Aqua Attribute Magical Girl Guaranteed Gacha",
-            "有償限定 水属性★4魔法少女確定ガチャ"
+			"Limited-time Magical Girl Anime ver. Pickup Gacha & Step-up Gacha",
+            "期間限定 アニメver.魔法少女 ピックアップガチャとステップアップガチャ"
         ],
         "image": [
-            "imgs/3005/gachabanner_0988_m.png"
+            "imgs/2506/gachabanner_1015_m.png",
+			"imgs/2506/gachabanner_1016_m.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
                 name: "Duration",
-                start: "May 30 2022, 17:00",
-				end: "Jun 9 2022, 14:59",
+                start: "Jun 27 2022, 16:00",
+				end: "Jul 11 2022, 14:59",
                 extraPriority: 100
             }
         ]
@@ -521,40 +470,40 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Mai Akari Gacha & Step-up Gacha",
-            "真井あかり ピックアップガチャとステップアップガチャ"
+			"Yume Urara Pickup Gacha & Step-up Gacha",
+            "有愛うらら ピックアップガチャとステップアップガチャ"
         ],
         "image": [
-            "imgs/0706/gachabanner_0991_m.png",
-			"imgs/0706/gachabanner_0992_m.png"
+            "imgs/2506/gachabanner_1023_m.png",
+			"imgs/2506/gachabanner_1024_m.png"
         ],
         "column": 1,
         "priority": 4,
         "timers": [
             {
                 name: "Duration",
-                start: "Jun 9 2022, 16:00",
-				end: "Jun 20 2022, 14:59",
+                start: "Jun 27 2022, 16:00",
+				end: "Jul 11 2022, 14:59",
                 extraPriority: 100
             }
         ]
     },
-	{
+		{
         "type": "Gacha",
         "title": [
-			"Limited-time paid Step-UP Gacha: Battle Museum Edition",
-            "有償限定 ステップアップガチャバトルミュージアム編"
+			"Free 10-Roll in Premium Once a Day",
+            "毎日1回10連レアガチャ無料"
         ],
         "image": [
-            "imgs/2105/gachabanner_0976_m.png"
+            "imgs/2506/banner_0574_m.png"
         ],
         "column": 1,
-        "priority": 2,
+        "priority": 3,
         "timers": [
             {
                 name: "Duration",
-                start: "May 23 2022, 17:00",
-				end: "May 30 2022, 14:59",
+                start: "Jun 28 2022, 00:00",
+				end: "Jul 4 2022, 23:59",
                 extraPriority: 100
             }
         ]
