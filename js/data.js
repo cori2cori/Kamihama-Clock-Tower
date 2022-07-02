@@ -161,7 +161,7 @@ var timerData = [
         "timers": [
 			{
 				name: "Login Bonus",
-				start: "Jun 28 2022, 00:00",
+				start: "Jun 29 2022, 00:00",
 				end: "Jul 11 2022, 23:59",
 				extraPriority: 50
 			},
