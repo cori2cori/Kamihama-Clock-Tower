@@ -21,7 +21,7 @@ var timerData = [
     
   */
 	{
-        "type": "Event",
+        "type": "WeekendBoss",
         "title": [
 			"Kimochi Battle Special Edition: Alina Eve",
             "キモチ戦特別編 アリナ・イブ"
@@ -30,48 +30,48 @@ var timerData = [
             "imgs/2506/banner_0603_m.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 9,
         "timers": [
-			/*{
+			{
 				name: "Part 1 - Day 1",
-				start: "Jun 20 2022, 17:00",
-				end: "Jun 21 2022, 15:59"
+				start: "Jul 4 2022, 17:00",
+				end: "Jun 5 2022, 15:59"
 			},
 			{
 				name: "Part 1 - Day 2",
-				start: "Jun 21 2022, 16:00",
-				end: "June 22 2022, 15:59"
+				start: "Jul 5 2022, 16:00",
+				end: "Jul 6 2022, 15:59"
 			},
 			{
 				name: "Part 2 - Day 1",
-				start: "Jun 22 2022, 17:00",
-				end: "Jun 23 2022, 15:59"
+				start: "Jul 6 2022, 17:00",
+				end: "Jul 7 2022, 15:59"
 			},
 			{
 				name: "Part 2 - Day 2",
-				start: "Jun 23 2022, 16:00",
-				end: "Jun 24 2022, 15:59"
+				start: "Jul 7 2022, 16:00",
+				end: "Jul 8 2022, 15:59"
 			},
 			{
 				name: "Part 2 - Day 3",
-				start: "Jun 24 2022, 16:00",
-				end: "Jun 25 2022, 15:59"
-			},*/
+				start: "Jul 8 2022, 16:00",
+				end: "Jul 9 2022, 15:59"
+			},
             {
                 "name": "Main Event",
                 "start": "Jul 4 2022, 17:00",
                 "end": "Jul 9 2022, 15:59",
-                "extraPriority": 100
-				/*"type": "normal",
+                "extraPriority": 100,
+				"type": "normal",
 				markers: [
 					{
 						title: "Part 2 - Groups",
-						time: "Jun 22 2022, 17:00",
+						time: "Jun 6 2022, 17:00",
 						type: "battle"
 					}
-				]*/
-			}
 				]
+			}
+			]
     },
 			{
         "type": "Maintenance",
@@ -129,20 +129,20 @@ var timerData = [
 			{
         "type": "Event",
         "title": [
-			"Battle Museum",
-			"バトルミュージアム"
+			"Mysterious Announcement in Aniplex Youtube Channel",
+			"https://www.youtube.com/watch?v=3gR73OGPvVU"
         ],
         "image": [
-            "imgs/museum.png"
+            "imgs/0107/MA.png"
         ],
         "column": 0,
-        "priority": 2,
+        "priority": 104,
         "timers": [
 			{
 				name: "Main Event",
-				start: "May 23 2022, 17:00",
-				end: "May 30 2022, 14:59",
-				extraPriority: 100
+				start: "Jul 4 2022, 0:00",
+				end: "Jul 4 2022, 1:00",
+				extraPriority: 0
 			}
         ]
     },
@@ -257,7 +257,7 @@ var timerData = [
 			{
 				name: "Docile Ruby Navel Kimochi Fight - Event Shop & Missions",
 				start: "Jun 20 2022, 17:00",
-				end: "July 2 2022, 14:59"
+				end: "July 4 2022, 14:59"
 			},
 			{
 				name: "Adjuster Coin Shop: Orange & Memoria Selection Ticket Exchange - Mai Akari Gacha",
@@ -298,6 +298,16 @@ var timerData = [
 				name: "Adjuster Coin Shop: Green - Premium Gacha",
 				start: "Jun 28 2022, 00:00",
 				end: "Jul 11 2022, 23:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Water - Yachiyo (Tanabata ver.) Gacha",
+				start: "Jul 4 2022, 17:00",
+				end: "Jul 18 2022, 14:59"
+			},
+			{
+				name: "Alina Eve Kimochi Battle - Event Shop",
+				start: "Jul 4 2022, 17:00",
+				end: "Jul 18 2022, 14:59"
 			}
         ]
     },
@@ -478,11 +488,32 @@ var timerData = [
 			"imgs/2506/gachabanner_1024_m.png"
         ],
         "column": 1,
-        "priority": 4,
+        "priority": 5,
         "timers": [
             {
                 name: "Duration",
                 start: "Jun 27 2022, 16:00",
+				end: "Jul 11 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+		{
+        "type": "Gacha",
+        "title": [
+			"Limited-time Yachiyo (Tanabata ver.) Pickup Gacha & Step-up Gacha",
+            "期間限定 七海やちよ 七夕ver. ピックアップガチャとステップアップガチャ"
+        ],
+        "image": [
+            "imgs/0107/gachabanner_1033_m.png",
+			"imgs/0107/gachabanner_1034_m.png"
+        ],
+        "column": 1,
+        "priority": 2,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Jul 4 2022, 17:00",
 				end: "Jul 11 2022, 14:59",
                 extraPriority: 100
             }
