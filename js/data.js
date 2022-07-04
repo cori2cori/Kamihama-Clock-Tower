@@ -35,7 +35,7 @@ var timerData = [
 			{
 				name: "Part 1 - Day 1",
 				start: "Jul 4 2022, 17:00",
-				end: "Jun 5 2022, 15:59"
+				end: "Jul 5 2022, 15:59"
 			},
 			{
 				name: "Part 1 - Day 2",
