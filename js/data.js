@@ -381,7 +381,12 @@ var timerData = [
 		{
 			name: "Sales period",
 			start: "Jul 11 2022, 17:00",
-			end: "Jul 18 2022, 14:59",
+			end: "Jul 18 2022, 14:59"
+		},
+		{
+			name: "Mirrors Selection 4★ Magical Girl Ticket Exchange",
+			start: "Jul 11 2022, 17:00",
+			end: "Jul 25 2022, 14:59",
 			extraPriority: 100
 		}
 		]
