@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "Jul 20 2022, 18:00";
+var possibleNextAnnouncementDate = "Jul 27 2022, 18:00";
 var nextAnniversary = "August 22 2022, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -197,6 +197,39 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
+			"1800 Days Since Release Celebration Campaign",
+			"リリース1800日記念キャンペーン"
+        ],
+        "image": [
+            "imgs/2107/banner_0599_m.png",
+			"imgs/2107/banner_0601_m.png"
+        ],
+        "column": 0,
+        "priority": 5,
+        "timers": [
+			{
+				name: "1/2 AP, x2 Player EXP, x2 SP & x2 Magical Girl Enhancement Great and Super Success Rate",
+				start: "Jul 22 2022, 17:00",
+				end: "Jul 29 2022, 14:59",
+				extraPriority: 0
+			},
+			{
+				name: "Login Bonus",
+				start: "Jul 22 2022, 17:00",
+				end: "Jul 29 2022, 23:59",
+				extraPriority: 100
+			},
+			{
+				name: "Limited-time Daily Missions",
+				start: "Jul 23 2022, 00:00",
+				end: "Jul 29 2022, 23:59",
+				extraPriority: 0
+			}
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
             "Extermination Battle: Witches' Paradox",
 			"殲滅戦 魔女たちのパラドクス"
         ],
@@ -206,26 +239,20 @@ var timerData = [
         "column": 0,
         "priority": 6,
         "timers": [
-			{
-				name: "Maintenance",
-				start: "Feb 28 2022, 15:00",
-				end: "Feb 28 2022, 17:00",
-				extraPriority: 10
-			},
             {
                 "name": "Main Event",
-                "start": "Feb 28 2022, 17:00",
-                "end": "Mar 7 2022, 14:59",
+                "start": "Jul 22 2022, 17:00",
+                "end": "Jul 29 2022, 14:59",
                 "extraPriority": 10,
 				"markers": [
 				{
 					title: "Challenge Stage",
-					time: "Mar 2 2022, 16:00",
+					time: "Jul 24 2022, 16:00",
 					type: "battle"
 				},
 				{
 					title: "EX Challenge Stage",
-					time: "Mar 4 2022, 16:00",
+					time: "Jul 26 2022, 16:00",
 					type: "battle"
 				}
 				]
@@ -343,6 +370,16 @@ var timerData = [
 				name: "Mitama Special Training - Event Shop and Missions",
 				start: "Jul 11 2022, 17:00",
 				end: "Jul 29 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Red - Uwasa no Tsuruno (Anime ver.) Gacha",
+				start: "Jul 22 2022, 17:00",
+				end: "Aug 5 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Peach - Memoria Gacha",
+				start: "Jul 22 2022, 17:00",
+				end: "Aug 5 2022, 14:59"
 			}
         ]
     },
@@ -392,10 +429,48 @@ var timerData = [
 		]
 	},
 	{
+		type: "Other",
+		title: [
+		"Mitama's Special Offer",
+		"殲滅戦開催記念!!みたまのスペシャルオファー"
+		],
+		image: [
+            "imgs/2107/banner_0591_m.png"
+        ],
+		column: 2,
+		priority: 3,
+		timers: [ 
+		{
+			name: "Sales period",
+			start: "Jul 22 2022, 17:00",
+			end: "Jul 29 2022, 14:59"
+		}
+		]
+	},
+	{
+		type: "Other",
+		title: [
+		"1800 Days Celebration Bags",
+		"1800日記念パック"
+		],
+		image: [
+            "imgs/2107/banner_0600_m.png"
+        ],
+		column: 2,
+		priority: 4,
+		timers: [ 
+		{
+			name: "Sales period",
+			start: "Jul 22 2022, 17:00",
+			end: "Jul 29 2022, 14:59"
+		}
+		]
+	},
+	{
         type: "Maintenance",
         title: [
-            "Maintenance & App Version 2.5.4 Forced Update",
-			"维护とバージョン2.5.4"
+            "Maintenance",
+			"维护"
         ],
 		"image": [
 			"imgs/maintenance.png"
@@ -405,8 +480,8 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "Jul 11 2022, 15:00",
-                end: "Jul 11 2022, 17:00",
+                start: "Jul 22 2022, 15:00",
+                end: "Jul 22 2022, 17:00",
 				extraPriority: 1000
             }
         ]
@@ -497,64 +572,23 @@ var timerData = [
             }
         ]
     },
-	{
-        "type": "Gacha",
-        "title": [
-			"Yume Urara Pickup Gacha & Step-up Gacha",
-            "有愛うらら ピックアップガチャとステップアップガチャ"
-        ],
-        "image": [
-            "imgs/2506/gachabanner_1023_m.png",
-			"imgs/2506/gachabanner_1024_m.png"
-        ],
-        "column": 1,
-        "priority": 5,
-        "timers": [
-            {
-                name: "Duration",
-                start: "Jun 27 2022, 16:00",
-				end: "Jul 11 2022, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
 		{
         "type": "Gacha",
         "title": [
-			"Limited-time Yachiyo (Tanabata ver.) Pickup Gacha & Step-up Gacha",
-            "期間限定 七海やちよ 七夕ver. ピックアップガチャとステップアップガチャ"
+			"Limited-time Uwasa no Tsuruno (Anime ver.) Pickup Gacha & Step-up Gacha",
+            "期間限定 ウワサの鶴乃 アニメver. ピックアップガチャとステップアップガチャ"
         ],
         "image": [
-            "imgs/0107/gachabanner_1033_m.png",
-			"imgs/0107/gachabanner_1034_m.png"
-        ],
-        "column": 1,
-        "priority": 2,
-        "timers": [
-            {
-                name: "Duration",
-                start: "Jul 4 2022, 17:00",
-				end: "Jul 11 2022, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-		{
-        "type": "Gacha",
-        "title": [
-			"Free 10-Roll in Premium Once a Day",
-            "毎日1回10連レアガチャ無料"
-        ],
-        "image": [
-            "imgs/2506/banner_0574_m.png"
+            "imgs/2107/gachabanner_1054_m.png",
+			"imgs/2107/gachabanner_1055_m.png"
         ],
         "column": 1,
         "priority": 3,
         "timers": [
             {
                 name: "Duration",
-                start: "Jun 28 2022, 00:00",
-				end: "Jul 4 2022, 23:59",
+                start: "Jul 22 2022, 17:00",
+				end: "Jul 29 2022, 14:59",
                 extraPriority: 100
             }
         ]
@@ -587,24 +621,16 @@ var timerData = [
             "選べる★4メモリアセレクションガチャ"
         ],
         "image": [
-            "imgs/0807/gachabanner_1041_m.png"
+            "imgs/2107/gachabanner_1053_m.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
                 name: "Duration",
-                start: "Jul 11 2022, 17:00",
-				end: "Jul 18 2022, 14:59",
-                extraPriority: 100,
-				markers:
-				[
-				{
-					time: "Jul 15 2022, 15:00",
-					type: "star",
-					title: "Part 2"
-				}
-				]
+                start: "Jul 22 2022, 17:00",
+				end: "Jul 29 2022, 14:59",
+                extraPriority: 100
             }
         ]
     }
