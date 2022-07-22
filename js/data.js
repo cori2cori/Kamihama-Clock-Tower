@@ -243,7 +243,7 @@ var timerData = [
                 "name": "Main Event",
                 "start": "Jul 22 2022, 17:00",
                 "end": "Jul 29 2022, 14:59",
-                "extraPriority": 10,
+                "extraPriority": 100,
 				"markers": [
 				{
 					title: "Challenge Stage",
@@ -282,20 +282,31 @@ var timerData = [
 		{
         "type": "Event",
         "title": [
-			"Mitama Special Training",
-            "みたまの特訓"
+			"5th Anniversary Program Magia Day 2022",
+            "5周年記念番組「Magia Day 2022」"
         ],
         "image": [
-            "imgs/0807/banner_0577_m.png"
+            "imgs/magiaday2022.png"
         ],
         "column": 0,
-        "priority": 4,
+        "priority": 0,
         "timers": [
 			{
-				name: "Main Event",
-				start: "Jul 11 2022, 17:00",
-				end: "Jul 22 2022, 14:59",
+				name: "Call for Questions and Concerns",
+				start: "Jul 22 2022, 18:00",
+				end: "Jul 31 2022, 23:59",
 				extraPriority: 100
+			},
+			{
+				name: "Main Event",
+				start: "Sep 17 2022, 20:00",
+				end: "Sep 17 2022, 22:30",
+				extraPriority: 1000
+			},
+			{
+				name: "Archive",
+				start: "Sep 17 2022, 22:30",
+				end: "Sep 30 2022, 23:59"
 			}
         ]
     },
@@ -443,7 +454,8 @@ var timerData = [
 		{
 			name: "Sales period",
 			start: "Jul 22 2022, 17:00",
-			end: "Jul 29 2022, 14:59"
+			end: "Jul 29 2022, 14:59",
+			extraPriority: 100
 		}
 		]
 	},
@@ -462,7 +474,8 @@ var timerData = [
 		{
 			name: "Sales period",
 			start: "Jul 22 2022, 17:00",
-			end: "Jul 29 2022, 14:59"
+			end: "Jul 29 2022, 14:59",
+			extraPriority: 100
 		}
 		]
 	},
