@@ -294,7 +294,7 @@ var timerData = [
 			{
 				name: "Main Event",
 				start: "Jul 11 2022, 17:00",
-				end: "Jul 22 2022, 20:59",
+				end: "Jul 22 2022, 14:59",
 				extraPriority: 100
 			}
         ]
