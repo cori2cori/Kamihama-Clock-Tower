@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "Jul 27 2022, 18:00";
+var possibleNextAnnouncementDate = "Aug 8 2022, 18:00";
 var nextAnniversary = "August 22 2022, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -102,25 +102,25 @@ var timerData = [
 		{
         "type": "Event",
         "title": [
-			"Urara, a Secret, and a Farewell Party",
-			"うららとナイショと送別会"
+			"Rainbow Coloured Summer",
+			"七色夏模様～ノートに記された日常～"
         ],
         "image": [
-            "imgs/2506/banner_0563_m.png"
+            "imgs/2807/banner_0605_m.png"
         ],
         "column": 0,
         "priority": 6,
         "timers": [
 			{
 				name: "Main Event",
-				start: "Jun 27 2022, 16:00",
-				end: "Jul 11 2022, 14:59",
+				start: "Jul 29 2022, 16:00",
+				end: "Aug 22 2022, 14:59",
 				extraPriority: 100,
 				markers: [
 				{
-					title: "Story Quests 11-20 & 100Evils I-III",
-					type: "battle",
-					time: "Jul 4 2022, 17:00"
+					title: "Part 2",
+					type: "story",
+					time: "Aug 10 2022, 16:00"
 				}
 				]
 			}
@@ -129,68 +129,42 @@ var timerData = [
 			{
         "type": "Event",
         "title": [
-			"Mysterious Announcement in Aniplex Youtube Channel",
-			"https://www.youtube.com/watch?v=3gR73OGPvVU"
+			"Summer Missions 2022",
+			"七色夏模様～ノートに記された日常～"
         ],
         "image": [
-            "imgs/0107/MA.png"
+            "imgs/2807/banner_0604_m.png"
         ],
         "column": 0,
-        "priority": 104,
+        "priority": 5,
         "timers": [
 			{
-				name: "Main Event",
-				start: "Jul 4 2022, 0:00",
-				end: "Jul 4 2022, 1:00",
-				extraPriority: 0
-			}
-        ]
-    },
-	{
-        "type": "Event",
-        "title": [
-			"TV Anime Final Season BD&DVD Vol. 2 Release Campaign",
-			"TVアニメFinal SEASON Blu-ray＆DVD 第2巻発売記念キャンペーン"
-        ],
-        "image": [
-            "imgs/2506/banner_0596_m.png",
-			"imgs/2506/banner_0598_m.png"
-        ],
-        "column": 0,
-        "priority": 3,
-        "timers": [
-			{
-				name: "Login Bonus",
-				start: "Jun 29 2022, 00:00",
-				end: "Jul 11 2022, 23:59",
-				extraPriority: 50
-			},
-			{
-				name: "1/2 AP, x2 Player EXP, x2 SP & x2 Magical Girl Enhancement Great and Super Success Rate",
-				start: "Jun 27 2022, 16:00",
-				end: "Jul 11 2022, 14:59",
-				extraPriority: 50
-			}
-        ]
-    },
-	{
-        "type": "Event",
-        "title": [
-			"Main Story Chapter 11 Release & New Chapter Campaign",
-			"メインストーリー第2部11章&新章キャンペーン"
-        ],
-        "image": [
-            "imgs/0807/banner_1031100_m.png",
-			"imgs/0807/banner_0590_m.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-			{
-				name: "1/2 AP, x2 Player EXP, x2 SP & x2 Magical Girl Enhancement Great and Super Success Rate",
-				start: "Jul 11 2022, 17:00",
-				end: "Jul 22 2022, 23:59",
-				extraPriority: 50
+				name: "Campaign duration",
+				start: "Jul 29 2022, 16:00",
+				end: "Aug 22 2022, 14:59",
+				extraPriority: 100,
+				markers: [
+				{
+					title: "Missions 1～5",
+					type: "battle",
+					time: "Jul 29 2022, 16:00"
+				},
+				{
+					title: "Missions 6～10",
+					type: "battle",
+					time: "Aug 3 2022, 16:00"
+				},
+				{
+					title: "Missions 11～20",
+					type: "battle",
+					time: "Aug 10 2022, 16:00"
+				},
+				{
+					title: "Missions 21～26",
+					type: "battle",
+					time: "Aug 15 2022, 16:00"
+				}
+				]
 			}
         ]
     },
@@ -328,46 +302,6 @@ var timerData = [
 				end: "July 31 2021, 23:59"
 			},*/
 			{
-				name: "Urara, a Secret, and a Farewell Party - Event Shop & Missions",
-				start: "Jun 27 2022, 16:00",
-				end: "Jul 18 2022, 14:59"
-			},
-			{
-				name: "TV Anime Final Season BD2 Release Campaign - Limited time Missions",
-				start: "Jun 27 2022, 16:00",
-				end: "Jul 11 2022, 23:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Black - Kuroe & Anime Magical Girls Gachas",
-				start: "Jun 27 2022, 16:00",
-				end: "Jul 18 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Blue - Urara Gacha",
-				start: "Jun 27 2022, 16:00",
-				end: "Jul 18 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Green - Premium Gacha",
-				start: "Jun 28 2022, 00:00",
-				end: "Jul 11 2022, 23:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Water - Yachiyo (Tanabata ver.) Gacha",
-				start: "Jul 4 2022, 17:00",
-				end: "Jul 18 2022, 14:59"
-			},
-			{
-				name: "Alina Eve Kimochi Battle - Event Shop",
-				start: "Jul 4 2022, 17:00",
-				end: "Jul 18 2022, 14:59"
-			},
-			{
-				name: "Ranked Mirrors Coins Exchange",
-				start: "Jul 11 2022, 17:00",
-				end: "Jul 24 2022, 14:59"
-			},
-			{
 				name: "Adjuster Coin Shop: Chartreuse - Rabi Gacha",
 				start: "Jul 11 2022, 17:00",
 				end: "Jul 29 2022, 14:59"
@@ -391,6 +325,24 @@ var timerData = [
 				name: "Adjuster Coin Shop: Peach - Memoria Gacha",
 				start: "Jul 22 2022, 17:00",
 				end: "Aug 5 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Black - Kuroe (Swimsuit ver.) Gacha",
+				start: "Jul 29 2022, 16:00",
+				end: "Aug 17 2022, 14:59"
+			},
+			{
+				name: "Rainbow Coloured Summer - Event Shop and Missions",
+				start: "Jul 29 2022, 16:00",
+				end: "Aug 29 2022, 14:59",
+				markers:
+				[
+				{
+					time: "Aug 10 2022, 16:00",
+					type: "story",
+					title: "Part 2 Shop"
+				}
+				]
 			}
         ]
     },
@@ -493,8 +445,8 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "Jul 22 2022, 15:00",
-                end: "Jul 22 2022, 17:00",
+                start: "Jul 29 2022, 15:00",
+                end: "Jul 29 2022, 16:00",
 				extraPriority: 1000
             }
         ]
@@ -546,46 +498,25 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Limited-time Kuroe Pickup Gacha & Step-up Gacha",
-            "期間限定 黒江 ピックアップガチャとステップアップガチャ"
+			"Limited-time Kuroe (Swimsuit ver.) Pickup Gacha & Step-up Gacha",
+            "期間限定 黒江 水着ver. ピックアップガチャとステップアップガチャ"
         ],
         "image": [
-            "imgs/2506/gachabanner_1009_m.png",
-			"imgs/2506/gachabanner_1010_m.png"
+            "imgs/2807/gachabanner_1062_m.png",
+			"imgs/2807/gachabanner_1063_m.png"
         ],
         "column": 1,
-        "priority": 2,
+        "priority": 4,
         "timers": [
             {
                 name: "Duration",
-                start: "Jun 27 2022, 16:00",
-				end: "Jul 11 2022, 14:59",
+                start: "Jul 29 2022, 16:00",
+				end: "Aug 10 2022, 14:59",
                 extraPriority: 100
             }
         ]
     },
 	{
-        "type": "Gacha",
-        "title": [
-			"Limited-time Magical Girl Anime ver. Pickup Gacha & Step-up Gacha",
-            "期間限定 アニメver.魔法少女 ピックアップガチャとステップアップガチャ"
-        ],
-        "image": [
-            "imgs/2506/gachabanner_1015_m.png",
-			"imgs/2506/gachabanner_1016_m.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Duration",
-                start: "Jun 27 2022, 16:00",
-				end: "Jul 11 2022, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-		{
         "type": "Gacha",
         "title": [
 			"Limited-time Uwasa no Tsuruno (Anime ver.) Pickup Gacha & Step-up Gacha",
