@@ -71,7 +71,7 @@
 			</div>
 
 			
-			<div class="btn-group btn-group-toggle time-buttons fixed">
+			<div v-if="new Date().getTimezoneOffset() !== -540" class="btn-group btn-group-toggle time-buttons fixed">
 				<label class="btn btn-primary btn-sm" :class="{active: currentZone == 'japan' }" id="japan-time">
 					<input type="radio" name="options" value="japan" v-model="currentZone" @change="changeTimezone" > <h5>Use Server Time</h5>
 					<span v-text="japanTime"></span>
@@ -100,8 +100,5 @@
 			
 			//document.getElementById("days");
 		</script>
-		
-	<br/><br/><br/>
-		
 	</body>
 </html>

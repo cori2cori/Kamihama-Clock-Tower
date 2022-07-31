@@ -1,6 +1,7 @@
 body {
     background-color: #ececec;
-    overflow: scroll;
+    overflow-y: scroll;
+    padding-bottom: 64px;
 }
 
 .timer-number {
