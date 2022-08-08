@@ -343,6 +343,11 @@ var timerData = [
 					title: "Part 2 Shop"
 				}
 				]
+			},
+			{
+				name: "Adjuster Coin Shop: Blue - Madoka (Swimsuit ver.) Gacha",
+				start: "Aug 10 2022, 16:00",
+				end: "Aug 29 2022, 14:59"
 			}
         ]
     },
@@ -434,19 +439,20 @@ var timerData = [
 	{
         type: "Maintenance",
         title: [
-            "Maintenance",
-			"维护"
+            "Maintenance, App Version 2.5.5 & Attribute Enhancement Implementation",
+			"维护、アプリバージョン2.5.5 & 「属性強化」実装のお知らせ"
         ],
 		"image": [
-			"imgs/maintenance.png"
+			"imgs/maintenance.png",
+			"imgs/0808/banner_0615_m.png"
 		],
         column: 0,
         priority: 10,
         timers: [
             {
                 name: "Scheduled Time",
-                start: "Jul 29 2022, 15:00",
-                end: "Jul 29 2022, 16:00",
+                start: "Aug 10 2022, 15:00",
+                end: "Aug 10 2022, 16:00",
 				extraPriority: 1000
             }
         ]
@@ -512,6 +518,27 @@ var timerData = [
                 name: "Duration",
                 start: "Jul 29 2022, 16:00",
 				end: "Aug 10 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"Limited-time Kaname Madoka (Swimsuit ver.) Pickup Gacha & Step-up Gacha",
+            "期間限定 鹿目まどか 水着ver. ピックアップガチャとステップアップガチャ"
+        ],
+        "image": [
+            "imgs/0808/gachabanner_1071_m.png",
+			"imgs/0808/gachabanner_1072_m.png"
+        ],
+        "column": 1,
+        "priority": 4,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Aug 10 2022, 16:00",
+				end: "Aug 22 2022, 14:59",
                 extraPriority: 100
             }
         ]
