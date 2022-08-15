@@ -348,6 +348,11 @@ var timerData = [
 				name: "Adjuster Coin Shop: Blue - Madoka (Swimsuit ver.) Gacha",
 				start: "Aug 10 2022, 16:00",
 				end: "Aug 29 2022, 14:59"
+			},
+			{
+				name: "Summer Missions - Swimsuit Ticket Exchange",
+				start: "Jul 29 2022, 16:00",
+				end: "Aug 29 2022, 14:59"
 			}
         ]
     },
