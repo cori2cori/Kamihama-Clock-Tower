@@ -109,7 +109,7 @@ var timerData = [
             "imgs/2807/banner_0605_m.png"
         ],
         "column": 0,
-        "priority": 6,
+        "priority": 7,
         "timers": [
 			{
 				name: "Main Event",
@@ -171,33 +171,47 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"1800 Days Since Release Celebration Campaign",
-			"リリース1800日記念キャンペーン"
+			"5th Anniversary Countdown Login Story",
+			"5周年カウントダウンログインストーリー"
         ],
         "image": [
-            "imgs/2107/banner_0599_m.png",
-			"imgs/2107/banner_0601_m.png"
+            "imgs/0808/banner_0608_m.png"
         ],
         "column": 0,
-        "priority": 5,
+        "priority": 6,
         "timers": [
 			{
-				name: "1/2 AP, x2 Player EXP, x2 SP & x2 Magical Girl Enhancement Great and Super Success Rate",
-				start: "Jul 22 2022, 17:00",
-				end: "Jul 29 2022, 14:59",
-				extraPriority: 0
-			},
-			{
-				name: "Login Bonus",
-				start: "Jul 22 2022, 17:00",
-				end: "Jul 29 2022, 23:59",
-				extraPriority: 100
-			},
-			{
-				name: "Limited-time Daily Missions",
-				start: "Jul 23 2022, 00:00",
-				end: "Jul 29 2022, 23:59",
-				extraPriority: 0
+				name: "Duration",
+				start: "Aug 18 2022, 0:00",
+				end: "Sep 5 2022, 14:59",
+				extraPriority: 0,
+				markers:[
+				{
+					title: "Episode 1",
+					time: "Aug 18 2022, 0:00",
+					type: "story"
+				},
+				{
+					title: "Episode 2",
+					time: "Aug 19 2022, 0:00",
+					type: "story"
+				},
+				{
+					title: "Episode 3",
+					time: "Aug 20 2022, 0:00",
+					type: "story"
+				},
+				{
+					title: "Episode 4",
+					time: "Aug 21 2022, 0:00",
+					type: "story"
+				},
+				{
+					title: "Episode 5",
+					time: "Aug 22 2022, 0:00",
+					type: "story"
+				}
+				]
 			}
         ]
     },
