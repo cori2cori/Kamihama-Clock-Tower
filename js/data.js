@@ -83,19 +83,13 @@ var timerData = [
             "imgs/maintenance.png"
         ],
         "column": 0,
-        "priority": 10,
+        "priority": 1,
         "timers": [
 			{
-				name: "Maintenance 1 & App Version 2.5.3",
-				start: "Jun 27 2022, 15:00",
-				end: "Jun 27 2022, 16:00",
-				extraPriority: 1000
-			},
-			{
-				name: "Maintenance 2",
-				start: "Jul 4 2022, 15:00",
-				end: "Jul 4 2022, 17:00",
-				extraPriority: 1000
+				name: "Maintenance",
+				start: "Aug 22 2022, 15:00",
+				end: "Aug 22 2022, 16:00",
+				extraPriority: 2000
 			}
         ]
     },
