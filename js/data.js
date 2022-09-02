@@ -179,6 +179,48 @@ var timerData = [
 			}
         ]
     },
+				{
+        "type": "Event",
+        "title": [
+			"Main Story Arc 2 Chapter 12 Release & New Chapter Campaign",
+			"メインストーリー第2部12章「結ぶ永久の彩り」前編 配信 & 新章キャンペーン"
+        ],
+        "image": [
+            "imgs/0109/banner_1031200_m.png",
+			"imgs/0109/banner_0590_m.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+			{
+				name: "Campaign duration",
+				start: "Sep 5 2022, 16:00",
+				end: "Sep 16 2022, 14:59",
+				extraPriority: 100
+			}
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
+			"Closing and Opening Symposium ～Summarizing Arc 2～",
+			"むすんでひらいて座談会～第2部をまとめて～"
+        ],
+        "image": [
+            "imgs/0109/banner_0620_m.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+			{
+				name: "Main Event",
+				start: "Sep 5 2022, 16:00",
+				end: "Sep 16 2022, 14:59",
+				extraPriority: 100,
+				markers: [{time: "Sep 9 2022, 16:00", title: "Story Quests 11~20 & 100Evils I~III", type: "battle"}]
+			}
+        ]
+    },
 	{
         "type": "Event",
         "title": [
@@ -503,6 +545,16 @@ var timerData = [
 				name: "Iroha Birthday Celebration - 4★ Magical Girl Ticket Exchange",
 				start: "Aug 22 2022, 16:00",
 				end: "Sep 12 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Pink - Limited 4★ Magical Girl Selection Gacha",
+				start: "Sep 5 2022, 16:00",
+				end: "Sep 27 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Orange - Limited 4★ Memoria Selection Gacha",
+				start: "Sep 5 2022, 16:00",
+				end: "Sep 27 2022, 14:59"
 			}
         ]
     },
@@ -575,20 +627,19 @@ var timerData = [
 	{
         type: "Maintenance",
         title: [
-            "Maintenance, App Version 2.5.5 & Attribute Enhancement Implementation",
-			"维护、アプリバージョン2.5.5 & 「属性強化」実装のお知らせ"
+            "Maintenance & App Version 2.5.6",
+			"维护 & アプリバージョン2.5.6"
         ],
 		"image": [
-			"imgs/maintenance.png",
-			"imgs/0808/banner_0615_m.png"
+			"imgs/maintenance.png"
 		],
         column: 0,
         priority: 10,
         timers: [
             {
                 name: "Scheduled Time",
-                start: "Aug 10 2022, 15:00",
-                end: "Aug 10 2022, 16:00",
+                start: "Sep 5 2022, 15:00",
+                end: "Sep 5 2022, 16:00",
 				extraPriority: 1000
             }
         ]
