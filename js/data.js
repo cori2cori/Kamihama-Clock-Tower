@@ -147,55 +147,44 @@ var timerData = [
 			}
         ]
     },
-			{
-        "type": "Event",
-        "title": [
-			"MagiReco Miracle Quiz",
-			"マギレコミラクルクイズ"
-        ],
-        "image": [
-            "imgs/anniv/banner_0617_m.png"
-        ],
-        "column": 0,
-        "priority": 15,
-        "timers": [
-			{
-				name: "Campaign duration",
-				start: "Aug 22 2022, 16:00",
-				end: "Sep 5 2022, 14:59",
-				extraPriority: 100,
-				markers: [
-				{
-					title: "Intermediate Difficulty",
-					type: "story",
-					time: "Aug 26 2022, 16:00"
-				},
-				{
-					title: "Advanced Difficulty",
-					type: "story",
-					time: "Aug 31 2022, 16:00"
-				}
-				]
-			}
-        ]
-    },
 				{
         "type": "Event",
         "title": [
-			"Main Story Arc 2 Chapter 12 Release & New Chapter Campaign",
-			"メインストーリー第2部12章「結ぶ永久の彩り」前編 配信 & 新章キャンペーン"
+			"Main Story Arc 2 Chapter 12 Part I Release & New Chapter Campaign",
+			"メインストーリー第2部12章前編 配信 & 新章キャンペーン"
         ],
         "image": [
             "imgs/0109/banner_1031200_m.png",
 			"imgs/0109/banner_0590_m.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 9,
         "timers": [
 			{
 				name: "Campaign duration",
 				start: "Sep 5 2022, 16:00",
 				end: "Sep 16 2022, 14:59",
+				extraPriority: 100
+			}
+        ]
+    },
+					{
+        "type": "Event",
+        "title": [
+			"Main Story Arc 2 Chapter 12 Part II Release & New Chapter Campaign",
+			"メインストーリー第2部12章中編 配信 & 新章キャンペーン"
+        ],
+        "image": [
+            "imgs/1509/banner_1031201_m.png",
+			"imgs/1509/banner_0590_m.png"
+        ],
+        "column": 0,
+        "priority": 8,
+        "timers": [
+			{
+				name: "Campaign duration",
+				start: "Sep 16 2022, 17:00",
+				end: "Sep 26 2022, 14:59",
 				extraPriority: 100
 			}
         ]
@@ -210,7 +199,7 @@ var timerData = [
             "imgs/0109/banner_0620_m.png"
         ],
         "column": 0,
-        "priority": 2,
+        "priority": 10,
         "timers": [
 			{
 				name: "Main Event",
@@ -218,178 +207,6 @@ var timerData = [
 				end: "Sep 16 2022, 14:59",
 				extraPriority: 100,
 				markers: [{time: "Sep 9 2022, 16:00", title: "Story Quests 11~20 & 100Evils I~III", type: "battle"}]
-			}
-        ]
-    },
-	{
-        "type": "Event",
-        "title": [
-			"5th Anniversary Co-op Missions",
-			"5周年記念協力ミッション"
-        ],
-        "image": [
-            "imgs/anniv/banner_0618_m.png"
-        ],
-        "column": 0,
-        "priority": 14,
-        "timers": [
-			{
-				name: "Campaign duration",
-				start: "Aug 22 2022, 16:00",
-				end: "Sep 5 2022, 14:59",
-				extraPriority: 100,
-				markers: [
-				{
-					title: "Missions Progress Update 1",
-					type: "star",
-					time: "Aug 24 2022, 19:00"
-				},
-				{
-					title: "Missions Progress Update 2",
-					type: "star",
-					time: "Aug 26 2022, 19:00"
-				},
-				{
-					title: "Missions Progress Update 3",
-					type: "star",
-					time: "Aug 29 2022, 19:00"
-				},
-				{
-					title: "Missions Progress Update 4",
-					type: "star",
-					time: "Aug 31 2022, 19:00"
-				},
-				{
-					title: "Missions Progress Update 5",
-					type: "star",
-					time: "Sep 2 2022, 19:00"
-				}
-				]
-			}
-        ]
-    },
-	{
-        "type": "Event",
-        "title": [
-			"5th Anniversary Celebration Campaign",
-			"5周年記念キャンペーン"
-        ],
-        "image": [
-            "imgs/anniv/banner_0614_m.png",
-			"imgs/anniv/banner_0610_m.png",
-			"imgs/anniv/banner_0619_m.png"
-        ],
-        "column": 0,
-        "priority": 13,
-        "timers": [
-			{
-				name: "Tamaki Iroha Birthday Celebration",
-				start: "Aug 22 2022, 16:00",
-				end: "Sep 5 2022, 14:59"
-			},
-			{
-				name: "1/2 AP, x2 Player EXP, x2 SP, x2 Great & Super Success Rate & x2 Mirrors Coins Campaign",
-				start: "Aug 22 2022, 16:00",
-				end: "Sep 5 2022, 14:59"
-			},
-			{
-				name: "5th Anniversary Login Bonus",
-				start: "Aug 22 2022, 16:00",
-				end: "Sep 5 2022, 23:59"
-			},
-			{
-				name: "5th Anniversary Limited-time Daily Missions",
-				start: "Aug 22 2022, 16:00",
-				end: "Sep 5 2022, 23:59"
-			}
-        ]
-    },
-			{
-        "type": "Event",
-        "title": [
-			"Summer Missions 2022",
-			"七色夏模様～ノートに記された日常～"
-        ],
-        "image": [
-            "imgs/2807/banner_0604_m.png"
-        ],
-        "column": 0,
-        "priority": 6,
-        "timers": [
-			{
-				name: "Campaign duration",
-				start: "Jul 29 2022, 16:00",
-				end: "Aug 22 2022, 14:59",
-				extraPriority: 100,
-				markers: [
-				{
-					title: "Missions 1～5",
-					type: "battle",
-					time: "Jul 29 2022, 16:00"
-				},
-				{
-					title: "Missions 6～10",
-					type: "battle",
-					time: "Aug 3 2022, 16:00"
-				},
-				{
-					title: "Missions 11～20",
-					type: "battle",
-					time: "Aug 10 2022, 16:00"
-				},
-				{
-					title: "Missions 21～26",
-					type: "battle",
-					time: "Aug 15 2022, 16:00"
-				}
-				]
-			}
-        ]
-    },
-	{
-        "type": "Event",
-        "title": [
-			"5th Anniversary Countdown Login Story",
-			"5周年カウントダウンログインストーリー"
-        ],
-        "image": [
-            "imgs/0808/banner_0608_m.png"
-        ],
-        "column": 0,
-        "priority": 6,
-        "timers": [
-			{
-				name: "Duration",
-				start: "Aug 18 2022, 0:00",
-				end: "Sep 5 2022, 14:59",
-				extraPriority: 100,
-				markers:[
-				{
-					title: "Episode 1",
-					time: "Aug 18 2022, 0:00",
-					type: "story"
-				},
-				{
-					title: "Episode 2",
-					time: "Aug 19 2022, 0:00",
-					type: "story"
-				},
-				{
-					title: "Episode 3",
-					time: "Aug 20 2022, 0:00",
-					type: "story"
-				},
-				{
-					title: "Episode 4",
-					time: "Aug 21 2022, 0:00",
-					type: "story"
-				},
-				{
-					title: "Episode 5",
-					time: "Aug 22 2022, 0:00",
-					type: "story"
-				}
-				]
 			}
         ]
     },
@@ -443,6 +260,35 @@ var timerData = [
 				end: "Jul 17 2022, 20:59",
 				extraPriority: 100
 			}
+        ]
+    },
+		{
+        "type": "Event",
+        "title": [
+			"Cinderella Mirrors Tournament",
+            "ミラーズシンデレラトーナメント"
+        ],
+        "image": [
+            "imgs/1509/tourny1.png",
+			"imgs/1509/tourny2.png",
+        ],
+        "column": 0,
+        "priority": 5,
+        "timers": [
+			{
+				name: "Registration Period",
+				start: "Sep 15 2022, 18:00",
+				end: "Oct 2 2022, 23:59",
+				extraPriority: 50
+			},
+			{
+				name: "Check-in Time",
+				start: "Oct 15 2022, 12:00",
+				end: "Oct 15 2022, 13:00",
+				extraPriority: 50,
+				keepAfterFinished: "3 hours"
+			}
+			
         ]
     },
 		{
@@ -601,45 +447,39 @@ var timerData = [
 		{
 		type: "Other",
 		title: [
-		"5th Anniversary Lucky Bags",
-		"5周年記念福袋"
+		"Last Battle Support Bags",
+		"ラストバトル応援パック"
 		],
 		image: [
-            "imgs/anniv/banner_0612_m.png",
-			"imgs/anniv/banner_0613_m.png"
+            "imgs/1509/banner_0621_m.png"
         ],
 		column: 2,
-		priority: 19,
+		priority: 10,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "Aug 22 2022, 16:00",
-			end: "Sep 5 2022, 14:59"
-		},
-		{
-			name: "Tickets Exchange",
-			start: "Aug 22 2022, 16:00",
-			end: "Sep 12 2022, 14:59",
-			extraPriority: 1000
+			start: "Sep 16 2022, 17:00",
+			end: "Sep 16 2022, 14:59",
+			extraPriority: 100
 		}
 		]
 	},
 	{
         type: "Maintenance",
         title: [
-            "Maintenance & App Version 2.5.6",
-			"维护 & アプリバージョン2.5.6"
+            "Maintenance & App Version 2.5.7",
+			"维护 & アプリバージョン2.5.7"
         ],
 		"image": [
 			"imgs/maintenance.png"
 		],
         column: 0,
-        priority: 10,
+        priority: 9,
         timers: [
             {
                 name: "Scheduled Time",
-                start: "Sep 5 2022, 15:00",
-                end: "Sep 5 2022, 16:00",
+                start: "Sep 16 2022, 15:00",
+                end: "Sep 16 2022, 17:00",
 				extraPriority: 1000
             }
         ]
