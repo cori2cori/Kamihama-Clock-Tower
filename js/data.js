@@ -340,59 +340,6 @@ var timerData = [
 				end: "July 31 2021, 23:59"
 			},*/
 			{
-				name: "Rainbow Coloured Summer - Event Shop and Missions",
-				start: "Jul 29 2022, 16:00",
-				end: "Aug 29 2022, 14:59",
-				markers:
-				[
-				{
-					time: "Aug 10 2022, 16:00",
-					type: "story",
-					title: "Part 2 Shop"
-				}
-				]
-			},
-			{
-				name: "Adjuster Coin Shop: Blue - Madoka (Swimsuit ver.) Gacha",
-				start: "Aug 10 2022, 16:00",
-				end: "Aug 29 2022, 14:59"
-			},
-			{
-				name: "Summer Missions - Swimsuit Ticket Exchange",
-				start: "Jul 29 2022, 16:00",
-				end: "Aug 29 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Yellow - Infinite Iroha Gacha",
-				start: "Aug 22 2022, 16:00",
-				end: "Sep 12 2022, 14:59"
-			},
-			{
-				name: "5th Anniversary Medal & Ticket Exchange Shops",
-				start: "Aug 22 2022, 16:00",
-				end: "Sep 12 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Green - 4★ Magical Girl Selection Gacha",
-				start: "Aug 22 2022, 16:00",
-				end: "Sep 12 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Brown - 4★ Memoria Selection Gacha",
-				start: "Aug 22 2022, 16:00",
-				end: "Sep 12 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Purple - Past Anniversary Units Gacha",
-				start: "Aug 22 2022, 16:00",
-				end: "Sep 12 2022, 14:59"
-			},
-			{
-				name: "Iroha Birthday Celebration - 4★ Magical Girl Ticket Exchange",
-				start: "Aug 22 2022, 16:00",
-				end: "Sep 12 2022, 14:59"
-			},
-			{
 				name: "Adjuster Coin Shop: Pink - Limited 4★ Magical Girl Selection Gacha",
 				start: "Sep 5 2022, 16:00",
 				end: "Sep 27 2022, 14:59"
@@ -401,6 +348,16 @@ var timerData = [
 				name: "Adjuster Coin Shop: Orange - Limited 4★ Memoria Selection Gacha",
 				start: "Sep 5 2022, 16:00",
 				end: "Sep 27 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Water - Sena Mikoto Gacha",
+				start: "Sep 20 2022, 16:00",
+				end: "Oct 10 2022, 14:59"
+			},
+			{
+				name: "Sayonara · Storage - Event Shop & Missions",
+				start: "Sep 20 2022, 16:00",
+				end: "Oct 10 2022, 14:59"
 			}
         ]
     },
