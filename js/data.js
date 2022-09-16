@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "Sep 2 2022, 18:00";
+var possibleNextAnnouncementDate = "Sep 30 2022, 18:00";
 var nextAnniversary = "August 22 2023, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -96,25 +96,25 @@ var timerData = [
 		{
         "type": "Event",
         "title": [
-			"Rainbow Coloured Summer",
-			"七色夏模様～ノートに記された日常～"
+			"Sayonara ・ Storage",
+			"サヨナラ・ストレージ"
         ],
         "image": [
-            "imgs/2807/banner_0605_m.png"
+            "imgs/1509/banner_0622_m.png"
         ],
         "column": 0,
-        "priority": 7,
+        "priority": 10,
         "timers": [
 			{
 				name: "Main Event",
-				start: "Jul 29 2022, 16:00",
-				end: "Aug 22 2022, 14:59",
+				start: "Sep 20 2022, 16:00",
+				end: "Oct 3 2022, 14:59",
 				extraPriority: 100,
 				markers: [
 				{
-					title: "Part 2",
-					type: "story",
-					time: "Aug 10 2022, 16:00"
+					title: "Story Quests 11-20 & 100Evils I-III",
+					type: "battle",
+					time: "Sep 26 2022, 16:00"
 				}
 				]
 			}
@@ -459,7 +459,7 @@ var timerData = [
 		{
 			name: "Sales period",
 			start: "Sep 16 2022, 17:00",
-			end: "Sep 16 2022, 14:59",
+			end: "Sep 26 2022, 14:59",
 			extraPriority: 100
 		}
 		]
@@ -467,8 +467,8 @@ var timerData = [
 	{
         type: "Maintenance",
         title: [
-            "Maintenance & App Version 2.5.7",
-			"维护 & アプリバージョン2.5.7"
+            "Maintenance & App Version 2.5.8",
+			"维护 & アプリバージョン2.5.8"
         ],
 		"image": [
 			"imgs/maintenance.png"
@@ -478,8 +478,8 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "Sep 16 2022, 15:00",
-                end: "Sep 16 2022, 17:00",
+                start: "Sep 20 2022, 15:00",
+                end: "Sep 20 2022, 16:00",
 				extraPriority: 1000
             }
         ]
@@ -487,20 +487,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Limited-time Kaname Madoka (Swimsuit ver.) Pickup Gacha & Step-up Gacha",
-            "期間限定 鹿目まどか 水着ver. ピックアップガチャとステップアップガチャ"
+			"Limited-time Sena Mikoto Pickup Gacha & Step-up Gacha",
+            "期間限定 瀬奈みこと ピックアップガチャとステップアップガチャ"
         ],
         "image": [
-            "imgs/0808/gachabanner_1071_m.png",
-			"imgs/0808/gachabanner_1072_m.png"
+            "imgs/1509/gachabanner_1115_m.png",
+			"imgs/1509/gachabanner_1116_m.png"
         ],
         "column": 1,
-        "priority": 4,
+        "priority": 20,
         "timers": [
             {
                 name: "Duration",
-                start: "Aug 10 2022, 16:00",
-				end: "Aug 22 2022, 14:59",
+                start: "Sep 20 2022, 16:00",
+				end: "Oct 3 2022, 14:59",
                 extraPriority: 100
             }
         ]
