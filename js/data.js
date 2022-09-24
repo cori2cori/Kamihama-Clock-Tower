@@ -23,16 +23,16 @@ var timerData = [
 	{
         "type": "WeekendBoss",
         "title": [
-			"Kimochi Battle Special Edition: Alina Eve",
-            "キモチ戦特別編 アリナ・イブ"
+			"Vigorous Opal Neck Kimochi Battle",
+            "キモチ戦 健やかなるオパールの首"
         ],
         "image": [
-            "imgs/2506/banner_0603_m.png"
+            "imgs/2409/banner_0430_m.png"
         ],
         "column": 0,
-        "priority": 9,
+        "priority": 3,
         "timers": [
-			{
+			/*{
 				name: "Part 1 - Day 1",
 				start: "Jul 4 2022, 17:00",
 				end: "Jul 5 2022, 15:59"
@@ -56,20 +56,13 @@ var timerData = [
 				name: "Part 2 - Day 3",
 				start: "Jul 8 2022, 16:00",
 				end: "Jul 9 2022, 15:59"
-			},
+			},*/
             {
                 "name": "Main Event",
-                "start": "Jul 4 2022, 17:00",
-                "end": "Jul 9 2022, 15:59",
+                "start": "Oct 3 2022, 17:00",
+                "end": "Oct 8 2022, 15:59",
                 "extraPriority": 100,
-				"type": "normal",
-				markers: [
-					{
-						title: "Part 2 - Groups",
-						time: "Jun 6 2022, 17:00",
-						type: "battle"
-					}
-				]
+				"type": "normal"
 			}
 			]
     },
@@ -189,6 +182,27 @@ var timerData = [
 			}
         ]
     },
+						{
+        "type": "Event",
+        "title": [
+			"Main Story Arc 2 Chapter 12 Final Part Release & New Chapter Campaign",
+			"メインストーリー第2部12章後編 配信 & 新章キャンペーン"
+        ],
+        "image": [
+            "imgs/2409/banner_1031202_m.png",
+			"imgs/2409/banner_0590_m.png"
+        ],
+        "column": 0,
+        "priority": 9,
+        "timers": [
+			{
+				name: "Campaign duration",
+				start: "Sep 26 2022, 16:00",
+				end: "Oct 3 2022, 14:59",
+				extraPriority: 100
+			}
+        ]
+    },
 	{
         "type": "Event",
         "title": [
@@ -273,7 +287,7 @@ var timerData = [
 			"imgs/1509/tourny2.png",
         ],
         "column": 0,
-        "priority": 5,
+        "priority": 1,
         "timers": [
 			{
 				name: "Registration Period",
@@ -348,6 +362,11 @@ var timerData = [
 				name: "Adjuster Coin Shop: Orange - Limited 4★ Memoria Selection Gacha",
 				start: "Sep 5 2022, 16:00",
 				end: "Sep 27 2022, 14:59"
+			},
+			{
+				name: "Main Story Arc 2 - Limited time Missions",
+				start: "Sep 16 2022, 17:00",
+				end: "Oct 3 2022, 14:59"
 			},
 			{
 				name: "Adjuster Coin Shop: Water - Sena Mikoto Gacha",
