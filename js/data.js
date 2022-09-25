@@ -76,12 +76,12 @@ var timerData = [
             "imgs/maintenance.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 11,
         "timers": [
 			{
 				name: "Maintenance",
-				start: "Aug 22 2022, 15:00",
-				end: "Aug 22 2022, 16:00",
+				start: "Sep 26 2022, 15:00",
+				end: "Sep 26 2022, 16:00",
 				extraPriority: 2000
 			}
         ]
@@ -293,7 +293,7 @@ var timerData = [
 				name: "Registration Period",
 				start: "Sep 15 2022, 18:00",
 				end: "Oct 2 2022, 23:59",
-				extraPriority: 50
+				extraPriority: 0
 			},
 			{
 				name: "Check-in Time",
