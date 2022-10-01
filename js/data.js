@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "Sep 30 2022, 18:00";
+var possibleNextAnnouncementDate = "Oct 7 2022, 18:00";
 var nextAnniversary = "August 22 2023, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -32,37 +32,39 @@ var timerData = [
         "column": 0,
         "priority": 3,
         "timers": [
-			/*{
+			{
 				name: "Part 1 - Day 1",
-				start: "Jul 4 2022, 17:00",
-				end: "Jul 5 2022, 15:59"
+				start: "Oct 3 2022, 17:00",
+				end: "Oct 4 2022, 15:59"
 			},
 			{
 				name: "Part 1 - Day 2",
-				start: "Jul 5 2022, 16:00",
-				end: "Jul 6 2022, 15:59"
+				start: "Oct 4 2022, 16:00",
+				end: "Oct 5 2022, 15:59"
 			},
 			{
 				name: "Part 2 - Day 1",
-				start: "Jul 6 2022, 17:00",
-				end: "Jul 7 2022, 15:59"
+				start: "Oct 5 2022, 17:00",
+				end: "Oct 6 2022, 15:59"
 			},
 			{
 				name: "Part 2 - Day 2",
-				start: "Jul 7 2022, 16:00",
-				end: "Jul 8 2022, 15:59"
+				start: "Oct 6 2022, 16:00",
+				end: "Oct 7 2022, 15:59"
 			},
 			{
 				name: "Part 2 - Day 3",
-				start: "Jul 8 2022, 16:00",
-				end: "Jul 9 2022, 15:59"
-			},*/
+				start: "Oct 7 2022, 16:00",
+				end: "Oct 8 2022, 15:59"
+			},
             {
                 "name": "Main Event",
                 "start": "Oct 3 2022, 17:00",
                 "end": "Oct 8 2022, 15:59",
-                "extraPriority": 100,
-				"type": "normal"
+                "extraPriority": 1000,
+				"type": "normal",
+				markers: 
+				[{time: "Oct 5 2022, 17:00", title: "Part 2 - Groups", type: "battle"}]
 			}
 			]
     },
@@ -113,71 +115,28 @@ var timerData = [
 			}
         ]
     },
-		{
-        "type": "Event",
-        "title": [
-			"Stardust Mirage",
-			"星屑のミラージュ"
-        ],
-        "image": [
-            "imgs/anniv/banner_0609_m.png"
-        ],
-        "column": 0,
-        "priority": 20,
-        "timers": [
-			{
-				name: "Main Event",
-				start: "Aug 22 2022, 16:00",
-				end: "Sep 5 2022, 14:59",
-				extraPriority: 100,
-				markers: [
-				{
-					title: "Story quests 11-20",
-					type: "story",
-					time: "Aug 29 2022, 16:00"
-				}
-				]
-			}
-        ]
-    },
-				{
-        "type": "Event",
-        "title": [
-			"Main Story Arc 2 Chapter 12 Part I Release & New Chapter Campaign",
-			"メインストーリー第2部12章前編 配信 & 新章キャンペーン"
-        ],
-        "image": [
-            "imgs/0109/banner_1031200_m.png",
-			"imgs/0109/banner_0590_m.png"
-        ],
-        "column": 0,
-        "priority": 9,
-        "timers": [
-			{
-				name: "Campaign duration",
-				start: "Sep 5 2022, 16:00",
-				end: "Sep 16 2022, 14:59",
-				extraPriority: 100
-			}
-        ]
-    },
 					{
         "type": "Event",
         "title": [
-			"Main Story Arc 2 Chapter 12 Part II Release & New Chapter Campaign",
-			"メインストーリー第2部12章中編 配信 & 新章キャンペーン"
+			"Kaname Madoka's Birthday Celebration Campaign",
+			"鹿目まどか誕生日記念期間限定キャンペーン"
         ],
         "image": [
-            "imgs/1509/banner_1031201_m.png",
-			"imgs/1509/banner_0590_m.png"
+            "imgs/0210/banner_0624_m.png"
         ],
-        "column": 0,
-        "priority": 8,
+        "column": 2,
+        "priority": 21,
         "timers": [
 			{
-				name: "Campaign duration",
-				start: "Sep 16 2022, 17:00",
-				end: "Sep 26 2022, 14:59",
+				name: "Limited-time Memoria in Support Points Shop",
+				start: "Oct 3 2022, 00:00",
+				end: "Oct 11 2022, 14:59",
+				extraPriority: 100
+			},
+			{
+				name: "Limited-time Missions",
+				start: "Oct 3 2022, 00:00",
+				end: "Oct 11 2022, 14:59",
 				extraPriority: 100
 			}
         ]
@@ -377,25 +336,35 @@ var timerData = [
 				name: "Sayonara · Storage - Event Shop & Missions",
 				start: "Sep 20 2022, 16:00",
 				end: "Oct 10 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Black - Izumi Kanagi (Eternal Darkness ver.) Gacha",
+				start: "Oct 3 2022, 17:00",
+				end: "Oct 18 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Purple - Dark Attribute Pickup Gacha",
+				start: "Oct 3 2022, 17:00",
+				end: "Oct 18 2022, 14:59"
 			}
         ]
     },
 	{
 		type: "Other",
 		title: [
-		"5th Anniversary Magia Stones Special Bundles",
-		"期間限定 お得なマギアストーン販売"
+		"Dark Attribute Strengthening Pack",
+		"闇属性魔法少女育成パック"
 		],
 		image: [
-            "imgs/anniv/banner_0129_m.png"
+            "imgs/0210/banner_0625_m.png"
         ],
 		column: 2,
 		priority: 20,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "Aug 22 2022, 16:00",
-			end: "Sep 5 2022, 14:59",
+			start: "Oct 3 2022, 17:00",
+			end: "Oct 11 2022, 14:59",
 			extraPriority: 1000
 		}
 		]
@@ -443,8 +412,8 @@ var timerData = [
 	{
         type: "Maintenance",
         title: [
-            "Maintenance & App Version 2.5.8",
-			"维护 & アプリバージョン2.5.8"
+            "Maintenance",
+			"维护"
         ],
 		"image": [
 			"imgs/maintenance.png"
@@ -453,9 +422,15 @@ var timerData = [
         priority: 9,
         timers: [
             {
-                name: "Scheduled Time",
-                start: "Sep 20 2022, 15:00",
-                end: "Sep 20 2022, 16:00",
+                name: "Kimochi Battle Preparation",
+                start: "Oct 3 2022, 15:00",
+                end: "Oct 3 2022, 17:00",
+				extraPriority: 1000
+            },
+			{
+                name: "Magia Stones Prices Adjustment",
+                start: "Oct 6 2022, 0:00",
+                end: "Oct 6 2022, 1:00",
 				extraPriority: 1000
             }
         ]
@@ -484,20 +459,60 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Limited-time Infinite Iroha Pickup Gacha & Step-up Gacha",
-            "期間限定 ∞いろは ピックアップガチャとステップアップガチャ"
+			"Limited-time Izumi Kanagi (Eternal Darkness ver.) Pickup Gacha & Step-up Gacha",
+            "期間限定 和泉十七夜 常闇ver. ピックアップガチャとステップアップガチャ"
         ],
         "image": [
-            "imgs/anniv/gachabanner_1079_m.png",
-			"imgs/anniv/gachabanner_1080_m.png"
+            "imgs/0210/gachabanner_1123_m.png",
+			"imgs/0210/gachabanner_1124_m.png"
         ],
         "column": 1,
         "priority": 20,
         "timers": [
             {
                 name: "Duration",
-                start: "Aug 22 2022, 16:00",
-				end: "Sep 5 2022, 14:59",
+                start: "Oct 3 2022, 17:00",
+				end: "Oct 11 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"Dark Attribute Pickup Gacha",
+            "闇属性魔法少女ピックアップガチャ"
+        ],
+        "image": [
+            "imgs/0210/gachabanner_1131_m.png"
+        ],
+        "column": 1,
+        "priority": 19,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Oct 3 2022, 17:00",
+				end: "Oct 11 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+		{
+        "type": "Gacha",
+        "title": [
+			"Limited-time Paid 4★ Dark Attribute Magical Girl Guaranteed Gacha",
+            "有償限定闇属性★4魔法少女確定ガチャ"
+        ],
+        "image": [
+            "imgs/0210/gachabanner_1132_m.png"
+        ],
+        "column": 1,
+        "priority": 18,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Oct 3 2022, 17:00",
+				end: "Oct 11 2022, 14:59",
                 extraPriority: 100
             }
         ]
