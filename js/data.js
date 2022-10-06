@@ -429,8 +429,8 @@ var timerData = [
             },
 			{
                 name: "Magia Stones Prices Adjustment",
-                start: "Oct 6 2022, 0:00",
-                end: "Oct 6 2022, 1:00",
+                start: "Oct 7 2022, 0:00",
+                end: "Oct 7 2022, 1:00",
 				extraPriority: 1000
             }
         ]
