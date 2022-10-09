@@ -307,36 +307,6 @@ var timerData = [
         "column": 2,
         "priority": 100,
         "timers": [
-			/*{
-				name: "Monthly Magia Stones Shops - July",
-				start: "July 1 2021, 00:00",
-				end: "July 31 2021, 23:59"
-			},*/
-			{
-				name: "Adjuster Coin Shop: Pink - Limited 4★ Magical Girl Selection Gacha",
-				start: "Sep 5 2022, 16:00",
-				end: "Sep 27 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Orange - Limited 4★ Memoria Selection Gacha",
-				start: "Sep 5 2022, 16:00",
-				end: "Sep 27 2022, 14:59"
-			},
-			{
-				name: "Main Story Arc 2 - Limited time Missions",
-				start: "Sep 16 2022, 17:00",
-				end: "Oct 3 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Water - Sena Mikoto Gacha",
-				start: "Sep 20 2022, 16:00",
-				end: "Oct 10 2022, 14:59"
-			},
-			{
-				name: "Sayonara · Storage - Event Shop & Missions",
-				start: "Sep 20 2022, 16:00",
-				end: "Oct 10 2022, 14:59"
-			},
 			{
 				name: "Adjuster Coin Shop: Black - Izumi Kanagi (Eternal Darkness ver.) Gacha",
 				start: "Oct 3 2022, 17:00",
@@ -357,8 +327,17 @@ var timerData = [
 				start: "Oct 11 2022, 16:00",
 				end: "Oct 31 2022, 14:59",
 				markers:[{time: "Oct 17 2022, 16:00", title: "Shop Update", type: "star"}]
+			},
+			{
+				name: "Halloween Tickets Shop",
+				start: "Oct 11 2022, 16:00",
+				end: "Oct 31 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Red - Halloween Magical Girl Rerun Gachas",
+				start: "Oct 11 2022, 16:00",
+				end: "Oct 31 2022, 14:59"
 			}
-			
         ]
     },
 	{
