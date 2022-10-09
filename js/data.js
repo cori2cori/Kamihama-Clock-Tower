@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "Oct 7 2022, 18:00";
+var possibleNextAnnouncementDate = "Oct 21 2022, 18:00";
 var nextAnniversary = "August 22 2023, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -91,25 +91,25 @@ var timerData = [
 		{
         "type": "Event",
         "title": [
-			"Sayonara ・ Storage",
-			"サヨナラ・ストレージ"
+			"Dream Halloween Festa Rerun",
+			"ドリームハロウィンフェスタ～アリナ先輩！いい子になるの！～"
         ],
         "image": [
-            "imgs/1509/banner_0622_m.png"
+            "imgs/0910/banner_0623_m.png"
         ],
         "column": 0,
         "priority": 10,
         "timers": [
 			{
 				name: "Main Event",
-				start: "Sep 20 2022, 16:00",
-				end: "Oct 3 2022, 14:59",
+				start: "Oct 11 2022, 16:00",
+				end: "Oct 24 2022, 14:59",
 				extraPriority: 100,
 				markers: [
 				{
-					title: "Story Quests 11-20 & 100Evils I-III",
+					title: "Part 2",
 					type: "battle",
-					time: "Sep 26 2022, 16:00"
+					time: "Oct 17 2022, 16:00"
 				}
 				]
 			}
@@ -346,7 +346,19 @@ var timerData = [
 				name: "Adjuster Coin Shop: Purple - Dark Attribute Pickup Gacha",
 				start: "Oct 3 2022, 17:00",
 				end: "Oct 18 2022, 14:59"
+			},
+			{
+				name: "Vigorous Opal Neck Kimochi Battle - Medals Shop",
+				start: "Oct 3 2022, 17:00",
+				end: "Oct 17 2022, 14:59"
+			},
+			{
+				name: "Dream Halloween Festa - Event Shop and Missions",
+				start: "Oct 11 2022, 16:00",
+				end: "Oct 31 2022, 14:59",
+				markers:[{time: "Oct 17 2022, 16:00", title: "Shop Update", type: "star"}]
 			}
+			
         ]
     },
 	{
@@ -419,18 +431,12 @@ var timerData = [
 			"imgs/maintenance.png"
 		],
         column: 0,
-        priority: 9,
+        priority: 20,
         timers: [
             {
-                name: "Kimochi Battle Preparation",
-                start: "Oct 3 2022, 15:00",
-                end: "Oct 3 2022, 17:00",
-				extraPriority: 1000
-            },
-			{
-                name: "Magia Stones Prices Adjustment",
-                start: "Oct 7 2022, 0:00",
-                end: "Oct 7 2022, 1:00",
+                name: "Scheduled Time",
+                start: "Oct 11 2022, 15:00",
+                end: "Oct 11 2022, 16:00",
 				extraPriority: 1000
             }
         ]
@@ -716,14 +722,13 @@ var timerData = [
 		{
         "type": "Gacha",
         "title": [
-			"Limited-time Past Anniversary Gachas Rerun",
-            "期間限定 周年ピックアップガチャ復刻"
+			"Limited-time Past Halloween Gachas Rerun",
+            "期間限定 ハロウィン魔法少女編ピックアップガチャ復刻"
         ],
         "image": [
-            "imgs/anniv/gachabanner_1086_m.png",
-			"imgs/anniv/gachabanner_1087_m.png",
-			"imgs/anniv/gachabanner_1088_m.png",
-			"imgs/anniv/gachabanner_1089_m.png",
+            "imgs/0910/gachabanner_1133_m.png",
+			"imgs/0910/gachabanner_1134_m.png",
+			"imgs/0910/gachabanner_1135_m.png"
 			
 
         ],
@@ -732,8 +737,8 @@ var timerData = [
         "timers": [
             {
                 name: "Duration",
-                start: "Aug 22 2022, 16:00",
-				end: "Sep 5 2022, 14:59",
+                start: "Oct 11 2022, 16:00",
+				end: "Oct 24 2022, 14:59",
                 extraPriority: 100
             }
         ]
@@ -741,19 +746,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Limited-time paid Step-UP Gacha: Anniversary Edition",
-            "有償限定 ステップアップガチャアニバーサリー編"
+			"Limited-time paid Step-UP Gacha: Halloween Edition",
+            "有償限定 ステップアップガチャハロウィン魔法少女編"
         ],
         "image": [
-            "imgs/anniv/gachabanner_1090_m.png"
+            "imgs/0910/gachabanner_1136_m.png"
         ],
         "column": 1,
         "priority": 16,
         "timers": [
             {
                 name: "Duration",
-                start: "Aug 22 2022, 16:00",
-				end: "Sep 5 2022, 14:59",
+                start: "Oct 11 2022, 16:00",
+				end: "Oct 24 2022, 14:59",
                 extraPriority: 100
             }
         ]
