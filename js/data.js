@@ -69,29 +69,84 @@ var timerData = [
 			]
     },
 		{
-        "type": "Event",
+        "type": "WeekendBoss",
         "title": [
-			"Dream Halloween Festa Rerun",
-			"ドリームハロウィンフェスタ～アリナ先輩！いい子になるの！～"
+			"Ranked Mirrors",
+			"ミラーズランキング"
         ],
         "image": [
-            "imgs/0910/banner_0623_m.png"
+            "imgs/mirroran.png"
         ],
         "column": 0,
-        "priority": 10,
+        "priority": 8,
         "timers": [
 			{
-				name: "Main Event",
-				start: "Oct 11 2022, 16:00",
-				end: "Oct 24 2022, 14:59",
-				extraPriority: 100,
-				markers: [
-				{
-					title: "Part 2",
-					type: "battle",
-					time: "Oct 17 2022, 16:00"
-				}
-				]
+				name: "Preliminaries - Day 1",
+				start: "Nov 7 2022, 17:00",
+				end: "Nov 8 2022, 15:59"
+			},
+			{
+				name: "Preliminaries - Day 2",
+				start: "Nov 8 2022, 16:00",
+				end: "Nov 9 2022, 15:59"
+			},
+			{
+				name: "Preliminaries - Day 3",
+				start: "Nov 9 2022, 16:00",
+				end: "Nov 10 2022, 15:59"
+			},
+			{
+				name: "Preliminaries - Day 4",
+				start: "Nov 10 2022, 16:00",
+				end: "Nov 11 2022, 15:59"
+			},
+			{
+				name: "Preliminaries - Day 5",
+				start: "Nov 11 2022, 16:00",
+				end: "Nov 12 2022, 15:59"
+			},
+			{
+				name: "Finals",
+				start: "Nov 12 2022, 17:00",
+				end: "Nov 13 2022, 20:59"
+			},
+            {
+                "name": "Main Event",
+                "start": "Nov 7 2022, 17:00",
+                "end": "Nov 13 2022, 20:59",
+                "extraPriority": 1000,
+				"type": "normal",
+				markers: 
+				[{time: "Nov 12 2022, 17:00", title: "Finals", type: "battle"}]
+			}
+			]
+    },
+	{
+        "type": "Event",
+        "title": [
+            "1900 Days Since Release Campaign",
+			"リリース1900日記念キャンペーン"
+        ],
+        "image": [
+            "imgs/0611/banner_0629_m.png"
+        ],
+        "column": 0,
+        "priority": 7,
+        "timers": [
+			{
+				name: "Login Bonus",
+				start: "Nov 7 2022, 17:00",
+				end: "Nov 14 2022, 23:59"
+			},
+			{
+				name: " 1/2 AP, x2 Player EXP, x2 Support Pt & x2 Magical Strengthening Great and Super Success Rate",
+				start: "Nov 7 2022, 17:00",
+				end: "Nov 14 2022, 14:59"
+			},
+			{
+				name: "Limited-time Daily Missions",
+				start: "Nov 8 2022, 0:00",
+				end: "Nov 14 2022, 23:59"
 			}
         ]
     },
@@ -131,8 +186,8 @@ var timerData = [
         "image": [
             "imgs/2310/banner_0627_m.png"
         ],
-        "column": 2,
-        "priority": 21,
+        "column": 0,
+        "priority": 9,
         "timers": [
 			{
 				name: "Complete Arc 2 Chapter 12 to get a x10 gacha ticket",
@@ -179,45 +234,56 @@ var timerData = [
 				name: "Dark Halloween is the Colour of Love!? - Event Shop and Missions",
 				start: "Oct 24 2022, 16:00",
 				end: "Nov 14 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Brown - ★4 Memoria Selection Gacha",
+				start: "Nov 7 2022, 17:00",
+				end: "Nov 21 2022, 14:59"
 			}
         ]
     },
 	{
 		type: "Other",
 		title: [
-		"Dark Attribute Strengthening Pack",
-		"闇属性魔法少女育成パック"
+		"1900 Days Anniversary Packs",
+		"1900日記念パック"
 		],
 		image: [
-            "imgs/0210/banner_0625_m.png"
+            "imgs/0611/banner_0630_m.png"
         ],
 		column: 2,
 		priority: 20,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "Oct 3 2022, 17:00",
-			end: "Oct 11 2022, 14:59",
+			start: "Nov 7 2022, 17:00",
+			end: "Nov 14 2022, 14:59",
 			extraPriority: 1000
 		}
 		]
 	},
-		{
+{
 		type: "Other",
 		title: [
-		"Daily Magia Stones Bundle with Bonus",
-		"1日1回限定 お得なマギアストーン販売"
+		"Ranking Mirrors Related Packs",
+		"『ミラーズランキング』関連パックの販売"
 		],
 		image: [
-            "imgs/anniv/banner_0514_m.png"
+            "imgs/0611/banner_0632_m.png"
         ],
 		column: 2,
-		priority: 18,
+		priority: 19,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "Aug 23 2022, 0:00",
-			end: "Sep 5 2022, 23:59",
+			start: "Nov 7 2022, 17:00",
+			end: "Nov 14 2022, 14:59",
+			extraPriority: 0
+		},
+		{
+			name: "Mirrors Selection Pack Ticket Exchange",
+			start: "Nov 7 2022, 17:00",
+			end: "Nov 21 2022, 14:59",
 			extraPriority: 1000
 		}
 		]
@@ -245,19 +311,19 @@ var timerData = [
 	{
         type: "Maintenance",
         title: [
-            "Maintenance & App ver. 2.5.9",
-			"维护とアプリ版 2.5.9"
+            "Maintenance",
+			"维护"
         ],
 		"image": [
 			"imgs/maintenance.png"
 		],
         column: 0,
-        priority: 20,
+        priority: 9,
         timers: [
             {
                 name: "Scheduled Time",
-                start: "Oct 24 2022, 15:00",
-                end: "Oct 24 2022, 16:00",
+                start: "Nov 7 2022, 15:00",
+                end: "Nov 7 2022, 17:00",
 				extraPriority: 1000
             }
         ]
@@ -294,7 +360,7 @@ var timerData = [
 			"imgs/2310/gachabanner_1149_m.png"
         ],
         "column": 1,
-        "priority": 20,
+        "priority": 10,
         "timers": [
             {
                 name: "Duration",
@@ -307,19 +373,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Dark Attribute Pickup Gacha",
-            "闇属性魔法少女ピックアップガチャ"
+			"Limited-time ★4 Memoria Selection Gacha",
+            "選べる★4メモリアセレクションガチャ"
         ],
         "image": [
-            "imgs/0210/gachabanner_1131_m.png"
+            "imgs/0611/gachabanner_1156_m.png"
         ],
         "column": 1,
-        "priority": 19,
+        "priority": 9,
         "timers": [
             {
                 name: "Duration",
-                start: "Oct 3 2022, 17:00",
-				end: "Oct 11 2022, 14:59",
+                start: "Nov 7 2022, 17:00",
+				end: "Nov 14 2022, 14:59",
                 extraPriority: 100
             }
         ]
