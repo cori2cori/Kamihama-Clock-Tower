@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "Nov 11 2022, 18:00";
+var possibleNextAnnouncementDate = "Nov 23 2022, 18:00";
 var nextAnniversary = "August 22 2023, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -131,7 +131,7 @@ var timerData = [
             "imgs/0611/banner_0629_m.png"
         ],
         "column": 0,
-        "priority": 7,
+        "priority": 17,
         "timers": [
 			{
 				name: "Login Bonus",
@@ -153,27 +153,20 @@ var timerData = [
 {
         "type": "Event",
         "title": [
-			"Dark Halloween is The Colour of Love!? ~ Connect ・The East-West Frontline of Love! ~",
-			"闇色ハロウィンは恋の色!? ～繋げて・恋の東西最前線！～"
+			"Battle Museum III",
+			"バトルミュージアム"
         ],
         "image": [
-            "imgs/2310/banner_0626_m.png"
+            "imgs/1411/banner_0530_m.png"
         ],
         "column": 0,
         "priority": 10,
         "timers": [
 			{
 				name: "Main Event",
-				start: "Oct 24 2022, 16:00",
-				end: "Nov 7 2022, 14:59",
-				extraPriority: 100,
-				markers: [
-				{
-					title: "Story Quests 11-20 & 100Evils Challenges I-III",
-					type: "battle",
-					time: "Oct 31 2022, 16:00"
-				}
-				]
+				start: "Nov 14 2022, 17:00",
+				end: "Nov 25 2022, 14:59",
+				extraPriority: 100
 			}
         ]
    },
@@ -239,6 +232,16 @@ var timerData = [
 				name: "Adjuster Coin Shop: Brown - ★4 Memoria Selection Gacha",
 				start: "Nov 7 2022, 17:00",
 				end: "Nov 21 2022, 14:59"
+			},
+			{
+				name: "Rankeds Medals Shop",
+				start: "Nov 7 2022, 17:00",
+				end: "Nov 21 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Peach - Rabi (Kimochi ver.) Gacha",
+				start: "Nov 14 2022, 17:00",
+				end: "Dec 2 2022, 14:59"
 			}
         ]
     },
@@ -291,19 +294,20 @@ var timerData = [
 		{
 		type: "Other",
 		title: [
-		"Last Battle Support Bags",
-		"ラストバトル応援パック"
+		"Battle Museum Special Offers",
+		"バトルミュージアム開催記念!!スペシャルオファー"
 		],
 		image: [
-            "imgs/1509/banner_0621_m.png"
+            "imgs/1411/banner_0591_m.png",
+			"imgs/1411/banner_0592_m.png"
         ],
 		column: 2,
 		priority: 10,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "Sep 16 2022, 17:00",
-			end: "Sep 26 2022, 14:59",
+			start: "Nov 14 2022, 17:00",
+			end: "Nov 25 2022, 14:59",
 			extraPriority: 100
 		}
 		]
@@ -318,12 +322,12 @@ var timerData = [
 			"imgs/maintenance.png"
 		],
         column: 0,
-        priority: 9,
+        priority: 15,
         timers: [
             {
                 name: "Scheduled Time",
-                start: "Nov 7 2022, 15:00",
-                end: "Nov 7 2022, 17:00",
+                start: "Nov 14 2022, 15:00",
+                end: "Nov 14 2022, 17:00",
 				extraPriority: 1000
             }
         ]
@@ -352,20 +356,40 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Limited-time Yakumo Mitama (Eternal Darkness ver.) Pickup Gacha & Step-up Gacha",
-            "期間限定 八雲みたま 常闇ver. ピックアップガチャとステップアップガチャ"
+			"Limited-time Himuro Rabi (Kimochi ver.) Pickup Gacha & Step-up Gacha",
+            "期間限定 氷室ラビ キモチver. ピックアップガチャとステップアップガチャ"
         ],
         "image": [
-            "imgs/2310/gachabanner_1148_m.png",
-			"imgs/2310/gachabanner_1149_m.png"
+            "imgs/1411/gachabanner_1159_m.png",
+			"imgs/1411/gachabanner_1160_m.png"
         ],
         "column": 1,
         "priority": 10,
         "timers": [
             {
                 name: "Duration",
-                start: "Oct 24 2022, 16:00",
-				end: "Nov 7 2022, 14:59",
+                start: "Nov 14 2022, 17:00",
+				end: "Nov 25 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"Limited-time paid Step-UP Gacha: Battle Museum Edition",
+            "有償限定 ステップアップガチャ バトルミュージアム編"
+        ],
+        "image": [
+            "imgs/1411/gachabanner_1165_m.png"
+        ],
+        "column": 1,
+        "priority": 10,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Nov 14 2022, 17:00",
+				end: "Nov 25 2022, 14:59",
                 extraPriority: 100
             }
         ]
