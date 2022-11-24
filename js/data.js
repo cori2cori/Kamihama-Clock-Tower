@@ -208,7 +208,7 @@ var timerData = [
 				end: "Dec 2 2022, 14:59"
 			},
 			{
-				name: "Adjuster Coin Shop: Gree - Kagome Gacha",
+				name: "Adjuster Coin Shop: Green - Kagome Gacha",
 				start: "Nov 25 2022, 16:00",
 				end: "Dec 5 2022, 14:59"
 			},
