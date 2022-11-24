@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "Nov 22 2022, 18:00";
+var possibleNextAnnouncementDate = "Dec 2 2022, 18:00";
 var nextAnniversary = "August 22 2023, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -23,48 +23,48 @@ var timerData = [
 	{
         "type": "WeekendBoss",
         "title": [
-			"Vigorous Opal Neck Kimochi Battle",
-            "キモチ戦 健やかなるオパールの首"
+			"Pleased Sapphire Lips Kimochi Battle",
+            "キモチ戦悦ぶサファイアの唇"
         ],
         "image": [
-            "imgs/2409/banner_0430_m.png"
+            "imgs/2411/banner_0314_m.png"
         ],
         "column": 0,
-        "priority": 3,
+        "priority": 6,
         "timers": [
 			{
 				name: "Part 1 - Day 1",
-				start: "Oct 3 2022, 17:00",
-				end: "Oct 4 2022, 15:59"
+				start: "Dec 5 2022, 17:00",
+				end: "Dec 6 2022, 15:59"
 			},
 			{
 				name: "Part 1 - Day 2",
-				start: "Oct 4 2022, 16:00",
-				end: "Oct 5 2022, 15:59"
+				start: "Dec 6 2022, 16:00",
+				end: "Dec 7 2022, 15:59"
 			},
 			{
 				name: "Part 2 - Day 1",
-				start: "Oct 5 2022, 17:00",
-				end: "Oct 6 2022, 15:59"
+				start: "Dec 7 2022, 17:00",
+				end: "Dec 8 2022, 15:59"
 			},
 			{
 				name: "Part 2 - Day 2",
-				start: "Oct 6 2022, 16:00",
-				end: "Oct 7 2022, 15:59"
+				start: "Dec 8 2022, 16:00",
+				end: "Dec 9 2022, 15:59"
 			},
 			{
 				name: "Part 2 - Day 3",
-				start: "Oct 7 2022, 16:00",
-				end: "Oct 8 2022, 15:59"
+				start: "Dec 9 2022, 16:00",
+				end: "Dec 10 2022, 15:59"
 			},
             {
                 "name": "Main Event",
-                "start": "Oct 3 2022, 17:00",
-                "end": "Oct 8 2022, 15:59",
+                "start": "Dec 5 2022, 17:00",
+                "end": "Dec 10 2022, 15:59",
                 "extraPriority": 1000,
 				"type": "normal",
 				markers: 
-				[{time: "Oct 5 2022, 17:00", title: "Part 2 - Groups", type: "battle"}]
+				[{time: "Oct 7 2022, 17:00", title: "Part 2 - Groups", type: "battle"}]
 			}
 			]
     },
@@ -173,19 +173,19 @@ var timerData = [
 					{
         "type": "Event",
         "title": [
-			"Main Story Arc 2 Special Mission",
-			"メインストーリー第2部特別ミッション"
+			"Mish Mash!? Aru-chan Alert!",
+			"ちぐはぐ!?アルちゃん注意報！"
         ],
         "image": [
-            "imgs/2310/banner_0627_m.png"
+            "imgs/2411/banner_0633_m.png"
         ],
         "column": 0,
-        "priority": 9,
+        "priority": 8,
         "timers": [
 			{
-				name: "Complete Arc 2 Chapter 12 to get a x10 gacha ticket",
-				start: "Oct 24 2022, 16:00",
-				end: "Nov 7 2022, 14:59",
+				name: "Main Event",
+				start: "Nov 25 2022, 16:00",
+				end: "Dec 5 2022, 14:59",
 				extraPriority: 100
 			}
         ]
@@ -203,45 +203,24 @@ var timerData = [
         "priority": 100,
         "timers": [
 			{
-				name: "Dream Halloween Festa - Event Shop and Missions",
-				start: "Oct 11 2022, 16:00",
-				end: "Oct 31 2022, 14:59",
-				markers:[{time: "Oct 17 2022, 16:00", title: "Shop Update", type: "star"}]
-			},
-			{
-				name: "Halloween Tickets Shop",
-				start: "Oct 11 2022, 16:00",
-				end: "Oct 31 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Red - Halloween Magical Girl Rerun Gachas",
-				start: "Oct 11 2022, 16:00",
-				end: "Oct 31 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Navy Blue - Mitama (Eternal Darkness ver.) Gacha",
-				start: "Oct 24 2022, 16:00",
-				end: "Nov 14 2022, 14:59"
-			},
-			{
-				name: "Dark Halloween is the Colour of Love!? - Event Shop and Missions",
-				start: "Oct 24 2022, 16:00",
-				end: "Nov 14 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Brown - ★4 Memoria Selection Gacha",
-				start: "Nov 7 2022, 17:00",
-				end: "Nov 21 2022, 14:59"
-			},
-			{
-				name: "Rankeds Medals Shop",
-				start: "Nov 7 2022, 17:00",
-				end: "Nov 21 2022, 14:59"
-			},
-			{
 				name: "Adjuster Coin Shop: Peach - Rabi (Kimochi ver.) Gacha",
 				start: "Nov 14 2022, 17:00",
 				end: "Dec 2 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Gree - Kagome Gacha",
+				start: "Nov 25 2022, 16:00",
+				end: "Dec 5 2022, 14:59"
+			},
+			{
+				name: "4★ Memoria Selection Ticket Exchange - Kagome Step-UP Gacha",
+				start: "Nov 25 2022, 16:00",
+				end: "Dec 5 2022, 14:59"
+			},
+			{
+				name: "Mish Mash!? Aru-chan Alert! - Event Shop and Missions",
+				start: "Nov 25 2022, 16:00",
+				end: "Dec 5 2022, 14:59"
 			}
         ]
     },
@@ -315,19 +294,39 @@ var timerData = [
 	{
         type: "Maintenance",
         title: [
-            "Maintenance",
-			"维护"
+            "Maintenance & App version 2.6.0 Update",
+			"维护&アプリバージョン2.6.0強制アップデート"
         ],
 		"image": [
 			"imgs/maintenance.png"
 		],
         column: 0,
-        priority: 15,
+        priority: 9,
         timers: [
             {
                 name: "Scheduled Time",
-                start: "Nov 14 2022, 15:00",
-                end: "Nov 14 2022, 17:00",
+                start: "Nov 25 2022, 15:00",
+                end: "Nov 25 2022, 16:00",
+				extraPriority: 1000
+            }
+        ]
+    },
+	{
+        type: "Maintenance",
+        title: [
+            "Maintenance & App version 2.6.1 Update",
+			"维护&アプリバージョン2.6.1強制アップデート"
+        ],
+		"image": [
+			"imgs/maintenance.png"
+		],
+        column: 0,
+        priority: 7,
+        timers: [
+            {
+                name: "Scheduled Time",
+                start: "Dec 5 2022, 15:00",
+                end: "Dec 5 2022, 17:00",
 				extraPriority: 1000
             }
         ]
@@ -335,20 +334,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Limited-time Sena Mikoto Pickup Gacha & Step-up Gacha",
-            "期間限定 瀬奈みこと ピックアップガチャとステップアップガチャ"
+			"Satori Kagome Pickup Gacha & Step-up Gacha",
+            "佐鳥かごめ ピックアップガチャとステップアップガチャ"
         ],
         "image": [
-            "imgs/1509/gachabanner_1115_m.png",
-			"imgs/1509/gachabanner_1116_m.png"
+            "imgs/2411/gachabanner_1172_m.png",
+			"imgs/2411/gachabanner_1173_m.png"
         ],
         "column": 1,
         "priority": 20,
         "timers": [
             {
                 name: "Duration",
-                start: "Sep 20 2022, 16:00",
-				end: "Oct 3 2022, 14:59",
+                start: "Nov 25 2022, 16:00",
+				end: "Dec 5 2022, 14:59",
                 extraPriority: 100
             }
         ]
