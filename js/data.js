@@ -186,7 +186,9 @@ var timerData = [
 				name: "Main Event",
 				start: "Nov 25 2022, 16:00",
 				end: "Dec 5 2022, 14:59",
-				extraPriority: 100
+				extraPriority: 100,
+				markers: 
+				[{time: "Nov 30 2022, 16:00", title: "Story Quests 11-20 & 100Evils I-III", type: "battle"}]
 			}
         ]
     },
