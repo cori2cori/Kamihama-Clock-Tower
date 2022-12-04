@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "Dec 2 2022, 18:00";
+var possibleNextAnnouncementDate = "Dec 9 2022, 18:00";
 var nextAnniversary = "August 22 2023, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -223,6 +223,11 @@ var timerData = [
 				name: "Mish Mash!? Aru-chan Alert! - Event Shop and Missions",
 				start: "Nov 25 2022, 16:00",
 				end: "Dec 5 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Navy Blue - Forest Attribute Gacha",
+				start: "Dec 5 2022, 17:00",
+				end: "Dec 12 2022, 14:59"
 			}
         ]
     },
@@ -275,20 +280,19 @@ var timerData = [
 		{
 		type: "Other",
 		title: [
-		"Battle Museum Special Offers",
-		"バトルミュージアム開催記念!!スペシャルオファー"
+		"Forest Attribute Strengthening Pack",
+		"木属性魔法少女育成パック"
 		],
 		image: [
-            "imgs/1411/banner_0591_m.png",
-			"imgs/1411/banner_0592_m.png"
+            "imgs/0412/banner_0556_m.png"
         ],
 		column: 2,
 		priority: 10,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "Nov 14 2022, 17:00",
-			end: "Nov 25 2022, 14:59",
+			start: "Dec 5 2022, 17:00",
+			end: "Dec 12 2022, 14:59",
 			extraPriority: 100
 		}
 		]
@@ -357,20 +361,39 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Limited-time Himuro Rabi (Kimochi ver.) Pickup Gacha & Step-up Gacha",
-            "期間限定 氷室ラビ キモチver. ピックアップガチャとステップアップガチャ"
+			"Forest Attribute Pickup Gacha",
+            "木属性魔法少女ピックアップガチャ"
         ],
         "image": [
-            "imgs/1411/gachabanner_1159_m.png",
-			"imgs/1411/gachabanner_1160_m.png"
+            "imgs/0412/gachabanner_1182_m.png"
         ],
         "column": 1,
         "priority": 10,
         "timers": [
             {
                 name: "Duration",
-                start: "Nov 14 2022, 17:00",
-				end: "Nov 25 2022, 14:59",
+                start: "Dec 5 2022, 17:00",
+				end: "Dec 12 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+		{
+        "type": "Gacha",
+        "title": [
+			"Limited-time Paid 4★ Attribute Attribute Magical Girl Guaranteed Gacha",
+            "有償限定木属性★4魔法少女確定ガチャ"
+        ],
+        "image": [
+            "imgs/0412/gachabanner_1183_m.png"
+        ],
+        "column": 1,
+        "priority": 10,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Dec 5 2022, 17:00",
+				end: "Dec 12 2022, 14:59",
                 extraPriority: 100
             }
         ]
