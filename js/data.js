@@ -205,29 +205,29 @@ var timerData = [
         "priority": 100,
         "timers": [
 			{
-				name: "Adjuster Coin Shop: Peach - Rabi (Kimochi ver.) Gacha",
-				start: "Nov 14 2022, 17:00",
-				end: "Dec 2 2022, 14:59"
-			},
-			{
 				name: "Adjuster Coin Shop: Green - Kagome Gacha",
 				start: "Nov 25 2022, 16:00",
-				end: "Dec 5 2022, 14:59"
+				end: "Dec 12 2022, 14:59"
 			},
 			{
 				name: "4★ Memoria Selection Ticket Exchange - Kagome Step-UP Gacha",
 				start: "Nov 25 2022, 16:00",
-				end: "Dec 5 2022, 14:59"
+				end: "Dec 12 2022, 14:59"
 			},
 			{
 				name: "Mish Mash!? Aru-chan Alert! - Event Shop and Missions",
 				start: "Nov 25 2022, 16:00",
-				end: "Dec 5 2022, 14:59"
+				end: "Dec 12 2022, 14:59"
 			},
 			{
 				name: "Adjuster Coin Shop: Navy Blue - Forest Attribute Gacha",
 				start: "Dec 5 2022, 17:00",
-				end: "Dec 12 2022, 14:59"
+				end: "Dec 19 2022, 14:59"
+			},
+			{
+				name: "Pleased Sapphire Lips Kimochi Battle - Event Shop ",
+				start: "Dec 5 2022, 17:00",
+				end: "Dec 19 2022, 14:59"
 			}
         ]
     },
