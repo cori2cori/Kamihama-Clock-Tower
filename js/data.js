@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "Dec 9 2022, 18:00";
+var possibleNextAnnouncementDate = "Dec 16 2022, 18:00";
 var nextAnniversary = "August 22 2023, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -173,22 +173,22 @@ var timerData = [
 					{
         "type": "Event",
         "title": [
-			"Mish Mash!? Aru-chan Alert!",
-			"ちぐはぐ!?アルちゃん注意報！"
+			"Winter Recollection ～From We Who Are Still Transparent～",
+			"Winter Recollection～まだ透明な私たちより～"
         ],
         "image": [
-            "imgs/2411/banner_0633_m.png"
+            "imgs/1112/banner_0637_m.png"
         ],
         "column": 0,
         "priority": 8,
         "timers": [
 			{
 				name: "Main Event",
-				start: "Nov 25 2022, 16:00",
-				end: "Dec 5 2022, 14:59",
-				extraPriority: 100,
-				markers: 
-				[{time: "Nov 30 2022, 16:00", title: "Story Quests 11-20 & 100Evils I-III", type: "battle"}]
+				start: "Dec 12 2022, 17:00",
+				end: "Dec 20 2022, 14:59",
+				extraPriority: 100
+				//markers: 
+				//[{time: "Nov 30 2022, 16:00", title: "Story Quests 11-20 & 100Evils I-III", type: "battle"}]
 			}
         ]
     },
@@ -228,6 +228,21 @@ var timerData = [
 				name: "Pleased Sapphire Lips Kimochi Battle - Event Shop ",
 				start: "Dec 5 2022, 17:00",
 				end: "Dec 19 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Purple - Past Christmas Magical Girls Gachas",
+				start: "Dec 12 2022, 17:00",
+				end: "Dec 27 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Red - Mifuyu (Fairy Tale ver.) Gacha",
+				start: "Dec 12 2022, 17:00",
+				end: "Dec 27 2022, 14:59"
+			},
+			{
+				name: "Winter Recollection - Event Shop and Missions",
+				start: "Dec 12 2022, 17:00",
+				end: "Dec 27 2022, 14:59"
 			}
         ]
     },
@@ -300,8 +315,8 @@ var timerData = [
 	{
         type: "Maintenance",
         title: [
-            "Maintenance & App version 2.6.0 Update",
-			"维护&アプリバージョン2.6.0強制アップデート"
+            "Maintenance",
+			"维护"
         ],
 		"image": [
 			"imgs/maintenance.png"
@@ -311,8 +326,8 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "Nov 25 2022, 15:00",
-                end: "Nov 25 2022, 16:00",
+                start: "Dec 12 2022, 15:00",
+                end: "Dec 12 2022, 17:00",
 				extraPriority: 1000
             }
         ]
@@ -340,20 +355,62 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Satori Kagome Pickup Gacha & Step-up Gacha",
-            "佐鳥かごめ ピックアップガチャとステップアップガチャ"
+			"Limited-time Azusa Mifuyu (Fairy Tale ver.) Pickup & Step-UP Gacha",
+            "期間限定 梓みふゆ おとぎ話ver.ピックアップとステップアップガチャ"
         ],
         "image": [
-            "imgs/2411/gachabanner_1172_m.png",
-			"imgs/2411/gachabanner_1173_m.png"
+            "imgs/1112/gachabanner_1186_m.png",
+			"imgs/1112/gachabanner_1187_m.png"
         ],
         "column": 1,
         "priority": 20,
         "timers": [
             {
                 name: "Duration",
-                start: "Nov 25 2022, 16:00",
-				end: "Dec 5 2022, 14:59",
+                start: "Dec 12 2022, 17:00",
+				end: "Dec 20 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"Limited-time Christmas Magical Girls 2019-2020 Pickup & Step-UP gacha",
+            "期間限定 クリスマス魔法少女2019-2020 ピックアップとステップアップガチャ"
+        ],
+        "image": [
+            "imgs/1112/gachabanner_1192_m.png",
+			"imgs/1112/gachabanner_1193_m.png"
+        ],
+        "column": 1,
+        "priority": 19,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Dec 12 2022, 17:00",
+				end: "Dec 20 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"Limited-time Christmas Magical Girls 2017-2018 Pickup & Step-UP gacha",
+            "期間限定 クリスマス魔法少女2017-2018 ピックアップとステップアップガチャ"
+        ],
+        "image": [
+            "imgs/1112/gachabanner_1203_m.png",
+			"imgs/1112/gachabanner_1204_m.png"
+        ],
+        "column": 1,
+        "priority": 18,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Dec 12 2022, 17:00",
+				end: "Dec 20 2022, 14:59",
                 extraPriority: 100
             }
         ]
