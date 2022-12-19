@@ -124,29 +124,24 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "1900 Days Since Release Campaign",
-			"リリース1900日記念キャンペーン"
+            "Winter Campaign",
+			"ウィンターキャンペーン"
         ],
         "image": [
-            "imgs/0611/banner_0629_m.png"
+            "imgs/1912/banner_0640_m.png"
         ],
         "column": 0,
-        "priority": 17,
+        "priority": 1,
         "timers": [
 			{
-				name: "Login Bonus",
-				start: "Nov 7 2022, 17:00",
-				end: "Nov 14 2022, 23:59"
-			},
-			{
-				name: " 1/2 AP, x2 Player EXP, x2 Support Pt & x2 Magical Strengthening Great and Super Success Rate",
-				start: "Nov 7 2022, 17:00",
-				end: "Nov 14 2022, 14:59"
+				name: "1/2 AP, x2 PLAYER EXP, x2 Support Pt & x2 Magical Strengthening Great and Super Success Rate",
+				start: "Dec 20 2022, 16:00",
+				end: "Jan 10 2023, 14:59"
 			},
 			{
 				name: "Limited-time Daily Missions",
-				start: "Nov 8 2022, 0:00",
-				end: "Nov 14 2022, 23:59"
+				start: "Dec 21 2022, 0:00",
+				end: "Jan 10 2023, 23:59"
 			}
         ]
     },
@@ -170,7 +165,7 @@ var timerData = [
 			}
         ]
    },
-					{
+	{
         "type": "Event",
         "title": [
 			"Winter Recollection ～From We Who Are Still Transparent～",
@@ -189,6 +184,28 @@ var timerData = [
 				extraPriority: 100
 				//markers: 
 				//[{time: "Nov 30 2022, 16:00", title: "Story Quests 11-20 & 100Evils I-III", type: "battle"}]
+			}
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
+			"Winter Recollection ～From We Who Are Still Transparent～ Story of Myths",
+			"Winter Recollection ～まだ透明な私たちより～ 幻の物語"
+        ],
+        "image": [
+            "imgs/1912/banner_0638_m.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+			{
+				name: "Main Event",
+				start: "Dec 20 2022, 16:00",
+				end: "Dec 31 2022, 14:59",
+				extraPriority: 100,
+				markers: 
+				[{time: "Dec 26 2022, 16:00", title: "Story Quests 11-25 & 100Evils I-III", type: "battle"}]
 			}
         ]
     },
@@ -230,7 +247,7 @@ var timerData = [
 				end: "Dec 19 2022, 14:59"
 			},
 			{
-				name: "Adjuster Coin Shop: Purple - Past Christmas Magical Girls Gachas",
+				name: "Adjuster Coin Shop: Purple - Christmas 2017-2020 Magical Girls Gachas",
 				start: "Dec 12 2022, 17:00",
 				end: "Dec 27 2022, 14:59"
 			},
@@ -240,9 +257,29 @@ var timerData = [
 				end: "Dec 27 2022, 14:59"
 			},
 			{
-				name: "Winter Recollection - Event Shop and Missions",
+				name: "Winter Recollection: Mifuyu Side - Event Shop and Missions",
 				start: "Dec 12 2022, 17:00",
 				end: "Dec 27 2022, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Water - Yachiyo (Fairy Tale ver.) Gacha",
+				start: "Dec 20 2022, 16:00",
+				end: "Jan 7 2023, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Yellow Green - Christmas 2021 Magical Girls Gachas",
+				start: "Dec 20 2022, 16:00",
+				end: "Jan 7 2023, 14:59"
+			},
+			{
+				name: "Winter Recollection: Yachiyo Side - Event Shop and Missions",
+				start: "Dec 20 2022, 16:00",
+				end: "Jan 7 2023, 14:59"
+			},
+			{
+				name: "Christmas 2022 Costume Shop",
+				start: "Dec 20 2022, 16:00",
+				end: "Jan 7 2023, 14:59"
 			}
         ]
     },
@@ -335,8 +372,8 @@ var timerData = [
 	{
         type: "Maintenance",
         title: [
-            "Maintenance & App version 2.6.1 Update",
-			"维护&アプリバージョン2.6.1強制アップデート"
+            "Maintenance & App version 2.6.3 Update",
+			"维护&アプリバージョン2.6.3強制アップデート"
         ],
 		"image": [
 			"imgs/maintenance.png"
@@ -346,8 +383,8 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "Dec 5 2022, 15:00",
-                end: "Dec 5 2022, 17:00",
+                start: "Dec 20 2022, 15:00",
+                end: "Dec 20 2022, 16:00",
 				extraPriority: 1000
             }
         ]
@@ -369,6 +406,87 @@ var timerData = [
                 name: "Duration",
                 start: "Dec 12 2022, 17:00",
 				end: "Dec 20 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"Limited-time Nanami Yachiyo (Fairy Tale ver.) Pickup & Step-UP Gacha",
+            "期間限定 七海やちよ おとぎ話ver.ピックアップとステップアップガチャ"
+        ],
+        "image": [
+            "imgs/1912/gachabanner_1216_m.png",
+			"imgs/1912/gachabanner_1217_m.png"
+        ],
+        "column": 1,
+        "priority": 22,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Dec 20 2022, 16:00",
+				end: "Dec 31 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+		{
+        "type": "Gacha",
+        "title": [
+			"Limited-time Nayuta & Mikage (Christmas ver.) Pickup Gacha",
+            "期間限定 那由他・みかげクリスマスver. ピックアップガチャ"
+        ],
+        "image": [
+            "imgs/1912/gachabanner_1222_m.png"
+        ],
+        "column": 1,
+        "priority": 20,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Dec 20 2022, 16:00",
+				end: "Dec 31 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+		{
+        "type": "Gacha",
+        "title": [
+			"Limited-time Holy Mami (Anime ver.) Pickup Gacha",
+            "期間限定 ホーリーマミ アニメver.ピックアップガチャ"
+        ],
+        "image": [
+            "imgs/1912/gachabanner_1223_m.png"
+        ],
+        "column": 1,
+        "priority": 20,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Dec 20 2022, 16:00",
+				end: "Dec 31 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"Limited-time Christmas Magical Girls 2021 Pickup & Step-UP gacha",
+            "期間限定 クリスマス魔法少女2021ピックアップとステップアップガチャ"
+        ],
+        "image": [
+            "imgs/1912/gachabanner_1224_m.png"
+        ],
+        "column": 1,
+        "priority": 20,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Dec 20 2022, 16:00",
+				end: "Dec 31 2022, 14:59",
                 extraPriority: 100
             }
         ]
@@ -518,95 +636,125 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"5th Anniversary Choose your 4★ Magical Girl Pickup Gacha ",
-            "5周年記念 選べる★4魔法少女ピックアップガチャ"
+			"Daily Free 10 pull Rare Gacha",
+            "10連レアガチャ毎日1回無料"
         ],
         "image": [
-            "imgs/anniv/gachabanner_1100_m.png"
+            "imgs/1912/banner_0641_m.png"
         ],
         "column": 1,
-        "priority": 19,
+        "priority": 21,
         "timers": [
             {
                 name: "Duration",
-                start: "Aug 22 2022, 16:00",
-				end: "Sep 5 2022, 23:59",
+                start: "Dec 21 2022, 00:00",
+				end: "Jan 10 2023, 23:59",
                 extraPriority: 100,
 				markers:
 				[
 				{
 					title: "Free pull 1",
-					time: "Aug 22 2022, 16:00",
+					time: "Dec 21 2022, 00:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 2",
-					time: "Aug 23 2022, 0:00",
+					time: "Dec 22 2022, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 3",
-					time: "Aug 24 2022, 0:00",
+					time: "Dec 23 2022, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 4",
-					time: "Aug 25 2022, 0:00",
+					time: "Dec 24 2022, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 5",
-					time: "Aug 26 2022, 0:00",
+					time: "Dec 25 2022, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 6",
-					time: "Aug 27 2022, 0:00",
+					time: "Dec 26 2022, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 7",
-					time: "Aug 28 2022, 0:00",
+					time: "Dec 27 2022, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 8",
-					time: "Aug 29 2022, 0:00",
+					time: "Dec 28 2022, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 9",
-					time: "Aug 30 2022, 0:00",
+					time: "Dec 29 2022, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 10",
-					time: "Aug 31 2022, 0:00",
+					time: "Dec 30 2022, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 11",
-					time: "Sep 1 2022, 0:00",
+					time: "Dec 31 2022, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 12",
-					time: "Sep 2 2022, 0:00",
+					time: "Jan 1 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 13",
-					time: "Sep 3 2022, 0:00",
+					time: "Jan 2 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 14",
-					time: "Sep 4 2022, 0:00",
+					time: "Jan 3 2023, 0:00",
 					type: "star"
 				},
 				{
 					title: "Free pull 15",
-					time: "Sep 5 2022, 0:00",
+					time: "Jan 4 2023, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 16",
+					time: "Jan 5 2023, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 17",
+					time: "Jan 6 2023, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 18",
+					time: "Jan 7 2023, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 19",
+					time: "Jan 8 2023, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 20",
+					time: "Jan 9 2023, 0:00",
+					type: "star"
+				},
+				{
+					title: "Free pull 21",
+					time: "Jan 10 2023, 0:00",
 					type: "star"
 				}
 				]
