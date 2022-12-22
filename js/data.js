@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "Dec 16 2022, 18:00";
+var possibleNextAnnouncementDate = "Jan 1 2023, 00:00";
 var nextAnniversary = "August 22 2023, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -142,6 +142,30 @@ var timerData = [
 				name: "Limited-time Daily Missions",
 				start: "Dec 21 2022, 0:00",
 				end: "Jan 10 2023, 23:59"
+			},
+			{
+				name: "Twitter RT Campaign",
+				start: "Dec 20 2022, 16:00",
+				end: "Dec 25 2022, 23:59"
+			}
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
+            "Christmas Login Bonus",
+			"クリスマスログインボーナス"
+        ],
+        "image": [
+            "imgs/1912/banner_0634_m.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+			{
+				name: "Login Bonus",
+				start: "Dec 25 2022, 00:00",
+				end: "Dec 25 2022, 23:59"
 			}
         ]
     },
