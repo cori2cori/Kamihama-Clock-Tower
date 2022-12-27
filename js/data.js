@@ -147,6 +147,11 @@ var timerData = [
 				name: "Twitter RT Campaign",
 				start: "Dec 20 2022, 16:00",
 				end: "Dec 25 2022, 23:59"
+			},
+			{
+				name: "New Year Countdown Login Bonus",
+				start: "Dec 29 2022, 0:00",
+				end: "Jan 01 2023, 23:59"
 			}
         ]
     },
