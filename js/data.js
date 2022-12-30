@@ -158,6 +158,43 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
+            "New Year Campaign",
+			"お正月キャンペーン"
+        ],
+        "image": [
+            "imgs/3012/banner_0635_m.png",
+			"imgs/3012/banner_0444_m.png",
+			"imgs/3012/banner_0546_m.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+			{
+				name: "New Year Login Bonus",
+				start: "Jan 1 2023, 0:00",
+				end: "Jan 10 2023, 23:59",
+				extraPriority: 100
+			},
+			{
+				name: "Fortune Telling at Mizuna Shrine",
+				start: "Jan 1 2023, 0:00",
+				end: "Jan 10 2023, 23:59"
+			},
+			{
+				name: "New Year Special Daily Missions ",
+				start: "Jan 1 2023, 0:00",
+				end: "Jan 10 2023, 23:59"
+			},
+			{
+				name: "x2 Mirrors Coins Campaign",
+				start: "Jan 1 2023, 0:00",
+				end: "Jan 10 2023, 14:59"
+			}
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
             "Christmas Login Bonus",
 			"クリスマスログインボーナス"
         ],
@@ -251,46 +288,6 @@ var timerData = [
         "priority": 100,
         "timers": [
 			{
-				name: "Adjuster Coin Shop: Green - Kagome Gacha",
-				start: "Nov 25 2022, 16:00",
-				end: "Dec 12 2022, 14:59"
-			},
-			{
-				name: "4★ Memoria Selection Ticket Exchange - Kagome Step-UP Gacha",
-				start: "Nov 25 2022, 16:00",
-				end: "Dec 12 2022, 14:59"
-			},
-			{
-				name: "Mish Mash!? Aru-chan Alert! - Event Shop and Missions",
-				start: "Nov 25 2022, 16:00",
-				end: "Dec 12 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Navy Blue - Forest Attribute Gacha",
-				start: "Dec 5 2022, 17:00",
-				end: "Dec 19 2022, 14:59"
-			},
-			{
-				name: "Pleased Sapphire Lips Kimochi Battle - Event Shop ",
-				start: "Dec 5 2022, 17:00",
-				end: "Dec 19 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Purple - Christmas 2017-2020 Magical Girls Gachas",
-				start: "Dec 12 2022, 17:00",
-				end: "Dec 27 2022, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Red - Mifuyu (Fairy Tale ver.) Gacha",
-				start: "Dec 12 2022, 17:00",
-				end: "Dec 27 2022, 14:59"
-			},
-			{
-				name: "Winter Recollection: Mifuyu Side - Event Shop and Missions",
-				start: "Dec 12 2022, 17:00",
-				end: "Dec 27 2022, 14:59"
-			},
-			{
 				name: "Adjuster Coin Shop: Water - Yachiyo (Fairy Tale ver.) Gacha",
 				start: "Dec 20 2022, 16:00",
 				end: "Jan 7 2023, 14:59"
@@ -309,71 +306,62 @@ var timerData = [
 				name: "Christmas 2022 Costume Shop",
 				start: "Dec 20 2022, 16:00",
 				end: "Jan 7 2023, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Yellow - Past New Year Magical Girls Gachas",
+				start: "Jan 1 2023, 0:00",
+				end: "Jan 17 2023, 14:59"
+			},
+			{
+				name: "Limited-time Memoria in the SP Shop",
+				start: "Jan 1 2023, 0:00",
+				end: "Jan 31 2023, 23:59"
 			}
         ]
     },
-	{
+
+{
 		type: "Other",
 		title: [
-		"1900 Days Anniversary Packs",
-		"1900日記念パック"
+		"Discounted Magia Stones Sales",
+		"お得な期間限定マギアストーン 販売"
 		],
 		image: [
-            "imgs/0611/banner_0630_m.png"
+            "imgs/3012/banner_0129_m.png"
         ],
 		column: 2,
-		priority: 20,
+		priority: 5,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "Nov 7 2022, 17:00",
-			end: "Nov 14 2022, 14:59",
-			extraPriority: 1000
+			start: "Dec 31 2022, 16:00",
+			end: "Jan 10 2023, 14:59",
+			extraPriority: 100
 		}
 		]
 	},
 {
 		type: "Other",
 		title: [
-		"Ranking Mirrors Related Packs",
-		"『ミラーズランキング』関連パックの販売"
+		"New Year Lucky Bags",
+		"みたまのお正月DX福袋"
 		],
 		image: [
-            "imgs/0611/banner_0632_m.png"
+            "imgs/3012/banner_0642_m.png"
         ],
 		column: 2,
-		priority: 19,
+		priority: 6,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "Nov 7 2022, 17:00",
-			end: "Nov 14 2022, 14:59",
-			extraPriority: 0
+			start: "Jan 1 2023, 00:00",
+			end: "Jan 10 2023, 14:59",
+			extraPriority: 100
 		},
 		{
-			name: "Mirrors Selection Pack Ticket Exchange",
-			start: "Nov 7 2022, 17:00",
-			end: "Nov 21 2022, 14:59",
-			extraPriority: 1000
-		}
-		]
-	},
-		{
-		type: "Other",
-		title: [
-		"Forest Attribute Strengthening Pack",
-		"木属性魔法少女育成パック"
-		],
-		image: [
-            "imgs/0412/banner_0556_m.png"
-        ],
-		column: 2,
-		priority: 10,
-		timers: [ 
-		{
-			name: "Sales period",
-			start: "Dec 5 2022, 17:00",
-			end: "Dec 12 2022, 14:59",
+			name: "Tickets Exchange",
+			start: "Jan 1 2023, 00:00",
+			end: "Jan 17 2023, 14:59",
 			extraPriority: 100
 		}
 		]
@@ -415,27 +403,6 @@ var timerData = [
                 start: "Dec 20 2022, 15:00",
                 end: "Dec 20 2022, 16:00",
 				extraPriority: 1000
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"Limited-time Azusa Mifuyu (Fairy Tale ver.) Pickup & Step-UP Gacha",
-            "期間限定 梓みふゆ おとぎ話ver.ピックアップとステップアップガチャ"
-        ],
-        "image": [
-            "imgs/1112/gachabanner_1186_m.png",
-			"imgs/1112/gachabanner_1187_m.png"
-        ],
-        "column": 1,
-        "priority": 20,
-        "timers": [
-            {
-                name: "Duration",
-                start: "Dec 12 2022, 17:00",
-				end: "Dec 20 2022, 14:59",
-                extraPriority: 100
             }
         ]
     },
@@ -523,20 +490,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Limited-time Christmas Magical Girls 2019-2020 Pickup & Step-UP gacha",
-            "期間限定 クリスマス魔法少女2019-2020 ピックアップとステップアップガチャ"
+			"Limited-time New Year Magical Girls 2018-2019 Pickup gacha",
+            "期間限定 お正月魔法少女2018-2019 ピックアップガチャ"
         ],
         "image": [
-            "imgs/1112/gachabanner_1192_m.png",
-			"imgs/1112/gachabanner_1193_m.png"
+            "imgs/3012/gachabanner_1239_m.png"
         ],
         "column": 1,
-        "priority": 19,
+        "priority": 5,
         "timers": [
             {
                 name: "Duration",
-                start: "Dec 12 2022, 17:00",
-				end: "Dec 20 2022, 14:59",
+                start: "Jan 1 2023, 0:00",
+				end: "Jan 10 2023, 14:59",
                 extraPriority: 100
             }
         ]
@@ -544,40 +510,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Limited-time Christmas Magical Girls 2017-2018 Pickup & Step-UP gacha",
-            "期間限定 クリスマス魔法少女2017-2018 ピックアップとステップアップガチャ"
+			"Limited-time New Year Magical Girls 2020-2021 Pickup gacha",
+            "期間限定 お正月魔法少女2020-2021 ピックアップガチャ"
         ],
         "image": [
-            "imgs/1112/gachabanner_1203_m.png",
-			"imgs/1112/gachabanner_1204_m.png"
+            "imgs/3012/gachabanner_1238_m.png"
         ],
         "column": 1,
-        "priority": 18,
+        "priority": 4,
         "timers": [
             {
                 name: "Duration",
-                start: "Dec 12 2022, 17:00",
-				end: "Dec 20 2022, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"Forest Attribute Pickup Gacha",
-            "木属性魔法少女ピックアップガチャ"
-        ],
-        "image": [
-            "imgs/0412/gachabanner_1182_m.png"
-        ],
-        "column": 1,
-        "priority": 10,
-        "timers": [
-            {
-                name: "Duration",
-                start: "Dec 5 2022, 17:00",
-				end: "Dec 12 2022, 14:59",
+                start: "Jan 1 2023, 0:00",
+				end: "Jan 10 2023, 14:59",
                 extraPriority: 100
             }
         ]
@@ -585,79 +530,39 @@ var timerData = [
 		{
         "type": "Gacha",
         "title": [
-			"Limited-time Paid 4★ Attribute Attribute Magical Girl Guaranteed Gacha",
-            "有償限定木属性★4魔法少女確定ガチャ"
+			"Limited-time Tokime Shizuka (First Sunrise of the Year ver.) pick-up gacha",
+            "期間限定 時女静香 初日の出ver. ピックアップガチャ"
         ],
         "image": [
-            "imgs/0412/gachabanner_1183_m.png"
+            "imgs/3012/gachabanner_0844_m.png"
         ],
         "column": 1,
-        "priority": 10,
+        "priority": 3,
         "timers": [
             {
                 name: "Duration",
-                start: "Dec 5 2022, 17:00",
-				end: "Dec 12 2022, 14:59",
+                start: "Jan 1 2023, 0:00",
+				end: "Jan 10 2023, 14:59",
                 extraPriority: 100
             }
         ]
     },
-	{
+			{
         "type": "Gacha",
         "title": [
-			"Limited-time paid Step-UP Gacha: Battle Museum Edition",
-            "有償限定 ステップアップガチャ バトルミュージアム編"
+			"Limited-time New Year Magical Girl Step-UP Gacha",
+            "有償限定 ステップアップガチャお正月魔法少女編"
         ],
         "image": [
-            "imgs/1411/gachabanner_1165_m.png"
+            "imgs/3012/gachabanner_1240_m.png"
         ],
         "column": 1,
-        "priority": 10,
+        "priority": 7,
         "timers": [
             {
                 name: "Duration",
-                start: "Nov 14 2022, 17:00",
-				end: "Nov 25 2022, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"Limited-time ★4 Memoria Selection Gacha",
-            "選べる★4メモリアセレクションガチャ"
-        ],
-        "image": [
-            "imgs/0611/gachabanner_1156_m.png"
-        ],
-        "column": 1,
-        "priority": 9,
-        "timers": [
-            {
-                name: "Duration",
-                start: "Nov 7 2022, 17:00",
-				end: "Nov 14 2022, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-		{
-        "type": "Gacha",
-        "title": [
-			"Limited-time Paid 4★ Dark Attribute Magical Girl Guaranteed Gacha",
-            "有償限定闇属性★4魔法少女確定ガチャ"
-        ],
-        "image": [
-            "imgs/0210/gachabanner_1132_m.png"
-        ],
-        "column": 1,
-        "priority": 18,
-        "timers": [
-            {
-                name: "Duration",
-                start: "Oct 3 2022, 17:00",
-				end: "Oct 11 2022, 14:59",
+                start: "Jan 1 2023, 0:00",
+				end: "Jan 10 2023, 14:59",
                 extraPriority: 100
             }
         ]
