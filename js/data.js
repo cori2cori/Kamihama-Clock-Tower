@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "Jan 1 2023, 00:00";
+var possibleNextAnnouncementDate = "Jan 6 2023, 18:00";
 var nextAnniversary = "August 22 2023, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -192,64 +192,23 @@ var timerData = [
 			}
         ]
     },
-	{
+		{
         "type": "Event",
         "title": [
-            "Christmas Login Bonus",
-			"クリスマスログインボーナス"
+            "New Years★First Dream of the Year Scramble",
+			"新春☆初夢スクランブル"
         ],
         "image": [
-            "imgs/1912/banner_0634_m.png"
+            "imgs/3012/banner_0644_m.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 3,
         "timers": [
 			{
-				name: "Login Bonus",
-				start: "Dec 25 2022, 00:00",
-				end: "Dec 25 2022, 23:59"
-			}
-        ]
-    },
-{
-        "type": "Event",
-        "title": [
-			"Battle Museum III",
-			"バトルミュージアム"
-        ],
-        "image": [
-            "imgs/1411/banner_0530_m.png"
-        ],
-        "column": 0,
-        "priority": 10,
-        "timers": [
-			{
-				name: "Main Event",
-				start: "Nov 14 2022, 17:00",
-				end: "Nov 25 2022, 14:59",
+				name: "Duration",
+				start: "Jan 1 2023, 0:00",
+				end: "Jan 10 2023, 14:59",
 				extraPriority: 100
-			}
-        ]
-   },
-	{
-        "type": "Event",
-        "title": [
-			"Winter Recollection ～From We Who Are Still Transparent～",
-			"Winter Recollection～まだ透明な私たちより～"
-        ],
-        "image": [
-            "imgs/1112/banner_0637_m.png"
-        ],
-        "column": 0,
-        "priority": 8,
-        "timers": [
-			{
-				name: "Main Event",
-				start: "Dec 12 2022, 17:00",
-				end: "Dec 20 2022, 14:59",
-				extraPriority: 100
-				//markers: 
-				//[{time: "Nov 30 2022, 16:00", title: "Story Quests 11-20 & 100Evils I-III", type: "battle"}]
 			}
         ]
     },
@@ -518,6 +477,27 @@ var timerData = [
         ],
         "column": 1,
         "priority": 4,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Jan 1 2023, 0:00",
+				end: "Jan 10 2023, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+			{
+        "type": "Gacha",
+        "title": [
+			"Limited-time Akemi Homura (Haregi ver.) pick-up gacha",
+            "期間限定 時女静香 初日の出ver. ピックアップとステップアップガチャ"
+        ],
+        "image": [
+            "imgs/3012/gachabanner_1257_m.png",
+			"imgs/3012/gachabanner_1258_m.png",
+        ],
+        "column": 1,
+        "priority": 10,
         "timers": [
             {
                 name: "Duration",
