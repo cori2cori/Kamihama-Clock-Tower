@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "Jan 6 2023, 18:00";
+var possibleNextAnnouncementDate = "Jan 18 2023, 18:00";
 var nextAnniversary = "August 22 2023, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -141,7 +141,8 @@ var timerData = [
 			{
 				name: "Limited-time Daily Missions",
 				start: "Dec 21 2022, 0:00",
-				end: "Jan 10 2023, 23:59"
+				end: "Jan 10 2023, 23:59",
+				extraPriority: 100
 			},
 			{
 				name: "Twitter RT Campaign",
@@ -215,6 +216,26 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
+            "The Inheritors of Our Souls ～Puella Magi Tart☆Magica～",
+			"想いを継ぐものたち～魔法少女たると☆マギカ～"
+        ],
+        "image": [
+            "imgs/0901/banner_0646_m.png"
+        ],
+        "column": 0,
+        "priority": 4,
+        "timers": [
+			{
+				name: "Duration",
+				start: "Jan 10 2023, 16:00",
+				end: "Jan 20 2023, 14:59",
+				extraPriority: 100
+			}
+        ]
+    },
+	{
+        "type": "Event",
+        "title": [
 			"Winter Recollection ～From We Who Are Still Transparent～ Story of Myths",
 			"Winter Recollection ～まだ透明な私たちより～ 幻の物語"
         ],
@@ -267,7 +288,7 @@ var timerData = [
 				end: "Jan 7 2023, 14:59"
 			},
 			{
-				name: "Adjuster Coin Shop: Yellow - Past New Year Magical Girls Gachas",
+				name: "Past New Year Magical Girls Gachas: Yellow Coins Shop & Selection Ticket Exchange",
 				start: "Jan 1 2023, 0:00",
 				end: "Jan 17 2023, 14:59"
 			},
@@ -275,6 +296,26 @@ var timerData = [
 				name: "Limited-time Memoria in the SP Shop",
 				start: "Jan 1 2023, 0:00",
 				end: "Jan 31 2023, 23:59"
+			},
+			{
+				name: "New Years★First Dream of the Year Scramble - Item Boxes",
+				start: "Jan 1 2023, 0:00",
+				end: "Jan 17 2023, 14:59"
+			},
+			{
+				name: "New Years Ticket 2023 Shop",
+				start: "Jan 1 2023, 0:00",
+				end: "Jan 17 2023, 14:59"
+			},
+			{
+				name: "The Inheritors of Our Souls: Event Shop & Missions",
+				start: "Jan 10 2023, 16:00",
+				end: "Jan 27 2023, 14:59"
+			},
+			{
+				name: "Tart☆Magica Past Gachas: Orange Coins Shop & Selection Tickets Exchange",
+				start: "Jan 10 2023, 16:00",
+				end: "Jan 27 2023, 14:59"
 			}
         ]
     },
@@ -295,6 +336,26 @@ var timerData = [
 			name: "Sales period",
 			start: "Dec 31 2022, 16:00",
 			end: "Jan 10 2023, 14:59",
+			extraPriority: 100
+		}
+		]
+	},
+{
+		type: "Other",
+		title: [
+		"Tart☆Magica Collaboration Commemorative Training Support Pack",
+		"魔法少女たると☆マギカコラボ記念 育成応援パックの販売"
+		],
+		image: [
+            "imgs/0901/banner_0647_m.png"
+        ],
+		column: 2,
+		priority: 5,
+		timers: [ 
+		{
+			name: "Sales period",
+			start: "Jan 10 2023, 16:00",
+			end: "Jan 20 2023, 14:59",
 			extraPriority: 100
 		}
 		]
@@ -339,8 +400,8 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "Dec 12 2022, 15:00",
-                end: "Dec 12 2022, 17:00",
+                start: "Jan 10 2023, 15:00",
+                end: "Jan 10 2023, 16:00",
 				extraPriority: 1000
             }
         ]
@@ -362,87 +423,6 @@ var timerData = [
                 start: "Dec 20 2022, 15:00",
                 end: "Dec 20 2022, 16:00",
 				extraPriority: 1000
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"Limited-time Nanami Yachiyo (Fairy Tale ver.) Pickup & Step-UP Gacha",
-            "期間限定 七海やちよ おとぎ話ver.ピックアップとステップアップガチャ"
-        ],
-        "image": [
-            "imgs/1912/gachabanner_1216_m.png",
-			"imgs/1912/gachabanner_1217_m.png"
-        ],
-        "column": 1,
-        "priority": 22,
-        "timers": [
-            {
-                name: "Duration",
-                start: "Dec 20 2022, 16:00",
-				end: "Dec 31 2022, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-		{
-        "type": "Gacha",
-        "title": [
-			"Limited-time Nayuta & Mikage (Christmas ver.) Pickup Gacha",
-            "期間限定 那由他・みかげクリスマスver. ピックアップガチャ"
-        ],
-        "image": [
-            "imgs/1912/gachabanner_1222_m.png"
-        ],
-        "column": 1,
-        "priority": 20,
-        "timers": [
-            {
-                name: "Duration",
-                start: "Dec 20 2022, 16:00",
-				end: "Dec 31 2022, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-		{
-        "type": "Gacha",
-        "title": [
-			"Limited-time Holy Mami (Anime ver.) Pickup Gacha",
-            "期間限定 ホーリーマミ アニメver.ピックアップガチャ"
-        ],
-        "image": [
-            "imgs/1912/gachabanner_1223_m.png"
-        ],
-        "column": 1,
-        "priority": 20,
-        "timers": [
-            {
-                name: "Duration",
-                start: "Dec 20 2022, 16:00",
-				end: "Dec 31 2022, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"Limited-time Christmas Magical Girls 2021 Pickup & Step-UP gacha",
-            "期間限定 クリスマス魔法少女2021ピックアップとステップアップガチャ"
-        ],
-        "image": [
-            "imgs/1912/gachabanner_1224_m.png"
-        ],
-        "column": 1,
-        "priority": 20,
-        "timers": [
-            {
-                name: "Duration",
-                start: "Dec 20 2022, 16:00",
-				end: "Dec 31 2022, 14:59",
-                extraPriority: 100
             }
         ]
     },
@@ -489,8 +469,8 @@ var timerData = [
 			{
         "type": "Gacha",
         "title": [
-			"Limited-time Akemi Homura (Haregi ver.) pick-up gacha",
-            "期間限定 時女静香 初日の出ver. ピックアップとステップアップガチャ"
+			"Limited-time Akemi Homura (Haregi ver.) Pick-up & Step-up gacha",
+            "期間限定 時女静香 初日の出ver. ピックアップ&ステップアップガチャ"
         ],
         "image": [
             "imgs/3012/gachabanner_1257_m.png",
@@ -527,10 +507,10 @@ var timerData = [
             }
         ]
     },
-			{
+	{
         "type": "Gacha",
         "title": [
-			"Limited-time New Year Magical Girl Step-UP Gacha",
+			"Limited-time Paid Step-UP Gacha: New Year Magical Girl Edition",
             "有償限定 ステップアップガチャお正月魔法少女編"
         ],
         "image": [
@@ -543,6 +523,108 @@ var timerData = [
                 name: "Duration",
                 start: "Jan 1 2023, 0:00",
 				end: "Jan 10 2023, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"Limited-time Isabeau Pickup Gacha",
+            "期間限定 イザボー ピックアップガチャ"
+        ],
+        "image": [
+            "imgs/0901/gachabanner_0892_m.png"
+        ],
+        "column": 1,
+        "priority": 10,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Jan 10 2023, 16:00",
+				end: "Jan 20 2023, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+		{
+        "type": "Gacha",
+        "title": [
+			"Limited-time Pernelle Pickup Gacha",
+            "期間限定 ペレネル ピックアップガチャ"
+        ],
+        "image": [
+            "imgs/0901/gachabanner_0896_m.png"
+        ],
+        "column": 1,
+        "priority": 10,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Jan 10 2023, 16:00",
+				end: "Jan 20 2023, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+			{
+        "type": "Gacha",
+        "title": [
+			"Limited-time Paid Step-UP Gacha: 2022 Tart☆Magica Edition",
+            "有償限定 ステップアップガチャ 魔法少女たると☆マギカ2022編"
+        ],
+        "image": [
+            "imgs/0901/gachabanner_1266_m.png"
+        ],
+        "column": 1,
+        "priority": 10,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Jan 10 2023, 16:00",
+				end: "Jan 20 2023, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"Limited-time 2020-2021 Tart☆Magica Pick-UP & Paid Step-UP Gacha",
+            "期間限定 魔法少女たると☆マギカ2020-2021 ピックアップ&有償ステップアップガチャ"
+        ],
+        "image": [
+            "imgs/0901/gachabanner_1276_m.png",
+			"imgs/0901/gachabanner_1277_m.png"
+        ],
+        "column": 1,
+        "priority": 10,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Jan 10 2023, 16:00",
+				end: "Jan 20 2023, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"Limited-time 2018-2019 Tart☆Magica Pick-UP & Paid Step-UP Gacha",
+            "期間限定 魔法少女たると☆マギカ2018-2019 ピックアップ&有償ステップアップガチャ"
+        ],
+        "image": [
+            "imgs/0901/gachabanner_1287_m.png",
+			"imgs/0901/gachabanner_1288_m.png"
+        ],
+        "column": 1,
+        "priority": 10,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Jan 10 2023, 16:00",
+				end: "Jan 20 2023, 14:59",
                 extraPriority: 100
             }
         ]
