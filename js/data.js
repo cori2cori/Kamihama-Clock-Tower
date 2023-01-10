@@ -352,7 +352,7 @@ var timerData = [
             "imgs/0901/banner_0647_m.png"
         ],
 		column: 2,
-		priority: 5,
+		priority: 6,
 		timers: [ 
 		{
 			name: "Sales period",
@@ -372,7 +372,7 @@ var timerData = [
             "imgs/3012/banner_0642_m.png"
         ],
 		column: 2,
-		priority: 6,
+		priority: 5,
 		timers: [ 
 		{
 			name: "Sales period",
