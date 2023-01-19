@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "Jan 18 2023, 18:00";
+var possibleNextAnnouncementDate = "Jan 25 2023, 18:00";
 var nextAnniversary = "August 22 2023, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -124,35 +124,24 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "Winter Campaign",
-			"ウィンターキャンペーン"
+            "Extermination Battle: Witches Paradox",
+			"殲滅戦 魔女たちのパラドクス"
         ],
         "image": [
-            "imgs/1912/banner_0640_m.png"
+            "imgs/2001/banner_0494_m.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
-				name: "1/2 AP, x2 PLAYER EXP, x2 Support Pt & x2 Magical Strengthening Great and Super Success Rate",
-				start: "Dec 20 2022, 16:00",
-				end: "Jan 10 2023, 14:59"
-			},
-			{
-				name: "Limited-time Daily Missions",
-				start: "Dec 21 2022, 0:00",
-				end: "Jan 10 2023, 23:59",
-				extraPriority: 100
-			},
-			{
-				name: "Twitter RT Campaign",
-				start: "Dec 20 2022, 16:00",
-				end: "Dec 25 2022, 23:59"
-			},
-			{
-				name: "New Year Countdown Login Bonus",
-				start: "Dec 29 2022, 0:00",
-				end: "Jan 01 2023, 23:59"
+				name: "",
+				start: "Jan 20 2023, 17:00",
+				end: "Jan 27 2023, 14:59",
+				markers:
+				[
+				{time: "Jan 23 2023, 16:00", title: "Challenge Stages", type: "battle"},
+				{time: "Jan 25 2023, 16:00", title: "EX Challenge Stages", type: "battle"}
+				]
 			}
         ]
     },
@@ -206,7 +195,7 @@ var timerData = [
         "priority": 3,
         "timers": [
 			{
-				name: "Duration",
+				name: "",
 				start: "Jan 1 2023, 0:00",
 				end: "Jan 10 2023, 14:59",
 				extraPriority: 100
@@ -226,7 +215,7 @@ var timerData = [
         "priority": 4,
         "timers": [
 			{
-				name: "Duration",
+				name: "",
 				start: "Jan 10 2023, 16:00",
 				end: "Jan 20 2023, 14:59",
 				extraPriority: 100,
@@ -270,31 +259,6 @@ var timerData = [
         "priority": 100,
         "timers": [
 			{
-				name: "Adjuster Coin Shop: Water - Yachiyo (Fairy Tale ver.) Gacha",
-				start: "Dec 20 2022, 16:00",
-				end: "Jan 7 2023, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Yellow Green - Christmas 2021 Magical Girls Gachas",
-				start: "Dec 20 2022, 16:00",
-				end: "Jan 7 2023, 14:59"
-			},
-			{
-				name: "Winter Recollection: Yachiyo Side - Event Shop and Missions",
-				start: "Dec 20 2022, 16:00",
-				end: "Jan 7 2023, 14:59"
-			},
-			{
-				name: "Christmas 2022 Costume Shop",
-				start: "Dec 20 2022, 16:00",
-				end: "Jan 7 2023, 14:59"
-			},
-			{
-				name: "Past New Year Magical Girls Gachas: Yellow Coins Shop & Selection Ticket Exchange",
-				start: "Jan 1 2023, 0:00",
-				end: "Jan 17 2023, 14:59"
-			},
-			{
 				name: "Limited-time Memoria in the SP Shop",
 				start: "Jan 1 2023, 0:00",
 				end: "Jan 31 2023, 23:59"
@@ -318,6 +282,11 @@ var timerData = [
 				name: "Tart☆Magica Past Gachas: Orange Coins Shop & Selection Tickets Exchange",
 				start: "Jan 10 2023, 16:00",
 				end: "Jan 27 2023, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Tea - 4★ Selection Memoria Gacha",
+				start: "Jan 20 2023, 17:00",
+				end: "Feb 3 2023, 14:59"
 			}
         ]
     },
@@ -325,19 +294,19 @@ var timerData = [
 {
 		type: "Other",
 		title: [
-		"Discounted Magia Stones Sales",
-		"お得な期間限定マギアストーン 販売"
+		"Mitama's Special Deal in occasion of the Extermination Battle",
+		"殲滅戦開催記念!! みたまのスペシャルオファー 開催"
 		],
 		image: [
-            "imgs/3012/banner_0129_m.png"
+            "imgs/2001/banner_0591_m.png"
         ],
 		column: 2,
 		priority: 5,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "Dec 31 2022, 16:00",
-			end: "Jan 10 2023, 14:59",
+			start: "Jan 20 2023, 17:00",
+			end: "Jan 27 2023, 14:59",
 			extraPriority: 100
 		}
 		]
@@ -398,12 +367,12 @@ var timerData = [
 			"imgs/maintenance.png"
 		],
         column: 0,
-        priority: 9,
+        priority: 2,
         timers: [
             {
-                name: "Scheduled Time",
-                start: "Jan 10 2023, 15:00",
-                end: "Jan 10 2023, 16:00",
+                name: "",
+                start: "Jan 20 2023, 15:00",
+                end: "Jan 20 2023, 17:00",
 				extraPriority: 1000
             }
         ]
@@ -431,19 +400,19 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Limited-time New Year Magical Girls 2018-2019 Pickup gacha",
-            "期間限定 お正月魔法少女2018-2019 ピックアップガチャ"
+			"Choose Your 4★  Memoria Selection Gacha",
+            "選べる★4メモリアセレクションガチャ"
         ],
         "image": [
-            "imgs/3012/gachabanner_1239_m.png"
+            "imgs/2001/gachabanner_1300_m.png"
         ],
         "column": 1,
-        "priority": 5,
+        "priority": 1,
         "timers": [
             {
-                name: "Duration",
-                start: "Jan 1 2023, 0:00",
-				end: "Jan 10 2023, 14:59",
+                name: "",
+                start: "Jan 20 2023, 17:00",
+				end: "Jan 27 2023, 14:59",
                 extraPriority: 100
             }
         ]
@@ -461,7 +430,7 @@ var timerData = [
         "priority": 4,
         "timers": [
             {
-                name: "Duration",
+                name: "",
                 start: "Jan 1 2023, 0:00",
 				end: "Jan 10 2023, 14:59",
                 extraPriority: 100
@@ -482,7 +451,7 @@ var timerData = [
         "priority": 10,
         "timers": [
             {
-                name: "Duration",
+                name: "",
                 start: "Jan 1 2023, 0:00",
 				end: "Jan 10 2023, 14:59",
                 extraPriority: 100
@@ -502,7 +471,7 @@ var timerData = [
         "priority": 3,
         "timers": [
             {
-                name: "Duration",
+                name: "",
                 start: "Jan 1 2023, 0:00",
 				end: "Jan 10 2023, 14:59",
                 extraPriority: 100
@@ -522,7 +491,7 @@ var timerData = [
         "priority": 7,
         "timers": [
             {
-                name: "Duration",
+                name: "",
                 start: "Jan 1 2023, 0:00",
 				end: "Jan 10 2023, 14:59",
                 extraPriority: 100
@@ -542,7 +511,7 @@ var timerData = [
         "priority": 10,
         "timers": [
             {
-                name: "Duration",
+                name: "",
                 start: "Jan 10 2023, 16:00",
 				end: "Jan 20 2023, 14:59",
                 extraPriority: 100
@@ -562,7 +531,7 @@ var timerData = [
         "priority": 10,
         "timers": [
             {
-                name: "Duration",
+                name: "",
                 start: "Jan 10 2023, 16:00",
 				end: "Jan 20 2023, 14:59",
                 extraPriority: 100
@@ -582,7 +551,7 @@ var timerData = [
         "priority": 10,
         "timers": [
             {
-                name: "Duration",
+                name: "",
                 start: "Jan 10 2023, 16:00",
 				end: "Jan 20 2023, 14:59",
                 extraPriority: 100
@@ -603,7 +572,7 @@ var timerData = [
         "priority": 10,
         "timers": [
             {
-                name: "Duration",
+                name: "",
                 start: "Jan 10 2023, 16:00",
 				end: "Jan 20 2023, 14:59",
                 extraPriority: 100
@@ -624,7 +593,7 @@ var timerData = [
         "priority": 10,
         "timers": [
             {
-                name: "Duration",
+                name: "",
                 start: "Jan 10 2023, 16:00",
 				end: "Jan 20 2023, 14:59",
                 extraPriority: 100
@@ -644,7 +613,7 @@ var timerData = [
         "priority": 21,
         "timers": [
             {
-                name: "Duration",
+                name: "",
                 start: "Dec 21 2022, 00:00",
 				end: "Jan 10 2023, 23:59",
                 extraPriority: 100,
@@ -772,7 +741,7 @@ var timerData = [
         "priority": 18,
         "timers": [
             {
-                name: "Duration",
+                name: "",
                 start: "Aug 22 2022, 16:00",
 				end: "Sep 5 2022, 23:59",
                 extraPriority: 100,
@@ -874,7 +843,7 @@ var timerData = [
         "priority": 17,
         "timers": [
             {
-                name: "Duration",
+                name: "",
                 start: "Oct 11 2022, 16:00",
 				end: "Oct 24 2022, 14:59",
                 extraPriority: 100
@@ -894,7 +863,7 @@ var timerData = [
         "priority": 16,
         "timers": [
             {
-                name: "Duration",
+                name: "",
                 start: "Oct 11 2022, 16:00",
 				end: "Oct 24 2022, 14:59",
                 extraPriority: 100
@@ -914,7 +883,7 @@ var timerData = [
         "priority": 15,
         "timers": [
             {
-                name: "Duration",
+                name: "",
                 start: "Sep 5 2022, 16:00",
 				end: "Sep 20 2022, 23:59",
                 extraPriority: 100,
@@ -1017,7 +986,7 @@ var timerData = [
         "priority": 14,
         "timers": [
             {
-                name: "Duration",
+                name: "",
                 start: "Sep 5 2022, 16:00",
 				end: "Sep 20 2022, 23:59",
                 extraPriority: 100,
