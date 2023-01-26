@@ -131,7 +131,7 @@ var timerData = [
             "imgs/2001/banner_0494_m.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 5,
         "timers": [
 			{
 				name: "",
@@ -141,7 +141,8 @@ var timerData = [
 				[
 				{time: "Jan 23 2023, 16:00", title: "Challenge Stages", type: "battle"},
 				{time: "Jan 25 2023, 16:00", title: "EX Challenge Stages", type: "battle"}
-				]
+				],
+				extraPriority: 100
 			}
         ]
     },
@@ -205,22 +206,22 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "The Inheritors of Our Souls ～Puella Magi Tart☆Magica～",
-			"想いを継ぐものたち～魔法少女たると☆マギカ～"
+            "Puella·Historia Battle Maidens of Kamihama",
+			"ピュエラ・ヒストリア 神浜の戦神子編"
         ],
         "image": [
-            "imgs/0901/banner_0646_m.png"
+            "imgs/2601/banner_0645_m.png"
         ],
         "column": 0,
-        "priority": 4,
+        "priority": 2,
         "timers": [
 			{
 				name: "",
-				start: "Jan 10 2023, 16:00",
-				end: "Jan 20 2023, 14:59",
+				start: "Jan 27 2023, 16:00",
+				end: "Feb 10 2023, 14:59",
 				extraPriority: 100,
 				markers: 
-				[{time: "Jan 13 2023, 16:00", title: "Story Quests 11-20 & 100Evils I-III", type: "battle"}]
+				[{time: "Feb 3 2023, 16:00", title: "Story Quests 21-40 & 100Evils I-III", type: "battle"}]
 			}
         ]
     },
@@ -264,16 +265,6 @@ var timerData = [
 				end: "Jan 31 2023, 23:59"
 			},
 			{
-				name: "New Years★First Dream of the Year Scramble - Item Boxes",
-				start: "Jan 1 2023, 0:00",
-				end: "Jan 17 2023, 14:59"
-			},
-			{
-				name: "New Years Ticket 2023 Shop",
-				start: "Jan 1 2023, 0:00",
-				end: "Jan 17 2023, 14:59"
-			},
-			{
 				name: "The Inheritors of Our Souls: Event Shop & Missions",
 				start: "Jan 10 2023, 16:00",
 				end: "Jan 27 2023, 14:59"
@@ -287,6 +278,21 @@ var timerData = [
 				name: "Adjuster Coin Shop: Tea - 4★ Selection Memoria Gacha",
 				start: "Jan 20 2023, 17:00",
 				end: "Feb 3 2023, 14:59"
+			},
+			{
+				name: "Puella·Historia Battle Maidens of Kamihama - Event Shop & Missions",
+				start: "Jan 27 2023, 16:00",
+				end: "Feb 17 2023, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Blue - Tsuyu Gacha",
+				start: "Jan 27 2023, 16:00",
+				end: "Feb 17 2023, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Red - Chizuru Gacha",
+				start: "Jan 27 2023, 16:00",
+				end: "Feb 17 2023, 14:59"
 			}
         ]
     },
@@ -367,12 +373,12 @@ var timerData = [
 			"imgs/maintenance.png"
 		],
         column: 0,
-        priority: 2,
+        priority: 4,
         timers: [
             {
                 name: "",
-                start: "Jan 20 2023, 15:00",
-                end: "Jan 20 2023, 17:00",
+                start: "Jan 27 2023, 15:00",
+                end: "Jan 27 2023, 16:00",
 				extraPriority: 1000
             }
         ]
@@ -417,22 +423,23 @@ var timerData = [
             }
         ]
     },
-	{
+			{
         "type": "Gacha",
         "title": [
-			"Limited-time New Year Magical Girls 2020-2021 Pickup gacha",
-            "期間限定 お正月魔法少女2020-2021 ピックアップガチャ"
+			"Limited-time Mizuna Tsuyu Pick-up & Step-up gacha",
+            "期間限定 水名露 ピックアップ&ステップアップガチャ"
         ],
         "image": [
-            "imgs/3012/gachabanner_1238_m.png"
+            "imgs/2601/gachabanner_1303_m.png",
+			"imgs/2601/gachabanner_1304_m.png",
         ],
         "column": 1,
-        "priority": 4,
+        "priority": 10,
         "timers": [
             {
                 name: "",
-                start: "Jan 1 2023, 0:00",
-				end: "Jan 10 2023, 14:59",
+                start: "Jan 27 2023, 16:00",
+				end: "Feb 10 2023, 14:59",
                 extraPriority: 100
             }
         ]
@@ -440,162 +447,20 @@ var timerData = [
 			{
         "type": "Gacha",
         "title": [
-			"Limited-time Akemi Homura (Haregi ver.) Pick-up & Step-up gacha",
-            "期間限定 時女静香 初日の出ver. ピックアップ&ステップアップガチャ"
+			"Limited-time Chizuru Pick-up & Step-up gacha",
+            "期間限定 千鶴 ピックアップ&ステップアップガチャ"
         ],
         "image": [
-            "imgs/3012/gachabanner_1257_m.png",
-			"imgs/3012/gachabanner_1258_m.png",
+            "imgs/2601/gachabanner_1309_m.png",
+			"imgs/2601/gachabanner_1310_m.png",
         ],
         "column": 1,
-        "priority": 10,
+        "priority": 9,
         "timers": [
             {
                 name: "",
-                start: "Jan 1 2023, 0:00",
-				end: "Jan 10 2023, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-		{
-        "type": "Gacha",
-        "title": [
-			"Limited-time Tokime Shizuka (First Sunrise of the Year ver.) pick-up gacha",
-            "期間限定 時女静香 初日の出ver. ピックアップガチャ"
-        ],
-        "image": [
-            "imgs/3012/gachabanner_0844_m.png"
-        ],
-        "column": 1,
-        "priority": 3,
-        "timers": [
-            {
-                name: "",
-                start: "Jan 1 2023, 0:00",
-				end: "Jan 10 2023, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"Limited-time Paid Step-UP Gacha: New Year Magical Girl Edition",
-            "有償限定 ステップアップガチャお正月魔法少女編"
-        ],
-        "image": [
-            "imgs/3012/gachabanner_1240_m.png"
-        ],
-        "column": 1,
-        "priority": 7,
-        "timers": [
-            {
-                name: "",
-                start: "Jan 1 2023, 0:00",
-				end: "Jan 10 2023, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"Limited-time Isabeau Pickup Gacha",
-            "期間限定 イザボー ピックアップガチャ"
-        ],
-        "image": [
-            "imgs/0901/gachabanner_0892_m.png"
-        ],
-        "column": 1,
-        "priority": 10,
-        "timers": [
-            {
-                name: "",
-                start: "Jan 10 2023, 16:00",
-				end: "Jan 20 2023, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-		{
-        "type": "Gacha",
-        "title": [
-			"Limited-time Pernelle Pickup Gacha",
-            "期間限定 ペレネル ピックアップガチャ"
-        ],
-        "image": [
-            "imgs/0901/gachabanner_0896_m.png"
-        ],
-        "column": 1,
-        "priority": 10,
-        "timers": [
-            {
-                name: "",
-                start: "Jan 10 2023, 16:00",
-				end: "Jan 20 2023, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-			{
-        "type": "Gacha",
-        "title": [
-			"Limited-time Paid Step-UP Gacha: 2022 Tart☆Magica Edition",
-            "有償限定 ステップアップガチャ 魔法少女たると☆マギカ2022編"
-        ],
-        "image": [
-            "imgs/0901/gachabanner_1266_m.png"
-        ],
-        "column": 1,
-        "priority": 10,
-        "timers": [
-            {
-                name: "",
-                start: "Jan 10 2023, 16:00",
-				end: "Jan 20 2023, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"Limited-time 2020-2021 Tart☆Magica Pick-UP & Paid Step-UP Gacha",
-            "期間限定 魔法少女たると☆マギカ2020-2021 ピックアップ&有償ステップアップガチャ"
-        ],
-        "image": [
-            "imgs/0901/gachabanner_1276_m.png",
-			"imgs/0901/gachabanner_1277_m.png"
-        ],
-        "column": 1,
-        "priority": 10,
-        "timers": [
-            {
-                name: "",
-                start: "Jan 10 2023, 16:00",
-				end: "Jan 20 2023, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-	{
-        "type": "Gacha",
-        "title": [
-			"Limited-time 2018-2019 Tart☆Magica Pick-UP & Paid Step-UP Gacha",
-            "期間限定 魔法少女たると☆マギカ2018-2019 ピックアップ&有償ステップアップガチャ"
-        ],
-        "image": [
-            "imgs/0901/gachabanner_1287_m.png",
-			"imgs/0901/gachabanner_1288_m.png"
-        ],
-        "column": 1,
-        "priority": 10,
-        "timers": [
-            {
-                name: "",
-                start: "Jan 10 2023, 16:00",
-				end: "Jan 20 2023, 14:59",
+                start: "Jan 27 2023, 16:00",
+				end: "Feb 10 2023, 14:59",
                 extraPriority: 100
             }
         ]
