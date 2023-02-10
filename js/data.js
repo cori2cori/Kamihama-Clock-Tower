@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "Feb 8 2023, 18:00";
+var possibleNextAnnouncementDate = "Feb 17 2023, 18:00";
 var nextAnniversary = "August 22 2023, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -149,104 +149,77 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-            "New Year Campaign",
-			"お正月キャンペーン"
+            "2000 Days Since Release Campaign",
+			"リリース2000日記念キャンペーン"
         ],
         "image": [
-            "imgs/3012/banner_0635_m.png",
-			"imgs/3012/banner_0444_m.png",
-			"imgs/3012/banner_0546_m.png"
+            "imgs/1002/banner_0652_m.png",
+			"imgs/1002/banner_0654_m.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
 			{
-				name: "New Year Login Bonus",
-				start: "Jan 1 2023, 0:00",
-				end: "Jan 10 2023, 23:59",
+				name: "Login Bonus",
+				start: "feb 10 2023, 16:00",
+				end: "feb 20 2023, 23:59",
 				extraPriority: 100
 			},
 			{
-				name: "Fortune Telling at Mizuna Shrine",
-				start: "Jan 1 2023, 0:00",
-				end: "Jan 10 2023, 23:59"
+				name: "1/2 AP, x2 PLAYER EXP, x2 Support Pt & x2 Magical Strengthening Great and Super Success Rate",
+				start: "feb 10 2023, 16:00",
+				end: "feb 20 2023, 14:59"
 			},
 			{
-				name: "New Year Special Daily Missions ",
-				start: "Jan 1 2023, 0:00",
-				end: "Jan 10 2023, 23:59"
-			},
-			{
-				name: "x2 Mirrors Coins Campaign",
-				start: "Jan 1 2023, 0:00",
-				end: "Jan 10 2023, 14:59"
+				name: "Limited-time Daily Missions",
+				start: "feb 10 2023, 16:00",
+				end: "feb 20 2023, 14:59"
 			}
         ]
     },
 		{
         "type": "Event",
         "title": [
-            "New Years★First Dream of the Year Scramble",
+            "Valentines Day Message ～Memories are Pale Black～",
 			"新春☆初夢スクランブル"
         ],
         "image": [
-            "imgs/3012/banner_0644_m.png"
+            "imgs/1002/banner_0648_m.png"
         ],
         "column": 0,
         "priority": 3,
         "timers": [
 			{
 				name: "",
-				start: "Jan 1 2023, 0:00",
-				end: "Jan 10 2023, 14:59",
-				extraPriority: 100
+				start: "feb 10 2023, 16:00",
+				end: "feb 20 2023, 14:59",
+				extraPriority: 100,
+				markers: 
+				[{title: "Story Quests 11-20 & 100Evils I~III", time: "feb 14 2023, 16:00", type: "battle"}]
 			}
         ]
     },
 	{
         "type": "Event",
         "title": [
-            "Puella·Historia Battle Maidens of Kamihama",
-			"ピュエラ・ヒストリア 神浜の戦神子編"
+            "Valentines Login Bonus",
+			"バレンタインログインボーナス"
         ],
         "image": [
-            "imgs/2601/banner_0645_m.png"
+            "imgs/1002/banner_0651_m.png"
         ],
         "column": 0,
         "priority": 2,
         "timers": [
 			{
 				name: "",
-				start: "Jan 27 2023, 16:00",
-				end: "Feb 10 2023, 14:59",
-				extraPriority: 100,
-				markers: 
-				[{time: "Feb 3 2023, 16:00", title: "Story Quests 21-40 & 100Evils I-III", type: "battle"}]
+				start: "feb 10 2023, 16:00",
+				end: "feb 20 2023, 23:59",
+				extraPriority: 100
 			}
         ]
     },
-	{
-        "type": "Event",
-        "title": [
-			"Winter Recollection ～From We Who Are Still Transparent～ Story of Myths",
-			"Winter Recollection ～まだ透明な私たちより～ 幻の物語"
-        ],
-        "image": [
-            "imgs/1912/banner_0638_m.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-			{
-				name: "Main Event",
-				start: "Dec 20 2022, 16:00",
-				end: "Dec 31 2022, 14:59",
-				extraPriority: 100,
-				markers: 
-				[{time: "Dec 26 2022, 16:00", title: "Story Quests 11-25 & 100Evils I-III", type: "battle"}]
-			}
-        ]
-    },
+
 	{
         "type": "Shop",
         "title": [
@@ -265,21 +238,6 @@ var timerData = [
 				end: "Jan 31 2023, 23:59"
 			},
 			{
-				name: "The Inheritors of Our Souls: Event Shop & Missions",
-				start: "Jan 10 2023, 16:00",
-				end: "Jan 27 2023, 14:59"
-			},
-			{
-				name: "Tart☆Magica Past Gachas: Orange Coins Shop & Selection Tickets Exchange",
-				start: "Jan 10 2023, 16:00",
-				end: "Jan 27 2023, 14:59"
-			},
-			{
-				name: "Adjuster Coin Shop: Tea - 4★ Selection Memoria Gacha",
-				start: "Jan 20 2023, 17:00",
-				end: "Feb 3 2023, 14:59"
-			},
-			{
 				name: "Puella·Historia Battle Maidens of Kamihama - Event Shop & Missions",
 				start: "Jan 27 2023, 16:00",
 				end: "Feb 17 2023, 14:59"
@@ -293,6 +251,31 @@ var timerData = [
 				name: "Adjuster Coin Shop: Red - Chizuru Gacha",
 				start: "Jan 27 2023, 16:00",
 				end: "Feb 17 2023, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Purple - Sudachi Valentines Gacha",
+				start: "Feb 10 2023, 16:00",
+				end: "Feb 27 2023, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Water - Past Valentines Units Gachas",
+				start: "Feb 10 2023, 16:00",
+				end: "Feb 27 2023, 14:59"
+			},
+			{
+				name: "Valentines Special Ticket Shop - Past Valentines Step-up Gacha",
+				start: "Feb 10 2023, 16:00",
+				end: "Feb 27 2023, 14:59"
+			},
+			{
+				name: "Valentines Day Message - Event Shops & Missions",
+				start: "Feb 10 2023, 16:00",
+				end: "Feb 27 2023, 14:59"
+			},
+			{
+				name: "2000 Days Since Release - Special Missions & Shop",
+				start: "Feb 10 2023, 16:00",
+				end: "Feb 27 2023, 14:59"
 			}
         ]
     },
@@ -340,25 +323,19 @@ var timerData = [
 {
 		type: "Other",
 		title: [
-		"New Year Lucky Bags",
-		"みたまのお正月DX福袋"
+		"2000 Days Since Release Packs",
+		"2000日記念パック"
 		],
 		image: [
-            "imgs/3012/banner_0642_m.png"
+            "imgs/1002/banner_0653_m.png"
         ],
 		column: 2,
 		priority: 5,
 		timers: [ 
 		{
-			name: "Sales period",
-			start: "Jan 1 2023, 00:00",
-			end: "Jan 10 2023, 14:59",
-			extraPriority: 100
-		},
-		{
-			name: "Tickets Exchange",
-			start: "Jan 1 2023, 00:00",
-			end: "Jan 17 2023, 14:59",
+			name: "",
+			start: "Feb 10 2023, 16:00",
+			end: "Feb 20 2023, 14:59",
 			extraPriority: 100
 		}
 		]
@@ -403,64 +380,83 @@ var timerData = [
             }
         ]
     },
+			{
+        "type": "Gacha",
+        "title": [
+			"Limited-time Sawa Sudachi (Valentines ver.) Pick-up & Step-up gacha",
+            "期間限定 佐和月出里 バレンタインver. ピックアップ&ステップアップガチャ"
+        ],
+        "image": [
+            "imgs/1002/gachabanner_1317_m.png",
+			"imgs/1002/gachabanner_1318_m.png",
+        ],
+        "column": 1,
+        "priority": 4,
+        "timers": [
+            {
+                name: "",
+                start: "Feb 10 2023, 16:00",
+				end: "Feb 20 2023, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
 	{
         "type": "Gacha",
         "title": [
-			"Choose Your 4★  Memoria Selection Gacha",
-            "選べる★4メモリアセレクションガチャ"
+			"Limited-time Sakura Kyouko (Doppel ver.) Pick-up gacha",
+            "期間限定 佐倉杏子 ドッペルver. ピックアップガチャ"
         ],
         "image": [
-            "imgs/2001/gachabanner_1300_m.png"
+            "imgs/1002/gachabanner_0868_m.png"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "",
+                start: "Feb 10 2023, 16:00",
+				end: "Feb 20 2023, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"Limited-time Valentines 2020-2021 Magical Girl Pick-up gacha",
+            "期間限定 バレンタイン魔法少女2020-2021 ピックアップガチャ"
+        ],
+        "image": [
+            "imgs/1002/gachabanner_1324_m.png"
+        ],
+        "column": 1,
+        "priority": 2,
+        "timers": [
+            {
+                name: "",
+                start: "Feb 10 2023, 16:00",
+				end: "Feb 20 2023, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+	{
+        "type": "Gacha",
+        "title": [
+			"Paid-only Valentines Magical Girls Step-UP Gacha",
+            "有償限定 ステップアップガチャ バレンタイン魔法少女編 "
+        ],
+        "image": [
+            "imgs/1002/gachabanner_1325_m.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
                 name: "",
-                start: "Jan 20 2023, 17:00",
-				end: "Jan 27 2023, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-			{
-        "type": "Gacha",
-        "title": [
-			"Limited-time Mizuna Tsuyu Pick-up & Step-up gacha",
-            "期間限定 水名露 ピックアップ&ステップアップガチャ"
-        ],
-        "image": [
-            "imgs/2601/gachabanner_1303_m.png",
-			"imgs/2601/gachabanner_1304_m.png",
-        ],
-        "column": 1,
-        "priority": 10,
-        "timers": [
-            {
-                name: "",
-                start: "Jan 27 2023, 16:00",
-				end: "Feb 10 2023, 14:59",
-                extraPriority: 100
-            }
-        ]
-    },
-			{
-        "type": "Gacha",
-        "title": [
-			"Limited-time Chizuru Pick-up & Step-up gacha",
-            "期間限定 千鶴 ピックアップ&ステップアップガチャ"
-        ],
-        "image": [
-            "imgs/2601/gachabanner_1309_m.png",
-			"imgs/2601/gachabanner_1310_m.png",
-        ],
-        "column": 1,
-        "priority": 9,
-        "timers": [
-            {
-                name: "",
-                start: "Jan 27 2023, 16:00",
-				end: "Feb 10 2023, 14:59",
+                start: "Feb 10 2023, 16:00",
+				end: "Feb 20 2023, 14:59",
                 extraPriority: 100
             }
         ]
