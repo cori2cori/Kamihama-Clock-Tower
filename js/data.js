@@ -181,7 +181,7 @@ var timerData = [
         "type": "Event",
         "title": [
             "Valentines Day Message ～Memories are Pale Black～",
-			"新春☆初夢スクランブル"
+			"バレンタインメッセージ～思い出は淡いくろ色～"
         ],
         "image": [
             "imgs/1002/banner_0648_m.png"
