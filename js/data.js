@@ -1,5 +1,5 @@
 var releaseDate = "August 22 2017, 0:00";
-var possibleNextAnnouncementDate = "Feb 24 2023, 18:00";
+var possibleNextAnnouncementDate = "Mar 8 2023, 18:00";
 var nextAnniversary = "August 22 2023, 0:00";
 var alertMessages = [];
 var alertTypes = [];
@@ -180,22 +180,22 @@ var timerData = [
 		{
         "type": "Event",
         "title": [
-            "Valentines Day Message ～Memories are Pale Black～",
-			"バレンタインメッセージ～思い出は淡いくろ色～"
+            "Little Bird's Star",
+			"Little Bird's Star"
         ],
         "image": [
-            "imgs/1002/banner_0648_m.png"
+            "imgs/2602/banner_0655_m.png"
         ],
         "column": 0,
         "priority": 3,
         "timers": [
 			{
 				name: "",
-				start: "feb 10 2023, 16:00",
-				end: "feb 20 2023, 14:59",
+				start: "feb 27 2023, 16:00",
+				end: "mar 10 2023, 14:59",
 				extraPriority: 100,
 				markers: 
-				[{title: "Story Quests 11-20 & 100Evils I~III", time: "feb 14 2023, 16:00", type: "battle"}]
+				[{title: "Story Quests 11-20 & 100Evils I~III", time: "mar 3 2023, 16:00", type: "battle"}]
 			}
         ]
     },
@@ -261,6 +261,16 @@ var timerData = [
 				name: "Adjuster Coin Shop: Peach - Flame Attribute Gacha",
 				start: "Feb 20 2023, 17:00",
 				end: "Mar 6 2023, 14:59"
+			},
+			{
+				name: "Adjuster Coin Shop: Navy Blue & Kuroe Special Ticket Exchange",
+				start: "Feb 27 2023, 16:00",
+				end: "Mar 17 2023, 14:59"
+			},
+			{
+				name: "Little Bird's Star - Event Shop & Missions",
+				start: "Feb 27 2023, 16:00",
+				end: "Mar 17 2023, 14:59"
 			}
         ]
     },
@@ -339,8 +349,8 @@ var timerData = [
         timers: [
             {
                 name: "",
-                start: "Jan 27 2023, 15:00",
-                end: "Jan 27 2023, 16:00",
+                start: "Feb 27 2023, 15:00",
+                end: "Feb 27 2023, 16:00",
 				extraPriority: 1000
             }
         ]
@@ -658,19 +668,20 @@ var timerData = [
 	{
         "type": "Gacha",
         "title": [
-			"Limited-time paid Step-UP Gacha: Halloween Edition",
-            "有償限定 ステップアップガチャハロウィン魔法少女編"
+			"Limited-time Kuroe Pickup and STEP-UP Gachas",
+            "期間限定 黒江 ピックアップ&ステップアップガチャ"
         ],
         "image": [
-            "imgs/0910/gachabanner_1136_m.png"
+            "imgs/2602/gachabanner_1341_m.png",
+			"imgs/2602/gachabanner_1342_m.png"
         ],
         "column": 1,
         "priority": 16,
         "timers": [
             {
                 name: "",
-                start: "Oct 11 2022, 16:00",
-				end: "Oct 24 2022, 14:59",
+                start: "Feb 27 2023, 16:00",
+				end: "Mar 10 2023, 14:59",
                 extraPriority: 100
             }
         ]
